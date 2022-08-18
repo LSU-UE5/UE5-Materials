@@ -91,7 +91,7 @@ Open up **M_SolidTexture**.  Open up the **Content Drawer** (cntrl space bar) an
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Now select the texture sample with **T_WildGrass_BCH** and select the **RGB** pin at the top and drag it to **Base Color** in the material node.  Now it is very important not to select the RGBA as we do not have a translucency in this material.  We are packing a heigh map in the alpha channel and don't want it poluting the base color.
+Now select the texture sample with **T_WildGrass_BCH** and select the **RGB** pin at the top and drag it to **Base Color** in the material node.  Now it is very important not to select the RGBA as we do not have a translucency in this material.  We are packing a heigh map in the alpha channel and don't want it poluting the base color. Press the <kbd>Apply</kbd> button.
 
 ![attach _bch texture to base color](images/attachBaseColor.png)
 
@@ -108,7 +108,7 @@ Duplicate a ball/text pair from room 1 and drag it into room 2 (you can hold alt
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Select the text in Room 2 and change it to **M_SolidTexture**.
+Select the text in Room 2 and change it to **M_SolidTexture**. Now you notice that without the other masks that this doesn't look anything like wild grass.  Lets change that.
 
 ![change text to m_solidtexture](images/changeMSolid.png)
 
