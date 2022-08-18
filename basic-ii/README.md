@@ -71,7 +71,7 @@ Now you should have a new node that is abbreviated to **LERP**.
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Right click on the open graph and select a **Vector Paremeter** node and call it `Outside Color`. 
+Right click on the open graph and select a **Vector Paremeter** node and call it `Outside Color`. Make sure it is solid black.
 
 ![alt_text](images/outsideVector.png)
 
@@ -79,13 +79,17 @@ Right click on the open graph and select a **Vector Paremeter** node and call it
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/connectLerp.png)
+Connect **Base Color** to the **A** input pin on the **LERP** node and the output pin from **Output Color** to the **B** side of the **LERP** node.  Connect the outpt of the **LERP** to the **Output Base Color** pin.
+
+![connect lerp node to base color nodes](images/connectLerp.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now how the *Alpha* pin works on a Lerp node is that a value of `0` will be 100% the **A** pin, and a value of `1` will be 100% of the **B** pin.  Any fractional number between will be a blend of A & B by the fractional amount (so `0.9` would be 90% B pin)l
+
+![lerp change](images/lerpChange.png)
 
 ![](../images/line2.png)
 
