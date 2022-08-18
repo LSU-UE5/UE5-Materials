@@ -120,8 +120,6 @@ Assign to **Material | Element 0** the **M_SolidTexture** material.
 
 ![assign solid texture material](images/materialGrass.png)
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
