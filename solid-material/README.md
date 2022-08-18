@@ -2,7 +2,7 @@
 
 ### Solid Material
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
+<sub>[previous](../basic-iii/README.md#user-content-basic-material-iii) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
 
 ![](../images/line3.png)
 
@@ -148,5 +148,5 @@ So last chapter we looked at blending two solid colors on a model.  Now we can a
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
+| [previous](../basic-iii/README.md#user-content-basic-material-iii)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
 |---|---|---|
