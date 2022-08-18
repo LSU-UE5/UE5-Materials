@@ -83,26 +83,34 @@ Go to the **Materials | Master** folder and press the <kbd>+ Add</kbd> button.  
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/dragThreeText.png)
+Open up **M_SolidTexture**.  Open up the **Content Drawer** (cntrl space bar) and drag the three textures you added to the **Textures | Surfaces** folder onto the graph.
+
+![add three textures to msolidtexture](images/dragThreeText.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Duplicate a ball/text pair from room 1 and drag it into room 2 (you can hold alt while both objects are selected). 
+
+![dupe ball and text in room 2](images/dupeBall.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Select the text in Room 2 and change it to **M_SolidTexture**.
+
+![change text to m_solidtexture](images/changeMSolid.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Assign to **Material | Element 0** the **M_SolidTexture** material. 
+
+![assign solid texture material](images/materialGrass.png)
 
 ![](../images/line2.png)
 
