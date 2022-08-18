@@ -179,21 +179,25 @@ Open up **MI_TwoColor**.  You will notice that is is separating into self named 
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to **MF_BaseColor** and select the three parameters 
+Go back to **MF_BaseColor** and select the four parameters (shift select) and then go to **Group** and type in `BaseColor`. 
 
-![alt_text](images/BaseColorGroup.png)
+![base color group](images/BaseColorGroup.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+Repeat this by selecting the three surface property nodes and changing their **Group** to `Surface Properties`.  Press the <kbd>Apply</kbd> and <kbd>Save</kbd> buttons.
+
+![surface properties group](images/SurfacePropertiesGroup.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now open up **MI_TwoColor** and the parameters will appear in the correct order in the assigned groups.
+
+![alt_text](images/correctOrder.png)
 
 
 ![](../images/line.png)
