@@ -137,7 +137,8 @@ Now the closer the number is to `0` the more the fresnel angle is pronounced and
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now lets beautify our material function. Open up **MF_BaseColor** and select all the nodes going to the **Output Base Color**.  Press the <kbd>C</kbd> key.  Now type in base color.  Select a color, I picked green.  Now 
+
 
 ![](../images/line2.png)
 
