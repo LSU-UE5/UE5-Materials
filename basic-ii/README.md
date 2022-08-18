@@ -95,13 +95,17 @@ Now how the *Alpha* pin works on a Lerp node is that a value of `0` will be 100%
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/staticSwitch.png)
+Now we may not always want to use two colors.  So lets add a switch that lets us turn this on and off.  Right click on the open graph and look for a **StaticSwitchParamete**.  Call it `Two Color?`.  Now when it is false (so NOT two colors) put the output of the **Base Color** to the **False** pin.  And then the output of the
+ **Lerp** node to the **True** pin.  Now send the output of teh **Two Color?** node to the **Output Base Color** pin.
+
+![add second color static switch](images/staticSwitch.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
-
-![alt_text](images/.png)
+ 
+ Now right click on the empty graph and add a **Fresnel** node.  
+![add fresnel node](images/addFresnel.png)
 
 ![](../images/line2.png)
 
