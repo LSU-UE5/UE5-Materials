@@ -154,6 +154,9 @@ Now I am guessing we will use a single color more than two so lets set the **Two
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+
+Now right click on **MI_ShinyPlastic** and select the **Duplicate** button.  Name it `MI_TwoColor`.  Select a material ball and title and press the <kbd>Alt</kbd> key then drag an arrow to make another copy to the right. 
+
 https://user-images.githubusercontent.com/5504953/185438313-b30cbc3d-dd3b-42ac-afc3-39415ca979dd.mp4
 
 ![alt_text](images/.png)
