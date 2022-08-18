@@ -63,13 +63,17 @@ So lets start there, add a **Linear Interpolate** node to the node graph.
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now you should have a new node that is abbreviated to **LERP**.
+
+![lerp node in chart](images/addedLerpNode.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Right click on the open graph and select a **Vector Paremeter** node and call it `Outside Color`. 
+
+![alt_text](images/outsideVector.png)
 
 ![](../images/line2.png)
 
