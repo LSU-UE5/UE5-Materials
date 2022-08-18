@@ -155,6 +155,8 @@ https://user-images.githubusercontent.com/5504953/185398784-3ab5b55b-c3de-4f92-8
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now select the text actor on top of the metallic material ball and change the **Text** to `MI_Metal`.  Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you have completed the two material balls. 
+
 https://user-images.githubusercontent.com/5504953/185399920-9c2d5446-65fe-4794-b438-f99432c316cd.mp4
 
 ![](../images/line2.png)
