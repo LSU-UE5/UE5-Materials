@@ -24,7 +24,9 @@ Then we connect the pins.  **Roughness** to **Output Roughness**, **Specular** t
 
 Now we want to control what order the pins come up in order in the Material Function.  We want it to match the order that unreal sorts the pins in the material to be consistent.  Go to **Base Color** and set the **Sort Priority** to `0`, **Metallic | Sort Priority** to `1`, **Specular | Sort Priority** to `2` and finally **Roughness | Sort** priority to `3`.  
 
-We also want to sort the order of the ouput pins with **Output Base Color | Sort Priority** leave at `0`, **Output Specular | Sort Priority** to `2` and finally **Roughness | Sort** priority to `3`
+We also want to sort the order of the ouput pins with **Output Base Color | Sort Priority** leave at `0`, **Output Specular | Sort Priority** to `2` and finally **Roughness | Sort** priority to `3`.
+
+Press the <kbd>Apply</kbd> and <kbd>Save</kbd> buttons to render and save the changes.  Make sure there are no errors.
 
 
 
