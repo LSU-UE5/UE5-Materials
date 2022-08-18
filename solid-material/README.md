@@ -57,7 +57,9 @@ Open up **T_WildGrass.N**.  The `_N` stands for normal map.  This uses the RGB c
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **T_WildGrass_MSRAO**.  `_MSRAO` stands for Metallic (packed in R), Specular (packed in S), Roughness (packed in R), and Ambient Occlusion (packed in AO).
+
+![msrao packed](images/tpackingh.png)
 
 ![](../images/line2.png)
 
