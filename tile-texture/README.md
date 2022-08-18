@@ -174,6 +174,8 @@ So create a new folder in **Materials** called `MaterialFunctions`.  Right click
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
+Name the material function `MF_BaseColor`.
+
 ![alt_text](images/mfbase.png)
 
 ![](../images/line2.png)
