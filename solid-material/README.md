@@ -19,14 +19,15 @@ So last chapter we looked at blending two solid colors on a model.  Now we can a
 
 Now we need to download some textures.  Download [T_WildGrass_BCH.png](../Assets/T_WildGrass_BCH.png), [T_WildGrass_N.png](../Assets/T_WildGrass_N.png) and [T_WildGrass_MSRAO.png](../Assets/T_WildGrass_MSRAO.png) to use in our game.
 
-![download three textures
-](images/downloadThree.png)
+![download three textures](images/downloadThree.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Create a new folders in **Textures** called `Surfaces`.  Drag and drop the three textures above you downloaded.
+
+![download three textures in new surfaces folder](images/grabSurfaces.png)
 
 ![](../images/line2.png)
 
