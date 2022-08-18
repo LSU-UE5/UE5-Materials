@@ -25,7 +25,10 @@ Now make sure all the material balls are in the **Room 1** folder.  Also, give t
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now you can add some more materials to test out the material instance in this room if you like.  Then play the game, make sure everything is to your liking.
+
+https://user-images.githubusercontent.com/5504953/185446475-3f9fc9c9-ac30-4016-8016-86c348917640.mp4
+
 
 ![](../images/line2.png)
 
