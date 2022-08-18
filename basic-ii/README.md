@@ -79,7 +79,7 @@ Right click on the open graph and select a **Vector Paremeter** node and call it
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/connectLerp.png)
 
 ![](../images/line2.png)
 
