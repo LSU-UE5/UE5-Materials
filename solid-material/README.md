@@ -51,7 +51,7 @@ We are texture packing and if you select the **R,G,B** channels you will see the
 
 Open up **T_WildGrass.N**.  The `_N` stands for normal map.  This uses the RGB channel.  We do not pack a texture in the **Alpha** channel as masks and textures use different compression. This compression is special compression for normals.  When we compress a normal texture we are cheating on details the eye has a hard time picking up.  We are saving space by fooling the human eye.  In normal maps, these are not pixels but each value represents a vector for the angle that light bounces off.  So the compression technique is different (and probably more lossless).
 
-![alt_text](images/normalMapCompression.png)
+![normal compression](images/normalMapCompression.png)
 
 ![](../images/line2.png)
 
