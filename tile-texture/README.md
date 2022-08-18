@@ -178,10 +178,6 @@ Name the material function `MF_BaseColor`.
 
 ![alt_text](images/mfbase.png)
 
-![](../images/line2.png)
-
-##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
 
 ![](../images/line.png)
 
