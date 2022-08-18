@@ -163,13 +163,15 @@ https://user-images.githubusercontent.com/5504953/185438313-b30cbc3d-dd3b-42ac-a
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/updateSororder.png)
+Now that we habve added more nodes we need to update the sort priority.  We will alter **TwoColor?** **Sort Priority** to `0`, **Base Color** to `1`, **Outside Color** to `2`, **Fresnel Exponent** to `3`, **Metallic** to `4`, **Specular** to `5` and **Roughness** to `6`.
+
+![material node priority](images/updateSororder.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/wonGroups.png)
 
 ![](../images/line2.png)
 
