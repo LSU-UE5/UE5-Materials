@@ -121,11 +121,15 @@ Right click on the graph and create a **Scalar Parameter** and call it `Fresnel 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/PreviewFresnel1.png)
+To see the effect of the fresnel we need to select the **Two Color?** switch node and set the **Default** value to `true`. 
+
+![turn on two color mode](images/PreviewFresnel1.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Now the closer the number is to `0` the more the fresnel angle is pronounced and the larger the number the more it is sent to the edges. Lets leave the **Fresnel Exponent** at a **Default Value** of `2.0` as it is subtle and we can tweak it in the material instance.
 
 ![alt_text](images/fresnelExponent.png)
 
