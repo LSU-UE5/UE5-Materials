@@ -16,6 +16,19 @@ Lets finish implementing the material function then add a second color with a fr
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
+Open up **M_Basic**.  Copy and cut all of the nodes in this material.  Open up **MF_BaseColor**.  Cut the 4 nodes into this material function.  Now we will need four outputs to represent base color, metallic, specular and roughness. So add three **Output** nodes to the material.  Name the top one `Base Color`, then `Metallic`, then `Specular` and finally the last one at the bottom `Roughness`. 
+
+To organize these ouptut nodes, we can select all 4 outputs and right click and select **Alignment | Align Left** and **Alignment | Distribute Vertical**.  This will make the node chart neater and easier to read.
+
+Then we connect the pins.  **Roughness** to **Output Roughness**, **Specular** to **Output Specular**, **Metallic** to **Output Metallic** and finally **Base Color** to **Output Base Color**.
+
+Now we want to control what order the pins come up in order in the Material Function.  We want it to match the order that unreal sorts the pins in the material to be consistent.  Go to **Base Color** and set the **Sort Priority** to `0`, **Metallic | Sort Priority** to `1`, **Specular | Sort Priority** to `2` and finally **Roughness | Sort** priority to `3`.  
+
+We also want to sort the order of the ouput pins with **Output Base Color | Sort Priority** leave at `0`, **Output Specular | Sort Priority** to `2` and finally **Roughness | Sort** priority to `3`
+
+
+
+
 https://user-images.githubusercontent.com/5504953/185414628-327fe3e2-1c58-4f3d-b698-114df14cfb67.mp4
 
 ![](../images/line2.png)
