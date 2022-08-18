@@ -17,7 +17,10 @@ So last chapter we looked at blending two solid colors on a model.  Now we can a
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Now we need to download some textures.  Download [T_WildGrass_BCH.png](../Assets/T_WildGrass_BCH.png), [T_WildGrass_N.png](../Assets/T_WildGrass_N.png) and [T_WildGrass_MSRAO.png](../Assets/T_WildGrass_MSRAO.png) to use in our game.
+
+![download three textures
+](images/downloadThree.png)
 
 ![](../images/line2.png)
 
