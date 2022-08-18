@@ -33,13 +33,17 @@ Create a new folders in **Textures** called `Surfaces`.  Drag and drop the three
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/baseAndHeight.png)
+Double click and open **T_WildGrass.BCH**.  Now it will look strange with all of the channels including **Alpha** picked.  This is because we are channel packing.  Lets check that **sRGB** is on and it is using **Default Compression**.  This is what we want for our base color.  Most textures that are not in HDR are using sRGB color space. If yours are not then change it.
+
+![wild grass bch file](images/baseAndHeight.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+We are texture packing and if you select the **R,G,B** channels you will see the green grass texture.  If you select just the **A** alpha channel you will get a height map.  So in our naming of **T_WildGrass.BCH**, the BCH stands for Base Color & Height.
+
+![packed maps](images/baseHeightSeperate.png)
 
 ![](../images/line2.png)
 
