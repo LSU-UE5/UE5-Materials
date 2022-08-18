@@ -165,8 +165,9 @@ https://user-images.githubusercontent.com/5504953/185399920-9c2d5446-65fe-4794-b
 
 Now there might be other instances when we would like to alter the color in another master material. Now instead of copying and pasting these nodes we can make it into a reusable function.  That way if you find a new technique or want to add more to this material - you can alter the material function and all the materials using it will be updated.
 
+So create a new folder in **Materials** called `MaterialFunctions`.  Right click in that folder and add a **Materials | Material Function**.  
 
-![alt_text](images/matFunc1.png)
+![add material function to materialfunctions folder](images/matFunc1.png)
 
 
 ![](../images/line2.png)
