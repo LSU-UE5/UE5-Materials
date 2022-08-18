@@ -174,7 +174,7 @@ So create a new folder in **Materials** called `MaterialFunctions`.  Right click
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/mfbase.png)
 
 ![](../images/line2.png)
 
