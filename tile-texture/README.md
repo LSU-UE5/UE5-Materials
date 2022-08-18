@@ -163,14 +163,11 @@ https://user-images.githubusercontent.com/5504953/185399920-9c2d5446-65fe-4794-b
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-<<<<<<< HEAD
 Now there might be other instances when we would like to alter the color in another master material. Now instead of copying and pasting these nodes we can make it into a reusable function.  That way if you find a new technique or want to add more to this material - you can alter the material function and all the materials using it will be updated.
 
 
 ![alt_text](images/matFunc1.png)
-=======
 
->>>>>>> de00afecb80c14f1eb17fe91638b4bb58288965a
 
 ![](../images/line2.png)
 
