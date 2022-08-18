@@ -95,7 +95,7 @@ Now how the *Alpha* pin works on a Lerp node is that a value of `0` will be 100%
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/staticSwitch.png)
 
 ![](../images/line2.png)
 
