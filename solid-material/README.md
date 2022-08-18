@@ -91,13 +91,21 @@ Open up **M_SolidTexture**.  Open up the **Content Drawer** (cntrl space bar) an
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
+
+![attach ](images/attachBaseColor.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
+
 Duplicate a ball/text pair from room 1 and drag it into room 2 (you can hold alt while both objects are selected). 
 
 ![dupe ball and text in room 2](images/dupeBall.png)
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
+
+##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Select the text in Room 2 and change it to **M_SolidTexture**.
 
@@ -105,16 +113,11 @@ Select the text in Room 2 and change it to **M_SolidTexture**.
 
 ![](../images/line2.png)
 
-
-##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Assign to **Material | Element 0** the **M_SolidTexture** material. 
 
 ![assign solid texture material](images/materialGrass.png)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 ![alt_text](images/.png)
 
