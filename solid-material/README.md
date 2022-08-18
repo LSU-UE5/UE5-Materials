@@ -83,7 +83,7 @@ Go to the **Materials | Master** folder and press the <kbd>+ Add</kbd> button.  
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/dragThreeText.png)
 
 ![](../images/line2.png)
 
