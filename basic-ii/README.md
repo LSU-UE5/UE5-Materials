@@ -121,13 +121,13 @@ Right click on the graph and create a **Scalar Parameter** and call it `Fresnel 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/PreviewFresnel1.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/fresnelExponent.png)
 
 ![](../images/line2.png)
 
