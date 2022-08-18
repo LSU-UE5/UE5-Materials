@@ -146,7 +146,9 @@ https://user-images.githubusercontent.com/5504953/185432395-6ce97b8e-e79e-4352-9
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Now I am guessing we will use a single color more than two so lets set the **Two Color?** node default back to `false`.  Also, this will mean that the other nodes in the level is effectively not changes as they are meant to be single color. Press the <kbd>Apply</kbd> button.
+
+![set two color back to false](images/setBackToFalse.png)
 
 ![](../images/line2.png)
 
