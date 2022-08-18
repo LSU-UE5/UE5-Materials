@@ -33,7 +33,7 @@ Create a new folders in **Textures** called `Surfaces`.  Drag and drop the three
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/baseAndHeight.png)
 
 ![](../images/line2.png)
 
