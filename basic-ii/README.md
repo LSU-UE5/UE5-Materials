@@ -2,7 +2,7 @@
 
 ### Basic Material II
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
+<sub>[previous](../tile-texture/README.md#user-content-basic-material) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
 
 ![](../images/line3.png)
 
@@ -148,5 +148,5 @@ Lets finish implementing the material function then add a second color with a fr
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
+| [previous](../tile-texture/README.md#user-content-basic-material)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
 |---|---|---|
