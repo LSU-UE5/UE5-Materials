@@ -14,28 +14,27 @@ Lets finish implementing the material function then add a second color with a fr
 
 ---
 
-
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/185414628-327fe3e2-1c58-4f3d-b698-114df14cfb67.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/185414701-cfad61ad-609a-4522-b394-90e9fb4daf3a.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/185414884-4da5bd0d-55e2-4120-a074-4c5d062b7ccb.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/185414976-940b6f61-a481-4d12-b9b0-8bd480753100.mp4
 
 ![](../images/line2.png)
 
