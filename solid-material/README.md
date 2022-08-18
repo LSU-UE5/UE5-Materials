@@ -49,7 +49,7 @@ We are texture packing and if you select the **R,G,B** channels you will see the
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Open up **T_WildGrass.N**.  The `_N` stands for normal map.  This uses the RGB channel.  We do not pack a texture in the **Alpha** channel as masks and textures use different compression. This compression is special compression for normals.  When we compress a normal texture we are cheating on details the eye has a hard time picking up.  We are saving space by fooling the human eye.  In normal maps, these are not pixels but each value represents a vector for the angle that light bounces off.  So the compression technique is different (and probably more lossless).
+Open up **T_WildGrass.N**.  The `_N` stands for normal map.  This uses the RGB channel.  We do not pack a texture in the **Alpha** channel as masks and textures use different compression. This compression is special compression for normals.  When we compress a normal texture we are cheating on details the eye has a hard time picking up.  We are saving space by fooling the human eye.  In normal maps, these are not pixels but each value represents a vector for the angle that light bounces off.  So the compression technique is different (and probably more lossless). Most of the time Unreal will select a normal map compression but if it doesn't change the **Compression Settings** to `Normalmap`.
 
 ![normal compression](images/normalMapCompression.png)
 
