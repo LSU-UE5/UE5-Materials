@@ -147,6 +147,8 @@ https://user-images.githubusercontent.com/5504953/185393031-2ffc57d8-b99d-4c4b-a
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Open up **MI_Metal** and change the color.  Assign **Materials | Element1** in the material sphere to `MI_Metal`. Set **Metallic** to `1.0`. Set the **Roughness** to `0.2` and **Specular** to `0.8`. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now you have two different looking materials using the exact same base.  Notice how much faster it is to edit without having to to re-compile the material with every change to see it in game.
+
 https://user-images.githubusercontent.com/5504953/185398784-3ab5b55b-c3de-4f92-8ba6-824ad5be31cd.mp4
 
 ![](../images/line2.png)
