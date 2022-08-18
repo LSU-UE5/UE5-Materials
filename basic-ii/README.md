@@ -155,7 +155,7 @@ Now I am guessing we will use a single color more than two so lets set the **Two
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 
-Now right click on **MI_ShinyPlastic** and select the **Duplicate** button.  Name it `MI_TwoColor`.  Select a material ball and title and press the <kbd>Alt</kbd> key then drag an arrow to make another copy to the right. 
+Now right click on **MI_ShinyPlastic** and select the **Duplicate** button.  Name it `MI_TwoColor`.  Select a material ball and title and press the <kbd>Alt</kbd> key then drag an arrow to make another copy to the right. Change the text to `MI_TwoColor`.  Now change the material on this new material ball to `MI_TwoColor`. Turn on **Base Color** and **Outside Color** and pick two colors.  Adjust the **Fresnel Exponent** to your liking.  Play the game and notice that no matter what angle you are at the fresnel effect is relative to the angle between the material ball and the camera so it is always tinged on the edges regardless of the angle we pick.
 
 https://user-images.githubusercontent.com/5504953/185438313-b30cbc3d-dd3b-42ac-afc3-39415ca979dd.mp4
 
