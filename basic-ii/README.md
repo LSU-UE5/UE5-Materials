@@ -2,7 +2,7 @@
 
 ### Basic Material II
 
-<sub>[previous](../tile-texture/README.md#user-content-basic-material) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
+<sub>[previous](../tile-texture/README.md#user-content-basic-material) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../basic-iii/README.md#user-content-basic-material-iii)</sub>
 
 ![](../images/line3.png)
 
@@ -207,5 +207,5 @@ Now open up **MI_TwoColor** and the parameters will appear in the correct order 
 
 ![](../images/line.png)
 
-| [previous](../tile-texture/README.md#user-content-basic-material)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
+| [previous](../tile-texture/README.md#user-content-basic-material)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../basic-iii/README.md#user-content-basic-material-iii)|
 |---|---|---|

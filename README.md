@@ -20,6 +20,7 @@ Lets look at **[Physically Based Rendering Materials (PBR)](https://en.wikipedia
 <kbd></kbd> &nbsp;&nbsp; [Setting Up](setting-up/README.md#user-content-setting-up) <br>
 <kbd></kbd> &nbsp;&nbsp; [Basic Material](tile-texture/README.md#user-content-basic-material) <br>
 <kbd></kbd> &nbsp;&nbsp; [Basic Material II](basic-ii/README.md#user-content-basic-material-ii) <br>
+<kbd></kbd> &nbsp;&nbsp; [Basic Material III](basic-iii/README.md#user-content-basic-material-iii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Room 1 Carpet Material](room-1-carpet/README.md#user-content-room-1-carpet-material) <br>
 <kbd></kbd> &nbsp;&nbsp; [Texture Coordinates](texture-coord/README.md#user-content-texture-coordinates) <br>
 <kbd></kbd> &nbsp;&nbsp; [Material Color Math](color-math/README.md#user-content-material-color-math) <br>
