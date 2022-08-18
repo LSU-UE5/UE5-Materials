@@ -136,7 +136,9 @@ Now the closer the number is to `0` the more the fresnel angle is pronounced and
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now lets beautify our material function. Open up **MF_BaseColor** and select all the nodes going to the **Output Base Color**.  Press the <kbd>C</kbd> key.  Now type in base color.  Select a color, I picked green.  Now 
+Now lets beautify our material function. Open up **MF_BaseColor** and select all the nodes going to the **Output Base Color**.  Press the <kbd>C</kbd> key. Call it `Base Color`.  Select a color, I picked green.  Now not only have we organized the nodes in a comment box, but we can move them all by draggin the box around and the nodes move within it, making it easier to organize the nodes.
+
+Now select all the other nodes and call it `Surface Properties` and pick a good color. 
 
 https://user-images.githubusercontent.com/5504953/185432395-6ce97b8e-e79e-4352-9185-bef150d24482.mp4
 
