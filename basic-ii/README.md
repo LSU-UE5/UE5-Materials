@@ -104,7 +104,8 @@ Now we may not always want to use two colors.  So lets add a switch that lets us
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
  
- Now right click on the empty graph and add a **Fresnel** node.  
+ Now right click on the empty graph and add a **Fresnel** node.  Connect the output pin to the **Alpha** pin in the **Lerp** node.
+ 
 ![add fresnel node](images/addFresnel.png)
 
 ![](../images/line2.png)
