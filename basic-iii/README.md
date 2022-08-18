@@ -36,11 +36,7 @@ https://user-images.githubusercontent.com/5504953/185446475-3f9fc9c9-ac30-4016-8
 
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
-![save all and submit to perforce](images/submitP4.png)
-
-
-![alt_text](images/.png)
-
+https://user-images.githubusercontent.com/5504953/185447657-6a67db19-b2c8-4eef-88d1-05c0ffd41009.mp4
 
 ![](../images/line.png)
 
