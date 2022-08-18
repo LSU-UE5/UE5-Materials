@@ -91,8 +91,9 @@ Open up **M_SolidTexture**.  Open up the **Content Drawer** (cntrl space bar) an
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
+Now select the texture sample with **T_WildGrass_BCH** and select the **RGB** pin at the top and drag it to **Base Color** in the material node.  Now it is very important not to select the RGBA as we do not have a translucency in this material.  We are packing a heigh map in the alpha channel and don't want it poluting the base color.
 
-![attach ](images/attachBaseColor.png)
+![attach _bch texture to base color](images/attachBaseColor.png)
 
 ![](../images/line2.png)
 
