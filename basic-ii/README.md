@@ -171,13 +171,17 @@ Now that we habve added more nodes we need to update the sort priority.  We will
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/wonGroups.png)
+Open up **MI_TwoColor**.  You will notice that is is separating into self named groups and not in the order we set. 
+
+![wrong order](images/wonGroups.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Go back to **MF_BaseColor** and select the three parameters 
+
+![alt_text](images/BaseColorGroup.png)
 
 ![](../images/line2.png)
 
