@@ -75,7 +75,9 @@ Open up **T_WildGrass_MSRAO**.  `_MSRAO` stands for Metallic (packed in R), Spec
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Go to the **Materials | Master** folder and press the <kbd>+ Add</kbd> button.  Select a new **Material** and call it `M_SolidTexture`.
+
+![create M_SolidTexture material](images/solidTextMat.png)
 
 ![](../images/line2.png)
 
