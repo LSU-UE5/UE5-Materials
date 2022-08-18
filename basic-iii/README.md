@@ -17,7 +17,9 @@ Final clean up of room 1.
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Now make sure all the material balls are in the **Room 1** folder.  Also, give them appropriate names.  I have named the material balls and the materials so I know which one pairs with which one.
+
+![name objects in room 1](images/nameRoom1.png)
 
 ![](../images/line2.png)
 
