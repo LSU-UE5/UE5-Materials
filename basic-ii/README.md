@@ -112,9 +112,9 @@ Now we may not always want to use two colors.  So lets add a switch that lets us
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Right click on the graph and create a **Scalar Parameter** and call it 
+Right click on the graph and create a **Scalar Parameter** and call it `Fresnel Exponent`.  Plug it into the **Exponent** pin in the **Fresnel** node.
 
-![alt_text](images/scalarParam.png)
+![add fresnel exponent parameter](images/scalarParam.png)
 
 ![](../images/line2.png)
 
