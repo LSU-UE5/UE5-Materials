@@ -159,13 +159,11 @@ Now right click on **MI_ShinyPlastic** and select the **Duplicate** button.  Nam
 
 https://user-images.githubusercontent.com/5504953/185438313-b30cbc3d-dd3b-42ac-afc3-39415ca979dd.mp4
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/updateSororder.png)
 
 ![](../images/line2.png)
 
