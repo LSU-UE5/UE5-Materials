@@ -59,7 +59,7 @@ Open up **T_WildGrass.N**.  The `_N` stands for normal map.  This uses the RGB c
 
 Open up **T_WildGrass_MSRAO**.  `_MSRAO` stands for Metallic (packed in R), Specular (packed in S), Roughness (packed in R), and Ambient Occlusion (packed in AO). Notice that the metallic and specular are solid black.  That means there is no metallic or specularity in the grass.  There are textures though for roughness and for ambient occlusion. "_For example, the interior of a tube is typically more occluded (and hence darker) than the exposed outer surfaces, and becomes darker the deeper inside the tube one goes._".
 
-![msrao packed](images/tpackingh.png)
+![msrao packed](images/tpackingh.jpg)
 
 ![](../images/line2.png)
 
