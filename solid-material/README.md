@@ -124,7 +124,7 @@ Assign to **Material | Element 0** the **M_SolidTexture** material.
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now 
+Now select the normal map texture, **T_WildGrass_N**.  Double check that the **Sampler Type** is set to `Normal`.  Connect the **RGB** pin to the **Normal** pin in the material.  Press the <kbd>Apply</kbd> button. Now you can see that there is more detail.  It is still too shiny and the roughness and specular are wrong.
 
 ![add normal map to material](images/normalMapText.png)
 
