@@ -17,7 +17,9 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Now go into the game and you will notice that our material ball is white based on the this neutral master texture.  We will fix this.
+
+![white material ball in game](images/whiteBall.png)
 
 ![](../images/line2.png)
 
