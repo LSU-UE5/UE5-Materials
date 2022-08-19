@@ -99,7 +99,9 @@ Open up **M_SolidTexture** and delete all of the texture nodes.  We will replace
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/mf_texturecreate.png)
+Select the **MaterialFunction** folder and press the <kbd>+ Add</kbd> button and select **Material | Material Function**.  Call this material function `MF_Texture`.
+
+![create material function MF_Texture](images/mf_texturecreate.png)
 
 ![](../images/line2.png)
 
