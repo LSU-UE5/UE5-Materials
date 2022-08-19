@@ -140,19 +140,26 @@ Add four output nodes.  Call them `Metallic`, `Specular`, `Roughness` and `Ambie
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/convertParam.png)
+Right click on the top texture node and select **Convert to Parameter** and call it `Base Color & Height Map`.  Repeat this for the normal map texture and right click and select **Convert to Parameter** and call it `Normal Map`. Press the <kbd>Apply</kbd> button.
+
+
+![convert base color and normal map to parameters](images/convertParam.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Right click on the bottom texture and call select *Convert to Parameter** and call it `Metallic | Specular | Roughness | Ambient Occlusion`. Add two comment boxes to clean up our graph.
+
+![convert final texture to parameter and add comments](images/convertParams.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **M_SolidTexture**. Drag the material function **MF_Texture** into the empty graph.
+
+![add mf_texture to m_solidtexture](images/dragMF.png)
 
 ![](../images/line2.png)
 
