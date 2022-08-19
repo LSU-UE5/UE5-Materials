@@ -132,7 +132,9 @@ Now select the normal map texture, **T_WildGrass_N**.  Double check that the **S
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Select the **T_WildGrass_MSRAO**.  The first red pin is for **M** or Metallic.  Connect it to the **Metallic** pin.  Nothing happens as the metallic default is `0` and the entire texture is black (or 0).
+
+![connect metallic pin](images/metallic.png)
 
 ![](../images/line2.png)
 
