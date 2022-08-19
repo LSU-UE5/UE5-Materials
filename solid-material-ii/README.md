@@ -59,7 +59,9 @@ OK, so lets create a new small texture in photoshop that we will use as stand in
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now click on the foreground color swatch and lets make a neutral normal map (all normals perpendicular) which is 50% **RG** and 100% **B**. So set **R** & **G** to `127` and **B** to `255`.
+
+![neutral normal map](images/neutralNormal.png)
 
 ![](../images/line2.png)
 
