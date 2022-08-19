@@ -124,15 +124,17 @@ Rename the output node to `Base Color`.  Add another **Output** node and call it
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Connect the output of the blue texture sample node into the **Output Normal** node.  Copy and paste the white node and place it under the normal map.
 
-
-![alt_text](images/connectN.png)
+![connect normal copy white node](images/connectN.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Add four output nodes.  Call them `Metallic`, `Specular`, `Roughness` and `Ambient Occlusion`. Connect the **R** pin to **Output Metallic**, the **G** pin to **Output Specular**, the **B** pin to **Output Roughness**,the **A** pin to **Output Ambient Occlusion**.
+
+![connect MSRAO pins](images/add4Outputs.png)
 
 ![](../images/line2.png)
 
