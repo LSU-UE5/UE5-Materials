@@ -140,13 +140,15 @@ Select the **T_WildGrass_MSRAO**.  The first red pin is for **M** or Metallic.  
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now connect the second **S** pin to **Specular**.  This is solid black so it will remove all the specularity.  Press the <kbd>Apply</kbd> button. Check it out in game and you will notice that all the sheen (plastic) has been removed.
+
+![connect specular pin](images/blankSpec.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/roughness.png)
 
 ![](../images/line2.png)
 
