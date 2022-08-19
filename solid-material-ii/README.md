@@ -181,7 +181,9 @@ Now lets change the order of the output pins to get them to line up with the mat
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **MF_SolidTexture** and connect the output pins to the input pins of the same name.  Press the <kbd>Apply</kbd> button.
+
+![alt_text](images/connectPinsMF.png)
 
 
 ![](../images/line.png)
