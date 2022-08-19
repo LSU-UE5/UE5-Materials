@@ -116,13 +116,17 @@ Open up **MF_Texture**> Drag **T_BaseWhite_BC** and **T_Base_N** into the graph 
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/outputBC.png)
+Rename the output node to `Base Color`.  Add another **Output** node and call it `Normal`.  Connect the **RGB** pin from the white texture sample node and plug it into the **Output Base Color** node.
+
+![connect base color pin](images/outputBC.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+
+
+![alt_text](images/connectN.png)
 
 ![](../images/line2.png)
 
