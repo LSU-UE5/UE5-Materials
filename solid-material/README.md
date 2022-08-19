@@ -148,25 +148,31 @@ Now connect the second **S** pin to **Specular**.  This is solid black so it wil
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/roughness.png)
+Now the third mask in the `_MSRAO` is **R** for **Roughness**.  Connect the **blue** pin to the **Roughness** input pin in the shader. Press the <kbd>Apply</kbd> button. Notice that now the texture really takes forms and some areas are rough and others are not.
+
+![roughness pin connected](images/roughness.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Tthe fourth and final mask in the `_MSRAO` is **AO** for **Ambient Occlusion**.  Connect the **alpha** pin to the **Ambient Occlusion** input pin in the shader. Press the <kbd>Apply</kbd> button. There is more depth to the texture as the shading subtelty now comes through.
+
+![ambient occlusion pin](images/ao.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now grab the **Player Start** actor and move it in front of the material ball in room 2.
+
+![move player start to room 2](images/playerStartR2.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+*Press* the <kbd>Play</kbd> button and take a look at the texture.  Wait for the light to adjust as the texture might appear dark.  This is our first solid texture.
 
 ![](../images/line2.png)
 
