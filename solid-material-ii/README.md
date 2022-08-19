@@ -83,7 +83,9 @@ Drag the two textures you just exported from photoshop into the **Textures** fol
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up both textures and make sure they have mip levels and that the normal is recognized and uses **Normal** compression.  
+
+![confirm both textures](images/checkTexture.png)
 
 ![](../images/line2.png)
 
