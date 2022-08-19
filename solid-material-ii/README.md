@@ -34,15 +34,17 @@ Now if we open up **T_WildGrass_BCH** you can see we have 13 mip levels. You can
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-So what happens if we have a texture that is not square.  Lets look.  Download [T_BadTexture.png](../Assets/T_BadTexture.png).  Drag and drop it in the **Texture | Surfaces** folder. Open it up.  
+So what happens if we have a texture that is not square.  Lets look.  Download [T_BadTexture.png](../Assets/T_BadTexture.png).  Drag and drop it in the **Texture | Surfaces** folder. Open it up.  Now look that there is only one mip level.  This is because the texture is 45 x 45 pixels.  A texture to work properly needs to be a power of two.  It needs to be 1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096, or 8192 (if your video card can support it).  Now both axis don't need to be the same so you can have a texture that is 2048 x 256, this will mip properly.
 
-![alt_text](images/.png)
+![bad mip levels](images/oneMipLev.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/newMat.png)
+OK, so lets create a new small texture in photoshop that we will use as stand ins for our master material.  Make it `32` pixels square with a **White** background. Press the **Create** button.
+
+![create a new blank material](images/newMat.png)
 
 ![](../images/line2.png)
 
