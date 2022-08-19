@@ -33,7 +33,9 @@ Right click on **M_SolidTexture** and select **Creaet Material Instance** and ca
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/moveAssign.png)
+Move **MI_WildGrass** into the **Materials | Surface** folder.  Then select the material ball and change the **Materials | Element 0** to `MI_WildGrass`.
+
+![assign mi_wild grass to material ball in room 2](images/moveAssign.png)
 
 ![](../images/line2.png)
 
