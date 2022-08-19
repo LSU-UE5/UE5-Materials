@@ -173,9 +173,9 @@ Lets order the input texture parameters.  Change the **Base Color | Height Map**
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Now lets change the order of the output pins to get them to line up with the material nodes.
+Now lets change the order of the output pins to get them to line up with the material nodes. **Output Base Color** is **Priority** `0`, **Output Metalic** is **Priority** `1`, **Output Specular** is **Priority** `2`, **Output Roughness** is **Priority** `3`, **Output Normal** is **Priority** `4`, **Output Ambient Occlusion* is **Priority** `5`. Press the <kbd>Apply</kbd> button. 
 
-![alt_text](images/outputOrder.png)
+![change input order priority](images/outputOrder.png)
 
 ![](../images/line2.png)
 
