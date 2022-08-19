@@ -27,7 +27,8 @@ The mip map holds sizes from 1 pixel upwards.  So if a texture is 512 by 512, th
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/newMat.png)
+Now if we open up **T_WildGrass_BCH** you can see we have 15 mip levels.
+
 
 ![](../images/line2.png)
 
@@ -39,7 +40,7 @@ The mip map holds sizes from 1 pixel upwards.  So if a texture is 512 by 512, th
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/newMat.png)
 
 ![](../images/line2.png)
 
