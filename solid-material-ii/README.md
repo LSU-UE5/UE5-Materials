@@ -173,7 +173,9 @@ Lets order the input texture parameters.  Change the **Base Color | Height Map**
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+Now lets change the order of the output pins to get them to line up with the material nodes.
+
+![alt_text](images/outputOrder.png)
 
 ![](../images/line2.png)
 
