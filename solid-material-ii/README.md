@@ -51,7 +51,9 @@ OK, so lets create a new small texture in photoshop that we will use as stand in
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-![alt_text](images/.png)
+*Press* the **File | Save As** and call it `T_BaseWhite_BC`. Select **png** as our file format and press the <kbd>Save</kbd> button.
+
+![save as t_basewhite_bc](images/saveAsPNG.png)
 
 ![](../images/line2.png)
 
