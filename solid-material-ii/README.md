@@ -140,7 +140,7 @@ Add four output nodes.  Call them `Metallic`, `Specular`, `Roughness` and `Ambie
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/convertParam.png)
 
 ![](../images/line2.png)
 
