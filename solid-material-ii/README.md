@@ -165,7 +165,9 @@ Open up **M_SolidTexture**. Drag the material function **MF_Texture** into the e
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Lets order the input texture parameters.  Change the **Base Color | Height Map** node to **Priority** `0`, **Normal Map** to **Priority** `1` and finall **MSRAO** to `2`.
+
+![change input priority](images/threInputOrder.png)
 
 ![](../images/line2.png)
 
