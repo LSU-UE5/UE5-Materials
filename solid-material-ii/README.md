@@ -2,7 +2,7 @@
 
 ### Solid Material II
 
-<sub>[previous](../solid-material/README.md#user-content-solid-material) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
+<sub>[previous](../solid-material/README.md#user-content-solid-material) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../solid-material-ii/README.md#user-content-solid-material-iii)</sub>
 
 ![](../images/line3.png)
 
@@ -193,5 +193,5 @@ Open up **MF_SolidTexture** and connect the output pins to the input pins of the
 
 ![](../images/line.png)
 
-| [previous](../solid-material/README.md#user-content-solid-material)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
+| [previous](../solid-material/README.md#user-content-solid-material)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../solid-material-ii/README.md#user-content-solid-material-iii)|
 |---|---|---|

@@ -2,7 +2,7 @@
 
 ### Solid Material
 
-<sub>[previous](../basic-iii/README.md#user-content-basic-material-iii) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
+<sub>[previous](../basic-iii/README.md#user-content-basic-material-iii) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../solid-material-ii/README.md#user-content-solid-material-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -183,5 +183,5 @@ https://user-images.githubusercontent.com/5504953/185600829-c7cc4702-3d93-4469-a
 
 ![](../images/line.png)
 
-| [previous](../basic-iii/README.md#user-content-basic-material-iii)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
+| [previous](../basic-iii/README.md#user-content-basic-material-iii)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../solid-material-ii/README.md#user-content-solid-material-ii)|
 |---|---|---|
