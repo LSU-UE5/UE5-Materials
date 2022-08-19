@@ -124,7 +124,9 @@ Assign to **Material | Element 0** the **M_SolidTexture** material.
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now 
+
+![add normal map to material](images/normalMapText.png)
 
 ![](../images/line2.png)
 
