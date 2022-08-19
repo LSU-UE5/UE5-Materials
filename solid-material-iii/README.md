@@ -25,13 +25,15 @@ Now go into the game and you will notice that our material ball is white based o
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/createMIWIldGrass.png)
+Right click on **M_SolidTexture** and select **Creaet Material Instance** and call it `MI_WildGrass`.  
+
+![create mis_wild grass material instance from solid texture](images/createMIWIldGrass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/moveAssign.png)
 
 ![](../images/line2.png)
 
