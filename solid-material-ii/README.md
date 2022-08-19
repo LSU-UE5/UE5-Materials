@@ -91,13 +91,15 @@ Open up both textures and make sure they have mip levels and that the normal is 
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Open up **M_SolidTexture** and delete all of the texture nodes.  We will replace them with a material function.
+
+![delete all nodes in M_SolidTexture](images/deleteStext.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/mf_texturecreate.png)
 
 ![](../images/line2.png)
 
