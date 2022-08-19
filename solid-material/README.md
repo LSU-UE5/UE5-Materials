@@ -174,12 +174,7 @@ Now grab the **Player Start** actor and move it in front of the material ball in
 
 *Press* the <kbd>Play</kbd> button and take a look at the texture.  Wait for the light to adjust as the texture might appear dark.  This is our first solid texture.
 
-![](../images/line2.png)
-
-##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
+https://user-images.githubusercontent.com/5504953/185600829-c7cc4702-3d93-4469-a1b6-fa904bfdf502.mp4
 
 ![](../images/line.png)
 
