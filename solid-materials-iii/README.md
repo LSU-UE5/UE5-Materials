@@ -1,6 +1,6 @@
 ![](../images/line3.png)
 
-### Chapter Heading Here
+### Solid Material III
 
 <sub>[previous](../solid-material-ii/README.md#user-content-solid-material-ii) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
 
