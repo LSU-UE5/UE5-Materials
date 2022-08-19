@@ -108,7 +108,7 @@ Select the **MaterialFunction** folder and press the <kbd>+ Add</kbd> button and
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/dragTToMat.png)
 
 ![](../images/line2.png)
 
