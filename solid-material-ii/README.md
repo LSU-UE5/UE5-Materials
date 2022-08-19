@@ -108,13 +108,15 @@ Select the **MaterialFunction** folder and press the <kbd>+ Add</kbd> button and
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/dragTToMat.png)
+Open up **MF_Texture**> Drag **T_BaseWhite_BC** and **T_Base_N** into the graph of **MF_Texture**.
+
+![drag two textures to MF_Texture graph](images/dragTToMat.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/outputBC.png)
 
 ![](../images/line2.png)
 
