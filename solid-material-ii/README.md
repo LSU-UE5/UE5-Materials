@@ -149,7 +149,7 @@ Right click on the top texture node and select **Convert to Parameter** and call
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the bottom texture and call select **Convert to Parameter** and call it `Metallic | Specular | Roughness | Ambient Occlusion`. Add two comment boxes to clean up our graph.
+Right click on the bottom texture and call select **Convert to Parameter** and call it `Metallic | Specular | Roughness | AO`. Add two comment boxes to clean up our graph.
 
 ![convert final texture to parameter and add comments](images/convertParams.png)
 
