@@ -67,13 +67,17 @@ Now click on the foreground color swatch and lets make a neutral normal map (all
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now select the fill tool and fill the white square with this neutral normal map color.  Press **File | Save As** and call it `N_Base_N` as type `.png`.  Press the <kbd>Save</kbd> button.
+
+![save normal map version](images/tbaseNormal.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Drag the two textures you just exported from photoshop into the **Textures** folder.
+
+![drag to textures in folder](images/dragToTextures.png)
 
 ![](../images/line2.png)
 
