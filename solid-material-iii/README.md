@@ -180,7 +180,7 @@ Now go back to **MF_Texture**.  Lets separate adjusting UV's from the texture as
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addtoMFuv.png)
 
 
 ![](../images/line.png)
