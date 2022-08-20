@@ -49,7 +49,7 @@ Go back to the editor and open up **MI_WildGrass** next to it.  Notice that the 
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Set the **UV** multiplier back to 20. 
+Set the **UV** multiplier back to 20. Now the scale is a lot better.
 
 ![uv multiplier is 20](images/uv20.png)
 
@@ -57,7 +57,9 @@ Set the **UV** multiplier back to 20.
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets add the ability to rotate the texture to add another layer of customization. Open up **MF_UVs** and add a **Custom Rotator** node.
+
+![add a custom rotator node](images/customRotator.png)
 
 ![](../images/line2.png)
 
