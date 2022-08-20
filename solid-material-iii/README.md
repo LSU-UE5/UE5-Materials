@@ -75,7 +75,9 @@ Position the model in room so it lines up with the floor textures.   Adjust the 
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/UVCheckerboard.png)
+Go the the **UVs | Layout** and change the **Material Mode** to `Checkerboard`.  Now in my case the UVs look good so I am leaving them alone and pressing the <kbd>Accept</kbd> button.
+
+![confirm uvs are correct](images/UVCheckerboard.png)
 
 ![](../images/line2.png)
 
