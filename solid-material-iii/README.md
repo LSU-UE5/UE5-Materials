@@ -124,7 +124,7 @@ Now drag and drop **MI_WildGrass** onto the ground plane.
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Rigth click on the open graph and add a **Text Coordinates** node.  Connect the output into the **UV** input of all three of the textures as we will want to adjust the size of the tiling on all three texturs.
+Rigth click on the open graph and add a **Text Coordinates** node.  Connect the output into the **UVs** input of all three of the textures as we will want to adjust the size of the tiling on all three textures.
 
 ![add texture coordinates](images/textCoord.png)
 
