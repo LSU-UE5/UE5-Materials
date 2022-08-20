@@ -17,13 +17,15 @@ Lets finish up the ***UVs** for the scale.  We will also look at adding the abil
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-![alt_text](images/changeUVGroup.png)
+Go back to **MF_Uvs** and change the **Group** in the **UV Multiplier** node to `UV`.
+
+![add uv to uv multiplier group](images/changeUVGroup.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/changeInputType.png)
 
 ![](../images/line2.png)
 
