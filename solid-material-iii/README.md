@@ -158,13 +158,13 @@ Right click on the empty graph of **MF_Textures** and select a **Scalar Paramete
 
 Now you can open up **MI_WildGrass** and set the **UV Multiplier** to 20 and press the **Save** button.  This should get you back to where you were before.
 
-![alt_text](images/setScalarTo20.png)
+![change uv multiplier to 20](images/setScalarTo20.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addMFUV.png)
 
 ![](../images/line2.png)
 
