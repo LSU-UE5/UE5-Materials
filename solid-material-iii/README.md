@@ -49,13 +49,15 @@ https://user-images.githubusercontent.com/5504953/185745402-8e2543ad-661e-4fd4-a
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-![alt_text](images/.png)
+If you go to **Meshes | Supplied** and hover the cursor over **SM_Wall** you can get the dimensions of the wall which is 1000 cm squared. This is used for the walls and the floor.
+
+![get wall size](images/wallSize.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/createAPlane.png)
 
 ![](../images/line2.png)
 
