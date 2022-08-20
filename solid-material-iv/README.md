@@ -73,7 +73,7 @@ The custom rotator node has three inputs.  One is the UVs which will do the rota
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/scalarAdjustments.png)
 
 ![](../images/line2.png)
 
