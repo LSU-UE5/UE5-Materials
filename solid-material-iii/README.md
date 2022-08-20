@@ -2,7 +2,7 @@
 
 ### Solid Material III
 
-<sub>[previous](../solid-material-ii/README.md#user-content-solid-material-ii) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
+<sub>[previous](../solid-material-ii/README.md#user-content-solid-material-ii) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../solid-material-iv/README.md#user-content-solid-material-iv)</sub>
 
 ![](../images/line3.png)
 
@@ -192,5 +192,5 @@ Open up **MF_UVs** and paste the nodes and attach the output of the **Multiply**
 
 ![](../images/line.png)
 
-| [previous](../solid-material-ii/README.md#user-content-solid-material-ii)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
+| [previous](../solid-material-ii/README.md#user-content-solid-material-ii)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../solid-material-iv/README.md#user-content-solid-material-iv)|
 |---|---|---|
