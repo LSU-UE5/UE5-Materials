@@ -2,7 +2,7 @@
 
 ### Solid Material IV
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
+<sub>[previous](../solid-material-iii/README.md#user-content-solid-material-iii) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
 
 ![](../images/line3.png)
 
@@ -148,5 +148,5 @@ Lets finish up the ***UVs** for the scale.  We will also look at adding the abil
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
+| [previous](../solid-material-iii/README.md#user-content-solid-material-iii)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
 |---|---|---|
