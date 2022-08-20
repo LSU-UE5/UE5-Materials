@@ -33,7 +33,7 @@ Now there is one thing we need to fix.  Open up **MF_Texture**, select **Input T
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets make the final step and open up **M_SolidTexture**.  Drag a copy of **Materials | MaterialFunctions | MF_UVs** to the chart.  Plug the output into **MF_Texture | UV**.
+Now lets make the final step and open up **M_SolidTexture**.  Drag a copy of **Materials | MaterialFunctions | MF_UVs** to the chart.  Plug the output into **MF_Texture | UV**. Press the <kbd>Apply</kbd> button.
 
 ![put uv material function to m_solid_texture](images/uvsToNode.png)
 
@@ -41,7 +41,7 @@ Now lets make the final step and open up **M_SolidTexture**.  Drag a copy of **M
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/backToOne.png)
 
 ![](../images/line2.png)
 
