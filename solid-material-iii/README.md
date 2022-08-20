@@ -43,6 +43,8 @@ Move **MI_WildGrass** into the **Materials | Surface** folder.  Then select the 
 
 Open up **MI_WildGrass** and turn on editing on the three textures.  Assign the **Base Color** the texture `T_WildGrass_BCH`, the **Normal Map** the texture `T_WildGrass_N` and finally the four masks the texture `T_Wildgrag_MSRAO`.  Now run the game and you will see that it is back to using the grass texture we originally imported.
 
+https://user-images.githubusercontent.com/5504953/185745402-8e2543ad-661e-4fd4-a666-037e88e2de07.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
