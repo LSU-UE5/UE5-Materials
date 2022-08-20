@@ -164,13 +164,17 @@ Now you can open up **MI_WildGrass** and set the **UV Multiplier** to 20 and pre
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addMFUV.png)
+Go to **Materials | Material Functions.  Select the <kbd>+ Add</kbd> button and select **Material | Material Function**.  Call is `MF_UVs`.
+
+![add material function MF_UVs](images/addMFUV.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+
+
+![alt_text](images/functionInput.png)
 
 ![](../images/line2.png)
 
