@@ -132,7 +132,7 @@ Rigth click on the open graph and add a **Text Coordinates** node.  Connect the 
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/185763976-2d1fc801-ab76-41b5-9e0e-c14d00c92f82.mp4
 
 ![](../images/line2.png)
 
