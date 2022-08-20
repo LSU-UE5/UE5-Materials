@@ -57,13 +57,19 @@ If you go to **Meshes | Supplied** and hover the cursor over **SM_Wall** you can
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/createAPlane.png)
+Enter modeling mode and select a **Shapes | Rect** to create a plane for the ground to old the grass.  Make it a **Width** of `1000` and a **Depth** of `3000`.  Set the **Width Subdivision** to `10` and the **Depth Subdivision to `30`.
+
+Place it on the floor and select the <kbd>Button</kbd>.
+
+![create a 1000 by 3000 planes](images/createAPlane.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Position the model in room so it lines up with the floor textures.   Adjust the height so it doesn't get buried by the existing floor or have any rendering issues fighting with it (1 unit above essentially).
+
+![position floor piece](images/positionInRoom.png)
 
 ![](../images/line2.png)
 
