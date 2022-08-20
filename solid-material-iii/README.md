@@ -180,6 +180,8 @@ Now go back to **MF_Texture**.  Lets separate adjusting UV's from the texture as
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
+Open up **MF_UVs** and paste the nodes and attach the output of the **Multiply** node to the **Output UVs** node. Select the **Output** node and the **Output** name to **UVs**. Press the <kbd>Apply</kbd> button.
+
 ![alt_text](images/addtoMFuv.png)
 
 
