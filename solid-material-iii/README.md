@@ -132,13 +132,17 @@ Rigth click on the open graph and add a **Text Coordinates** node.  Connect the 
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
+Open up **MF_Textures** and select the **TexCoord** node and change the **UTiling** and **VTiling**.  Notice that a value less than `1` increases the size of the tiling and increasing the number larger than `1` reduces it.  I like a value of `20`.  But return it to `1` as we will adjust this in the material instance.
+
 https://user-images.githubusercontent.com/5504953/185763976-2d1fc801-ab76-41b5-9e0e-c14d00c92f82.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Right click on the empty graph of **MF_Textures** and select a **Scalar Parameter** node.
+
+![alt_text](images/multiplyUv.png)
 
 ![](../images/line2.png)
 
