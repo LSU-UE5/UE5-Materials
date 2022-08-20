@@ -83,13 +83,15 @@ Go the the **UVs | Layout** and change the **Material Mode** to `Checkerboard`. 
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Select the ground plane in the editor and right click and select **Browse to Asset**.  Now rename the mesh `SM_Ground`.
+
+![find and rename mesh sm_ground](images/findRenameGround.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/MovesmGround.png)
 
 ![](../images/line2.png)
 
