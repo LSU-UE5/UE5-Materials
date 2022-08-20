@@ -1,6 +1,6 @@
 ![](../images/line3.png)
 
-### Chapter Heading Here
+### Solid Material IV
 
 <sub>[previous](../) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
 
@@ -8,7 +8,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Chapter introduction here.
+Lets finish up the ***UVs** for the scale.  We will also look at adding the ability to rotate the texture.  
 
 <br>
 
@@ -17,7 +17,7 @@ Chapter introduction here.
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/changeUVGroup.png)
 
 ![](../images/line2.png)
 
