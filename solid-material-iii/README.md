@@ -172,7 +172,7 @@ Go to **Materials | Material Functions.  Select the <kbd>+ Add</kbd> button and 
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-
+Now go back to **MF_Texture**.  Lets separate adjusting UV's from the texture as we can reuse it in other materials.  So `copy` and `delete` the three UV nodes **TexCoord**, **Multiply** and **UV Multiplier** node. Now we will need an input node to plug the UV's into.  So right click and select a **Function Input** node.
 
 ![alt_text](images/functionInput.png)
 
