@@ -25,7 +25,9 @@ Go back to **MF_Uvs** and change the **Group** in the **UV Multiplier** node to 
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/changeInputType.png)
+Now there is one thing we need to fix.  Open up **MF_Texture**, select **Input TVs** and change the **Input Type** to `Function Input Vector 2`.  We just need a **U** and a **V** value and the default input was for a full **Vector 3**.
+
+![change in put type to 2](images/changeInputType.png)
 
 ![](../images/line2.png)
 
