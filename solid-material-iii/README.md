@@ -140,21 +140,25 @@ https://user-images.githubusercontent.com/5504953/185763976-2d1fc801-ab76-41b5-9
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Right click on the empty graph of **MF_Textures** and select a **Scalar Parameter** node.
+Right click on the empty graph of **MF_Textures** and select a **Scalar Parameter** node. Name it `UV_Multiplier` and set the default value to `1`.  Also, add a **Multiply** node.
 
-![alt_text](images/multiplyUv.png)
+![add a scalar parameter and mutltiply node](images/multiplyUv.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+ Connect the **TextCoord** to the **A** channel of the **Multiply** node and the output of the **UV Multipier** to the **B** side of the **Multiply** node.  Send the output of the **Multiply** node to the three texture **UVs** inputs.  Make sure the **UTiling** and **VTiling** is set to `1`.  Make sure the **UV Multiplier** is also set to `1`. Press the <kbd>Apply</kbd> button.
+
+![connect to multiply node](images/connectMulti.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now 
+
+![alt_text](images/setScalarTo20.png)
 
 ![](../images/line2.png)
 
