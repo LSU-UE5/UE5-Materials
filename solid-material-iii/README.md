@@ -108,7 +108,9 @@ After moving it is always a good idea to right click **Content** and select **Fi
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now drag and drop **MI_WildGrass** onto the ground plane.
+
+![add mi_wild grass to plane](images/addWIldGrassM.png)
 
 ![](../images/line2.png)
 
