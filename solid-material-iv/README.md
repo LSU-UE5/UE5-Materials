@@ -41,13 +41,17 @@ Now lets make the final step and open up **M_SolidTexture**.  Drag a copy of **M
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/backToOne.png)
+Go back to the editor and open up **MI_WildGrass** next to it.  Notice that the sizes have all set back to the original default.
+
+![editor with reset material](images/backToOne.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Set the **UV** multiplier back to 20. 
+
+![uv multiplier is 20](images/uv20.png)
 
 ![](../images/line2.png)
 
