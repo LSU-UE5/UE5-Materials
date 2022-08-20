@@ -73,7 +73,7 @@ The custom rotator node has three inputs.  One is the UVs which will do the rota
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-No take the output of the **Multiply** node and place it into the input **UVs** node in the **Custom Rotator**.  Take the **Return Value** and send it to the **Output UVs** node.  Select all of the 4 nodes and press the <kbd>C</kbd> key and add a comment `UV Adjustements` and select a color.  Right click on th open graph and select a **Scalar Parameter**>
+Now take the output of the **Multiply** node and place it into the input **UVs** node in the **Custom Rotator**.  Take the **Return Value** and send it to the **Output UVs** node.  Select all of the 4 nodes and press the <kbd>C</kbd> key and add a comment `UV Adjustements` and select a color.  Right click on the open graph and select a **Scalar Parameter**.
 
 ![connect custom rotator and add scalar parameter](images/scalarAdjustments.png)
 
@@ -81,7 +81,7 @@ No take the output of the **Multiply** node and place it into the input **UVs** 
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-https://user-images.githubusercontent.com/5504953/185766950-79a0f8ad-0501-4090-9cf4-43dd57e0691a.mp4
+Call this scalar parameter `UV Angle`.  Plug the output into the **Rotation Angle** pin of the **CustomRotator** node.  Change the group to `UV` and set the **Sort Priority** to `1`.  Make sure that **UV Multiplier** is in group to `UV` and set to **Sort Priority** of `0`.
 
 ![alt_text](images/changeAngle.png)
 
@@ -89,7 +89,7 @@ https://user-images.githubusercontent.com/5504953/185766950-79a0f8ad-0501-4090-9
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![alt_text](images/.png)
+https://user-images.githubusercontent.com/5504953/185766950-79a0f8ad-0501-4090-9cf4-43dd57e0691a.mp4
 
 ![](../images/line2.png)
 
