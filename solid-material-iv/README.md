@@ -81,13 +81,15 @@ Now take the output of the **Multiply** node and place it into the input **UVs**
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Call this scalar parameter `UV Angle`.  Plug the output into the **Rotation Angle** pin of the **CustomRotator** node.  Change the group to `UV` and set the **Sort Priority** to `1`.  Make sure that **UV Multiplier** is in group to `UV` and set to **Sort Priority** of `0`.
+Call this scalar parameter `UV Angle`.  Plug the output into the **Rotation Angle** pin of the **CustomRotator** node.  Change the group to `UV` and set the **Sort Priority** to `1`.  Make sure that **UV Multiplier** is in group to `UV` and set to **Sort Priority** of `0`. Now also we need to limit the number between 0 and 1.  So set the **Slider Min** to `0` and **Slider Max** to `1`.
 
-![alt_text](images/changeAngle.png)
+![plug in uv angle and limit between 0 and 1](images/changeAngle.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
+
+Open up **MI_WildGrass** and adjust the UV angle between 0 and 1.
 
 https://user-images.githubusercontent.com/5504953/185766950-79a0f8ad-0501-4090-9cf4-43dd57e0691a.mp4
 
