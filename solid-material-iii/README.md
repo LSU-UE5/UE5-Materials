@@ -91,13 +91,17 @@ Select the ground plane in the editor and right click and select **Browse to Ass
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![alt_text](images/MovesmGround.png)
+Create a new folder under **Meshes** called `Surfaces`.  Drag `SM_Ground` and **Move** it into the new **Meshes | Surfaces** folder.
+
+![move sm_ground to meshes folder](images/MovesmGround.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+After moving it is always a good idea to right click **Content** and select **Fix up Redirects in Folder**, to clean up the hierachy.  Otherwise hidden files remain that redirect files from their original folder.
+
+![fix up redirects](images/fixUpRedirects.png)
 
 ![](../images/line2.png)
 
