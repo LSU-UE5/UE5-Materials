@@ -174,7 +174,7 @@ Go to **Materials | Material Functions.  Select the <kbd>+ Add</kbd> button and 
 
 Now go back to **MF_Texture**.  Lets separate adjusting UV's from the texture as we can reuse it in other materials.  So `copy` and `delete` the three UV nodes **TexCoord**, **Multiply** and **UV Multiplier** node. Now we will need an input node to plug the UV's into.  So right click and select a **Function Input** node.
 
-![alt_text](images/functionInput.png)
+![add function input node in mf_textures and get rid of the three uv nodes](images/functionInput.png)
 
 ![](../images/line2.png)
 
