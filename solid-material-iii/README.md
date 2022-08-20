@@ -33,7 +33,7 @@ Right click on **M_SolidTexture** and select **Creaet Material Instance** and ca
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Move **MI_WildGrass** into the **Materials | Surface** folder.  Then select the material ball and change the **Materials | Element 0** to `MI_WildGrass`.
+Move **MI_WildGrass** into the **Materials | Surface** folder.  Then select the material ball and change the **Materials | Element 0** to `MI_WildGrass`. You can change the material by just dragging it onto the model itself and it will light up the area of the model that is changing.
 
 ![assign mi_wild grass to material ball in room 2](images/moveAssign.png)
 
@@ -41,7 +41,7 @@ Move **MI_WildGrass** into the **Materials | Surface** folder.  Then select the 
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **MI_WildGrass** and turn on editing on the three textures.  Assign the **Base Color** the texture `T_WildGrass_BCH`, the **Normal Map** the texture `T_WildGrass_N` and finally the four masks the texture `T_Wildgrag_MSRAO`.  Now run the game and you will see that it is back to using the grass texture we originally imported.
 
 ![](../images/line2.png)
 
