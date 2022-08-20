@@ -65,7 +65,9 @@ Now lets add the ability to rotate the texture to add another layer of customiza
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+The custom rotator node has three inputs.  One is the UVs which will do the rotation.  The **Rotation Center** allows you to move where the texture rotates from.  We will leave this alone, as it is probably not needed very often.  The rotation angle is a scalar value between `0` and `1`.  This means that all values between 0° and 359° will be fractional between 0 and 1.  So a value of 180 would be 180/359 which is `0.5`.
+
+![custom rotator node](images/threeInputs.png)
 
 ![](../images/line2.png)
 
