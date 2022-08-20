@@ -116,13 +116,15 @@ Now drag and drop **MI_WildGrass** onto the ground plane.
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+*Press* the <kbd>Play</kbd> button and walk around.  Your camera is at 6' in height and the grass texture looks enormous and wrong.  Now we can adjust the amount of tiling within each object.  Lets add this to our material function.
+
+![grass is wrong](images/addWIldGrassM.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+![add texture coordinates](images/textCoord.png)
 
 ![](../images/line2.png)
 
