@@ -138,9 +138,9 @@ We have only dealt with opaque materials.  We can also have holes cut in the mat
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Double click the new Material and add a **Texture Sample** node. Add the **T_CircleMask_D** texture and you should see.
+Double click the new Material and add a **Texture Sample** node. Add the **T_SingleCircle** texture.
 
-![add t_circlemask_d to texture sample node](images/image_150.jpg)
+![add t_circlemask_d to texture sample node](images/addTextureBaseColor.png)
 
 ![](../images/line2.png)
 
@@ -148,7 +148,7 @@ Double click the new Material and add a **Texture Sample** node. Add the **T_Cir
 
 Connect the output of the **Texture Sample** node and connect it to the **Opacity Mask** mode.  This does nothing and it is grayed out. We will fix this shortly.
 
-![connect texture sample to opacity mask](images/image_151.jpg)
+![connect texture sample to opacity mask](images/addTextureBaseColor.jpg)
 
 ![](../images/line2.png)
 
