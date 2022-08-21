@@ -77,9 +77,9 @@ Connect the two **Constant Vector 3** nodes to the **Add**. Hit **Start Previewi
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click and add a **Multiply** node. Connect the two **Constant Vector 3** nodes to the **Multiply**. Hit **Start Previewing Node** on the **Mulitpy** node.  Now it multiplies up all three channels making them .5 x .5 so each channel is `.25`.  This makes it much darker.
+Right click and add a **Multiply** node. Connect the two **Constant Vector 3** nodes to the **Multiply**. Hit **Start Previewing Node** on the **Mulitpy** node.  Now it multiplies up all three channelsinstead of adding them.  So the red channel multiplies 1 x 0, the green 0 x 1, and the blue 0 x 0.  This leaves our vector at 0,0,0 or *black*.
 
-![multiple two nodes darker](images/MultiplyPreview.jpg)
+![multiple two nodes darker](images/multiplyToBlack.png)
 
 To exagerate the effect take one of the constant vectors and change it to `.1` on all three channels.  Now it is even darker - `.05` in each channel.
 
