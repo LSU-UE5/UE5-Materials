@@ -111,9 +111,9 @@ Now right click the vector and select **Convert to Parameter**.  Call it `Base C
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Duplicate the carpet and add it to the first room.  Drag the **M_OfficeCarpet_Color** onto this third carpet.  Press the <kbd>Build</kbd> to bake the shadows into this third carpet.  Play the game and take a look!
+Now since we have added a parameter lets change the **Metallic** node to **Sort Priority** `11` and **Metallic | Specular | Roughness | AO** to `12`.
 
-![duplicate carpet and add material, build then play](images/DupeCarpetBuildPlay.jpg)
+![duplicate carpet and add material, build then play](images/changeOrder.png)
 
 https://user-images.githubusercontent.com/5504953/130363649-5c11e393-8024-4c27-9861-76054f67d7eb.mp4
 
