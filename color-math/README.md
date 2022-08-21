@@ -103,9 +103,9 @@ OK, lets delete the second vector and addition nodes. Now adjust the color of th
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Double click on the black square and you will get a color picker.  Pick a nice color for the carpet.  I picked `.537862, .299251, .109385`. You can pick it by double clicking on the node and using the **Color Picker** or editing the **Details** panel of the node. Press the <kbd>Apply</kbd> button when you are done.
+Now right click the vector and select ****
 
-![alt_text](images/PickTastefulColor.jpg)
+![change base color to parameter](images/convertToBaseColParam.png)
 
 ![](../images/line2.png)
 
