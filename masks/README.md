@@ -60,7 +60,7 @@ Connect the output of the **Add** node to the **Base Color** node and look at th
 
 Add a **Constant** node to the graph set the **Default** to `0`. Plug the output into the **Roughness** pin.  Connect the **Texture Sample | RGB** to the **Metallic** node.  Now every where it is white it will be reflective and every where it is black it will not.  You can see the result on the sphere.
 
-![add constant node, set to 0 and add to roughness](images/image_143.jpg)
+![add constant node, set to 0 and add to roughness](images/connectOtherProps.png)
 
 ![](../images/line2.png)
 
