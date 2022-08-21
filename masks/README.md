@@ -180,9 +180,9 @@ Right click on **M_OpacityMaster** and make a **Material Instance** called `MI_O
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-If you guessed a uv issue you are right.  They are only pointing outwards.  This can be fixed by opening up
+If you guessed a uv issue you are right.  They are only pointing outwards.  This can be fixed by opening up **M_OpacityMask** and selecting the main material node.  Change **Two Sided** to `true`.  This will render both directions of the UV (the original and 180°).  Now we see the inside of the box
 
-![look at hole cut in cube](images/twoSidedUVs.png)
+![set two sided to true](images/twoSidedUVs.png)
 
 ![](../images/line2.png)
 
