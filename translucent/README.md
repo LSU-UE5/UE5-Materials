@@ -8,7 +8,7 @@
 ![](../images/line3.png)
 
 
-What happens when we want to have transluscent alpha on a texture?
+Lets see our final opacity mask in action.  Next up we will see What happens when we want to have a complex transluscent alpha on a material?
 
 <br>
 
