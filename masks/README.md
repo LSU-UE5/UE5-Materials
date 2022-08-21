@@ -123,8 +123,9 @@ https://user-images.githubusercontent.com/5504953/185812222-7728eef9-491a-4199-9
 Now if you wanted to use this as a master material you could change the mask to a parameter so you could replace it.  Typically those these types of tricky materials are one off's.  So lets leave it here for now.
 
 Download 
+![add one minus node](images/tsingleCircle.png)
 
-![](../images/tsingleCircle.png)
+![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
