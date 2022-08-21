@@ -81,9 +81,9 @@ Right click and add a **Multiply** node. Connect the two **Constant Vector 3** n
 
 ![multiple two nodes darker](images/multiplyToBlack.png)
 
-To exagerate the effect take one of the constant vectors and change it to `.1` on all three channels.  Now it is even darker - `.05` in each channel.
+Change the red to white make it **R** of `1`, **G** of `1` and **B** of `1`.  Now when you multiply it by green the white gets tinted green.  So multiplication of two numbers between 0 and 1 will always remove detail (or leave it the same).  We can use this to alter the hue and tint textures!
 
-![make darker](images/MakeDarker.jpg)
+![make darker](images/tintMultiply.png)
 
 ![](../images/line2.png)
 
@@ -97,7 +97,7 @@ https://user-images.githubusercontent.com/5504953/130356614-5152993d-70ff-48bf-a
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-OK, lets delete all of these nodes except the **Constant Vector 3** and **Multiply** node. Now adjust the color of the **Constant Vector 3** to `1`, `0`, `0` or pure red.  Connect the **Texture Sample | RGB** output to the **Multiply** input.  Connect the output of the **Multiply** node into the **Base Color** node in the shader. Notice that this shades the texture red as it multplies the blue and the green channel by `0` leaving only the red channel (probably not at a full value of one).
+OK, lets delete all of these nodes except the **Constant Vector 3** and **Multiply** node. Now adjust the color of the **Constant Vector 3** to `1`, `1`, `1` or pure white.  Connect the **Texture Parameter | RGB** output to the **Multiply | A** input.  Connect the output of the **Multiply | B** node into the **Base Color** node in the shader. Notice that this shades the texture red as it multplies the blue and the green channel by `0` leaving only the red channel (probably not at a full value of one).
 
 ![multiply base color texture by red to tint material](images/TintCarpetRed.jpg)
 
