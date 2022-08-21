@@ -138,9 +138,9 @@ We have only dealt with opaque materials.  We can also have holes cut in the mat
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Double click the new Material and add a **Texture Sample** node. Add the **T_SingleCircle** texture.
+Double click the new Material and add a **Texture Sample** node. Add the **T_SingleCircle** texture. Drag the material function **MF_BaseColor** under the texture sample node.
 
-![add t_circlemask_d to texture sample node](images/addTextureBaseColor.png)
+![add t_singlecircle texture sample and mf_base color](images/addTextureBaseColor.png)
 
 ![](../images/line2.png)
 
