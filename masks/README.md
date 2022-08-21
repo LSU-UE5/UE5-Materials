@@ -2,7 +2,7 @@
 
 ### Masks, Opacity & Translucent
 
-<sub>[previous](../adding-parameters/README.md#user-content-adding-parameters) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../translucent/README.md#user-content-translucent-blend-mode)</sub>
+<sub>[previous](../adding-parameters/README.md#user-content-adding-parameters) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../translucent/README.md#user-content-masks-opacity--translucent-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -199,5 +199,5 @@ Connect **Metallic**, **Specular** and **Roughness** in the node chart. Press th
 
 ![](../images/line.png)
 
-| [previous](../adding-parameters/README.md#user-content-adding-parameters)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../translucent/README.md#user-content-translucent-blend-mode)|
+| [previous](../adding-parameters/README.md#user-content-adding-parameters)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](..translucent/README.md#user-content-masks-opacity--translucent-ii)|
 |---|---|---|

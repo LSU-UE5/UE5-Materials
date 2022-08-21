@@ -1,10 +1,12 @@
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
+
 
 ### Masks, Opacity & Translucent II
 
-<sub>[previous](../texture-masks/README.md#user-content-texture-masks) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../illumination/README.md#user-content-illumination)</sub>
+<sub>[previous](../masks/README.md#user-content-masks-opacity--translucent) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../illumination/README.md#user-content-illumination)</sub>
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
+
 
 What happens when we want to have transluscent alpha on a texture?
 
@@ -13,120 +15,125 @@ What happens when we want to have transluscent alpha on a texture?
 ---
 
 
-##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
+##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
+
+
+Now in game you can play with the settings and change the tint color.  Notice the shadow respects the transparency.  Now also notice it is either opaque or completely transparent.  There is nothing in between.  This is the most efficient way of rendering transparencies.
+
+![change settings to get an effect in game you like](images/changedProperties.png)
+
+![](../images/line2.png)
+
+##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
 Some objects like glass need to be translucent.  Now in games we want to try and limit how many we use.  This material is very expensive computationally and should be used with discretion. Create a new material called `M_Translucent` and place it in your **Materials** folder.
 
-![add material called m_translucent](images/image_157.jpg)
-
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
-
-##### `Step 2.`\|`FHIU`|:small_blue_diamond: :small_blue_diamond: 
+![add material called m_translucent](images/tCircleFeather.png)
 
 Go to the **Textures** folder and add **[T_CircleMask_T.tga](../Assets/T_CircleMask_T.tga)** to the game and rename it to `T_CircleMask_T`.
 
 ![add T_CircleMask_T to textures folder](images/image_158.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-##### `Step 3.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open the **M_Translucent** material and add a **Texture Sample** node.
 
 ![add texture sample node to m_translucent](images/image_159.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-##### `Step 4.`\|`SUU&G`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Assign the newly dowloaded **Texture** called **T_CircleMask_T**  Now for the mask we see the gray.  This will be partially opaque.  The white rings will be completly opaque and the black will be transparent like in the previous mask.  Now it is greyed out so we need to change the blend mode. We cannot hook the pin up to **Opacity** as the blend type is wrong.
 
 ![add T_CircleMaskT to texture](images/image_160.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-##### `Step 5.`\|`SUU&G`| :small_orange_diamond:
+##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
 Change the **Blend Mode** in the **Details** panel to **Translucent** and hook the output of the texture to the **Opacity** pin in the shader. Press the <kbd>Apply</kbd> button.
     
 ![change blend mode to translucent](images/image_161.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-##### `Step 6.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
 Now go into the game and test it out.  Add another cube to the scene and bind the latest Material we just created. 
 
 ![add another cube with new material](images/image_162.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-##### `Step 7.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Play the game to look at it.  Lets add a color to it and also fix the same two sided problem we had on the previous mask.
 
 https://user-images.githubusercontent.com/5504953/131202256-edce92f3-514c-4eb3-b493-e99a7cc398fa.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-##### `Step 8.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Lets add some color and add **Two Sided** to the modes panel. Add a **Constant 3 Vector** node, select a nice color and hook it up to the **Base Color** node.  Make sure **Two Sided** is checked under **Material** in the **Details** panel.
 
 ![add an orange color and make material double sided](images/image_163.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-##### `Step 9.`\|`SUU&G`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go back to the game and it looks better.  But it doesn't cast a shadow.
 
 ![alt_text](images/image_164.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-##### `Step 10.`\|`SUU&G`| :large_blue_diamond:
+##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
 There are two things we need to do to fix this.  Go back to the Material and change the **Lighting Mode** to `Surface Translucency Volume`. Press the <kbd>Apply</kbd> button.
 
 ![change lighting mode to surface translucency volume](images/image_165.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-##### `Step 11.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
 Then go into the game and select the cube you previously created. Go into the details panel. Go to the **Lighting** section and there is a downward arrow under **Shadows**.  Click this to expand the selection.
 
 ![look at cube and expand lighting in details panel](images/image_166.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
 
-##### `Step 12.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Look for the Radio Button that has **Volumetric Translucent Shadow** and make sure it is selected. 
 
 ![make sure volumetric translucent shadows is on static mesh](images/image_167.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-##### `Step 13.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Double check that the **Lighting | Directional Light** is **Stationary**. Open up **SM_Floor2** and set the **Min Lightmap Resolution** to `256`. Press the <kbd>Build</kbd> button to rebuild the lights.
 
 ![set min lightmap res to 256](images/MinLightMapRes.jpg)
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-##### `Step 14.`\|`SUU&G`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Go into the game and play it and look at the cube.  We have a nice soft shadow next to the hard ones!
 
 https://user-images.githubusercontent.com/5504953/131202770-5b1492a3-0fa7-4579-af31-cd1cf832a67d.mp4
 
-<img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
+![](../images/line2.png)
 
-##### `Step 15.`\|`SUU&G`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 Lets **Save All**, **Build** the lighting and open GitHub Desktop.  Press **Source Control** and add your latest changes to GitHub.  Commit the last set of changes and push them to the server wiht GitHub Desktop.  We are now done with room 3! 
 ![save, commit and push to github](images/Github.jpg)
 
@@ -139,5 +146,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../texture-masks/README.md#user-content-texture-masks)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../illumination/README.md#user-content-illumination)|
+| [previous](../masks/README.md#user-content-masks-opacity--translucent)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../illumination/README.md#user-content-illumination)|
 |---|---|---|
