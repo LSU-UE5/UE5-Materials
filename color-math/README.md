@@ -39,12 +39,19 @@ Go to **Material | Surfaces** and select **MI_WildGrass** and select **Duplicate
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![download three textures](images/marbleTileSettings.png)
+Assign **MI_MarbleTile** to the new material ball.  Open up the material and change the three textures to `T_MarbleTile...`.  Set the **UV Multiplier** to `1` and **UV Angle** of `0.0` degrees.
 
-
-
+![assign three marble textures](images/marbleTileSettings.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
+
+Open up **MI_MarbleTile** and add a **3 Vector** to the node chart under the **Base Color**.
+
+![add constant three vector](images/const3Vect.png)
+
+
+
+##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
 Now in **Unreal** it represents each channel with a number from `0` to `1`.  So if we want to convert from Photoshop style RGB to Unreal we need to divide the value by `/255`.  So the same representation of pure **Red** in UE4 is `255/255`, `0/255`, `0/255`.  This ends up with `1,0,0`.  So UE4 normalizes each range of each color channel between `0` and `1`.
 
@@ -65,8 +72,6 @@ Right click on the **Constant Vector 3** node and select **Duplicate**.
 ![duplicate constant vector 3 node](images/image_69.jpg)
 
 ![](../images/line2.png)
-
-##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
 In the material right mouse click and select an **Add** node.  This will add the two vectors together.
 
