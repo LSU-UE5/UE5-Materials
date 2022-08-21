@@ -52,7 +52,7 @@ Lets add these two nodes together.  Right click and type `add` to put a **Add** 
 
 Connect the output of the **Add** node to the **Base Color** node and look at the result on the sphere. You should see a green dot on a white background.
 
-![connect add to render node](images/image_142.jpg)
+![connect add to render node](images/addSample.png)
 
 ![](../images/line2.png)
 
