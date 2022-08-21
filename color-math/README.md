@@ -151,7 +151,9 @@ Now if we go back to the first material ball the tiling looks very wrong on the 
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now make sure that the **UV Angle** on both marble tile materials is set to `0` otherwise the lines of the tile will not work.  A tile with a pattern like this should not be rotated. *Press* the <kbd>Play</kbd> button  and look at the three material balls and grass ground.  Make sure you are happy with everything.
+
+![play game and make sure all is correct](images/.png)
 
 ![](../images/line2.png)
 
