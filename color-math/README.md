@@ -59,19 +59,7 @@ Double click the **Constant 3 Vector** and change red to `1`.  Right click on th
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets make this color mid gray.  Double click on the black square on the **Vec 3** node. Set the **RGB** channel to `0.5`.",
-
-![set color of vec3 to mid gray](images/image_68.jpg)
-
-![](../images/line2.png)
-
-Right click on the **Constant Vector 3** node and select **Duplicate**.
-
-![duplicate constant vector 3 node](images/image_69.jpg)
-
-![](../images/line2.png)
-
-In the material right mouse click and select an **Add** node.  This will add the two vectors together.
+Now lets add another **Constant 3 Vector** and right mouse click and select an **Add** node.  This will allow us to add the two vectors together. Now how do additions work?  When you add two vectors together it just adds the red channel R<sub>1</sub> + R2
 
 ![put an add node in material](images/FirstAddNode.jpg)
 
