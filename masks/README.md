@@ -114,6 +114,8 @@ When you normalize a range between 0 and 1 then the inverse is always 1-x.  So i
 
 *Press* the <kbd>Play</kbd> button and now the metallic part has inverted and the green dot is metallic and the rest is non-metallic based on the mask applied.
 
+https://user-images.githubusercontent.com/5504953/185812222-7728eef9-491a-4199-9841-fa5c5c93fca4.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
