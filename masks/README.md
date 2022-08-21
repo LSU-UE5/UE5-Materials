@@ -74,31 +74,33 @@ Go into the editor and create a material instance of **M_MetalMask** and call it
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Place the 
+Press the **Place Actors** button and select a **Shape | Cube** to drop in the level.  Position it on the left side of the room.
 
-![add m_metalmask to cube](images/placeCube.png)
+![add cube to level](images/placeCube.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the **Build** button to re-build everything including the **Reflection Captures**.
+Add **MI_Mask** material to the cube.
 
-Run the game and go around the cube to look at the reflections.
+![add cube to level](images/addMIMask.png)
 
-https://user-images.githubusercontent.com/5504953/131197546-5950fca4-951f-47c5-a2c3-d0d522776b68.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Now what if we wanted the opposite? What if want the green dot to be reflective and the rest of the surface be matte?  We could go to photoshop and invert the image, but we can do this in the material.  Open the **M_Metallic** and add a **OneMinus** node.
-
-![add one-minus node](images/image_146.jpg)
+Change **Roughness** to `0`.  Change the white tint color to **Green** (0, 1, 0). 
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
+
+
+Now what if we wanted the opposite? What if want the green dot to be reflective and the rest of the surface be matte?  We could go to photoshop and invert the image, but we can do this in the material.  Open the **M_Metallic** and add a **OneMinus** node. *Press* the <kbd>Play</kbd> button and see that the areas in the mask that were white are metallic and the portions in black are non metalic but green.  Think about why this is so?
+
+![change roughness to 0 and play cube in game](images/image_146.jpg)
 
 Connect the output of the Texture Sample to the 1-x node and put that output in Metallic.  Select the cube to preview and now you can see that it only reflects inside the green dots.
 
