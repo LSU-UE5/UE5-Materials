@@ -23,7 +23,7 @@ Open up the editor and move the **Player Start** actor to **Room 3**.
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Create a new folder under **Textures** called `Masks`. Press the **Import** button and go to the folder **Import** and select **[T_CircleMask.tga](../Assets/T_CircleMask.tga)**. Double click and see that it is a power of 2 texture and is 512 x 512.  It is duotone with just black and white.
+Create a new folder under **Textures** called `Masks`. Press the **Import** button and go to the folder **Import** and select **[T_CircleMask.tga](../Assets/T_CircleMask.tga)**. Double click and see that it is a power of 2 texture and is 512 x 512 with 10 MIP levels.  It is duotone with just black and white.
 
 ![add circlemask_d.tga to project](images/tcirclemaskimport.png)
 
