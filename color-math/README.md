@@ -53,7 +53,7 @@ Open up **MI_MarbleTile** and add a **Constant3Vector** to the node chart under 
 
 Now in **Unreal** it represents each channel with a number from `0` to `1`.  So if we want to convert from Photoshop style RGB to Unreal we need to divide the value by `/255`.  So the same representation of pure **Red** in UE4 is `255/255`, `0/255`, `0/255`.  This ends up with `1,0,0`.  So UE5 normalizes each range of each color channel between `0` and `1`.
 
-Double click the **Constant 3 Vector** and change red to `1`.  Right lic
+Double click the **Constant 3 Vector** and change red to `1`.  Right click on the color and select **Start Previewing Node**.  This allows you to look at the color in different parts of the flowchart.  This is the best way to debug materials.  Notice the red ball is now read.
 
 
 
