@@ -122,7 +122,8 @@ https://user-images.githubusercontent.com/5504953/185812222-7728eef9-491a-4199-9
 
 Now if you wanted to use this as a master material you could change the mask to a parameter so you could replace it.  Typically those these types of tricky materials are one off's.  So lets leave it here for now.
 
-Download 
+Download [T_SingleCircle.png](../Assets/T_SingleCircle.png) and add it to the **Texures | Masks** folder.  This has a single white dot on a black background.
+
 ![add one minus node](images/tsingleCircle.png)
 
 ![](../images/line2.png)
@@ -131,7 +132,7 @@ Download
 
 We have only dealt with opaque materials.  We can also have holes cut in the materials with translucency.  There are two types of approaches. The faster in terms of performance is an opacity mask. This means that a pixel can be completely transparent.  But there are no partial transparencies. The pixel is opaque or is clear.  Lets take a look.  Create a new **Material** in the **Materials** folder and call it `M_OpacityMask`.
 
-![add material called M_OpacityMask](images/image_149.jpg)
+![add material called M_OpacityMask](images/mopcityMask.png)
 
 ![](../images/line2.png)
 
