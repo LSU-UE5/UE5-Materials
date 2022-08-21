@@ -146,25 +146,25 @@ Double click the new Material and add a **Texture Sample** node. Add the **T_Sin
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Connect the output of the **Texture Sample** node and connect it to the **Opacity Mask** mode.  This does nothing and it is grayed out. We will fix this shortly.
+Connect the output of the **MF_Base Color | Base Color** node and connect it to the **Base Color** mode.  Then we need to change the blend mode.  As we want the black portion to cut a hole in the shape.  So change the **Blend** mdoe to `Masked` on **M_OpacityMask**.
 
-![connect texture sample to opacity mask](images/changeBlendNode.png)
+![connect texture sample to opacity mask and change blend mode](images/changeBlendNode.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Constant 3 Vector** and pick a nice bright color.  I picked orange.
+Connect the **Texture Sample | R** pin to the **Opacity Mask** node.  Wait a second and now there are only dots.
 
-![alt_text](images/image_152.jpg)
+![connect texture sample to opacity mask](images/connectPins.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the Opacity mask is supposed to be clear where there is an alpha (black pixel) and opaque where white.  Right now we just have a solid Orange surface.
+Lets flip it.  Add a **1-x** node between the **R** and **Opacity Mask** pins.  Now the circle is black and the hole in the cube is cut by the circle.
 
-![solid orange mask ignored](images/image_153.jpg)
+![add one minus node](images/invert.png)
 
 ![](../images/line2.png)
 
