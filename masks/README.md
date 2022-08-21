@@ -188,9 +188,10 @@ If you guessed a uv issue you are right.  They are only pointing outwards.  This
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Now go to the game and press the **alt** button and drag another copy of the cube.  Assign the **M_OpacityMask** material.
+Connect **Metallic**, **Specular** and **Roughness** in the node chart. Press the <kbd>Apply</kbd> button.
 
-https://user-images.githubusercontent.com/5504953/131201410-ea08a4bc-424b-4b02-be92-8c730669541e.mp4
+![attach metallic, specular and roughness pins](images/connectRestOfPins.png)
+
 
 ![](../images/line2.png)
 
