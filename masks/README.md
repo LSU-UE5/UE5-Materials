@@ -48,9 +48,9 @@ Open the Material and add a **Texture Sample** node and selected the new texture
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Lets add these two nodes together.  Right click and type `add` to put a **Add** node on the graph and hook the **Texture Sample | RGB** output with the **Constant 3** output.  The addition will keep the white white, but make the black the green that was created.  
+Lets add these two nodes together.  Right click and type `add` to put a **Add** node on the graph and hook the **Texture Sample | RGB** output with the **MF_BaseColor | Basae Color** output.  The addition will keep it solid white. But when we tinit it, the white section will change and the black portion will stay black.
 
-Connect the output of the **Add** node to the **Base Color** node and look at the result on the sphere. You should see a green dot on a white background.
+Connect the output of the **Add** node to the **Base Color** node and look at the result on the sphere. You should see a a solid white sphere.
 
 ![connect add to render node](images/addSample.png)
 
