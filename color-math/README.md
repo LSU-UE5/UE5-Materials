@@ -94,7 +94,7 @@ Change the red to white make it **R** of `1`, **G** of `1` and **B** of `1`.  No
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
 
-OK, lets delete the second vector and addition nodes. Now adjust the color of the **Constant Vector 3** to `1`, `1`, `1` or pure white.  Connect the **Texture Parameter | RGB** output to the **Multiply | A** input.  Connect the output of the **Multiply | B** node into the **Base Color** node in the shader. Now multiplying by 1,1,1 does nothing so it will not affect any of our previous work.
+OK, lets delete the second vector and addition nodes. Now adjust the color of the **Constant Vector 3** to `1`, `1`, `1` or pure white.  Connect the **Texture Parameter | RGB** output to the **Multiply | A** input.  Connect the output of the **Multiply | B** node into the **Base Color** node in the shader. Now multiplying by 1,1,1 does nothing so it will not affect any of our previous work. So our original texture stays white.
 
 ![multiply base color texture by white to tint material](images/addTintNodes.png)
 
