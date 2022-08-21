@@ -58,7 +58,7 @@ Connect the output of the **Add** node to the **Base Color** node and look at th
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Add a **Constant** node to the graph set the **Default** to `0`. Plug the output into the **Roughness** pin.  Connect the **Texture Sample | RGB** to the **Metallic** node.  Now every where it is white it will be reflective and every where it is black it will not.  You can see the result on the sphere.
+Add a **Saturate** node to the graph and place it between the **Add** node and the **Base Color** pin in **M_MetalMask**. Connect the **Texture Sample | RGB** to the **Metallic** node.  Plug the output of **MF_BaseColor** for **Specular** and **Roughness**.  We will use the mask for metallic.  You will notice that the circles (black part of the mask) are not metalic and the rest is. Press the <kbd>Apply</kbd> button.
 
 ![add constant node, set to 0 and add to roughness](images/connectOtherProps.png)
 
@@ -66,17 +66,17 @@ Add a **Constant** node to the graph set the **Default** to `0`. Plug the output
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go into the game and move the camera to **Room 3**. Change to **Place** mode and select the **Basic** menu items.  Drag a **Cube** into the game window.  Name the cube `Reflecting Cube` and move it to the **Room 3** folder.
+Go into the editor and create a material instance of **M_MetalMask** and call it `MI_MetalMask`.  Create a new folder called in **Materials** called `Masks`. Move the new material instance into this folder.
 
-![move cam to room 3 and add a cube to room](images/image_144.jpg)
+![move cam to room 3 and add a cube to room](images/image.png.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add the **M_MetalMask** material to the **Reflecting Cube**.  Add to the level a **World Outliner | Lighting | Sphere Reflection Capture** volume. mMake sure the **Influence Radius** is set to `800` and center it over on top of the cube.
+Place the 
 
-![add m_metalmask to cube](images/image_145.jpg)
+![add m_metalmask to cube](images/placeCube.png)
 
 ![](../images/line2.png)
 
