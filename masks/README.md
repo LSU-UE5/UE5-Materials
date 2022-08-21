@@ -148,6 +148,8 @@ Double click the new Material and add a **Texture Sample** node. Add the **T_Sin
 
 Connect the output of the **MF_Base Color | Base Color** node and connect it to the **Base Color** mode.  Then we need to change the blend mode.  As we want the black portion to cut a hole in the shape.  So change the **Blend** mdoe to `Masked` on **M_OpacityMask**.
 
+There are different blend modes available in the shaders.  To read more about it go to this section in their [manual](https://docs.unrealengine.com/en-us/Engine/Rendering/Materials/MaterialProperties/BlendModes).
+
 ![connect texture sample to opacity mask and change blend mode](images/changeBlendNode.png)
 
 ![](../images/line2.png)
@@ -170,9 +172,9 @@ Lets flip it.  Add a **1-x** node between the **R** and **Opacity Mask** pins.  
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-There are different blend modes available in the shaders.  To read more about it go to this section in their [manual](https://docs.unrealengine.com/en-us/Engine/Rendering/Materials/MaterialProperties/BlendModes).  Now select the **Blend Mode** drop down menu and pick **Masked**.
+  Now select the **Blend Mode** drop down menu and pick **Masked**.
 
-![change blend mode to masked](images/image_154.jpg)
+![change blend mode to masked](images/duplicateOpacityMask.jpg)
 
 ![](../images/line2.png)
 
