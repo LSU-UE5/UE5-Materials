@@ -59,7 +59,7 @@ Double click the **Constant 3 Vector** and change red to `1`.  Right click on th
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets add another **Constant 3 Vector** and right mouse click and select an **Add** node.  This will allow us to add the two vectors together. Now how do additions work?  When you add two vectors together it just adds the red channel R<sub>1</sub> + R2
+Now lets add another **Constant 3 Vector** and right mouse click and select an **Add** node.  This will allow us to add the two vectors together. Now how do additions work?  When you add two vectors together (RGB<sub>1</sub> & RGB<sub>2</sub>) it just adds the red channel R<sub>1</sub> + R<sub>2</sub>, G<sub>1</sub> + G<sub>2</sub> and B<sub>1</sub> + B<sub>2</sub>.
 
 ![put an add node in material](images/FirstAddNode.jpg)
 
