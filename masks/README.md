@@ -192,40 +192,6 @@ Connect **Metallic**, **Specular** and **Roughness** in the node chart. Press th
 
 ![attach metallic, specular and roughness pins](images/connectRestOfPins.png)
 
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-You might have noticed that there is no inside of the box.  The entire inside is clear.  Why is that?  In 3-D modelling the light is only reflected where normals are placed.  Typically in closed surfaces like cubes there are only normals on one side.  Double click the cube static mesh (in the **World Outliner**) and click on **Normals**.  You should see green lines pointing outwards.
-
-![normals on cube face outwards](images/image_156.jpg)
-
-![](../images/line2.png)
-
-##### `Step 23.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-In the **Details** panel of your Material there is a **Two Sided** radio button.  This allows you to let the material know that you want to project light on both sides of each face of the object.  Look how much better it looks!  Press the <kbd>Apply</kbd> button.
-
-![press two sided on material for inside of box](images/TwoSidedMaterial.jpg)
-
-![](../images/line2.png)
-
-##### `Step 24.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Check out the box in game.  Now it looks more like we expect it to. Next up lets make a mask with semi translucent surfaces.
-
-https://user-images.githubusercontent.com/5504953/131201610-d3b85e54-dc15-440a-9ca1-514654b4ef8e.mp4
-
-![](../images/line2.png)
-
-##### `Step 25.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
-
-OK, now lets finish up this section by savin our work and uploading it to GitHub.  Press **Tile | Save All** then **Source Conrol | Submit to Source Control...** and add a description.  Press the <kbd>Submit</kbd> button.  Open up **GitHub Desktop** and **Push** the commited work.
-
-![savell all, commit and push to github](images/Github.jpg)
-
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Masks, Opacity and Translucent II"> -->
