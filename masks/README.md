@@ -32,15 +32,15 @@ Create a new folder under **Textures** called `Masks`. Press the **Import** butt
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new material in the **Materials** folder called `M_MetalMask`. Open the Material and add a **Texture Sample** node and selected the new texture we just created **T_CircleMask_D**.
+Create a new material in the **Materials | Master** folder called `M_MetalMask`. 
 
-![add material called M_MetalMask and add texture](images/mMetalMask.png)
+![add material called M_MetalMask](images/mMetalMask.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Constant 3 Vector** node and select a strong color. I picked a very bright green.
+Open the Material and add a **Texture Sample** node and selected the new texture we just created **T_CircleMask_D**.Add a **Constant 3 Vector** node and select a strong color. I picked a very bright green.
 
 ![add green constant 3 vector](images/image_141.jpg)
 
