@@ -127,7 +127,44 @@ Duplicate the marble material ball and text and move it to the right. Change the
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
+Duplicate **Materials | Surfaces | MI_**
+![alt_text](images/dupateAssign.png)
 
+![](../images/line2.png)
+
+##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
 
 
 
