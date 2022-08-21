@@ -23,9 +23,9 @@ Open up the editor and move the **Player Start** actor to **Room 3**.
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Press the **Import** button and go to the folder **Import** and select **[CircleMask_D.tga](../Assets/CircleMask_D.tga)**.
+Create a new folder under **Textures** called `Masks`. Press the **Import** button and go to the folder **Import** and select **[CircleMask.tga](../Assets/T_CircleMask.tga)**. Double click and see that it is a power of 2 texture and is 512 x 512.  It is duotone with just black and white.
 
-![add circlemask_d.tga to project](images/AddCircleMassDiffuse.jpg)
+![add circlemask_d.tga to project](images/tcirclemaskimport.png)
 
 Rename the file and add `T_` in front of the new file to end up with `T_CircleMask_D`.  Go to the **Materials Folder** and create a new Material called `M_Metallic`.
 
