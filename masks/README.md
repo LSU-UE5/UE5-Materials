@@ -180,9 +180,9 @@ Right click on **M_OpacityMaster** and make a **Material Instance** called `MI_O
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Attach the **Texture Sample** to the **Opacity Mask** pin on the material. Now switch to a cube and you will see that the black areas of the map cut into the cube.
+If you guessed a uv issue you are right.  They are only pointing outwards.  This can be fixed by opening up
 
-![look at hole cut in cube](images/image_155.jpg)
+![look at hole cut in cube](images/twoSidedUVs.png)
 
 ![](../images/line2.png)
 
