@@ -23,9 +23,9 @@ Now lets look at how **Unreal** handles colors.  In **Photoshop's** color picker
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
+Download [T_MarbleTile_BCH.png](../Assets/T_MarbleTile_BCH.png), [T_MarbleTile_N.png](../Assets/T_MarbleTile_N.png) and [T_MarbleTile_MSRAO.png](../Assets/T_MarbleTile_MSRAO.png). Drag them into the **Textures | Surface** folder.  Make sure the normal map has the correct type of compression.
 
-
-![red in unreal color picker](images/MarbleTileTextures.png)
+![download three textures](images/MarbleTileTextures.png)
 
 ![](../images/line2.png)
 
