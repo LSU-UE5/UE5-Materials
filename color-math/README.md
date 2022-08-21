@@ -113,7 +113,7 @@ Now right click the vector and select **Convert to Parameter**.  Call it `Base C
 
 Now since we have added a parameter lets change the **Metallic** node to **Sort Priority** `11` and **Metallic | Specular | Roughness | AO** to `12`.
 
-![duplicate carpet and add material, build then play](images/changeOrder.png)
+![change priority of metallic and msrao textures](images/changeOrder.png)
 
 https://user-images.githubusercontent.com/5504953/130363649-5c11e393-8024-4c27-9861-76054f67d7eb.mp4
 
@@ -121,9 +121,9 @@ https://user-images.githubusercontent.com/5504953/130363649-5c11e393-8024-4c27-9
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Add comments to nodes in three materials. Select the nodes you want to comment by dragging a box around them with the left mouse button.  The press the <kbd>C</kbd> key to write a comment.
+Duplicate the marble material ball and text and move it to the right. Change the text on the title to `Green Marble Tile`.
 
-https://user-images.githubusercontent.com/5504953/130367242-941b5c87-1d10-4ee5-8b1b-31a04f0fda7e.mp4
+![duplicate the material ball and text](images/addAnotherBallText.png)
 
 ![](../images/line2.png)
 
