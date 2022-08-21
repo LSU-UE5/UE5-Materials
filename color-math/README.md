@@ -45,7 +45,7 @@ Assign **MI_MarbleTile** to the new material ball.  Open up the material and cha
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Open up **MI_MarbleTile** and add a **3 Vector** to the node chart under the **Base Color**.
+Open up **MI_MarbleTile** and add a **Constant3Vector** to the node chart under the **Base Color**.
 
 ![add constant three vector](images/const3Vect.png)
 
