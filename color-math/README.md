@@ -115,8 +115,6 @@ Now since we have added a parameter lets change the **Metallic** node to **Sort 
 
 ![change priority of metallic and msrao textures](images/changeOrder.png)
 
-https://user-images.githubusercontent.com/5504953/130363649-5c11e393-8024-4c27-9861-76054f67d7eb.mp4
-
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
