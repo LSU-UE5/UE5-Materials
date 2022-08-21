@@ -31,19 +31,13 @@ Some objects like glass need to be translucent.  Now in games we want to try and
 ![T_CircleMask_T](images/tCircleFeather.png)
 
 
-
-![add T_CircleMask_T to textures folder](images/image_158.jpg)
-
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new material called `M_Translucent` and place it in your **Materials** folder.
+Create a new material called `M_Translucent` and place it in your **Materials | Master** folder. Change the blend mode to `Translucent`.  Notice that many pins are no longer available in this render node.  All the releveant PBR pins disappear so we are pretty limited in this expensive mode.
 
-
-Open the **M_Translucent** material and add a **Texture Sample** node.
-
-![add texture sample node to m_translucent](images/image_159.jpg)
+![add texture sample node to m_translucent](images/mOpacity.png)
 
 ![](../images/line2.png)
 
