@@ -43,7 +43,7 @@ Create a new material called `M_Translucent` and place it in your **Materials | 
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now add the mask we just imported to the node chart.  Then send it to a **1-x** node then on to the **Opacity** pin.  Notice we have a more feathered effect.  Please note this is computationally very expensive.
+Now add the mask we just imported to the node chart as a **Texture Sample**.  Then send it to a **1-x** node then on to the **Opacity** pin.  Notice we have a more feathered effect.  Please note this is computationally very expensive.
 
 ![add T_CircleMaskT to texture](images/opacityPins.png)
 
@@ -51,9 +51,9 @@ Now add the mask we just imported to the node chart.  Then send it to a **1-x** 
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Change the **Blend Mode** in the **Details** panel to **Translucent** and hook the output of the texture to the **Opacity** pin in the shader. Press the <kbd>Apply</kbd> button.
+
     
-![change blend mode to translucent](images/image_161.jpg)
+![change blend mode to translucent](images/twosided.png)
 
 ![](../images/line2.png)
 
