@@ -1,6 +1,6 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Translucent Blend Mode
+### Masks, Opacity & Translucent II
 
 <sub>[previous](../texture-masks/README.md#user-content-texture-masks) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../illumination/README.md#user-content-illumination)</sub>
 
