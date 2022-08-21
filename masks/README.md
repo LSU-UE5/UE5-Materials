@@ -148,7 +148,7 @@ Double click the new Material and add a **Texture Sample** node. Add the **T_Sin
 
 Connect the output of the **Texture Sample** node and connect it to the **Opacity Mask** mode.  This does nothing and it is grayed out. We will fix this shortly.
 
-![connect texture sample to opacity mask](images/addTextureBaseColor.jpg)
+![connect texture sample to opacity mask](images/changeBlendNode.png)
 
 ![](../images/line2.png)
 
