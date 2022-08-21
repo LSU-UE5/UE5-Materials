@@ -146,7 +146,7 @@ Double click the new Material and add a **Texture Sample** node. Add the **T_Sin
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Connect the output of the **MF_Base Color | Base Color** node and connect it to the **Base Color** mode.  Then we need to change the blend mode.  As we want the black portion to cut a hole in the shape.  So change the **Blend** mdoe to `Masked` on **M_OpacityMask**.
+Connect the output of the **MF_Base Color | Base Color** node and connect it to the **Base Color** mode.  Then we need to change the blend mode.  As we want the black portion to cut a hole in the shape.  So change the **Blend** mode to `Masked` on **M_OpacityMask**.
 
 There are different blend modes available in the shaders.  To read more about it go to this section in their [manual](https://docs.unrealengine.com/en-us/Engine/Rendering/Materials/MaterialProperties/BlendModes).
 
