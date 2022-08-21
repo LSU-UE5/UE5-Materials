@@ -99,7 +99,7 @@ https://user-images.githubusercontent.com/5504953/130356614-5152993d-70ff-48bf-a
 
 OK, lets delete all of these nodes except the **Constant Vector 3** and **Multiply** node. Now adjust the color of the **Constant Vector 3** to `1`, `1`, `1` or pure white.  Connect the **Texture Parameter | RGB** output to the **Multiply | A** input.  Connect the output of the **Multiply | B** node into the **Base Color** node in the shader. Notice that this shades the texture red as it multplies the blue and the green channel by `0` leaving only the red channel (probably not at a full value of one).
 
-![multiply base color texture by red to tint material](images/TintCarpetRed.jpg)
+![multiply base color texture by white to tint material](images/addTintNodes.jpg)
 
 ![](../images/line2.png)
 
