@@ -101,7 +101,9 @@ https://user-images.githubusercontent.com/5504953/185811730-86476e82-1011-434c-9
 
 Now what if we wanted the opposite? What if want the green dot to be reflective and the rest of the surface be matte?  We could go to photoshop and invert the image, but we can do this in the material.  Open the **M_Metallic** and add a **OneMinus** node. 
 
-Connect the output of the **Texture Sample | R** node to the **1-x** node and put that output in Metallic.  Select the cube to preview and now you can see that it only reflects inside the green dots.
+Connect the output of the **Texture Sample | R** node to the **1-x** node and put that output in **Metallic**.  Press the <kbd>Apply</kbd> button. Select the cube to preview and now you can see that it the metallic has flipped to affect the dots.  How does it do it?
+
+When you normalize a range between 0 and 1 then the inverse is always 1-x.  So if we have .8, the inverse is 1 - .8 = .2.  If we have 1 then the inverse is 1 - 1 which is 0.  If we have 0 then the inverse is 1-0 which is 1.  So you can see for grey scale normalized maps this is powerful.  We can invert a single channel and leave base color alone so the black dot is still black (turning green).
 
 ![add one minus node](images/oneMInus.png)
 
@@ -110,9 +112,7 @@ Connect the output of the **Texture Sample | R** node to the **1-x** node and pu
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-To see what the 1-X node does, right click and select **Start Previewing Node**.  See how it just inverts the image.  Turn off the preview and press the **Apply** button.
-
-![connect one minus to the matalic flow to reverse effect](images/image_148.jpg)
+*Press* the <kbd>Play</kbd> button and now the metallic part has inverted and the green dot is metallic and the rest is non-metallic based on the mask applied.
 
 ![](../images/line2.png)
 
