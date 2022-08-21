@@ -26,17 +26,20 @@ Now in game you can play with the settings and change the tint color.  Notice th
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Some objects like glass need to be translucent.  Now in games we want to try and limit how many we use.  This material is very expensive computationally and should be used with discretion. Create a new material called `M_Translucent` and place it in your **Materials** folder.
+Some objects like glass need to be translucent.  Now in games we want to try and limit how many we use.  This material is very expensive computationally and should be used with discretion. Go to the **Textures | Mask** folder and add **[T_CircleMask_T.png](../Assets/T_CircleFeathered.png)** to the game.
 
-![add material called m_translucent](images/tCircleFeather.png)
+![T_CircleMask_T](images/tCircleFeather.png)
 
-Go to the **Textures** folder and add **[T_CircleMask_T.tga](../Assets/T_CircleMask_T.tga)** to the game and rename it to `T_CircleMask_T`.
+
 
 ![add T_CircleMask_T to textures folder](images/image_158.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Create a new material called `M_Translucent` and place it in your **Materials** folder.
+
 
 Open the **M_Translucent** material and add a **Texture Sample** node.
 
