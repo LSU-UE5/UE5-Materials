@@ -172,9 +172,9 @@ Lets flip it.  Add a **1-x** node between the **R** and **Opacity Mask** pins.  
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-  Now select the **Blend Mode** drop down menu and pick **Masked**.
+Right click on **M_OpacityMaster** and make a **Material Instance** called `MI_OpacityMask`.  Put it in the **Materials | Mask** folder.  Duplicate the cube in room 3 and assign the **MI_OpacityMask** material.  You will now seee the mask.  What is the problem?  Where is the inside of the box?  Why is it blank?  Could it have to do with UVs?
 
-![change blend mode to masked](images/duplicateOpacityMask.png)
+![create material instance and assign to new cube](images/duplicateOpacityMask.png)
 
 ![](../images/line2.png)
 
