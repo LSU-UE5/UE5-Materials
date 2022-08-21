@@ -2,7 +2,7 @@
 
 ### Material Color Math
 
-<sub>[previous](../solid-material-iv/README.md#user-content-solid-material-iv) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../material-instances/README.md#user-content-material-instances)</sub>
+<sub>[previous](../solid-material-iv/README.md#user-content-solid-material-iv) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../masks/README.md#user-content-masks-opacity--translucent)</sub>
 
 ![](../images/line3.png)
 
@@ -187,5 +187,5 @@ Select the **File | Save All** then press the <kbd>Source Control</kbd> button a
 ![](../images/line.png)
 
 
-| [previous](../solid-material-iv/README.md#user-content-solid-material-iv)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../material-instances/README.md#user-content-material-instances)|
+| [previous](../solid-material-iv/README.md#user-content-solid-material-iv)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../masks/README.md#user-content-masks-opacity--translucent)|
 |---|---|---|

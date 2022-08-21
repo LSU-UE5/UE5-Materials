@@ -25,11 +25,8 @@ Lets look at **[Physically Based Rendering Materials (PBR)](https://en.wikipedia
 <kbd></kbd> &nbsp;&nbsp; [Solid Material II](solid-material-ii/README.md#user-content-solid-material-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Solid Material III](solid-material-iii/README.md#user-content-solid-material-iii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Solid Material IV](solid-material-iv/README.md#user-content-solid-material-iv) <br>
-<kbd></kbd> &nbsp;&nbsp; [Texture Coordinates](texture-coord/README.md#user-content-texture-coordinates) <br>
 <kbd></kbd> &nbsp;&nbsp; [Material Color Math](color-math/README.md#user-content-material-color-math) <br>
-<kbd></kbd> &nbsp;&nbsp; [Material Instances](material-instances/README.md#user-content-material-instances) <br>
-<kbd></kbd> &nbsp;&nbsp; [Adding Parameters](adding-parameters/README.md#user-content-adding-parameters) <br>
-<kbd></kbd> &nbsp;&nbsp; [Texture Masks](texture-masks/README.md#user-content-texture-masks) <br>
+<kbd></kbd> &nbsp;&nbsp; [Masks, Opacity & Translucent](masks/README.md#user-content-amsks-opacity--translucent) <br>
 <kbd></kbd> &nbsp;&nbsp; [Translucent Blend Mode](translucent/README.md#user-content-translucent-blend-mode) <br>
 <kbd></kbd> &nbsp;&nbsp; [Illumination](illumination/README.md#user-content-illumination) <br>
 <kbd></kbd> &nbsp;&nbsp; [Two Sided Material](two-sided/README.md#user-content-two-sided-material) <br>
