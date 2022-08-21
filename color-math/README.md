@@ -1,10 +1,10 @@
-![alt_text](images/.png)
+![](../images/line3.png)
 
 ### Material Color Math
 
 <sub>[previous](../solid-material-iv/README.md#user-content-solid-material-iv) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../material-instances/README.md#user-content-material-instances)</sub>
 
-![alt_text](images/.png)
+![](../images/line3.png)
 
 Lets look at how we can use basic addition and multiplication to alter colors in a material.  This allows us to make changes without necessarily having to go back to **Substance** or **Photoshop** to adjust colors.
 
