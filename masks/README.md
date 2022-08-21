@@ -93,6 +93,8 @@ Add **MI_Mask** material to the cube.
 
 Change **Roughness** to `0`.  Change the white tint color to **Green** (0, 1, 0). *Press* the <kbd>Play</kbd> button and see that the areas in the mask that were white are metallic and the portions in black are non metalic but green.  Think about why this is so?
 
+https://user-images.githubusercontent.com/5504953/185811730-86476e82-1011-434c-92e4-0d4a5381381a.mp4
+
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
