@@ -43,9 +43,9 @@ Create a new material called `M_Translucent` and place it in your **Materials | 
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Assign the newly dowloaded **Texture** called **T_CircleMask_T**  Now for the mask we see the gray.  This will be partially opaque.  The white rings will be completly opaque and the black will be transparent like in the previous mask.  Now it is greyed out so we need to change the blend mode. We cannot hook the pin up to **Opacity** as the blend type is wrong.
+Now add the mask we just imported to the node chart.  Then send it to a **1-x** node then on to the **Opacity** pin.  Notice we have a more feathered effect.  Please note this is computationally very expensive.
 
-![add T_CircleMaskT to texture](images/image_160.jpg)
+![add T_CircleMaskT to texture](images/opacityPins.png)
 
 ![](../images/line2.png)
 
