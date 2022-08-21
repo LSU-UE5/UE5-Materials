@@ -49,13 +49,17 @@ Open up **MI_MarbleTile** and add a **Constant3Vector** to the node chart under 
 
 ![add constant three vector](images/const3Vect.png)
 
-
-
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Now in **Unreal** it represents each channel with a number from `0` to `1`.  So if we want to convert from Photoshop style RGB to Unreal we need to divide the value by `/255`.  So the same representation of pure **Red** in UE4 is `255/255`, `0/255`, `0/255`.  This ends up with `1,0,0`.  So UE4 normalizes each range of each color channel between `0` and `1`.
+Now in **Unreal** it represents each channel with a number from `0` to `1`.  So if we want to convert from Photoshop style RGB to Unreal we need to divide the value by `/255`.  So the same representation of pure **Red** in UE4 is `255/255`, `0/255`, `0/255`.  This ends up with `1,0,0`.  So UE5 normalizes each range of each color channel between `0` and `1`.
 
-![red in unreal color picker](images/image_66.jpg)
+Double click the **Constant 3 Vector** and change red to `1`.  Right lic
+
+
+
+![red in unreal color picker](images/previewRed.png)
+
+##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 The reason to normalize the value is that we can add and multiply the color and get consistent predictable results.  Lets take a look at this.  Duplicate **M_OfficeCarpet**, call it `M_OfficeCarpet_Color` and right click on the empty graph and add a **Constant 3 Vector** node.
 
@@ -78,8 +82,6 @@ In the material right mouse click and select an **Add** node.  This will add the
 ![put an add node in material](images/FirstAddNode.jpg)
 
 ![](../images/line2.png)
-
-##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Connect the two **Constant Vector 3** nodes to the **Add**. Hit **Start Previewing Node** on the **Add** node.  Now it adds up all three channels making them .5 + .5 so each channel is `1`.  This makes it much lighter.
 
