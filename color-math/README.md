@@ -31,6 +31,13 @@ Download [T_MarbleTile_BCH.png](../Assets/T_MarbleTile_BCH.png), [T_MarbleTile_N
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+![download three textures](images/dupeMarble.png)
+
+
+
+![](../images/line2.png)
+
+##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now in **Unreal** it represents each channel with a number from `0` to `1`.  So if we want to convert from Photoshop style RGB to Unreal we need to divide the value by `/255`.  So the same representation of pure **Red** in UE4 is `255/255`, `0/255`, `0/255`.  This ends up with `1,0,0`.  So UE4 normalizes each range of each color channel between `0` and `1`.
 
@@ -39,10 +46,6 @@ Now in **Unreal** it represents each channel with a number from `0` to `1`.  So 
 The reason to normalize the value is that we can add and multiply the color and get consistent predictable results.  Lets take a look at this.  Duplicate **M_OfficeCarpet**, call it `M_OfficeCarpet_Color` and right click on the empty graph and add a **Constant 3 Vector** node.
 
 ![dupe m_officecarpet and call it the same with color and add constant 3 node](images/Const3Vect.jpg)
-
-![](../images/line2.png)
-
-##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Lets make this color mid gray.  Double click on the black square on the **Vec 3** node. Set the **RGB** channel to `0.5`.",
 
