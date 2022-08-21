@@ -55,15 +55,9 @@ Now in **Unreal** it represents each channel with a number from `0` to `1`.  So 
 
 Double click the **Constant 3 Vector** and change red to `1`.  Right click on the color and select **Start Previewing Node**.  This allows you to look at the color in different parts of the flowchart.  This is the best way to debug materials.  Notice the red ball is now read.
 
-
-
 ![red in unreal color picker](images/previewRed.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-The reason to normalize the value is that we can add and multiply the color and get consistent predictable results.  Lets take a look at this.  Duplicate **M_OfficeCarpet**, call it `M_OfficeCarpet_Color` and right click on the empty graph and add a **Constant 3 Vector** node.
-
-![dupe m_officecarpet and call it the same with color and add constant 3 node](images/Const3Vect.jpg)
 
 Lets make this color mid gray.  Double click on the black square on the **Vec 3** node. Set the **RGB** channel to `0.5`.",
 
