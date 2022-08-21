@@ -174,7 +174,7 @@ Lets flip it.  Add a **1-x** node between the **R** and **Opacity Mask** pins.  
 
   Now select the **Blend Mode** drop down menu and pick **Masked**.
 
-![change blend mode to masked](images/duplicateOpacityMask.jpg)
+![change blend mode to masked](images/duplicateOpacityMask.png)
 
 ![](../images/line2.png)
 
