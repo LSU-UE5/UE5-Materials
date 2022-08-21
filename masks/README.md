@@ -40,9 +40,9 @@ Create a new material in the **Materials | Master** folder called `M_MetalMask`.
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open the Material and add a **Texture Sample** node and selected the new texture we just created **T_CircleMask**.Add a **Constant 3 Vector** node and select a strong color. I picked a very bright green.
+Open the Material and add a **Texture Sample** node and selected the new texture we just created **T_CircleMask**. Drag the material function **Materials | MaterialFunctions | MF_BaseColor** to the chart under the texture sample.
 
-![add green constant 3 vector](images/textBaseColor.png)
+![add a tcircle texture and mf_base color material function](images/textBaseColor.png)
 
 ![](../images/line2.png)
 
