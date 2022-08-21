@@ -129,9 +129,6 @@ Duplicate the marble material ball and text and move it to the right. Change the
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-OK, now lets finish up this section by savin our work and uploading it to GitHub.  Press **Tile | Save All** then **Source Conrol | Submit to Source Control...** and add a description.  Press the <kbd>Submit</kbd> button.  Open up **GitHub Desktop** and **Push** the commited work.
-
-![save, commit and push to github](images/Github.jpg)
 
 
 
