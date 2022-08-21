@@ -27,9 +27,6 @@ Create a new folder under **Textures** called `Masks`. Press the **Import** butt
 
 ![add circlemask_d.tga to project](images/tcirclemaskimport.png)
 
-Rename the file and add `T_` in front of the new file to end up with `T_CircleMask_D`.  Go to the **Materials Folder** and create a new Material called `M_Metallic`.
-
-![rename texture to T_CircleMask_D](images/image_139.jpg)
 
 ![](../images/line2.png)
 
@@ -37,7 +34,7 @@ Rename the file and add `T_` in front of the new file to end up with `T_CircleMa
 
 Create a new material in the **Materials** folder called `M_MetalMask`. Open the Material and add a **Texture Sample** node and selected the new texture we just created **T_CircleMask_D**.
 
-![add material called M_MetalMask and add texture](images/image_140.jpg)
+![add material called M_MetalMask and add texture](images/mMetalMask.png)
 
 ![](../images/line2.png)
 
