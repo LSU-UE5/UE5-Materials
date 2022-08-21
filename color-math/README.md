@@ -135,13 +135,17 @@ Duplicate **Materials | Surfaces | MI_MarbleTile** and call it `MI_GreenMarbleTi
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now open up **MI_GreenMarbleTile** and change the default tint color from white, to a color such as a light green.
+
+![tint tile to green](images/tintColor.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now if we go back to the first material ball the tiling looks very wrong on the ball versus the floor.  Right click on **MI_WildGrass** and select **Duplicate**.  Name it `MI_WildGrassLarge`.  Assign it to the material ball and chnage the 
+
+![alt_text](images/newGrassText.png)
 
 ![](../images/line2.png)
 
