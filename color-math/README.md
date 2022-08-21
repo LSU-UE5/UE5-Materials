@@ -159,13 +159,17 @@ https://user-images.githubusercontent.com/5504953/185789023-b7b6ab15-c5a1-419f-9
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now a bit of housecleaning.  It is a good idea after we add or multiply to make sure we don't go below 0 or above 1.  So lets add a **Saturate** node in **MF_Texture** between the **Multiply** and **Output Base Color** node.
+
+![add saturate node after multiply in mf_texture](images/saturateNode.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+Organize your **Outliner** and put all of the objects in the **Room 2** folder. Name them so they match what is in the scene.  It is good practice to name objects, so you can quickly find them if you need to make changes in the future.
+
+![name outliner and organize](images/organizeName.png)
 
 ![](../images/line2.png)
 
