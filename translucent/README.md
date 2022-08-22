@@ -99,7 +99,7 @@ There are two things we need to do to fix this.  Go back to the Material and cha
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Then go into the game and select the two cubes you previously created. Go into the details panel. Go to the **Lighting | Advanced** section. Look for the Radio line that has **Volumetric Translucent Shadow** and make sure it is set to `true`. 
+Then go into the game and select the two cubes you previously created. Go into the details panel. Go to the **Lighting | Advanced** section. Look for the Radio line that has **Volumetric Translucent Shadow** and make sure it is set to `true`. Notice the shadows pop back into the scene! 
 
 ![look at cube and expand lighting in details panel](images/volumeShadow.png)
 
@@ -108,7 +108,7 @@ Then go into the game and select the two cubes you previously created. Go into t
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
+*Press* the <kbd>Play</kbd> button and look at the four cubes.  Make any adjustments you need but we should have four different masked cubes.
 
 ![make sure volumetric translucent shadows is on static mesh](images/image_167.jpg)
 
