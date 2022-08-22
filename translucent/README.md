@@ -83,9 +83,9 @@ Replace the **texture Sample** with the **T_CircleMask_T** texture.  Remove the 
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the game and it looks better.  But it doesn't cast a shadow.
+Now right click **M_Translucent2** and create a **Material Instance** called `MI_Translucent2`.  Copy another cube and assign the new **MI_Translucent2**. But it doesn't cast a shadow, nor does the previous cube.
 
-![alt_text](images/image_164.jpg)
+![add translucent2 to new cube](images/translucent2.png)
 
 ![](../images/line2.png)
 
