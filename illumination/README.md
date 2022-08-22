@@ -1,12 +1,12 @@
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-### Illumination
+### Emmisive Material
 
 <sub>[previous](../translucent/README.md#user-content-translucent-blend-mode) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../two-sided/README.md#user-content-two-sided-material)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Now for some objects in the game, they will also be a light source.  Think of the sun, a lamp, a TV set etc...  So our materials can handle light blooms and glow to create the illusion that it is illumiating in game.  To really sell this effect we also need to add a game light to actually light the scene. We will do this but we will work the entire pipeline from a final FBX to a model in the scene.
+Now for some objects in the game, they will also be a light source.  Think of the sun, a lamp, a TV set etc...  So our materials can handle light blooms and glow to create the illusion that it is illumiating in game.  We will create a new master material and material function to handle this extra mask that will be used to indicate what part of the model will emit light.
 
 <br>
 
@@ -15,7 +15,7 @@ Now for some objects in the game, they will also be a light source.  Think of th
 
 ##### `Step 1.`\|`SUU&G`|:small_blue_diamond:
 
-We will be using a spotlight which will have a glow on the lightbulb as well as a light placed in it.  We need to download **[T_Spotlight_D](../Assets/T_Spotlight_D.png)**, **[T_Spotlight_AO](../Assets/T_Spotlight_AO.png)**, **[T_Spotlight_I](../Assets/T_Spotlight_I.png)**, **[T_Spotlight_M](../Assets/T_Spotlight_M.png)**, **[T_Spotlight_N](../Assets/T_Spotlight_N.png)** and **[T_Spotlight_Rough](../Assets/T_Spotlight_Rough.png)**. Drag them into the textures folder. Notice that the engine recognized the normal map of **T_Spotlight_N** so we know it is probably in the correct direction and is using normal map image compression.
+We will be using a spotlight which will have a glow on the lightbulb as well as a light placed in it.  Create a new folder called `Props` inside the **Textures** folder. We need to download **[T_Spotlight_MSRAO.png](../Assets/ç.png)**, **[T_Spotlight_N.png](../Assets/T_Spotlight_N.png)** and **[T_Spotlight_MSRAO.png](../Assets/T_Spotlight_MSRAO.png)**. Drag them into the textures folder. Double check that the engine recognized the normal map of **T_Spotlight_N** and is using normal map image compression.
 
 ![add five SpotlightModel textures to game](images/ImportLampMaterials.jpg)
 
