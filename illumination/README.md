@@ -17,7 +17,7 @@ Now for some objects in the game, they will also be a light source.  Think of th
 
 We will be using a spotlight which will have a glow on the lightbulb as well as a light placed in it.  Create a new folder called `Props` inside the **Textures** folder. We need to download **[T_Spotlight_MSRAO.png](../Assets/ç.png)**, **[T_Spotlight_N.png](../Assets/T_Spotlight_N.png)** and **[T_Spotlight_MSRAO.png](../Assets/T_Spotlight_MSRAO.png)**. Drag them into the textures folder. Double check that the engine recognized the normal map of **T_Spotlight_N** and is using normal map image compression.
 
-![add five SpotlightModel textures to game](images/ImportLampMaterials.jpg)
+![add five SpotlightModel textures to game](images/tSpotlightT.png)
 
 <img src="https://via.placeholder.com/500x2/45D7CA/45D7CA" alt="drawing" height="2px" alt = ""/>
 
