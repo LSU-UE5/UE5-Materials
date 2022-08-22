@@ -110,7 +110,6 @@ Then go into the game and select the two cubes you previously created. Go into t
 
 *Press* the <kbd>Play</kbd> button and look at the four cubes.  Make any adjustments you need but we should have four different masked cubes.
 
-![make sure volumetric translucent shadows is on static mesh](images/image_167.jpg)
 
 ![](../images/line2.png)
 
