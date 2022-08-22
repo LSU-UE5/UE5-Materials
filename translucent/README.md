@@ -116,9 +116,9 @@ https://user-images.githubusercontent.com/5504953/185826507-028d08f9-f278-443a-8
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Double check that the **Lighting | Directional Light** is **Stationary**. Open up **SM_Floor2** and set the **Min Lightmap Resolution** to `256`. Press the <kbd>Build</kbd> button to rebuild the lights.
+Now there is a problem. This is a non-nanite model.  So what happens with a nanite model?  Lets find out.  Go into **Modeling Mode** and select a 
 
-![set min lightmap res to 256](images/MinLightMapRes.jpg)
+![set min lightmap res to 256](images/addAnotherCube.png)
 
 ![](../images/line2.png)
 
