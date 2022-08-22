@@ -30,17 +30,17 @@ Create a new folder in **Meshes** called `Props`. Drag the **[SM_Spotlight.fbx](
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You should have a bracket and lamp mesh.  They are separate meshes so we can rotate the lamp at different angles. Rename them to `SM_Spotlight_Bracket` and `SM_Spotlight_Lamp`.
+You should have a bracket and lamp mesh.  They are separate meshes so we can rotate the lamp at different angles. Rename them to `SM_SpotlightBracket` and `SM_SpotlightLamp`.
 
-![lamp and bracket static mesh renamed appending SM_](images/renameSpotlights.jpg)
+![lamp and bracket static mesh renamed appending SM_](images/renameSpotlightMesh.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets go to the **Materials** folder and create a new Material called `M_BrushedSteel`.
+Go to the **Materials | Master** folder and right click on **M_Basic** and select Lets go to the **Materials** folder and create a new Material called `M_BrushedSteel`.
 
-![create new material m_brushedsteel](images/image_177.jpg)
+![create new material m_brushedsteel](images/createMIBrushedSteel.png)
 
 ![](../images/line2.png)
 
