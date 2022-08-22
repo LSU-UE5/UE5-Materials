@@ -99,16 +99,16 @@ There are two things we need to do to fix this.  Go back to the Material and cha
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Then go into the game and select the cube you previously created. Go into the details panel. Go to the **Lighting** section and there is a downward arrow under **Shadows**.  Click this to expand the selection.
+Then go into the game and select the two cubes you previously created. Go into the details panel. Go to the **Lighting | Advanced** section. Look for the Radio line that has **Volumetric Translucent Shadow** and make sure it is set to `true`. 
 
-![look at cube and expand lighting in details panel](images/image_166.jpg)
+![look at cube and expand lighting in details panel](images/volumeShadow.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Look for the Radio Button that has **Volumetric Translucent Shadow** and make sure it is selected. 
+
 
 ![make sure volumetric translucent shadows is on static mesh](images/image_167.jpg)
 
