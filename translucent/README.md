@@ -51,7 +51,7 @@ Now add the mask we just imported to the node chart as a **Texture Sample**.  Th
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Now add a **Constant 3 Vector** and make it solid blue (0, 0, 1).  Put the output pin into **Base Color**.  Set **Two Sided** on the **M_Translucent** node to `true`.
+Now add a **Constant 3 Vector** and make it solid blue (0, 0, 1).  Put the output pin into **Base Color**.  Set **Two Sided** on the **M_Translucent** node to `true`. Press the <kbd>Apply</kbd> button.
     
 ![change blend mode to translucent](images/twosided.png)
 
@@ -59,7 +59,7 @@ Now add a **Constant 3 Vector** and make it solid blue (0, 0, 1).  Put the outpu
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-
+Create a new **Material Instance** from **M_Translucent** called `MI_Translucent`.  Move it to the **Materials | Mask** folder.  Duplicate a cube and pull it to the right and drop the **MI_Translucent** on the third cube.
 
 ![add another cube with new material](images/dupateAndCopy.png)
 
@@ -67,9 +67,7 @@ Now add a **Constant 3 Vector** and make it solid blue (0, 0, 1).  Put the outpu
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Play the game to look at it.  Lets add a color to it and also fix the same two sided problem we had on the previous mask.
-
-https://user-images.githubusercontent.com/5504953/131202256-edce92f3-514c-4eb3-b493-e99a7cc398fa.mp4
+Download [T_CircleMask_T.png](../Assets/T_CircleMask_T.tga) and put it in the **Textures | Masks** folder.
 
 ![](../images/line2.png)
 
