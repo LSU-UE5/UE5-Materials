@@ -22,9 +22,9 @@ We will be using a spotlight which will have a glow on the lightbulb as well as 
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Drag the **[Spolitght.fbx](../Assets/Spotlight.FBX)** into the **Static Meshes** folder with the requesite settings.
+Create a new folder in **Meshes** called `Props`. Drag the **[SM_Spotlight.fbx](../Assets/SM_Spotlight.fbx)** into the **Meshes | Props** folder.  The emissive channel works on nanite models and we need to create a collision volume for these models.  Also, do not create a default material.
 
-![import splotlightmodel fbx](images/ImportLampModel.jpg)
+![import splotlightmodel fbx](images/importSpotlight.png)
 
 ![](../images/line2.png)
 
