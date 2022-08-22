@@ -61,7 +61,7 @@ Now add a **Constant 3 Vector** and make it solid blue (0, 0, 1).  Put the outpu
 
 
 
-![add another cube with new material](images/dupateAndCopy.jpg)
+![add another cube with new material](images/dupateAndCopy.png)
 
 ![](../images/line2.png)
 
