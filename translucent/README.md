@@ -91,9 +91,9 @@ Now right click **M_Translucent2** and create a **Material Instance** called `MI
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-There are two things we need to do to fix this.  Go back to the Material and change the **Lighting Mode** to `Surface Translucency Volume`. Press the <kbd>Apply</kbd> button.
+There are two things we need to do to fix this.  Go back to the Material and change the **Lighting Mode** to `Surface Translucency Volume`. Press the <kbd>Apply</kbd> button. Do this for both **M_Translucent** and **M_Translucent2**.
 
-![change lighting mode to surface translucency volume](images/image_165.jpg)
+![change lighting mode to surface translucency volume](images/surfaceTranslucent.png)
 
 ![](../images/line2.png)
 
