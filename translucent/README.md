@@ -176,11 +176,13 @@ Select the **File | Save All** then press the <kbd>Source Control</kbd> button a
 ![save all and submit to perforce](images/submitP4.png)
 
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
 
-<img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Illumination">
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Illumination"> -->
+![next up next tile](images/banner.png)
 
-<img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
+![](../images/line.png)
+
 
 | [previous](../masks/README.md#user-content-masks-opacity--translucent)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../illumination/README.md#user-content-illumination)|
 |---|---|---|
