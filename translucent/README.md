@@ -124,15 +124,54 @@ Now there is a problem. This is a non-nanite model.  So what happens with a nani
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Add a new folder in **Meshes** called
-![add 300 unit cube square to level](images/sm_cubeNanite.png)
+Add a new folder in **Meshes** called `BasicGeometry`. Rename the box `SM_CubeNanite` and move it into the **BasicGeometry** folder.
 
+![rename cube to sm_cubenanite and move to meshes folder](images/sm_cubeNanite.png)
 
 ![](../images/line2.png)
 
+
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
-Lets **Save All**, **Build** the lighting and open GitHub Desktop.  Press **Source Control** and add your latest changes to GitHub.  Commit the last set of changes and push them to the server wiht GitHub Desktop.  We are now done with room 3! 
-![save, commit and push to github](images/Github.jpg)
+
+Open up **SM_CubeNanite** and enable **Nanites**.
+
+![enable nanites on sm_cubenanite](images/enableNanite.png)
+
+![](../images/line2.png)
+
+##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
+
+![alt_text](images/.png)
+
+![](../images/line2.png)
+
+##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+![alt_text](images/.png)
 
 ___
 
