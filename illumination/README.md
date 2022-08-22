@@ -38,7 +38,7 @@ You should have a bracket and lamp mesh.  They are separate meshes so we can rot
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Materials | Master** folder and right click on **M_Basic** and select Lets go to the **Materials** folder and create a new Material called `M_BrushedSteel`.
+Go to the **Materials | Master** folder and right click on **M_Basic** and select **Create Material Instance**. Call this new material instance `MI_BrushedSteel`. Move it to the **Material | Surfaces** folder.
 
 ![create new material m_brushedsteel](images/createMIBrushedSteel.png)
 
