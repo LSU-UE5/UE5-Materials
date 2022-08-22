@@ -116,17 +116,17 @@ https://user-images.githubusercontent.com/5504953/185826507-028d08f9-f278-443a-8
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now there is a problem. This is a non-nanite model.  So what happens with a nanite model?  Lets find out.  Go into **Modeling Mode** and select a 
+Now there is a problem. This is a non-nanite model.  So what happens with a nanite model?  Lets find out.  Go into **Modeling Mode** and select a **Shape | Box** and make it `300` cubed.  We will have 6 subdivisions per dimension.  Place it in the level then press the <kbd>Complete</kbd> button.
 
-![set min lightmap res to 256](images/addAnotherCube.png)
+![add 300 unit cube square to level](images/addAnotherCube.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go into the game and play it and look at the cube.  We have a nice soft shadow next to the hard ones!
+Add a new folder in **Meshes** called
+![add 300 unit cube square to level](images/sm_cubeNanite.png)
 
-https://user-images.githubusercontent.com/5504953/131202770-5b1492a3-0fa7-4579-af31-cd1cf832a67d.mp4
 
 ![](../images/line2.png)
 
