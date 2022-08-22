@@ -59,7 +59,7 @@ Now add a **Constant 3 Vector** and make it solid blue (0, 0, 1).  Put the outpu
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Now go into the game and test it out.  Add another cube to the scene and bind the latest Material we just created. 
+Now go into the game and test it out.  Add another cube to the scene and bind the latest Material we just created. Now we can't affect metallic, specular or roughness, so it is a pretty flat blue.
 
 ![add another cube with new material](images/image_162.jpg)
 
