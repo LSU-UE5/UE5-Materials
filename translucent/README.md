@@ -51,7 +51,7 @@ Now add the mask we just imported to the node chart as a **Texture Sample**.  Th
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-
+Now add a **Constant 3 Vector** and make it solid blue (0, 0, 1).  Put the output pin into **Base Color**.  Set **Two Sided** on the **M_Translucent** node to `true`.
     
 ![change blend mode to translucent](images/twosided.png)
 
