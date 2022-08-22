@@ -67,7 +67,9 @@ Create a new **Material Instance** from **M_Translucent** called `MI_Translucent
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Download [T_CircleMask_T.png](../Assets/T_CircleMask_T.tga) and put it in the **Textures | Masks** folder.
+Download [T_CircleMask_T.png](../Assets/T_CircleMask_T.tga) and put it in the **Textures | Masks** folder. Go to **Materials | Master** and deuplicate **M_Translucent** and call it `M_Translucent2`.
+
+![duplicate m_translucent](images/dupeTranslucent.png)
 
 ![](../images/line2.png)
 
