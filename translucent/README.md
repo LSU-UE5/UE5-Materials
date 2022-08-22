@@ -75,9 +75,9 @@ Download [T_CircleMask_T.png](../Assets/T_CircleMask_T.tga) and put it in the **
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets add some color and add **Two Sided** to the modes panel. Add a **Constant 3 Vector** node, select a nice color and hook it up to the **Base Color** node.  Make sure **Two Sided** is checked under **Material** in the **Details** panel.
 
-![add an orange color and make material double sided](images/image_163.jpg)
+
+![add an orange color and make material double sided](images/ReplaceTexture.png)
 
 ![](../images/line2.png)
 
