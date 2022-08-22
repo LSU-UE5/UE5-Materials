@@ -46,26 +46,24 @@ Go to the **Materials | Master** folder and right click on **M_Basic** and selec
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Open up **M_BrushedSteel** Add a **Constant 3 Vector** node with `.913`, `.921` and `.915` as the RGB values.
+Open up **MI_BrushedSteel** Add change the **Base Color** from white to  `.913`, `.921` and `.915` as the RGB values. Change **Metalic** to `1.0`, **Specular** to `0.3` and **Roughness** to `0.4`.
 
-![add constant vector with near white color](images/image_178.jpg)
+![add constant vector with near white color and set surface properties](images/steelSettigns.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Plug the outpout of the 3Vector node into the **Base Color** pin in the shader. Add a **Constant** node with a setting of `1` and plug it into the **Metallic** node.
 
-![add a constant of 1 for metallic](images/image_179.jpg)
+![add ](images/.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Repeat this for roughness and add a **Constant** node with a value of `.4` and connect it to the **Roughness** input node in the shader. Press thge <kbd>Apply</kbd> button.
 
-![add a constant of .4 for roughness](images/image_180.jpg)
+![add a](images/.png)
 
 ![](../images/line2.png)
 
