@@ -110,6 +110,7 @@ Then go into the game and select the two cubes you previously created. Go into t
 
 *Press* the <kbd>Play</kbd> button and look at the four cubes.  Make any adjustments you need but we should have four different masked cubes.
 
+https://user-images.githubusercontent.com/5504953/185826507-028d08f9-f278-443a-8316-bae7439b4bcb.mp4
 
 ![](../images/line2.png)
 
