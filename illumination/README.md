@@ -54,8 +54,9 @@ Open up **MI_BrushedSteel** Add change the **Base Color** from white to  `.913`,
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
+Double click the **SM_SpotlightBracket** static mesh. Assign the material you just created **MI_BrushedSteel**.
 
-![add ](images/.png)
+![add mi_brushedsteel to spotlight bracket](images/assignToBracket.png)
 
 
 ![](../images/line2.png)
@@ -69,7 +70,7 @@ Open up **MI_BrushedSteel** Add change the **Base Color** from white to  `.913`,
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Double click the **SM_Spotlight_Bracket** static mesh. Assign the material you just created **M_BrushedSteel**.
+
 
 ![add m_brushedsteel to SM_Sportlight_bracket](images/image_181.jpg)
 
