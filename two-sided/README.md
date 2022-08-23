@@ -32,15 +32,22 @@ Open up **Substance Designer**. Select **File | New | Substance Graph** to creat
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Select the <kbd>Uniform Color</kbd> button to get a solid color.  Now this is an RGB value so selectx the color node and chnage it to **Grayscale**.  We will l
 
+![add uniform color and turn to grayscale](images/uniformGray.png)
 
-![problem resuing T_BaseWhite_BC](images/uniformGray.png)
+![](../images/line2.png)
+
+##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+![problem resuing T_BaseWhite_BC](images/specRough.png)
+
 
 
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
 Lets put a poster in the middle of **Room 5**.  Lets put a separate image on each side of a flat plane like having a poster floating in the middle of the room.  Now go to the **Textures** folder and import **[T_PosterSide1.tga](../Assets/T_PosterSide1.tga)** and **[T_PosterSide2.tga](../Assets/T_PosterSide2.tga)**.
 
@@ -58,10 +65,6 @@ Rotate the poster in the room so it is perpendicular to the floor. Change the **
 Create a new material to place on this plane.  Call it `M_TwoSide_Poster`.  Make sure it is in the **Materials** folder.
 
 ![add new material M_Two_Sided_Poster](images/image_210.jpg)
-
-![](../images/line2.png)
-
-##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
 Open up **M_TwoSide_Poster**. Add a **Texture Sample** node and assign the **T_PosterSide1** to it. Attach the top output pin into the **Base Color** pin in the main Material Node's **Base Color** pin.
 
