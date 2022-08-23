@@ -166,34 +166,9 @@ Now lets drag a wall piece to act as a ceiling of Room 4 to give it a bit of sha
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now illumination on a bright light source like a stage light gets very bright. And in Unreal to have a real bloom on the light you need a value higher than 1. Lets Add a **Scalar Parameter** and call it `Illumination Scalar` that can be adjusted and multiply the mask. Set the default to `6` and connect the nodes. Add a **Multiply** node and multiply the **Emissive** texture by the **Emissive Scalar** and reconnect to the **Emmisive Color** pin to the output of the **Multiply** pin. Press the <kbd>Apply</kbd> button.
+Now perss the **Add Actor** button and search for a **Cube**.  Add this to this under the ceiling then move the light close by.  Adjust the **Brightness Scalar** so you can see the glow of the illumination on the cube. Now this is new to Unreal Engine 5, in the previous version the illuminations did not project light into the world.
 
-![add scalar for emissive pin](images/ScalarForEmissive.jpg)
-
-
-Lets  parent Base Lamp to the Bracket.  This way moving the Bracket parent will move the base with it. This will stop up from accidentally separating the model.  Wherever the bracket goes the lamp follows.
-
-![parent base lamp to bracket](images/image_190.jpg)
-
-This illumination will not cast a spotlight.  We need to add one to this grouping. Now go to the **Place Actors** tab in the main menu and select **Lights**.  Drag a **Spot Light** and place it over the lamp in the scene.
-
-![add spotlight to scene](images/image_191.jpg)
-
-Parent the spotlight to the Lamp.  This way when you move the bracket it will move all the geometry and light and leave them in the right position but currently at the wrong angle.
-
-![alt_text](images/ParentSpotlightToLamp.jpg)
-
-Now click on the newly created spotlight in the scene and click on it.  You should see the rays and they don't match the light. They point straight down.  Lets fix this.
-
-![rays need to be adjusted](images/image_193.jpg)
-
-Use the **Rotation** tool to position the light to match visually.  Also use the **Translate** tool to make sure it is located in the middle of the light.
-
-![rotate light to point in correct direction](images/image_194.jpg)
-
-Since we have the game in full daytime with no interiors lets shade this area a bit. Go to **StaticMeshes** and drag and drop **SM_Outside_Wall_EW** and rotate it to be on the ceiling above the lamp in **Room 4**.
-
-![add outside wall as ceiling](images/image_195.jpg)
+![add ceiling to room 4](images/addCube.png)
 
 ![](../images/line2.png)
 
