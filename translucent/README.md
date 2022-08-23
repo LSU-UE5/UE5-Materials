@@ -3,7 +3,7 @@
 
 ### Masks, Opacity & Translucent II
 
-<sub>[previous](../masks/README.md#user-content-masks-opacity--translucent) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../illumination/README.md#user-content-illumination)</sub>
+<sub>[previous](../masks/README.md#user-content-masks-opacity--translucent) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../illumination/README.md#user-content-emissive-material)</sub>
 
 ![](../images/line3.png)
 
@@ -177,5 +177,5 @@ Select the **File | Save All** then press the <kbd>Source Control</kbd> button a
 ![](../images/line.png)
 
 
-| [previous](../masks/README.md#user-content-masks-opacity--translucent)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../illumination/README.md#user-content-illumination)|
+| [previous](../masks/README.md#user-content-masks-opacity--translucent)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../illumination/README.md#user-content-emissive-material)|
 |---|---|---|
