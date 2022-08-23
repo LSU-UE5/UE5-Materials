@@ -40,11 +40,15 @@ https://user-images.githubusercontent.com/5504953/186136128-40de1ce5-0dc9-499a-8
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/dupeMove.png)
+Now duplicate the bracket, lamp and light and rotate it and move it to the ceiling pointing straight down. Make sure you are moving the location with the bracket and rotating along a single axis on the lamp.  The light should then point in the right direction.
+
+![move a duplicate light to ceiling](images/dupeMove.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
+
+Repeat this 5 more times to a have a total of 7 lights in the room.  Point them at the wall and adjust the brightness so they show up correctly.
 
 ![alt_text](images/add5MoreLights.png)
 
@@ -52,13 +56,17 @@ https://user-images.githubusercontent.com/5504953/186136128-40de1ce5-0dc9-499a-8
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/duplicate6.png)
+Ranme **MI_Spotlight** to `MI_Spolight_Orange` (or whatever color your light and glow are). Right click and duplicate this material 6 times. 
+
+![add 6 more materials](images/duplicate6.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/adjust6tintsColors.png)
+Rename each material instance copy and change both the **Emissive Tint** in the material and the **Light Color** in the spotlight. Name it the new color of the light and glow.  So if you have a yellow light call it `MI_Spotlight_Yellow`.
+
+![renaming all lights and adjust colors](images/adjust6tintsColors.png)
 
 ![](../images/line2.png)
 
