@@ -82,11 +82,17 @@ Now that we have added an emissive pin we need to move the priority for the **Ou
 
 ![adjust priotities](images/adjustPriorities.png)
 
-
-
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
+
+Go to the **Materials | Master** folder and create a new material named `M_EmissiveTexture`.  Open it up and add a **MF_UVs** and a **MF_Emissive**.  Connect the **UV** to the **Emissive** node.  Then connect all the output pins of the **MF_Emissive** node.  These should be the same as the regular texture but with the addition of the emissive mask.
+
+![adjust priotities](images/mEmissiveTexture.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
 Go to Room 4 and drag both meshes (with both selected) into the game. By selecting both the position will be correct relative to each other with the lap in the hinge correctly.  You can press **F** for focus to get the camera close to where they go in the scene.  Move them to be close to the wall.  Rotate the lamp part to point at the wall so we can have a light shine on it.
 
@@ -97,10 +103,6 @@ Now to have different colored lights we will need a master material and allow th
 Now lets create a new master material for the lamp. Let's make it a master material and make an instance for the lamp proper.  Create a new Material in the **Materials** folder and call it `M_Spotlight_Lamp_Master`. Assign this material to the **SM_Spotlight_Lamp** model.
 
 ![make new master material M_Spotlight_Lamp_Master](images/image_183.jpg)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
 Now double click the newly created Master Material. Add 6 **Texture Sample Parameter 2D** nodes.
 
