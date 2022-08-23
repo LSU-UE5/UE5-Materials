@@ -1,7 +1,7 @@
 ![](../images/line3.png)
 ### Emissive Material
 
-<sub>[previous](../translucent/README.md#user-content-translucent-blend-mode) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../illumination-ii/README.md#user-content-emissive-material-ii)</sub>
+<sub>[previous](../translucent/README.md#user-content-masks-opacity--translucent-ii) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../illumination-ii/README.md#user-content-emissive-material-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -188,5 +188,5 @@ https://user-images.githubusercontent.com/5504953/186129871-384ce94a-6ec9-4c99-8
 
 ![](../images/line.png)
 
-| [previous](../translucent/README.md#user-content-translucent-blend-mode)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../illumination-ii/README.md#user-content-emissive-material-ii)|
+| [previous](../translucent/README.md#user-content-masks-opacity--translucent-ii)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../illumination-ii/README.md#user-content-emissive-material-ii)|
 |---|---|---|
