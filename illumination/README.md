@@ -142,16 +142,20 @@ https://user-images.githubusercontent.com/5504953/186121713-0352440d-7b82-4d49-9
 
 Now we want to also be able to tint the color of the emission.  So lets open up **MF_Emission** and add a **Vector Pamameter** node that we will call `Emissive Test`.  Make this **Group** `Emissive` and **Sort Priority** `3`.  Create a **Scalar Parameter** node and call it `Emissive Scalar`.  Make the default value `1`, **Group `Emissive` and **Sort Priority** `3`.
 
-![make lamp a chile of bracket](images/ligthTint.png)
+Multiply the **Tint** by the **Emissive Color**.  Multiply the output of this multiply by the emissive mask which is the **A** (alpha) channel of the **Base Color & Emissive** texture. Send the output of the second multiply to the **Output Emissive** node.
 
-
-
-
+![add color and tint parameter to emissive channel](images/ligthTint.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now illumination on a bright light source like a stage light gets very bright. And in Unreal to have a real bloom on the light you need a value higher than 1. Lets Add a **Scalar Parameter** and call it `Illumination Scalar` that can be adjusted and multiply the mask. Set the default to `6` and connect the nodes. Add a **Multiply** node and multiply the **Emissive** texture by the **Emissive Scalar** and reconnect to the **Emmisive Color** pin to the output of the **Multiply** pin. Press the <kbd>Apply</kbd> button.
 
@@ -172,10 +176,6 @@ Parent the spotlight to the Lamp.  This way when you move the bracket it will mo
 Now click on the newly created spotlight in the scene and click on it.  You should see the rays and they don't match the light. They point straight down.  Lets fix this.
 
 ![rays need to be adjusted](images/image_193.jpg)
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Use the **Rotation** tool to position the light to match visually.  Also use the **Translate** tool to make sure it is located in the middle of the light.
 
