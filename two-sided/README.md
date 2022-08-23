@@ -2,7 +2,7 @@
 
 ### Two Sided Material
 
-<sub>[previous](../illumination/README.md#user-content-illumination) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../decals/README.md#user-content-decals)</sub>
+<sub>[previous](../illumination-ii/README.md#user-content-emissive-material-ii) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../decals/README.md#user-content-decals)</sub>
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
@@ -181,5 +181,5 @@ ___
 
 <img src="https://via.placeholder.com/1000x4/dba81a/dba81a" alt="drawing" height="4px" alt = ""/>
 
-| [previous](../illumination/README.md#user-content-illumination)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../decals/README.md#user-content-decals)|
+| [previous](../illumination-ii/README.md#user-content-emissive-material-ii)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../decals/README.md#user-content-decals)|
 |---|---|---|
