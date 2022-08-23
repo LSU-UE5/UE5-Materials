@@ -58,21 +58,21 @@ Double click the **SM_SpotlightBracket** static mesh. Assign the material you ju
 
 ![add mi_brushedsteel to spotlight bracket](images/assignToBracket.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Right click **MaterialFunctions | MF_Texture** and select duplicate.  Call it `MF_Emissive`.
 
-![add a](images/.png)
+![duplicate mf_texture for an emmisive material function](images/mfEmissive.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now the emissive mask is going to be in the **Alpha** channel of the base color texture.  So add a new **Output** node and call it `Emissive` and set the **Sort Priority** to `5`. 
 
-
-![add m_brushedsteel to SM_Sportlight_bracket](images/image_181.jpg)
+![add m_brushedsteel to SM_Sportlight_bracket](images/AddEmissiveExport.png)
 
 ![](../images/line2.png)
 
