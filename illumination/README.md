@@ -11,7 +11,6 @@ Now for some objects in the game, they will also be a light source.  Think of th
 
 ---
 
-
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
 We will be using a spotlight which will have a glow on the lightbulb as well as a light placed in it.  Create a new folder called `Props` inside the **Textures** folder. We need to download **[T_Spotlight_BCE.png](../Assets/T_Spotlight_BCE.png)**, **[T_Spotlight_N.png](../Assets/T_Spotlight_N.png)** and **[T_Spotlight_MSRAO.png](../Assets/T_Spotlight_MSRAO.png)**. Drag them into the textures folder. Double check that the engine recognized the normal map of **T_Spotlight_N** and is using normal map image compression.
@@ -100,7 +99,6 @@ Go back to the **Master** folder and right click on **M_EmissiveTexture** and se
 
 ![](../images/line2.png)
 
-
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Open up **SM_Spotlight_Lamp** and assign to **Material Slots | Element 0** `MI_Spotlight`.  Assign `T_Spotlight_BCE` to **Base Color & Emissive**.  Assign `T_Spotlight_N` to **Normal Map**.  Finally assign `T_Spotlight_MSRA` to **Metallic | Specular | Roughness | AO**.
@@ -114,7 +112,6 @@ Open up **SM_Spotlight_Lamp** and assign to **Material Slots | Element 0** `MI_S
 Go to Room 4 and drag both meshes (with both selected) into the game (**SM_SpotlightBracket** and **SM_SpotlightLamp**). By selecting both the position will be correct relative to each other with the lap in the hinge correctly.  You can press **F** for focus to get the camera close to where they go in the scene.  Move them to be close to the wall.  Rotate the lamp part to point at the wall so we can have a light shine on it.
 
 ![add lamp to scene and point light at wall](images/brackLightFirst.png)
-
 
 ![](../images/line2.png)
 
@@ -135,8 +132,6 @@ Now when you move or rotate the bracket both objects move, but you can control t
 https://user-images.githubusercontent.com/5504953/186121713-0352440d-7b82-4d49-91ce-b7a0c3679685.mp4
 
 ![](../images/line2.png)
-
-
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
@@ -186,11 +181,9 @@ Now move the **Player Start** actor and rotate it so you start at the center of 
 
 https://user-images.githubusercontent.com/5504953/186129871-384ce94a-6ec9-4c99-8917-d8bc12526a53.mp4
 
-
-
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Two Sided Material"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Emissive Material II"> -->
 ![next up next tile](images/banner.png)
 
 ![](../images/line.png)
