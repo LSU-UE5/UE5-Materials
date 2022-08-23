@@ -1,6 +1,6 @@
 ![](../images/line3.png)
 
-### Emmisive Material II
+### Emissive Material II
 
 <sub>[previous](../illumination/README.md#user-content-emissive-material) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../two-sided/README.md#user-content-two-sided-material)</sub>
 
