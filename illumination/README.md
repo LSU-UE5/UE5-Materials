@@ -146,7 +146,6 @@ Multiply the **Tint** by the **Emissive Color**.  Multiply the output of this mu
 
 ![add color and tint parameter to emissive channel](images/ligthTint.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
@@ -159,9 +158,18 @@ https://user-images.githubusercontent.com/5504953/186125632-571afd31-eaa6-4b78-8
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now lets drag a wall piece to act as a ceiling of Room 4 to give it a bit of shade to see the glow a bit better.  Go to **Meshes | Supplied** and add a **SM_Wall** to the level.  Rotate it and align it to the top of the edge wall piece to act as a ceiling.
+
+![add ceiling to room 4](images/addShade.png)
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now illumination on a bright light source like a stage light gets very bright. And in Unreal to have a real bloom on the light you need a value higher than 1. Lets Add a **Scalar Parameter** and call it `Illumination Scalar` that can be adjusted and multiply the mask. Set the default to `6` and connect the nodes. Add a **Multiply** node and multiply the **Emissive** texture by the **Emissive Scalar** and reconnect to the **Emmisive Color** pin to the output of the **Multiply** pin. Press the <kbd>Apply</kbd> button.
 
 ![add scalar for emissive pin](images/ScalarForEmissive.jpg)
+
 
 Lets  parent Base Lamp to the Bracket.  This way moving the Bracket parent will move the base with it. This will stop up from accidentally separating the model.  Wherever the bracket goes the lamp follows.
 
@@ -182,10 +190,6 @@ Now click on the newly created spotlight in the scene and click on it.  You shou
 Use the **Rotation** tool to position the light to match visually.  Also use the **Translate** tool to make sure it is located in the middle of the light.
 
 ![rotate light to point in correct direction](images/image_194.jpg)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Since we have the game in full daytime with no interiors lets shade this area a bit. Go to **StaticMeshes** and drag and drop **SM_Outside_Wall_EW** and rotate it to be on the ceiling above the lamp in **Room 4**.
 
