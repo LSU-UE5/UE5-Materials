@@ -130,7 +130,9 @@ We can just drag **SM_SpotlightLamp** on top of **SM_SpotlightBracket** in the o
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
+Now when you move or rotate the bracket both objects move, but you can control the lamp independantly.  
 
+https://user-images.githubusercontent.com/5504953/186121713-0352440d-7b82-4d49-91ce-b7a0c3679685.mp4
 
 ![](../images/line2.png)
 
