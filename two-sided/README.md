@@ -7,7 +7,7 @@
 
 ![](../images/line3.png)
 
-Normals point in a single direction so we don't waste compute cycles calculating how light reacts to the inside of shapes that we can't see or enter.  In some cases we want both sides of a polygon to have normals.  You can make adjustments in the shader to affect this without having to go back to **Maya**.
+Normals point in a single direction so we don't waste compute cycles calculating how light reacts to the inside of shapes that we can't see or enter.  In some cases we want both sides of a polygon to have normals.  You can make adjustments in the shader to affect this without having to do anything in a 3-D modeling package.
 
 <br>
 
@@ -16,13 +16,18 @@ Normals point in a single direction so we don't waste compute cycles calculating
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Lets put a poster in the middle of **Room 5**.  Lets put a separate image on each side of a flat plane like having a poster floating in the middle of the room.  Now go to the **Textures** folder and import **[T_PosterSide1.tga](../Assets/T_PosterSide1.tga)** and **[T_PosterSide2.tga](../Assets/T_PosterSide2.tga)**.
+Now before we begin, I don't want to have a metallic poster so I want to fix a problem we didn't address earlier.  We reused 
 
-![add PosterSide1 and 2 to the Textures folder](images/ImportPosterTextures.jpg)
+![add PosterSide1 and 2 to the Textures folder](images/fixBaseTexture.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
+
+
+Lets put a poster in the middle of **Room 5**.  Lets put a separate image on each side of a flat plane like having a poster floating in the middle of the room.  Now go to the **Textures** folder and import **[T_PosterSide1.tga](../Assets/T_PosterSide1.tga)** and **[T_PosterSide2.tga](../Assets/T_PosterSide2.tga)**.
+
+![add PosterSide1 and 2 to the Textures folder](images/ImportPosterTextures.jpg)
 
 Now go back to the game, move over to **Room 5** and drop a new **Place Actors | Basic | Plane** in the left side of the room.
 
