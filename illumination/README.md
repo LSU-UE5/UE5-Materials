@@ -70,21 +70,27 @@ Right click **MaterialFunctions | MF_Texture** and select duplicate.  Call it `M
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now the emissive mask is going to be in the **Alpha** channel of the base color texture.  So add a new **Output** node and call it `Emissive` and set the **Sort Priority** to `5`. 
+Now the emissive mask is going to be in the **Alpha** channel of the base color texture.  So add a new **Output** node and call it `Emissive` and set the **Sort Priority** to `4`. 
 
-![add m_brushedsteel to SM_Sportlight_bracket](images/AddEmissiveExport.png)
+![add m_brushedsteel to SM_Spotlight_bracket](images/AddEmissiveExport.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to Room 4 and drag both meshes (with both selected) into the game. By selecting both the position will be correct relative to each other with the lap in the hinge correctly.  You can press **F** for focus to get the camera close to where they go in the scene.  Move them to be close to the wall.  Rotate the lamp part to point at the wall so we can have a light shine on it.
+Now that we have added an emissive pin we need to move the priority for the **Output Normal** to `5` and **Ambient Occlusion** to `6 `.
 
-![add lamp to scene and point light at wall](images/image_182.jpg)
+![adjust priotities](images/adjustPriorities.png)
+
+
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
+
+Go to Room 4 and drag both meshes (with both selected) into the game. By selecting both the position will be correct relative to each other with the lap in the hinge correctly.  You can press **F** for focus to get the camera close to where they go in the scene.  Move them to be close to the wall.  Rotate the lamp part to point at the wall so we can have a light shine on it.
+
+![add lamp to scene and point light at wall](images/image_182.jpg)
 
 Now to have different colored lights we will need a master material and allow the instance materials the ability to change colors. 
 
