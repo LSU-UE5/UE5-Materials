@@ -24,14 +24,23 @@ Now before we begin, I don't want to have a metallic poster so I want to fix a p
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Open up **Substance Designer**.
+Open up **Substance Designer**. Select **File | New | Substance Graph** to create a new output graph.  Name it `T_Base_MSRAO`. Set the **Parent size** to `32` by `32`.  Press the <kbd>OK</kbd> button.
 
 ![problem resuing T_BaseWhite_BC](images/SubstanceD.png)
-
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+
+![problem resuing T_BaseWhite_BC](images/uniformGray.png)
+
+
+
+![](../images/line2.png)
+
+##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Lets put a poster in the middle of **Room 5**.  Lets put a separate image on each side of a flat plane like having a poster floating in the middle of the room.  Now go to the **Textures** folder and import **[T_PosterSide1.tga](../Assets/T_PosterSide1.tga)** and **[T_PosterSide2.tga](../Assets/T_PosterSide2.tga)**.
 
@@ -45,9 +54,6 @@ Rotate the poster in the room so it is perpendicular to the floor. Change the **
 
 ![scale poster x 3 and put on left portion of room](images/image_209.jpg)
 
-![](../images/line2.png)
-
-##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Create a new material to place on this plane.  Call it `M_TwoSide_Poster`.  Make sure it is in the **Materials** folder.
 
