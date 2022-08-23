@@ -1,5 +1,5 @@
 ![](../images/line3.png)
-### Emmisive Material
+### Emissive Material
 
 <sub>[previous](../translucent/README.md#user-content-translucent-blend-mode) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../illumination-ii/README.md#user-content-emissive-material-ii)</sub>
 
