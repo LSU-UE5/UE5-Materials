@@ -26,7 +26,7 @@ So this is not a glowing watch or TV, or fire.  This is a spotlight.  So we will
 
 Now open up your **MI_Emissive** and try and match the color in the emissive texture with the 
 
-![alt_text](images/addSpotlight.png)
+![alt_text](images/spotLight.png)
 
 ![](../images/line2.png)
 
