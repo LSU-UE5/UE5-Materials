@@ -168,80 +168,21 @@ Now lets drag a wall piece to act as a ceiling of Room 4 to give it a bit of sha
 
 Now perss the **Add Actor** button and search for a **Cube**.  Add this to this under the ceiling then move the light close by.  Adjust the **Brightness Scalar** so you can see the glow of the illumination on the cube. Now this is new to Unreal Engine 5, in the previous version the illuminations did not project light into the world.
 
-![add ceiling to room 4](images/addCube.png)
+![add cube to room](images/addCube.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Go into **Top** view and adjust it it place so it is perfectly aligned in the corner. Make sure all the static meshes for room 4 are in the correct folder.
+Now move the **Player Start** actor and rotate it so you start at the center of room 4.
 
-![use top view to adjust roof](images/TopViewAdjustment.jpg)
-
+![rotate player start](images/adjustPlayerStart.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Go to **Materials | Supplied** and add drag and drop the **M_Basic_Wall** material over this ceiling piece in the level.  
 
-![add M_Basic_Wall material to ceiling](images/image_197.jpg)
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Rename wall mesh to indicate roof. Press the **Build** button re rebuild the lighting.
-
-![organize folder build lighting](images/image_198.jpg)
-
-![](../images/line2.png)
-
-##### `Step 23.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now since there is no reflection capture the very reflective lamp is black as it is reflecting a black map.  We need to add a **Sphere Reflection Capture** actor in front of the lamp an dpress **Build | Build Reflection Captures**.  Put that object in the **Room 4** folder and now we should see the lamp!
-
-![add sphere relfection capture to light](images/SphereReflectionLamp.jpg)
-
-![](../images/line2.png)
-
-##### `Step 24.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Play the level and look at the light cast in the game.
-
-https://user-images.githubusercontent.com/5504953/131232591-309f5c68-5e70-4a41-801e-9443e88667fa.mp4
-
-![](../images/line2.png)
-
-##### `Step 25.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond:
-
-Now what if I want to create another lamp but change the color to red.  What would I do? First we need a variable to change the color of the emissive light source. So add a **Vector Parameter** to the **M_Spotlight_Master** material and call it `Light Emissive Color`.
-
-![add vector parameter to M_Spotlight_Master](images/image_199.jpg)
-
-![](../images/line2.png)
-
-##### `Step 26.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond:
-
-Make the **Light Emissive Color** node `1, 1, 1` so it won't tint anything we have already created (mulitplying by 1 does nothing). Now add another **Multiply** Node. Connect the output of the first **Multiply** into **A** of the second.  Output the newly created **Vector Parameter** into the **B** node of the second **Multiply**.  Output the second **Multiply** into the **Emissive Color** node of the master material node. Press the <kbd>Apply</kbd> button.
-
-![add mulitply node](images/MultiplyVectorEmissive.jpg)
-
-![](../images/line2.png)
-
-##### `Step 27.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Create 3 material instances and put three lights in the room with different colors. Make sure you change the color in each material instance and in the spotlight color as well.  Set them up to look as nice as possible.
-
-https://user-images.githubusercontent.com/5504953/131233164-f424fa9d-337f-4dba-8a02-7b31519ae49e.mp4
-
-![](../images/line2.png)
-
-##### `Step 28.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-OK, now lets finish up this section by savin our work and uploading it to GitHub.  Press **File | Save All** then **Source Conrol | Submit to Source Control...** and add a description.  Press the <kbd>Submit</kbd> button.  Open up **GitHub Desktop** and **Push** the commited work.
-
-![save, commit and push to github](images/GitHub.jpg)
 
 ![](../images/line.png)
 
