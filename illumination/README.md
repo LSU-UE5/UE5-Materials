@@ -140,6 +140,17 @@ https://user-images.githubusercontent.com/5504953/186121713-0352440d-7b82-4d49-9
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+![make lamp a chile of bracket](images/ligthTint.png)
+
+
+
+
+
+
+![](../images/line2.png)
+
+##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now illumination on a bright light source like a stage light gets very bright. And in Unreal to have a real bloom on the light you need a value higher than 1. Lets Add a **Scalar Parameter** and call it `Illumination Scalar` that can be adjusted and multiply the mask. Set the default to `6` and connect the nodes. Add a **Multiply** node and multiply the **Emissive** texture by the **Emissive Scalar** and reconnect to the **Emmisive Color** pin to the output of the **Multiply** pin. Press the <kbd>Apply</kbd> button.
 
 ![add scalar for emissive pin](images/ScalarForEmissive.jpg)
@@ -155,10 +166,6 @@ This illumination will not cast a spotlight.  We need to add one to this groupin
 Parent the spotlight to the Lamp.  This way when you move the bracket it will move all the geometry and light and leave them in the right position but currently at the wrong angle.
 
 ![alt_text](images/ParentSpotlightToLamp.jpg)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now click on the newly created spotlight in the scene and click on it.  You should see the rays and they don't match the light. They point straight down.  Lets fix this.
 
