@@ -94,13 +94,21 @@ Go to the **Materials | Master** folder and create a new material named `M_Emiss
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
+Go back to the **Master** folder and right click on **M_EmissiveTexture** and select **Create Material Instance**. Call it `MI_Spotlight`.  Create a new folder in **Material** called `Props` and move **MI_Spotlight** into this new folder.
 
-![adjust priotities](images/miSpotlight.png)
+![create mi_spotlight and move to props folder](images/miSpotlight.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+
+![create mi_spotlight and move to props folder](images/spotlightLamp.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Go to Room 4 and drag both meshes (with both selected) into the game. By selecting both the position will be correct relative to each other with the lap in the hinge correctly.  You can press **F** for focus to get the camera close to where they go in the scene.  Move them to be close to the wall.  Rotate the lamp part to point at the wall so we can have a light shine on it.
 
@@ -126,10 +134,6 @@ Go into the game and look at the front of the light. See that it glows.
 
 ![glowing lamp in game](images/image_187.jpg)
 
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Now illumination on a bright light source like a stage light gets very bright. And in Unreal to have a real bloom on the light you need a value higher than 1. Lets Add a **Scalar Parameter** and call it `Illumination Scalar` that can be adjusted and multiply the mask. Set the default to `6` and connect the nodes. Add a **Multiply** node and multiply the **Emissive** texture by the **Emissive Scalar** and reconnect to the **Emmisive Color** pin to the output of the **Multiply** pin. Press the <kbd>Apply</kbd> button.
 
