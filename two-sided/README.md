@@ -16,14 +16,22 @@ Normals point in a single direction so we don't waste compute cycles calculating
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Now before we begin, I don't want to have a metallic poster so I want to fix a problem we didn't address earlier.  We reused 
+Now before we begin, I don't want to have a metallic poster so I want to fix a problem we didn't address earlier.  We reused **T_BaseWhite_BC** from the base color for the Metallic, Specular, Roughness and AO channel.  Now for AO, white is fine.  For for the other three it will make it metallic with maximum specularity and reflectiveness which will make it a silver ball.  This doesn't match the **Epic** defaults for these nodes.  We should have a texture with no metallic, .5 for specularity and roughness and 1 for AO. This would be an RGBA that is 0, .5, .5, 1.
 
-![add PosterSide1 and 2 to the Textures folder](images/fixBaseTexture.png)
+![problem resuing T_BaseWhite_BC](images/fixBaseTexture.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
+Open up **Substance Designer**.
+
+![problem resuing T_BaseWhite_BC](images/SubstanceD.png)
+
+
+![](../images/line2.png)
+
+##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Lets put a poster in the middle of **Room 5**.  Lets put a separate image on each side of a flat plane like having a poster floating in the middle of the room.  Now go to the **Textures** folder and import **[T_PosterSide1.tga](../Assets/T_PosterSide1.tga)** and **[T_PosterSide2.tga](../Assets/T_PosterSide2.tga)**.
 
@@ -32,10 +40,6 @@ Lets put a poster in the middle of **Room 5**.  Lets put a separate image on eac
 Now go back to the game, move over to **Room 5** and drop a new **Place Actors | Basic | Plane** in the left side of the room.
 
 ![add plane to room 5](images/image_208.jpg)
-
-![](../images/line2.png)
-
-##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Rotate the poster in the room so it is perpendicular to the floor. Change the **Transform | Scale** to `3.0` on the **X** and **Y**.  Now move the poster to the left hand side of the room.
 
