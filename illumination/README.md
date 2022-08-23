@@ -111,55 +111,42 @@ Open up **SM_Spotlight_Lamp** and assign to **Material Slots | Element 0** `MI_S
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go to Room 4 and drag both meshes (with both selected) into the game. By selecting both the position will be correct relative to each other with the lap in the hinge correctly.  You can press **F** for focus to get the camera close to where they go in the scene.  Move them to be close to the wall.  Rotate the lamp part to point at the wall so we can have a light shine on it.
+Go to Room 4 and drag both meshes (with both selected) into the game (**SM_SpotlightBracket** and **SM_SpotlightLamp**). By selecting both the position will be correct relative to each other with the lap in the hinge correctly.  You can press **F** for focus to get the camera close to where they go in the scene.  Move them to be close to the wall.  Rotate the lamp part to point at the wall so we can have a light shine on it.
 
-![add lamp to scene and point light at wall](images/image_182.jpg)
-
-Now to have different colored lights we will need a master material and allow the instance materials the ability to change colors. 
-
-Now lets create a new master material for the lamp. Let's make it a master material and make an instance for the lamp proper.  Create a new Material in the **Materials** folder and call it `M_Spotlight_Lamp_Master`. Assign this material to the **SM_Spotlight_Lamp** model.
-
-![make new master material M_Spotlight_Lamp_Master](images/image_183.jpg)
-
-Now double click the newly created Master Material. Add 6 **Texture Sample Parameter 2D** nodes.
-
-Call them `Diffuse`, `Metalic`, `Roughness`, `Normal`, `AO`, `Emissive`. Add the 6 textures **T_Spotlight_D**, **T_Spotlight_M**, **T_Spotlight_Rough**, **T_Spotlight_N**, **T_Spotlight_AO** and **T_Spotlight_I**.
-
-Group them accordingly with`Diffuse`, `Metalic`, `Roughness`, `Normal`, `AO`, `Emissive`.  Connect each to the **Base Color**, **Metalic**, **Roughness** and **Normal**, **Ambient Occlusion** and **Emissive** input nodes on the master shader node.
-
-Press the <kbd>Apply</kbd> and <kbd>Save</kbd> buttons. 
-
-![add diffuse, metalic, roughness and normal to material and add to model](images/FinishedSpotlightLamp.jpg)
-
-Go into the game and look at the front of the light. See that it glows. 
-
-![glowing lamp in game](images/image_187.jpg)
-
-
-Now illumination on a bright light source like a stage light gets very bright. And in Unreal to have a real bloom on the light you need a value higher than 1. Lets Add a **Scalar Parameter** and call it `Illumination Scalar` that can be adjusted and multiply the mask. Set the default to `6` and connect the nodes. Add a **Multiply** node and multiply the **Emissive** texture by the **Emissive Scalar** and reconnect to the **Emmisive Color** pin to the output of the **Multiply** pin. Press the <kbd>Apply</kbd> button.
-
-![add scalar for emissive pin](images/ScalarForEmissive.jpg)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-Lets  parent Base Lamp to the Bracket.  This way moving the Bracket parent will move the base with it. This will stop up from accidentally separating the model.  Wherever the bracket goes the lamp follows.
-
-![parent base lamp to bracket](images/image_190.jpg)
+![add lamp to scene and point light at wall](images/brackLightFirst.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-This illumination will not cast a spotlight.  We need to add one to this grouping. Now go to the **Place Actors** tab in the main menu and select **Lights**.  Drag a **Spot Light** and place it over the lamp in the scene.
+Now it is easier to control the lamp and bracket if we have a proper parent child relationship.  So if we move or rotate the bracket we want the lamp to move and rotate.  But if we rotate the lamp we want it to rotate seperately.
 
-![add spotlight to scene](images/image_191.jpg)
+We can just drag **SM_SpotlightLamp** on top of **SM_SpotlightBracket** in the outliner and the lamp should be indented (a child of the bracket).
+
+![make lamp a chile of bracket](images/makeChild.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+Now illumination on a bright light source like a stage light gets very bright. And in Unreal to have a real bloom on the light you need a value higher than 1. Lets Add a **Scalar Parameter** and call it `Illumination Scalar` that can be adjusted and multiply the mask. Set the default to `6` and connect the nodes. Add a **Multiply** node and multiply the **Emissive** texture by the **Emissive Scalar** and reconnect to the **Emmisive Color** pin to the output of the **Multiply** pin. Press the <kbd>Apply</kbd> button.
+
+![add scalar for emissive pin](images/ScalarForEmissive.jpg)
+
+Lets  parent Base Lamp to the Bracket.  This way moving the Bracket parent will move the base with it. This will stop up from accidentally separating the model.  Wherever the bracket goes the lamp follows.
+
+![parent base lamp to bracket](images/image_190.jpg)
+
+This illumination will not cast a spotlight.  We need to add one to this grouping. Now go to the **Place Actors** tab in the main menu and select **Lights**.  Drag a **Spot Light** and place it over the lamp in the scene.
+
+![add spotlight to scene](images/image_191.jpg)
 
 Parent the spotlight to the Lamp.  This way when you move the bracket it will move all the geometry and light and leave them in the right position but currently at the wrong angle.
 
