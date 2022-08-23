@@ -2,7 +2,7 @@
 
 ### Emmisive Material II
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
+<sub>[previous](../illumination/README.md#user-content-emissive-material) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../two-sided/README.md#user-content-two-sided-material)</sub>
 
 ![](../images/line3.png)
 
@@ -143,10 +143,9 @@ Lets add a spotlight to the glowing material to bring this effect to its full re
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT TITLE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Two Sided Material"> -->
 ![next up next tile](images/banner.png)
 
 ![](../images/line.png)
-
-| [previous](../)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
+| [previous](../illumination/README.md#user-content-emissive-material)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../two-sided/README.md#user-content-two-sided-material)|
 |---|---|---|
