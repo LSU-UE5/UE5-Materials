@@ -151,7 +151,9 @@ Multiply the **Tint** by the **Emissive Color**.  Multiply the output of this mu
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now open up **MI_Spotlight** and adjust the **Emissive Scalar**.  Now with the illumination channel you can go beyond 0 to 1.  You can set the value into the 100s (or higher maybe)?  So you can affect the brightness of the source from the illumination by cranking this number up.  If you tint the light though, a heavily overdriven emission will appear white (all light get closer to white when brighter) so be judicious.
 
+https://user-images.githubusercontent.com/5504953/186125632-571afd31-eaa6-4b78-89ac-6aa6c3b2e973.mp4
 
 ![](../images/line2.png)
 
