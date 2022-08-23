@@ -72,13 +72,17 @@ Rename each material instance copy and change both the **Emissive Tint** in the 
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Press* the <kbd>Play</kbd> button and make sure that the glow matches the color of the light on the wall.  Make any adjustments, like its brightness and get it to look like it matches the environment.
+
 https://user-images.githubusercontent.com/5504953/186139493-95a4de1c-5d3d-49b4-89ef-86b6d03a2315.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/organizeAndRenameOutliner.png)
+Now make sure that all the objects are in the **Room 4** folder and rename anything that is generic and can't be understood by the name.
+
+![organize and rename outliner](images/organizeAndRenameOutliner.png)
 
 ![](../images/line2.png)
 
