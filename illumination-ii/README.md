@@ -24,7 +24,9 @@ So this is not a glowing watch or TV, or fire.  This is a spotlight.  So we will
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now open up your **MI_Emissive** and try and match the color in the emissive texture with the 
+
+![alt_text](images/addSpotlight.png)
 
 ![](../images/line2.png)
 
