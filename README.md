@@ -28,8 +28,8 @@ Lets look at **[Physically Based Rendering Materials (PBR)](https://en.wikipedia
 <kbd></kbd> &nbsp;&nbsp; [Material Color Math](color-math/README.md#user-content-material-color-math) <br>
 <kbd></kbd> &nbsp;&nbsp; [Masks, Opacity & Translucent](masks/README.md#user-content-masks-opacity--translucent) <br>
 <kbd></kbd> &nbsp;&nbsp; [Masks, Opacity & Translucent II](translucent/README.md#user-content-masks-opacity--translucent-ii) <br>
-<kbd></kbd> &nbsp;&nbsp; [Emmissive Material](illumination/README.md#user-content-emissive-material) <br>
-<kbd></kbd> &nbsp;&nbsp; [Emmissive Material II](illumination-ii/README.md#user-content-emissive-material-ii) <br>
+<kbd></kbd> &nbsp;&nbsp; [Emissive Material](illumination/README.md#user-content-emissive-material) <br>
+<kbd></kbd> &nbsp;&nbsp; [Emissive Material II](illumination-ii/README.md#user-content-emissive-material-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Two Sided Material](two-sided/README.md#user-content-two-sided-material) <br>
 <kbd></kbd> &nbsp;&nbsp; [Decals](decals/README.md#user-content-decals) <br>
 <kbd></kbd> &nbsp;&nbsp; [Refraction and Fresnel](refract/README.md#user-content-refraction-and-fresnel) <br>
