@@ -94,6 +94,14 @@ Go to the **Materials | Master** folder and create a new material named `M_Emiss
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
+
+![adjust priotities](images/miSpotlight.png)
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
 Go to Room 4 and drag both meshes (with both selected) into the game. By selecting both the position will be correct relative to each other with the lap in the hinge correctly.  You can press **F** for focus to get the camera close to where they go in the scene.  Move them to be close to the wall.  Rotate the lamp part to point at the wall so we can have a light shine on it.
 
 ![add lamp to scene and point light at wall](images/image_182.jpg)
@@ -113,11 +121,6 @@ Group them accordingly with`Diffuse`, `Metalic`, `Roughness`, `Normal`, `AO`, `E
 Press the <kbd>Apply</kbd> and <kbd>Save</kbd> buttons. 
 
 ![add diffuse, metalic, roughness and normal to material and add to model](images/FinishedSpotlightLamp.jpg)
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Go into the game and look at the front of the light. See that it glows. 
 
