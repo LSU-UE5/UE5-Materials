@@ -120,17 +120,17 @@ Go to Room 4 and drag both meshes (with both selected) into the game (**SM_Spotl
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
-
 Now it is easier to control the lamp and bracket if we have a proper parent child relationship.  So if we move or rotate the bracket we want the lamp to move and rotate.  But if we rotate the lamp we want it to rotate seperately.
 
 We can just drag **SM_SpotlightLamp** on top of **SM_SpotlightBracket** in the outliner and the lamp should be indented (a child of the bracket).
 
 ![make lamp a chile of bracket](images/makeChild.png)
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
+
+
 
 ![](../images/line2.png)
 
