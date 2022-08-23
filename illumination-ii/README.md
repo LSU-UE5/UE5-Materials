@@ -36,8 +36,6 @@ Now open up your **MI_Emissive** and try and match the color in the emissive tex
 
 https://user-images.githubusercontent.com/5504953/186136128-40de1ce5-0dc9-499a-8adc-c1dba15a9bfd.mp4
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
