@@ -147,7 +147,7 @@ Open up **M_TwoSide_Poster**. Add a **Texture Sample Parameter 2D** node and ass
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now rotate around the plane and we have two images.  Notice in this case that the one I wanted in front is backwards, so I swapped the input **A** and **B** to fix this.
+Repeat this for **T_PoserSide2**.
 
 ![add clamp node](images/backOfPoster.png)
 
@@ -155,9 +155,7 @@ Now rotate around the plane and we have two images.  Notice in this case that th
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-What does the LERP node do?  Plug in the two textures to the **A** and **B** input.  Disconnect the input to the **Base Color** on the shader node (it is no longer two sided in the previewer, but will be when viewing it regularly - rotate to the front of the poster). 
-
-Right click on the **LERP** node and select **Start Previewing Node**.  You will see that the Const Alpha is `0.5` which blends 50% of both images.  `0` would be 100% of the texture going to **A** and `1` would be 100% of the texture going to **B**.  Lets prove it by giving it a test run.
+Add a **Linear Interpolation** (LERP) ndoe to the level. Plug in the two textures to the **A** and **B** input.  Remember the A side of the LERP is shown when **Alpha** is zero and it is one when the Alpha is 1.
 
 ![group and comment nodes](images/addLerpNode.png)
 
@@ -165,8 +163,7 @@ Right click on the **LERP** node and select **Start Previewing Node**.  You will
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-Add a **Camera Vector WS** and **Vertex Normal WS** node.  This will be the start of our vector arithmetic to determine the side of the plane that the player (camera) is on.
+Add a **Camera Vector WS** and **Vertex Normal WS** node.  This will be the start of our vector arithmetic to determine the side of the plane that the player (camera) is on. The camera looks at us, and the vertex normal looks at foraward from the player's point of view. 
 
 ![group and comment nodes](images/CmVectorVertexNrml.png)
 
