@@ -92,7 +92,7 @@ Drag **T_Base_MSRAO** to the **Textures** directory.
 
 Drag the **Player Start** actor to the front of room 5.
 
-![adjust lerp value to see changes in plane](images/movePlayerStartToRm5.png)
+![move player start to room 5](images/movePlayerStartToRm5.png)
 
 ![](../images/line2.png)
 
@@ -100,17 +100,16 @@ Drag the **Player Start** actor to the front of room 5.
 
 Lets put a poster in the middle of **Room 5**.  Lets put a separate image on each side of a flat plane like having a poster floating in the middle of the room.  Now go to the **Textures | Props** folder and import **[T_PosterSide1_BC.tga](../Assets/T_PosterSide1_BC.tga)** and **[T_PosterSide2_BC.tga](../Assets/T_PosterSide2_BC.tga)**. Drag then into the **Textures | Props** folder
 
-
-![change Alpha in LERP to 0](images/copyPosterTexture.png)
+![drag poster files to unreal](images/copyPosterTexture.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Enter modelling mode and select a **Rect**.  Make the **Width** and **Dept** `400` cm square.  Make the **Width Subdivsions** & **Depth Subdivision** `5`. Press the <kbd>Complete</kbd> button.
+Enter modelling mode and select a **Rect**.  Make the **Width** and **Dept** `400` cm square.  Make the **Width Subdivsions** & **Depth Subdivision** `5`. Place the plane in the level.  Rotate it to face the camera. Press the <kbd>Complete</kbd> button.
 
-![switch Alpha in LERP to 1](images/make300Plane.png)
+![enter moeeling mode and add plane](images/make300Plane.png)
 
 ![](../images/line2.png)
 
@@ -118,7 +117,7 @@ Enter modelling mode and select a **Rect**.  Make the **Width** and **Dept** `40
 
 Go to **UVs | Layout** and change the **Material Mode to `Checkerboard`. The uvs are looking good.
 
-![add camera vector ws and vertext normal ws node](images/checkUVs.png)
+![check uvs](images/checkUVs.png)
 
 ![](../images/line2.png)
 
@@ -126,7 +125,7 @@ Go to **UVs | Layout** and change the **Material Mode to `Checkerboard`. The uvs
 
 Press the <kbd>+ Add</kbd> button.  Create a new material to place on this plane.  Call it `M_TwoSide_Poster`.  Make sure it is in the **Materials | Master** folder.
 
-![connect above nodes to new dot product node](images/newTwoSidedMat.png)
+![add new material](images/newTwoSidedMat.png)
 
 ![](../images/line2.png)
 
