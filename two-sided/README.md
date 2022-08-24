@@ -172,7 +172,7 @@ Add a **Camera Vector WS** and **Vertex Normal WS** node.  This will be the star
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Add a **Dot Product** node and connect the two vectors to the inputs.  This will multiply them together and return a single vector. We need a bit of calculus and look at two vectors, the camera and the plane normal in world space.  We take the dot product of both.  If it is negative the lines are looking away from each other if it is above 0 they were looking at each other.  We will round up the dot product and use the Lerp even so that there is only going to be 0 and 1 out of the Lerp node. Add another **Texture Sample** and a **Math | Linear Interpolate** Node.  In the texture sample pick `T_PosterSide2`.
+Add a **Dot Product** node and connect the two vectors to the inputs.  This will multiply them together and return a single vector. We need a bit of calculus and look at two vectors, the camera and the plane normal in world space.  We take the dot product of both.  If it is negative the lines are looking away from each other if it is above 0 they were looking at each other.  We will round up the dot product and use the Lerp even so that there is only going to be 0 and 1 out of the Lerp node. Now we will set a ceiling by adding a ceil node so it rounds up to an interger.
 
 ![group and comment nodes](images/dotCeiling.png)
 
