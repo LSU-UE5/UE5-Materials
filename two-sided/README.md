@@ -98,7 +98,7 @@ Drag the **Player Start** actor to the front of room 5.
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Lets put a poster in the middle of **Room 5**.  Lets put a separate image on each side of a flat plane like having a poster floating in the middle of the room.  Now go to the **Textures | Props** folder and import **[T_PosterSide1_BC.tga](../Assets/T_PosterSide1_BC.tga)** and **[T_PosterSide2_BC.tga](../Assets/T_PosterSide2_BC.tga)**.
+Lets put a poster in the middle of **Room 5**.  Lets put a separate image on each side of a flat plane like having a poster floating in the middle of the room.  Now go to the **Textures | Props** folder and import **[T_PosterSide1_BC.tga](../Assets/T_PosterSide1_BC.tga)** and **[T_PosterSide2_BC.tga](../Assets/T_PosterSide2_BC.tga)**. Drag then into the **Textures | Props** folder
 
 
 ![change Alpha in LERP to 0](images/copyPosterTexture.png)
