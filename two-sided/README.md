@@ -106,7 +106,7 @@ Lets put a poster in the middle of **Room 5**.  Lets put a separate image on eac
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Add a **Camera Vector WS** and **Vertex Normal WS** node.  This will be the start of our vector arithmetic to determine the side of the plane that the player (camera) is on.
+
 
 ![add camera vector ws and vertext normal ws node](images/checkUVs.png)
 
@@ -156,7 +156,8 @@ Right click on the **LERP** node and select **Start Previewing Node**.  You will
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now go into the game and assign the **M_TwoSide_Poster** to the plane.  Make sure it renders correctly.
+
+Add a **Camera Vector WS** and **Vertex Normal WS** node.  This will be the start of our vector arithmetic to determine the side of the plane that the player (camera) is on.
 
 ![group and comment nodes](images/CmVectorVertexNrml.png)
 
