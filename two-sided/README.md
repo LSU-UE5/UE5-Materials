@@ -131,7 +131,7 @@ Press the <kbd>+ Add</kbd> button.  Create a new material to place on this plane
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Now the return will be negative (back side of plane) or above 0 on same side of plane.  But we don't want any values inbetween.  So we will round up by adding a **Ceil** (Ceiling) node that rounds a fractional number up to the next integer.
+Open up the materail and add a **T_Base_MSRAO** textuer to the level.  Connect the output pins with the pins of the same name on the main materail node.
 
 ![add ceil node](images/connetMatPropPins.png)
 
@@ -139,7 +139,7 @@ Now the return will be negative (back side of plane) or above 0 on same side of 
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Open up **M_TwoSide_Poster**. Add a **Texture Sample** node and assign the **T_PosterSide1** to it. Attach the top output pin into the **Base Color** pin in the main Material Node's **Base Color** pin.
+Open up **M_TwoSide_Poster**. Add a **Texture Sample Parameter 2D** node and assign the **T_PosterSide1** to it. 
 
 ![add clamp node](images/frontTexture.png)
 
