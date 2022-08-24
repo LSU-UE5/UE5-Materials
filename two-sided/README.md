@@ -48,9 +48,6 @@ Copy and paste the grayscale node twice and set them both to `127`.  This will m
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Lets put a poster in the middle of **Room 5**.  Lets put a separate image on each side of a flat plane like having a poster floating in the middle of the room.  Now go to the **Textures** folder and import **[T_PosterSide1.tga](../Assets/T_PosterSide1.tga)** and **[T_PosterSide2.tga](../Assets/T_PosterSide2.tga)**.
-
-![add PosterSide1 and 2 to the Textures folder](images/ImportPosterTextures.jpg)
 
 Now go back to the game, move over to **Room 5** and drop a new **Place Actors | Basic | Plane** in the left side of the room.
 
@@ -117,7 +114,9 @@ Right click on the **LERP** node and select **Start Previewing Node**.  You will
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Change the **Const Alpha** to `0` and see the image switches to the one in A.
+
+Lets put a poster in the middle of **Room 5**.  Lets put a separate image on each side of a flat plane like having a poster floating in the middle of the room.  Now go to the **Textures** folder and import **[T_PosterSide1.tga](../Assets/T_PosterSide1.tga)** and **[T_PosterSide2.tga](../Assets/T_PosterSide2.tga)**.
+
 
 ![change Alpha in LERP to 0](images/copyPosterTexture.png)
 
@@ -125,6 +124,8 @@ Change the **Const Alpha** to `0` and see the image switches to the one in A.
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Change the **Const Alpha** to `0` and see the image switches to the one in A.
 
 Switch it to `1` and see that now is displays the image in Node B.
 
