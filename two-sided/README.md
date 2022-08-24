@@ -116,7 +116,7 @@ Enter modelling mode and select a **Rect**.  Make the **Width** and **Dept** `40
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
+Go to **UVs | Layout** and change the **Material Mode to `Checkerboard`. The uvs are looking good.
 
 ![add camera vector ws and vertext normal ws node](images/checkUVs.png)
 
@@ -124,7 +124,7 @@ Enter modelling mode and select a **Rect**.  Make the **Width** and **Dept** `40
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Create a new material to place on this plane.  Call it `M_TwoSide_Poster`.  Make sure it is in the **Materials** folder.
+Press the <kbd>+ Add</kbd> button.  Create a new material to place on this plane.  Call it `M_TwoSide_Poster`.  Make sure it is in the **Materials | Master** folder.
 
 ![connect above nodes to new dot product node](images/newTwoSidedMat.png)
 
