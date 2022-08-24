@@ -48,17 +48,11 @@ Copy and paste the grayscale node twice and set them both to `127`.  This will m
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Open up **M_TwoSide_Poster**. Add a **Texture Sample** node and assign the **T_PosterSide1** to it. Attach the top output pin into the **Base Color** pin in the main Material Node's **Base Color** pin.
-
-![add t_posterside1 to new texture sample node and connect ot base color](images/image_211.jpg)
-
 ![](images/whiteRGBAMerge.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
-
-Now change the **Preview Mesh** to a **Plane** and rotate around it.  Notice that you are not able to see both sides and the back of the poster is comletely transparent (lacks face normals).
 
 h![](images/connectRGBA.png)
 
@@ -66,7 +60,7 @@ h![](images/connectRGBA.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now make sure you are highlighting the main node and look for **Two Sided** and set it to `True`. We should now have both sides rendering (even though only 1 side has normals).
+
 
 ![](images/exportMSRAO.png)
 
@@ -74,15 +68,11 @@ Now make sure you are highlighting the main node and look for **Two Sided** and 
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Rotate the camera and notice we have one side of the poster on both sides of the plane.  Now we have the same texture on both sides.  But what if we wanted a different graphic on both sides.  How will we handle it?
-
 h![](images/copyMRAO.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-We need a bit of calculus and look at two vectors, the camera and the plane normal in world space.  We take the dot product of both.  If it is negative the lines are looking away from each other if it is above 0 they were looking at each other.  We will round up the dot product and use the Lerp even so that there is only going to be 0 and 1 out of the Lerp node. Add another **Texture Sample** and a **Math | Linear Interpolate** Node.  In the texture sample pick `T_PosterSide2`.
 
 ![add texture sample and lerp node and add poster side 2 texture](images/tmsraoToTextures.png)
 
@@ -90,9 +80,7 @@ We need a bit of calculus and look at two vectors, the camera and the plane norm
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-What does the LERP node do?  Plug in the two textures to the **A** and **B** input.  Disconnect the input to the **Base Color** on the shader node (it is no longer two sided in the previewer, but will be when viewing it regularly - rotate to the front of the poster). 
 
-Right click on the **LERP** node and select **Start Previewing Node**.  You will see that the Const Alpha is `0.5` which blends 50% of both images.  `0` would be 100% of the texture going to **A** and `1` would be 100% of the texture going to **B**.  Lets prove it by giving it a test run.
 
 ![adjust lerp value to see changes in plane](images/movePlayerStartToRm5.png)
 
@@ -145,7 +133,7 @@ Now the return will be negative (back side of plane) or above 0 on same side of 
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now we need to clamp the output as we don't want a -1 or any number below 0 or above 1 to get in there when the Alpha only needs a 0 or 1 in this instance (a dot product will return -1 to 1).  So we add a **Clamp** node which defaults to clamping between 0 and 1.  That mean any number number under 0 is 0 and above 1 is 1. Plug the output of this **Clamp** node into the **Alpha** of the **Lerp** node.  Right click the **Lerp Node** and select **Stop Previewing Node**.  Make sure the output of the **Lerp** node goes to the **Base Color** pin.
+Open up **M_TwoSide_Poster**. Add a **Texture Sample** node and assign the **T_PosterSide1** to it. Attach the top output pin into the **Base Color** pin in the main Material Node's **Base Color** pin.
 
 ![add clamp node](images/frontTexture.png)
 
@@ -161,7 +149,9 @@ Now rotate around the plane and we have two images.  Notice in this case that th
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Group the nodes and add comments by pressing the **C** key. Press the **Apply** button and **Save**.
+What does the LERP node do?  Plug in the two textures to the **A** and **B** input.  Disconnect the input to the **Base Color** on the shader node (it is no longer two sided in the previewer, but will be when viewing it regularly - rotate to the front of the poster). 
+
+Right click on the **LERP** node and select **Start Previewing Node**.  You will see that the Const Alpha is `0.5` which blends 50% of both images.  `0` would be 100% of the texture going to **A** and `1` would be 100% of the texture going to **B**.  Lets prove it by giving it a test run.
 
 ![group and comment nodes](images/addLerpNode.png)
 
@@ -178,7 +168,7 @@ Now go into the game and assign the **M_TwoSide_Poster** to the plane.  Make sur
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Add a **Dot Product** node and connect the two vectors to the inputs.  This will multiply them together and return a single vector.
+Add a **Dot Product** node and connect the two vectors to the inputs.  This will multiply them together and return a single vector. We need a bit of calculus and look at two vectors, the camera and the plane normal in world space.  We take the dot product of both.  If it is negative the lines are looking away from each other if it is above 0 they were looking at each other.  We will round up the dot product and use the Lerp even so that there is only going to be 0 and 1 out of the Lerp node. Add another **Texture Sample** and a **Math | Linear Interpolate** Node.  In the texture sample pick `T_PosterSide2`.
 
 ![group and comment nodes](images/dotCeiling.png)
 

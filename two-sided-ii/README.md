@@ -17,6 +17,8 @@ Lets finish up with the two sided material.
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
+Now we need to clamp the output as we don't want a -1 or any number below 0 or above 1 to get in there when the Alpha only needs a 0 or 1 in this instance (a dot product will return -1 to 1).  So we add a **Clamp** node which defaults to clamping between 0 and 1.  That mean any number number under 0 is 0 and above 1 is 1. Plug the output of this **Clamp** node into the **Alpha** of the **Lerp** node.  Right click the **Lerp Node** and select **Stop Previewing Node**.  Make sure the output of the **Lerp** node goes to the **Base Color** pin.
+
 ![alt_text](images/saturateToAlpha.png)
 
 ![](../images/line2.png)
@@ -29,11 +31,17 @@ Lets finish up with the two sided material.
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Group the nodes and add comments by pressing the **C** key. Press the **Apply** button and **Save**. 
+
 ![alt_text](images/finalNodeChart.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now change the **Preview Mesh** to a **Plane** and rotate around it.  Notice that you are not able to see both sides and the back of the poster is comletely transparent (lacks face normals).
+
+Now make sure you are highlighting the main node and look for **Two Sided** and set it to `True`. We should now have both sides rendering (even though only 1 side has normals).
 
 https://user-images.githubusercontent.com/5504953/186299029-7adae8eb-496b-40d7-a247-f30ab56772b8.mp4
 
