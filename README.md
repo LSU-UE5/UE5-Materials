@@ -31,6 +31,7 @@ Lets look at **[Physically Based Rendering Materials (PBR)](https://en.wikipedia
 <kbd></kbd> &nbsp;&nbsp; [Emissive Material](illumination/README.md#user-content-emissive-material) <br>
 <kbd></kbd> &nbsp;&nbsp; [Emissive Material II](illumination-ii/README.md#user-content-emissive-material-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Two Sided Material](two-sided/README.md#user-content-two-sided-material) <br>
+<kbd></kbd> &nbsp;&nbsp; [Two Sided Material II](two-sided-ii/README.md#user-content-two-sided-material-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Decals](decals/README.md#user-content-decals) <br>
 <kbd></kbd> &nbsp;&nbsp; [Refraction and Fresnel](refract/README.md#user-content-refraction-and-fresnel) <br>
 <kbd></kbd> &nbsp;&nbsp; [World Aligned Materials](world-alignment/README.md#user-content-world-aligned-materials) <br>

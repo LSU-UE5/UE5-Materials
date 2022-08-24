@@ -3,7 +3,7 @@
 
 ### Two Sided Material
 
-<sub>[previous](../illumination-ii/README.md#user-content-emissive-material-ii) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../decals/README.md#user-content-decals)</sub>
+<sub>[previous](../illumination-ii/README.md#user-content-emissive-material-ii) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../two-sided-ii/README.md#user-content-two-sided-material-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -24,7 +24,7 @@ Now before we begin, I don't want to have a metallic poster so I want to fix a p
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Open up **Substance Designer**. Select **File | New | Substance Graph** to create a new output graph.  Name it `T_Base_MSRAO`. Set the **Parent size** to `32` by `32`.  Press the <kbd>OK</kbd> button.
+Open up **Substance Designer**. Select **File | New | Substance Graph** to create a new output graph.  Name it `T_Base_MSRAO`. Set the **Parent size** to `32` by `32`.  Press the <kbd>OK</kbd> button. 
 
 ![problem resuing T_BaseWhite_BC](images/SubstanceD.png)
 
@@ -32,7 +32,7 @@ Open up **Substance Designer**. Select **File | New | Substance Graph** to creat
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the <kbd>Uniform Color</kbd> button to get a solid color.  Now this is an RGB value so selectx the color node and chnage it to **Grayscale**.  We will l
+Select the <kbd>Uniform Color</kbd> button to get a solid color.  Now this is an RGB value so selectx the color node and chnage it to **Grayscale**.  We will leave it as black.
 
 ![add uniform color and turn to grayscale](images/uniformGray.png)
 
@@ -40,10 +40,9 @@ Select the <kbd>Uniform Color</kbd> button to get a solid color.  Now this is an
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Copy and paste the grayscale node twice and set them both to `127`.  This will make them `.5` in Specular and Roughness to match the Unreal defaults (255/2 is 127.5).
+
 ![problem resuing T_BaseWhite_BC](images/specRough.png)
-
-
-
 
 ![](../images/line2.png)
 
@@ -70,13 +69,15 @@ Open up **M_TwoSide_Poster**. Add a **Texture Sample** node and assign the **T_P
 
 ![add t_posterside1 to new texture sample node and connect ot base color](images/image_211.jpg)
 
+![](images/whiteRGBAMerge.png)
+
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
 Now change the **Preview Mesh** to a **Plane** and rotate around it.  Notice that you are not able to see both sides and the back of the poster is comletely transparent (lacks face normals).
 
-https://user-images.githubusercontent.com/5504953/131247772-4bb2c5ef-7842-4ddf-b1e0-75b6e1824342.mp4
+h![](images/connectRGBA.png)
 
 ![](../images/line2.png)
 
@@ -84,7 +85,7 @@ https://user-images.githubusercontent.com/5504953/131247772-4bb2c5ef-7842-4ddf-b
 
 Now make sure you are highlighting the main node and look for **Two Sided** and set it to `True`. We should now have both sides rendering (even though only 1 side has normals).
 
-![add two sided to materail](images/image_212.jpg)
+![](images/exportMSRAO.png)
 
 ![](../images/line2.png)
 
@@ -92,7 +93,7 @@ Now make sure you are highlighting the main node and look for **Two Sided** and 
 
 Rotate the camera and notice we have one side of the poster on both sides of the plane.  Now we have the same texture on both sides.  But what if we wanted a different graphic on both sides.  How will we handle it?
 
-https://user-images.githubusercontent.com/5504953/131247852-489eb4ba-7375-4b71-8546-f7196838dac5.mp4
+h![](images/copyMRAO.png)
 
 ![](../images/line2.png)
 
@@ -100,7 +101,7 @@ https://user-images.githubusercontent.com/5504953/131247852-489eb4ba-7375-4b71-8
 
 We need a bit of calculus and look at two vectors, the camera and the plane normal in world space.  We take the dot product of both.  If it is negative the lines are looking away from each other if it is above 0 they were looking at each other.  We will round up the dot product and use the Lerp even so that there is only going to be 0 and 1 out of the Lerp node. Add another **Texture Sample** and a **Math | Linear Interpolate** Node.  In the texture sample pick `T_PosterSide2`.
 
-![add texture sample and lerp node and add poster side 2 texture](images/image_213.jpg)
+![add texture sample and lerp node and add poster side 2 texture](images/tmsraoToTextures.png)
 
 ![](../images/line2.png)
 
@@ -110,7 +111,7 @@ What does the LERP node do?  Plug in the two textures to the **A** and **B** inp
 
 Right click on the **LERP** node and select **Start Previewing Node**.  You will see that the Const Alpha is `0.5` which blends 50% of both images.  `0` would be 100% of the texture going to **A** and `1` would be 100% of the texture going to **B**.  Lets prove it by giving it a test run.
 
-![adjust lerp value to see changes in plane](images/image_214.jpg)
+![adjust lerp value to see changes in plane](images/movePlayerStartToRm5.png)
 
 ![](../images/line2.png)
 
@@ -118,7 +119,7 @@ Right click on the **LERP** node and select **Start Previewing Node**.  You will
 
 Change the **Const Alpha** to `0` and see the image switches to the one in A.
 
-![change Alpha in LERP to 0](images/image_215.jpg)
+![change Alpha in LERP to 0](images/copyPosterTexture.png)
 
 ![](../images/line2.png)
 
@@ -127,7 +128,7 @@ Change the **Const Alpha** to `0` and see the image switches to the one in A.
 
 Switch it to `1` and see that now is displays the image in Node B.
 
-![switch Alpha in LERP to 1](images/image_216.jpg)
+![switch Alpha in LERP to 1](images/make300Plane.png)
 
 ![](../images/line2.png)
 
@@ -135,7 +136,7 @@ Switch it to `1` and see that now is displays the image in Node B.
 
 Add a **Camera Vector WS** and **Vertex Normal WS** node.  This will be the start of our vector arithmetic to determine the side of the plane that the player (camera) is on.
 
-![add camera vector ws and vertext normal ws node](images/image_217.jpg)
+![add camera vector ws and vertext normal ws node](images/checkUVs.png)
 
 ![](../images/line2.png)
 
@@ -143,7 +144,7 @@ Add a **Camera Vector WS** and **Vertex Normal WS** node.  This will be the star
 
 Add a **Dot Product** node and connect the two vectors to the inputs.  This will multiply them together and return a single vector.
 
-![connect above nodes to new dot product node](images/image_218.jpg)
+![connect above nodes to new dot product node](images/newTwoSidedMat.png)
 
 ![](../images/line2.png)
 
@@ -151,7 +152,7 @@ Add a **Dot Product** node and connect the two vectors to the inputs.  This will
 
 Now the return will be negative (back side of plane) or above 0 on same side of plane.  But we don't want any values inbetween.  So we will round up by adding a **Ceil** (Ceiling) node that rounds a fractional number up to the next integer.
 
-![add ceil node](images/image_219.jpg)
+![add ceil node](images/connetMatPropPins.png)
 
 ![](../images/line2.png)
 
@@ -159,7 +160,7 @@ Now the return will be negative (back side of plane) or above 0 on same side of 
 
 Now we need to clamp the output as we don't want a -1 or any number below 0 or above 1 to get in there when the Alpha only needs a 0 or 1 in this instance (a dot product will return -1 to 1).  So we add a **Clamp** node which defaults to clamping between 0 and 1.  That mean any number number under 0 is 0 and above 1 is 1. Plug the output of this **Clamp** node into the **Alpha** of the **Lerp** node.  Right click the **Lerp Node** and select **Stop Previewing Node**.  Make sure the output of the **Lerp** node goes to the **Base Color** pin.
 
-![add clamp node](images/image_220.jpg)
+![add clamp node](images/frontTexture.png)
 
 ![](../images/line2.png)
 
@@ -167,7 +168,7 @@ Now we need to clamp the output as we don't want a -1 or any number below 0 or a
 
 Now rotate around the plane and we have two images.  Notice in this case that the one I wanted in front is backwards, so I swapped the input **A** and **B** to fix this.
 
-https://user-images.githubusercontent.com/5504953/131248351-7f5ceb60-bf38-4905-8de7-a8c95a6ebb34.mp4
+![add clamp node](images/backOfPoster.png)
 
 ![](../images/line2.png)
 
@@ -175,7 +176,7 @@ https://user-images.githubusercontent.com/5504953/131248351-7f5ceb60-bf38-4905-8
 
 Group the nodes and add comments by pressing the **C** key. Press the **Apply** button and **Save**.
 
-![group and comment nodes](images/image_221.jpg)
+![group and comment nodes](images/addLerpNode.png)
 
 ![](../images/line2.png)
 
@@ -183,7 +184,8 @@ Group the nodes and add comments by pressing the **C** key. Press the **Apply** 
 
 Now go into the game and assign the **M_TwoSide_Poster** to the plane.  Make sure it renders correctly.
 
-https://user-images.githubusercontent.com/5504953/131248476-74156024-35ea-4e91-8b7b-17329d27dd1e.mp4
+![group and comment nodes](images/CmVectorVertexNrml.png)
+
 
 ![](../images/line2.png)
 
@@ -191,7 +193,7 @@ https://user-images.githubusercontent.com/5504953/131248476-74156024-35ea-4e91-8
 
 OK, now lets finish up this section by savin our work and uploading it to GitHub.  Press **File | Save All** then **Source Conrol | Submit to Source Control...** and add a description.  Press the <kbd>Submit</kbd> button.  Open up **GitHub Desktop** and **Push** the commited work.
 
-https://user-images.githubusercontent.com/5504953/131248615-d162e489-f24c-49bb-9493-c3ed44cf1229.mp4
+![group and comment nodes](images/dotCeiling.png)
 
 ![](../images/line.png)
 
@@ -200,5 +202,5 @@ https://user-images.githubusercontent.com/5504953/131248615-d162e489-f24c-49bb-9
 
 ![](../images/line.png)
 
-| [previous](../illumination-ii/README.md#user-content-emissive-material-ii)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../decals/README.md#user-content-decals)|
+| [previous](../illumination-ii/README.md#user-content-emissive-material-ii)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../two-sided-ii/README.md#user-content-two-sided-material-ii)|
 |---|---|---|
