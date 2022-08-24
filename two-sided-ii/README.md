@@ -2,7 +2,7 @@
 
 ### Two Sided Material II
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
+<sub>[previous](../two-sided/README.md#user-content-two-sided-material) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../decals/README.md#user-content-decals)</sub>
 
 ![](../images/line3.png)
 
@@ -56,5 +56,5 @@ https://user-images.githubusercontent.com/5504953/186299085-b2419fc5-17a3-4150-9
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
+| [previous](../two-sided/README.md#user-content-two-sided-material)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../decals/README.md#user-content-decals)|
 |---|---|---|
