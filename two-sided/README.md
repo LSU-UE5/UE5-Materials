@@ -50,7 +50,7 @@ Copy and paste the grayscale node twice and set them both to `127`.  This will m
 
 Copy and paste another grayscale node for the Ambient Occlusion and make it solid white (no occlusion). Press the <kbd>Space</kbd> bar and press **RGBA Merge** node. 
 
-![](images/whiteRGBAMerge.png)
+![add two gray scale nodes](images/whiteRGBAMerge.png)
 
 ![](../images/line2.png)
 
@@ -58,7 +58,7 @@ Copy and paste another grayscale node for the Ambient Occlusion and make it soli
 
 Connect all the pins in order to the RBA merge with the first black going into the top node, the two gray boxes going in the two middle nodes and the white going into the final node.  Remmeber MEtallic, Specular, Roughness and AO.
 
-![](images/connectRGBA.png)
+![connect output colors to RGBA merge node](images/connectRGBA.png)
 
 ![](../images/line2.png)
 
@@ -68,7 +68,7 @@ Add a final **Output** node and attach it to the **RGBA Merge** node.
 
 Right click on the graph and select **Export outputs as bitmaps**. Name the export `T_Base_BSRAO` and I put it on my desktop. Press the <kbd>Export outputs</kbd> button.
 
-![](images/exportMSRAO.png)
+![export as bitmaps](images/exportMSRAO.png)
 
 ![](../images/line2.png)
 
