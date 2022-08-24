@@ -99,9 +99,6 @@ Lets put a poster in the middle of **Room 5**.  Lets put a separate image on eac
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Change the **Const Alpha** to `0` and see the image switches to the one in A.
-
-Switch it to `1` and see that now is displays the image in Node B.
 
 ![switch Alpha in LERP to 1](images/make300Plane.png)
 
