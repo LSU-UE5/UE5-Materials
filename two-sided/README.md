@@ -48,20 +48,6 @@ Copy and paste the grayscale node twice and set them both to `127`.  This will m
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-
-Now go back to the game, move over to **Room 5** and drop a new **Place Actors | Basic | Plane** in the left side of the room.
-
-![add plane to room 5](images/image_208.jpg)
-
-Rotate the poster in the room so it is perpendicular to the floor. Change the **Transform | Scale** to `3.0` on the **X** and **Y**.  Now move the poster to the left hand side of the room.
-
-![scale poster x 3 and put on left portion of room](images/image_209.jpg)
-
-
-Create a new material to place on this plane.  Call it `M_TwoSide_Poster`.  Make sure it is in the **Materials** folder.
-
-![add new material M_Two_Sided_Poster](images/image_210.jpg)
-
 Open up **M_TwoSide_Poster**. Add a **Texture Sample** node and assign the **T_PosterSide1** to it. Attach the top output pin into the **Base Color** pin in the main Material Node's **Base Color** pin.
 
 ![add t_posterside1 to new texture sample node and connect ot base color](images/image_211.jpg)
@@ -143,7 +129,7 @@ Add a **Camera Vector WS** and **Vertex Normal WS** node.  This will be the star
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Add a **Dot Product** node and connect the two vectors to the inputs.  This will multiply them together and return a single vector.
+Create a new material to place on this plane.  Call it `M_TwoSide_Poster`.  Make sure it is in the **Materials** folder.
 
 ![connect above nodes to new dot product node](images/newTwoSidedMat.png)
 
@@ -192,7 +178,7 @@ Now go into the game and assign the **M_TwoSide_Poster** to the plane.  Make sur
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-OK, now lets finish up this section by savin our work and uploading it to GitHub.  Press **File | Save All** then **Source Conrol | Submit to Source Control...** and add a description.  Press the <kbd>Submit</kbd> button.  Open up **GitHub Desktop** and **Push** the commited work.
+Add a **Dot Product** node and connect the two vectors to the inputs.  This will multiply them together and return a single vector.
 
 ![group and comment nodes](images/dotCeiling.png)
 
