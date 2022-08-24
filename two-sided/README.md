@@ -48,19 +48,25 @@ Copy and paste the grayscale node twice and set them both to `127`.  This will m
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
+Copy and paste another grayscale node for the Ambient Occlusion and make it solid white (no occlusion). Press the <kbd>Space</kbd> bar and press **RGBA Merge** node. 
+
 ![](images/whiteRGBAMerge.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-h![](images/connectRGBA.png)
+Connect all the pins in order to the RBA merge with the first black going into the top node, the two gray boxes going in the two middle nodes and the white going into the final node.  Remmeber MEtallic, Specular, Roughness and AO.
+
+![](images/connectRGBA.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Add a final **Output** node and attach it to the **RGBA Merge** node.  
 
+Right click on the graph and select **Export outputs as bitmaps**. Name the export `T_Base_BSRAO` and I put it on my desktop. Press the <kbd>Export outputs</kbd> button.
 
 ![](images/exportMSRAO.png)
 
