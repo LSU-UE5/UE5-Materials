@@ -74,11 +74,15 @@ Right click on the graph and select **Export outputs as bitmaps**. Name the expo
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-h![](images/copyMRAO.png)
+Drag **T_Base_MSRAO** to the **Textures** directory.
+
+![](images/copyMRAO.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+ 
+ Open up **MS_Emissive** and **MS_Texture**.  Put the new `T_Base_MSRAO` into the **Metallic | Specular | Roughness | AO** slot.
 
 ![add texture sample and lerp node and add poster side 2 texture](images/tmsraoToTextures.png)
 
@@ -86,7 +90,7 @@ h![](images/copyMRAO.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-
+Drag the **Player Start** actor to the front of room 5.
 
 ![adjust lerp value to see changes in plane](images/movePlayerStartToRm5.png)
 
@@ -94,8 +98,7 @@ h![](images/copyMRAO.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-
-Lets put a poster in the middle of **Room 5**.  Lets put a separate image on each side of a flat plane like having a poster floating in the middle of the room.  Now go to the **Textures** folder and import **[T_PosterSide1.tga](../Assets/T_PosterSide1.tga)** and **[T_PosterSide2.tga](../Assets/T_PosterSide2.tga)**.
+Lets put a poster in the middle of **Room 5**.  Lets put a separate image on each side of a flat plane like having a poster floating in the middle of the room.  Now go to the **Textures | Props** folder and import **[T_PosterSide1_BC.tga](../Assets/T_PosterSide1_BC.tga)** and **[T_PosterSide2_BC.tga](../Assets/T_PosterSide2_BC.tga)**.
 
 
 ![change Alpha in LERP to 0](images/copyPosterTexture.png)
