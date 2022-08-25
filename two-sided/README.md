@@ -139,7 +139,7 @@ Open up the materail and add a **T_Base_MSRAO** textuer to the level.  Connect t
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Open up **M_TwoSide_Poster**. Add a **Texture Sample Parameter 2D** node and assign the **T_PosterSide1** to it. 
+Open up **M_TwoSide_Poster**. Add a **Texture Sample Parameter 2D** node and assign the **T_PosterSide1** to it. Call it `Front of Poster`.
 
 ![add clamp node](images/frontTexture.png)
 
@@ -147,7 +147,7 @@ Open up **M_TwoSide_Poster**. Add a **Texture Sample Parameter 2D** node and ass
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Repeat this for **T_PoserSide2**.
+Repeat this for **T_PoserSide2** and assign texture **T_PosterSide2_BC** and call it `Back of Poster`.
 
 ![add clamp node](images/backOfPoster.png)
 
