@@ -131,7 +131,7 @@ Press the <kbd>+ Add</kbd> button.  Create a new material to place on this plane
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Open up the materail and add a **T_Base_MSRAO** textuer to the level.  Connect the output pins with the pins of the same name on the main materail node.
+Open up the materail and add a **T_Base_MSRAO** texture to the level.  Connect the output pins with the pins of the same name on the main materail node.
 
 ![add ceil node](images/connetMatPropPins.png)
 
