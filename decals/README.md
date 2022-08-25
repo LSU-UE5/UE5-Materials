@@ -75,7 +75,7 @@ Add a **Function Output** node and call it `Opacity`. Connect the **Base Color |
 
 Now we want to be able to scale that opacity.  So add a **Scalar Parameter** and call it `Opacity Intensity`.  Set it's **Group** to `Base Color` and **Sort Priority** to `4`.  Add a **Multiply** node and send the **Output Intensity** and **Base Color | A** nodes to the **Multiply** input pin.  Then send the output to **Output Opacity**.
 
-![multiply opacity intensity](images/.png)
+![multiply opacity intensity](images/opacityScalar.png)
 
 ![](../images/line2.png)
 
