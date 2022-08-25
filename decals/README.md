@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-We can also change materials dynamically by using decals.  This could be used for bullet holes or footsteps.
+We can also change materials dynamically by using decals.  These can be placed over existing materials and cover mesh and uv boundaries. So you can add graphiti to a wall made up of diverse meshes with multiple UVs.  This does require transparencies so it will not work on nanite meshes.
 
 <br>
 
@@ -15,25 +15,24 @@ We can also change materials dynamically by using decals.  This could be used fo
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Lets move onto decals (ignore the title in the room it is not stencils).  This is a type of material that can be added to surfaces.  Think of signs painted into walls or blood splatters.  Lets set up two surfaces to test out decals.
+Lets start by moving the **Player Start** actor to the front of room 6.
 
-![example of finished decal](images/image_222.jpg)
+![move player start(images/movePlayerStart.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Drag **StaticMehses | SM_OfficeCarpet** onto the floor next to the wall.
+Right click on the double sided poster in Room 5 and select **Browse to Asset**.  Rename it to `SM_Plane` and move it to the **Basic Geometry** folder.
 
-![put SM_Carpet_1 in room](images/AddOfficeCarpet.jpg)
+![rename plane to SM_Plane and put in Basic Geometry folder](images/basicPlane.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Assign one of the **MI_OfficeCarpet_Blue** material to the static mesh.  Adjust the height so it is just above the ground texture and renders correctly.  Put it above and press the <kbd>end</kbd> key.
 
-![add non red material and place on floor](images/AddBlueCarpetMaterial.jpg)
+![add non red material and place on floor](images/.png)
 
 ![](../images/line2.png)
 
