@@ -65,7 +65,7 @@ Go to the **Material Functions** folder and right click on **MF_Textures** and s
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a *Function Output** node and call it `Opacity`. Connect the **Base Color | A** pin to the new **Output** node.  Change it's **Sort Priority** to `1.0`.
+Add a **Function Output** node and call it `Opacity`. Connect the **Base Color | A** pin to the new **Output** node.  Change it's **Sort Priority** to `1.0`.
 
 ![bump is backwards](images/outputOpacity.png)
 
