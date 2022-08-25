@@ -47,7 +47,7 @@ https://user-images.githubusercontent.com/5504953/186781596-83d5dffb-dd49-4215-9
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-
+Now press the <kbd>Alt</kbd> while moving the plane to duplicate it 15 times.  This gives us an area with two 8 by 8 rows.
 
 ![](../images/line2.png)
 
