@@ -57,7 +57,7 @@ https://user-images.githubusercontent.com/5504953/186781926-c1532920-c8eb-4808-8
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Go to the **Material Functions** folder and right click on **MF_Textures** and select **Duplcicate**.  Call the new file `MF_Opacity`.
+Go to the **Material Functions** folder and right click on **MF_Textures** and select **Duplicate**.  Call the new file `MF_Opacity`.
 
 ![dupe MF_Textures and call it MF_Opacity](images/DupeTextureMI.png)
 
@@ -73,17 +73,17 @@ Add a *Function Output** node and call it `Opacity`. Connect the **Base Color | 
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now we want to be able to scale that opacity.  So add a **Scalar Parameter** and call it `Opacity Intensity`.  Set it's **Group** to `Base Color` and **Sort Priority** to `4`.  Add a **Multiply** node and send the **Output Intensity** and **Base Color | A** nodes to the **Multiply** input pin.  Then send the output to **Output Opacity**.
 
-
-![change material domain of to deferred decal](images/.jpg)
+![multiply opacity intensity](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now change the **Output Normal | Sort Priority** to `5` and **Output Ambient Occlusion | Sort Priority** to `6`.
 
-
-![turn on DBuffer Decals in project settings](images/.jpg)
+![turn on DBuffer Decals in project settings](images/adjustAONPriority.png)
 
 
 ![](../images/line2.png)
