@@ -81,7 +81,7 @@ Now we want to be able to scale that opacity.  So add a **Scalar Parameter** and
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now change the **Output Normal | Sort Priority** to `5` and **Output Ambient Occlusion | Sort Priority** to `6`.
+Now change the **Output Normal | Sort Priority** to `5` and **Output Ambient Occlusion | Sort Priority** to `6`. Press the <kbd>Apply</kbd> button.
 
 ![turn on DBuffer Decals in project settings](images/adjustAONPriority.png)
 
