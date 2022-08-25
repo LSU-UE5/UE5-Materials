@@ -17,7 +17,7 @@ Lets finish up with the two sided material.
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Now we need to clamp the output as we don't want a -1 or any number below 0 or above 1 to get in there when the Alpha only needs a 0 or 1 in this instance (a dot product will return -1 to 1).  So we add a **Saturate** node which clamps values between 0 and 1.  That mean any number number under 0 is 0 and above 1 is 1. Plug the output of this **Clamp** node into the **Alpha** of the **Lerp** node.  Right click the **Lerp Node** and select **Stop Previewing Node**.  Make sure the output of the **Lerp** node goes to the **Base Color** pin.
+Now we need to clamp the output as we don't want a -1 or any number below 0 or above 1 to get in there when the Alpha only needs a 0 or 1 in this instance (a dot product will return -1 to 1).  So we add a **Saturate** node which clamps values between 0 and 1.  That mean any number number under 0 is 0 and above 1 is 1. Plug the output of this **Saturate** node into the **Alpha** of the **Lerp** node.  Right click the **Lerp Node** and select **Stop Previewing Node**.  Make sure the output of the **Lerp** node goes to the **Base Color** pin.
 
 ![alt_text](images/saturateToAlpha.png)
 
