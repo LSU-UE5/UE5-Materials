@@ -57,42 +57,42 @@ https://user-images.githubusercontent.com/5504953/186781926-c1532920-c8eb-4808-8
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-The bump looks backwards so the normal map did not get recognized. Open up **T_BloodSplatter_N.tga** and take a look.
+Go to the **Material Functions** folder and right click on **MF_Textures** and select **Duplcicate**.  Call the new file `MF_Opacity`.
 
-![bump is backwards](images/BackwardsNormals.jpg)
+![dupe MF_Textures and call it MF_Opacity](images/DupeTextureMI.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now change the **Compression Settings** to `Normalmap (CXT5, GC5 on DX11)`.  Also flip the normal map's bump by checking the box next to **Flip Green Channel**.
 
-![bump is backwards](images/FlipGreenCompress.jpg)
+
+![bump is backwards](images/.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up the **M_BloodSplatter_Decal** Material. Change the **Material Domain** in the **Details** panel from **Surface** to **Deferred Decal**.
 
-![change material domain of to deferred decal](images/image_232.jpg)
+
+![change material domain of to deferred decal](images/.jpg)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Make sure the project is set to allow **DBuffer** rendering.  Open up **Settings | Project Settings | Rendering** and look for **DBuffer Decals** and make sure the item is selected (`true`).
 
-![turn on DBuffer Decals in project settings](images/DbufferOn.jpg)
+
+![turn on DBuffer Decals in project settings](images/.jpg)
 
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Now for us to be able to preview the decals our previewer needs to be set up correctly.  Open up any static mesh and make sure that **Preview Scene Settings** are set to show both **Show Environment** and **Show Floor**.  Without these we will not see the decal in the previewer.
 
-![set show environment and show floor in static mesh previewer](images/SetPreviewer.jpg)
+
+![set show environment and show floor in static mesh previewer](images/.jpg)
 
 
 ![](../images/line2.png)
