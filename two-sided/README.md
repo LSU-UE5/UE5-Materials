@@ -155,7 +155,7 @@ Repeat this for **T_PoserSide2** and assign texture **T_PosterSide2_BC** and cal
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Linear Interpolation** (LERP) ndoe to the level. Plug in the two textures to the **A** and **B** input.  Remember the A side of the LERP is shown when **Alpha** is `0`` and the **B** input when the Alpha is `1`. It is a blend when it is between 0 and 1.
+Add a **Linear Interpolation** (LERP) ndoe to the level. Plug in the two textures to the **A** and **B** input.  Remember the A side of the LERP is shown when **Alpha** is `0` and the **B** input when the Alpha is `1`. It is a blend when it is between 0 and 1.
 
 ![group and comment nodes](images/addLerpNode.png)
 
