@@ -6,7 +6,8 @@
 
 ![](../images/line3.png)
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
+![](../images/line3.png)
+
 
 Lets finish up with the two sided material.
 
@@ -19,7 +20,7 @@ Lets finish up with the two sided material.
 
 Now we need to clamp the output as we don't want a -1 or any number below 0 or above 1 to get in there when the Alpha only needs a 0 or 1 in this instance (a dot product will return -1 to 1).  So we add a **Saturate** node which clamps values between 0 and 1.  That mean any number number under 0 is 0 and above 1 is 1. Plug the output of this **Saturate** node into the **Alpha** of the **Lerp** node.  
 
-![alt_text](images/saturateToAlpha.png)
+![add saturate node](images/saturateToAlpha.png)
 
 ![](../images/line2.png)
 
@@ -27,7 +28,7 @@ Now we need to clamp the output as we don't want a -1 or any number below 0 or a
 
 Send the output of the **LERP** node into **Base Color**.  Select all the base color nodes and press the <kbd>C</kbd> button. Add a comment and give the comments a color.
 
-![alt_text](images/lerpBaseColor.png)
+![output lerp to base color](images/lerpBaseColor.png)
 
 ![](../images/line2.png)
 
@@ -45,11 +46,15 @@ Now change the **Preview Mesh** to a **Plane** and rotate around it.  Notice tha
 
 Now make sure you are highlighting the main node and look for **Two Sided** and set it to `True`. We should now have both sides rendering (even though only 1 side has normals).
 
+Now the wrong side is showing so we need to reverse which node is going into the **A** and **B** channel of the **LERP** node.
+
 https://user-images.githubusercontent.com/5504953/186299029-7adae8eb-496b-40d7-a247-f30ab56772b8.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
+
+Place the **M_TwoSidedPoster** and assign it to the plane in the game in room 5. Rotate the poster so it is upright.  Play the game and make sure the poster works correctly.
 
 https://user-images.githubusercontent.com/5504953/186299085-b2419fc5-17a3-4150-9e32-121294a767fa.mp4
 
