@@ -17,7 +17,7 @@ We can also change materials dynamically by using decals.  These can be placed o
 
 Lets start by moving the **Player Start** actor to the front of room 6.
 
-![move player start(images/movePlayerStart.png)
+![move player start](images/movePlayerStart.png)
 
 ![](../images/line2.png)
 
