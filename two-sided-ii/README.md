@@ -25,6 +25,8 @@ Now we need to clamp the output as we don't want a -1 or any number below 0 or a
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
+Send the output of the **LERP** node into **Base Color**.  Select all the base color nodes and press the <kbd>C</kbd> button.
+
 ![alt_text](images/lerpBaseColor.png)
 
 ![](../images/line2.png)

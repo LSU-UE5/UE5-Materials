@@ -115,7 +115,7 @@ Enter modelling mode and select a **Rect**.  Make the **Width** and **Dept** `40
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go to **UVs | Layout** and change the **Material Mode to `Checkerboard`. The uvs are looking good. Press the <kbd>Accept</kbd> button.
+Go to **UVs | Layout** and change the **Material Mode** to `Checkerboard`. The uvs are looking good. Press the <kbd>Accept</kbd> button.
 
 ![check uvs](images/checkUVs.png)
 
