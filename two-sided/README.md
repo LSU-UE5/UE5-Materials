@@ -165,6 +165,8 @@ Add a **Linear Interpolation** (LERP) ndoe to the level. Plug in the two texture
 
 Add a **Camera Vector WS** and **Vertex Normal WS** node.  This will be the start of our vector arithmetic to determine the side of the plane that the player (camera) is on. The camera looks at us, and the vertex normal looks at foraward from the player's point of view. 
 
+If the camera angle and the vertex normal angle (the direction of the face of the polygon) are facing each other then the return value is > 0 and if they are not facing each other will return a value that is < 0.
+
 ![group and comment nodes](images/CmVectorVertexNrml.png)
 
 
