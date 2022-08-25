@@ -39,7 +39,7 @@ Add the **SM_Plane** to Room 6 on the ground.
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lift the plane up and press the <kbd>End</kbd> key to get it to the ground.  Now when a plane is on top of a plane you will get **Z Fighting** which looks awefull.  So lets go to the **Location | Z** and raise it by `.05` units.
+Lift the plane up and press the <kbd>End</kbd> key to get it to the ground.  Now when a plane is on top of a plane you will get **Z Fighting** which looks awefull.  So lets go to the **Location | Z** and raise it by `.05` units. Raise it more if it doesn't stop the z fighting on your computer.
 
 https://user-images.githubusercontent.com/5504953/186781596-83d5dffb-dd49-4215-9db1-0c7efdb178f7.mp4
 
@@ -47,9 +47,7 @@ https://user-images.githubusercontent.com/5504953/186781596-83d5dffb-dd49-4215-9
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Go into the Textures folder and import **[T_BloodSplatter_DwithA.tga](../Assets/T_BloodSplatter_DwithA.tga)** and **[T_BloodSplatter_N.tga](../Assets/T_BloodSplatter_N.tga)**.
 
-![add blood splatter textures to material](images/ImportTwoBloodTextures.jpg)
 
 ![](../images/line2.png)
 
