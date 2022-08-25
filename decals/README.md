@@ -39,7 +39,9 @@ Add the **SM_Plane** to Room 6 on the ground.
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Lift the plane up and press the <kbd>End</kbd> key to get it to the ground.  Now when a plane is on top of a plane you will get **Z Fighting** which looks awefull.  So lets go to the **Location | Z** and raise it by `.05` units.
 
+https://user-images.githubusercontent.com/5504953/186781596-83d5dffb-dd49-4215-9db1-0c7efdb178f7.mp4
 
 ![](../images/line2.png)
 
