@@ -31,16 +31,15 @@ Right click on the double sided poster in Room 5 and select **Browse to Asset**.
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Add the **SM_Plane** to Room 6 on the ground.
 
-![add non red material and place on floor](images/.png)
+![add plane to room 6](images/AddPlaneToGround.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Materials** folder and create a new material calling it `M_BloodSplatter_Decal`.
 
-![create new material called  M_BloodSplatter](images/image_229.jpg)
 
 ![](../images/line2.png)
 
