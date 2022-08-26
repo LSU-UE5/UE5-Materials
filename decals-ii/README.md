@@ -57,19 +57,19 @@ Now open up **MI_DamagedRoad** and assign the textures you downloaded.  Assign `
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Drag **MI_DamagedRoad** onto the plane surface in room 6. Adjust the color, tint scale and rotation.  Make any final choices ot make it look as good as possible.
+
+![mi_damangedroad placed on ground](images/adjustDamagedRoadTing.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/cleanUpFolder.png)
 
 ![](../images/line2.png)
 
