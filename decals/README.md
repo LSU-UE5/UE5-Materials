@@ -183,35 +183,7 @@ Select all 16 faces and assign **MI_ContreteRoad** as the material.
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Now play the game and look at the decal and make sure nothing bleeds ot the other side of the wall.
 
-https://user-images.githubusercontent.com/5504953/131252525-2d8a7e3e-2f4e-4b9f-b598-e0b119b479e0.mp4
-
-![](../images/line2.png)
-
-##### `Step 22.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Drop another blood material onto the carpet.  Rotate, position and scale it appropiately.
-
-![add blood to carpet](images/image_247.jpg)
-
-![](../images/line2.png)
-
-##### `Step 23.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Play the game and enjoy your decals! Double check that everything is OK.  I forgot to put the two actors in the **Room 5** folder in **World Outliner**.  My blood was also upside down with it dripping upwards which is wrong.  I rotated and repositioned the decal.  
-
-https://user-images.githubusercontent.com/5504953/131253121-26f751dd-6575-409a-9aaa-0be22e15063f.mp4
-
-![](../images/line2.png)
-
-##### `Step 24.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Press **Save All** and update Github by **committing** and **pushing** all the changes made.
-
-![save, commit and push to gitnub](images/image_249.jpg)
-
-![](../images/line2.png)
 
 ![](../images/line.png)
 
