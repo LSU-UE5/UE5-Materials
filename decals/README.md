@@ -147,43 +147,37 @@ Open up **MI_Cement_Cracks** and assign `T_DamagedRoad_BCA` to **Base Color**, `
 ![select alpha channel](images/damagedRoadTextures.png)
 
 
+![](../images/line2.png)
+
+##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now we have noting to put the decal on.  Lets put a road texture on our planes in room 6. Go to **Materials | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_ContreteRoad`.  Move it to the **Surfaces** directory.
 
 ![create concrete road material instance](images/createMIConcreteRoad.png)
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-![](../images/line2.png)
-
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-You can confirm that this channel imported correctly by double clicking the **T_BloodSplatter_DandA** and pressing the **View** drop down and turning all channels off except for Alpha.  You see that you get a channel where white is opaque and black is transparent.
+Now we need to access the three textures for the road.  Download [T_ConcreteRoad_BCH.png](../Assets/T_ConcreteRoad_BCH.png), [T_ConcreteRoad_N.png](../Assets/T_ConcreteRoad_N.png) and [T_ConcreteRoad_MSRAO.png](../Assets/T_ConcreteRoad_MSRAO.png). Drag the three files into the **Textures | Surfaces** folder. Make sure the normal map texture is set correctly.
 
-![confirm alpha](images/image_241.jpg)
+![download 3 road textures ](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Let's go back to the game. You do not need to place this material on a mesh you can apply it to any existing mesh on the level and it will be added on top.  It will create a **Decal** actor in the **World Outliner**.  Just drag the **M_BloodSplatter_Decal** into the level and place next to the shiny wall. Now we do not apply it to a plane, we add the decal to an existing geometry even if it is not flat.  If the decal doesn't show up it is because that the purple arrow on the Decal points towards the surface that you want the decal to be on.  
+Assign `T_CementRoad_BCH` to **Base Color** and `T_ConcreteRoad_N` to **Normal Map** and finally `T_ConcreateRoad_MSRAO` to **Metallic | Specular | Roughness | AO**.
 
-![apply decal and place on wall](images/DropMatInLevel.jpg)
-
-If the purple arrow points to the wrong location rotate it to point to the surface you want the decal on. Position it so the green box overlaps the wall geometry.
-
-![rotate so purple arrow faces the wall](images/rotateOnPlane.jpg)
-
+![assign material to MI_ConcreteRoad](images/assignConcreteTextures.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Adjust the scale of the **Decal** actor so the green box is not too deep.  If it is it will show up on both sides of the wall.  If this was a dynamic blood splatter we would just want it on one side. In my case it is scaling the **X** axis down.
+Select all 16 faces and assign **MI_ContreteRoad** as the material.
 
-![make adjustments to be in right position](images/RescaleXAxis.jpg)
+![make adjustments to be in right position](images/concreteMatRoad.png)
 
 ![](../images/line2.png)
 
