@@ -25,9 +25,9 @@ Now the decals do not take a texture slot they lie on top of the textures and ac
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
+Click on the **Base Color Tine** and select the eye dropper and pick a color from the dement.  I made it even darker to make it more realistic.
 
-
-![alt_text](images/adjustCrackColor.png)
+![alter crack color](images/adjustCrackColor.png)
 
 ![](../images/line2.png)
 
