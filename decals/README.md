@@ -116,9 +116,9 @@ Connect all the pins from the **MF_UVs to the MF_Opacity** and from **MF_Opacity
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-There is an alpha channel in the texture so we connect this channel to opacity and voila, black gone. Now press the <kbd>Apply</kbd> button.
+Right click on **M_Decal** and select **Create Material Instance**.  Call it `MI_Cement_Cracks`.  Create a new directory in **Materials** called `Decals`.  Move the **MI_Cement_Cracks** to this new folder.
 
-![connect alpha channel to opacity](images/AttachAlpha.jpg)
+![material instance of decal](images/createMICementCracks.png)
 
 ![](../images/line2.png)
 
