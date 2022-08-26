@@ -90,8 +90,9 @@ Now change the **Output Normal | Sort Priority** to `5` and **Output Ambient Occ
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![set show environment and show floor in static mesh previewer](images/copyMDecal.png)
+Go to **Materials | Master** and right mouse click **M_SolidTexture** and select **Duplicate**.  Call this new decal `M_Decal`.
 
+![du;licate M_SolidTexture and call M_Decal](images/copyMDecal.png)
 
 ![](../images/line2.png)
 
