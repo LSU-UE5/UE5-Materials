@@ -140,7 +140,7 @@ Open up **MI_Cement_Cracks** and assign `T_DamagedRoad_BCA` to **Base Color**, `
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now we have noting to put the decal on.  Lets put a road texture on our planes in room 6. 
+Now we have noting to put the decal on.  Lets put a road texture on our planes in room 6. Go to **Materials | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_ContreteRoad`.  Move it to the **Surfaces** directory.
 
 ![save channel as selecton in channels](images/createMIConcreteRoad.png)
 
