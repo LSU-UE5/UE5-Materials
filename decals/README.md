@@ -134,6 +134,10 @@ Right click on **M_Decal** and select **Create Material Instance**.  Call it `MI
 
 Now lets download two decals worth of textures: [T_CementCracks_BCA.png](../Assets/T_CementCracks_BCA.png),  [T_CementCracks_N.png](../Assets/T_CementCracks_N.png), [T_CementCracks_MSRAO.png](../Assets/T_CementCracks_MSRAO.png).  Download [T_DamagedRoad_BCA.png](../Assets/T_DamagedRoad_BCA.png), [T_DamagedRoad_N.png](../Assets/T_DamagedRoad_N.png) and [T_DamagedRoad_MSRAO.png](../Assets/T_DamagedRoad_MSRAO.png).
 
+Create a new folder in **Textures** called `Decals`.  Drag the above 6 textures into that folder.  Make sure the normal textures are recognized as such!
+
+![add 6 decal textures](images/addDecalTextures.png)
+
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
