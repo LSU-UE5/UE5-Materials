@@ -17,7 +17,7 @@ Lets get the decals onto the road.
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Now the decals do not take a texture slot they lie on top of the textures and act as a layer in photoshop but project over existing polygons and uvs.  So drag **MI_CementCrack** over to the road.  You can move it around, rotate it and scale it.  I made it a bit smaller as it seemed a bit big to me.
+Now the decals do not take a texture slot they lie on top of the textures and act as a layer in photoshop but project over existing polygons and uvs.  So drag **MI_CementCracks** over to the road.  You can move it around, rotate it and scale it.  I made it a bit smaller as it seemed a bit big to me.
 
 ![add mi_cementcrack to level](images/addCementCrackLevel.png)
 
@@ -25,7 +25,9 @@ Now the decals do not take a texture slot they lie on top of the textures and ac
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+
+
+![alt_text](images/adjustCrackColor.png)
 
 ![](../images/line2.png)
 
