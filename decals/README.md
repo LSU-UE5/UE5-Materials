@@ -83,16 +83,14 @@ Now we want to be able to scale that opacity.  So add a **Scalar Parameter** and
 
 Now change the **Output Normal | Sort Priority** to `5` and **Output Ambient Occlusion | Sort Priority** to `6`. Press the <kbd>Apply</kbd> button.
 
-![turn on DBuffer Decals in project settings](images/adjustAONPriority.png)
+![change sort priorities](images/adjustAONPriority.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-
-
-![set show environment and show floor in static mesh previewer](images/.jpg)
+![set show environment and show floor in static mesh previewer](images/copyMDecal.png)
 
 
 ![](../images/line2.png)
