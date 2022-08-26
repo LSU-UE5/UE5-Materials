@@ -118,7 +118,7 @@ Connect all the pins from the **MF_UVs to the MF_Opacity** and from **MF_Opacity
 
 Now select **M_Decal** and change 
 
-![material instance of decal](images/![material instance of decal](images/createMICementCracks.png).png)
+![material instance of decal](images/deferredDecal.png)
 
 ![](../images/line2.png)
 
