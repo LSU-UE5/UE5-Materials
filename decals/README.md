@@ -98,9 +98,7 @@ Go to **Materials | Master** and right mouse click **M_SolidTexture** and select
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Make sure  the **Blend Mode** is set to **Translucent**. Change the **Decal Blend Mode** to `DBuffer Transluicent Color, Normal, Roughness`.
-
-![change blend mode to translucent decal blend to dbuffer translucent](images/DecalBlendMode.jpg)
+![change blend mode to translucent decal blend to dbuffer translucent](images/addMFOpacity.png)
 
 
 ![](../images/line2.png)
