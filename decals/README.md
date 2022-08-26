@@ -132,7 +132,7 @@ Right click on **M_Decal** and select **Create Material Instance**.  Call it `MI
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Open up **MI_Cement_Cracks** and assign `T_`
+Open up **MI_Cement_Cracks** and assign `T_DamagedRoad_BCA` to **Base Color**, `T_DamagedRoad_N` to **Normal Map** and `T_DamagedRoad_MSRA)` to **Metallic | Specular | Roughness | AO**.
 
 ![select alpha channel](images/damagedRoadTextures.png)
 
@@ -140,9 +140,9 @@ Open up **MI_Cement_Cracks** and assign `T_`
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now go into the **Channels** tab and press the **Save Channel As Selection** button.
+Now we have noting to put the decal on.  Lets put a road texture on our planes in room 6. 
 
-![save channel as selecton in channels](images/image_238.jpg)
+![save channel as selecton in channels](images/createMIConcreteRoad.png)
 
 This adds a channel called **Alpha1** and looks like a photoshop mask.
 
