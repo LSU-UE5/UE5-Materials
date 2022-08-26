@@ -2,7 +2,7 @@
 
 ### Decals
 
-<sub>[previous](../two-sided-ii/README.md#user-content-two-sided-material-ii) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../refract/README.md#user-content-refraction-and-fresnel)</sub>
+<sub>[previous](../two-sided-ii/README.md#user-content-two-sided-material-ii) • [home](../README.md#user-content-ue4-intro-to-materials) • [next](../decals-ii/README.md#user-content-decals-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -190,10 +190,10 @@ Now we have a nice seamless texture that we can apply our decal we just created.
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Refraction and Fresnel"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Decal II"> -->
 ![next up next tile](images/banner.png)
 
 ![](../images/line.png)
 
-| [previous](../two-sided-ii/README.md#user-content-two-sided-material-ii)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../refract/README.md#user-content-refraction-and-fresnel)|
+| [previous](../two-sided-ii/README.md#user-content-two-sided-material-ii)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../decals-ii/README.md#user-content-decals-ii)|
 |---|---|---|
