@@ -41,7 +41,9 @@ Adjust the **Opacity Intensity** to your liking. Now lets move on to the next de
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/dupeMFDamagedRoad.png)
+Right click on **Materials | Decals | MI_CementCracks** and call it `MI_DamagedRoad`.
+
+![duplicate MICementCracks and create MI_DamagedRoad](images/dupeMFDamagedRoad.png)
 
 ![](../images/line2.png)
 
