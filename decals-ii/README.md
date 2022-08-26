@@ -33,7 +33,7 @@ Click on the **Base Color Tine** and select the eye dropper and pick a color fro
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![adjust alpha](images/reduceCrackOpacity.png)
 
 ![](../images/line2.png)
 
