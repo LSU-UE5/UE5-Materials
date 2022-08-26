@@ -17,7 +17,9 @@ Lets get the decals onto the road.
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Now the decals do not take a texture slot they lie on top of the textures and act as a layer in photoshop but project over existing polygons and uvs.  So drag 
+
+![add mf_cementcrack to level](images/addCementCrackLevel.png)
 
 ![](../images/line2.png)
 
@@ -143,7 +145,7 @@ Lets get the decals onto the road.
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT TITLE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Refraction and Fresnel"> -->
 ![next up next tile](images/banner.png)
 
 ![](../images/line.png)
