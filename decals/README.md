@@ -116,17 +116,17 @@ Connect all the pins from the **MF_UVs to the MF_Opacity** and from **MF_Opacity
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Right click on **M_Decal** and select **Create Material Instance**.  Call it `MI_Cement_Cracks`.  Create a new directory in **Materials** called `Decals`.  Move the **MI_Cement_Cracks** to this new folder.
+Now select **M_Decal** and change 
 
-![material instance of decal](images/createMICementCracks.png)
+![material instance of decal](images/![material instance of decal](images/createMICementCracks.png).png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-You do not need to do the following as I have already done this for you.  I just wanted to show how to add an Alpha to a file.  Now photoshop doesn't automatically create this 4th Alpha channel for you.  The checkerboard that we think of as an alpha is not a true alpha channel.  Try and save a photoshop file with transparency in a **TGA** format.
+Right click on **M_Decal** and select **Create Material Instance**.  Call it `MI_Cement_Cracks`.  Create a new directory in **Materials** called `Decals`.  Move the **MI_Cement_Cracks** to this new folder.
 
-![save file in photoshop](images/image_236.jpg)
+![material instance of decal](images/createMICementCracks.png)
 
 ![](../images/line2.png)
 
