@@ -183,6 +183,9 @@ Select all 16 faces and assign **MI_ContreteRoad** as the material.
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
+Now we have a nice seamless texture that we can apply our decal we just created.
+
+![Seamless texture](images/cementRoadInGame.png)
 
 
 ![](../images/line.png)
