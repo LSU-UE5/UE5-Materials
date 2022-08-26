@@ -63,7 +63,11 @@ Drag **MI_DamagedRoad** onto the plane surface in room 6. Adjust the color, tint
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`
+
+https://user-images.githubusercontent.com/5504953/186798673-e2ff4040-cc8b-41ac-b3d4-38eb79f0bafa.mp4
+
+UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 ![](../images/line2.png)
 
