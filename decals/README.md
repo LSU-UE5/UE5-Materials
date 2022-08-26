@@ -107,9 +107,9 @@ Replace **MF_Texture** with **MF_Opacity**.
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Add two new **Texture Sample** nodes to the material graph.  Assign the Diffuse material to one and the Normal map to the other. Connect them to the appropriate nodes. Look in the top left corner and see the problem. Our background shows through.  The alpha channel is not working. What do we do?
+Connect all the pins from the **MF_UVs to the MF_Opacity** and from **MF_Opacity**  t0 **M_Decal**.  They are the same as the **M_TextureSolid** except we have an **Alpha** channel we are using to hold the **Opacity**.
 
-![add two texture sample nodes and apply materials](images/AlphaIgnored.jpg)
+![add two texture sample nodes and apply materials](images/oneMorePinOpac.png)
 
 
 ![](../images/line2.png)
