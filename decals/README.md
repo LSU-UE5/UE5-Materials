@@ -132,29 +132,25 @@ Right click on **M_Decal** and select **Create Material Instance**.  Call it `MI
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Open up **MI_Cement_Cracks** and assign `T_DamagedRoad_BCA` to **Base Color**, `T_DamagedRoad_N` to **Normal Map** and `T_DamagedRoad_MSRA)` to **Metallic | Specular | Roughness | AO**.
-
-![select alpha channel](images/damagedRoadTextures.png)
+Now lets download two decals worth of textures: [T_CementCracks_BCA.png](../Assets/T_CementCracks_BCA.png),  [T_CementCracks_N.png](../Assets/T_CementCracks_N.png), [T_CementCracks_MSRAO.png](../Assets/T_CementCracks_MSRAO.png).  Download [T_DamagedRoad_BCA.png](../Assets/T_DamagedRoad_BCA.png), [T_DamagedRoad_N.png](../Assets/T_DamagedRoad_N.png) and [T_DamagedRoad_MSRAO.png](../Assets/T_DamagedRoad_MSRAO.png).
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Open up **MI_Cement_Cracks** and assign `T_DamagedRoad_BCA` to **Base Color**, `T_DamagedRoad_N` to **Normal Map** and `T_DamagedRoad_MSRA)` to **Metallic | Specular | Roughness | AO**.
+
+![select alpha channel](images/damagedRoadTextures.png)
+
+
 Now we have noting to put the decal on.  Lets put a road texture on our planes in room 6. Go to **Materials | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_ContreteRoad`.  Move it to the **Surfaces** directory.
 
-![save channel as selecton in channels](images/createMIConcreteRoad.png)
-
-This adds a channel called **Alpha1** and looks like a photoshop mask.
-
-![add alpha channel to channels](images/image_239.jpg)
+![create concrete road material instance](images/createMIConcreteRoad.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a background layer at the bottom and make sure it is pure black (0,  0, 0 RGB). Now you can save the image as a **TGA** with an alpha.
-
-![add pure black background layer and with tga and alpha turned on](images/image_240.jpg)
 
 ![](../images/line2.png)
 
