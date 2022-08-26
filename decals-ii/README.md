@@ -41,7 +41,7 @@ Adjust the **Opacity Intensity** to your liking. Now lets move on to the next de
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/dupeMFDamagedRoad.png)
 
 ![](../images/line2.png)
 
