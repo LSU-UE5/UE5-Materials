@@ -116,9 +116,9 @@ Connect all the pins from the **MF_UVs to the MF_Opacity** and from **MF_Opacity
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now select **M_Decal** and change 
+Now select **M_Decal** and change the **Material Domain** to `Deferred Decal` and the **Blend Mode** to `Translucent`.
 
-![material instance of decal](images/deferredDecal.png)
+![change material domain and blend mode](images/deferredDecal.png)
 
 ![](../images/line2.png)
 
