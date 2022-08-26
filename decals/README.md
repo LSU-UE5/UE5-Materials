@@ -109,7 +109,7 @@ Replace **MF_Texture** with **MF_Opacity**.
 
 Connect all the pins from the **MF_UVs to the MF_Opacity** and from **MF_Opacity**  t0 **M_Decal**.  They are the same as the **M_TextureSolid** except we have an **Alpha** channel we are using to hold the **Opacity**.
 
-![add two texture sample nodes and apply materials](images/oneMorePinOpac.png)
+![connect all material pins](images/oneMorePinOpac.png)
 
 
 ![](../images/line2.png)
