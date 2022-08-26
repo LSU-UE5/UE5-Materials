@@ -33,7 +33,9 @@ Click on the **Base Color Tine** and select the eye dropper and pick a color fro
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![adjust alpha](images/reduceCrackOpacity.png)
+Adjust the **Opacity Intensity** to your liking. Now lets move on to the next decal.
+
+![adjust opacity intensity](images/reduceCrackOpacity.png)
 
 ![](../images/line2.png)
 
