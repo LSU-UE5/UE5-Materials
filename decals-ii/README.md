@@ -49,7 +49,9 @@ Right click on **Materials | Decals | MI_CementCracks** and call it `MI_DamagedR
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Now open up **MI_DamagedRoad** and assign the textures you downloaded.  Assign `T_DamagedRoad_BCA`, `T_DamagedRoad_N` and `T_DamagedRoad_BCMSRAO`.
+
+![assign three textures](images/damagedRoadTextures.png)
 
 ![](../images/line2.png)
 
