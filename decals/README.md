@@ -132,9 +132,9 @@ Right click on **M_Decal** and select **Create Material Instance**.  Call it `MI
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Now press Command (Cntrl on PC) Left Click on the Thumnail to add to select the image.  You should see the marching ants around all opaque pixels.
+Open up **MI_Cement_Cracks** and assign `T_`
 
-![select alpha channel](images/image_237.jpg)
+![select alpha channel](images/damagedRoadTextures.png)
 
 ![](../images/line2.png)
 
