@@ -79,19 +79,25 @@ Now lets see if a decal material works on top of a nanite mesh.  Go to **Meshes 
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/DuplicateDamagedRoad.png)
+Select **Materials | Decal | MI_DamagedRoad** and select **Duplicate**.  Call this new material `MI_DamagedConcreteWall`.
+
+![dupe MI_DamagedRoad](images/DuplicateDamagedRoad.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![alt_text](images/rotateMat.png)
+Drag **MI_DamagedConcreteWall** in front of the wall. Notice that a light blue arrow is pointing down and the texture looks corrupted.  That is because it is pointing down that works on the ground.  Rotate the material until it points at the wall.
+
+![assign and rotate MI_DamagedConcreteWall](images/rotateMat.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/decalsWorkOverNanites.png)
+Scale and position the decal.  Notice that it works great with Nanites.  This is because the material is transulcent but seperate from the static meshes.
+
+![position and rotate decal](images/decalsWorkOverNanites.png)
 
 ![](../images/line2.png)
 
