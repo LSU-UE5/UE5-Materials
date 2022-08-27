@@ -49,23 +49,17 @@ Assing the **Normal** texture to be `T_FrostedGlass` which I have supplied you.
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-If you select the **UseNormal?** node and select a **Default Value** of `true` then you have a textured glass after a few seconds of processing.
-
-![use normal true](images/normalOnGlass.png)
+![alt_text](images/normalOnGlass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Now set the **Group** to `SurfaceProperties` and the **Sort Priority** to `3`. Set the **UseNormal?** back to `false`.
-
-![set troup and priority](images/useNormalFalsePrior.png)
+![alt_text](images/useNormalFalsePrior.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Duplicate the ball and title from Glass Basic and drag it to the right.  Right lcik on **Materials | Surfaces** and select **Duplicate**.  Call it `MI_GlassNormal`.  Change the text on the title to `MI_GlassNormal`.  Assign this new **MI_GlassNormal** texture to this second ball in the scene.
 
 ![alt_text](images/dupicateMIGlassBasic.png)
 
@@ -73,14 +67,13 @@ Duplicate the ball and title from Glass Basic and drag it to the right.  Right l
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Make sure **MI_GlassNormal** is assigned to the second material ball.  Then open it and set **Use Normal** to `true`.  Adjust the **Opacity** to your liking.
-
-![set normal to true](images/miNormalGlass.png)
+![alt_text](images/miNormalGlass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+https://user-images.githubusercontent.com/5504953/187051484-0466d17c-11b3-4988-81cb-fb7d4344e1e3.mp4
 
 ![](../images/line2.png)
 
@@ -123,6 +116,7 @@ Make sure **MI_GlassNormal** is assigned to the second material ball.  Then open
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+https://user-images.githubusercontent.com/5504953/187051495-bd6a6f21-9790-49b5-89b8-1b49716a05c0.mp4
 
 ![](../images/line2.png)
 
