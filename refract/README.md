@@ -158,7 +158,7 @@ Add a **Constant Scalar** set to a value of `1`.  Feed this into the **Lerp | A*
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+https://user-images.githubusercontent.com/5504953/187050753-e843dcd8-1c88-49de-b409-75d417b683bc.mp4
 
 ![](../images/line2.png)
 
