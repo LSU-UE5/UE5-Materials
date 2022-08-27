@@ -41,7 +41,9 @@ Plug the output of the ***Texture Sample** to the **False** pin of the switch.  
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/assignTFrostedGlass.png)
+Assing the **Normal** texture to be `T_FrostedGlass` which I have supplied you.
+
+![assign T_FrostedGlass](images/assignTFrostedGlass.png)
 
 ![](../images/line2.png)
 
