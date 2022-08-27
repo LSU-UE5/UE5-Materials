@@ -108,17 +108,21 @@ Drag from **Mesh | Supplied | SM_MatPreviewMesh_02** into the scene. Rotate it t
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/addMIGlassBasic.png)
+Assign **Materials | Surfaces | MI_GlassBasic** to the material ball.  Change the **Opacity** on the material instance to 0.1.
+
+![add material instance to ball](images/addMIGlassBasic.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/changeLightingMode.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+![alt_text](images/changeLightingMode.png)
 
 ![alt_text](images/changeRoughMet.png)
 
