@@ -148,7 +148,7 @@ Now we want the effect of the refraction to be greater at the edges.  So lets ad
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Constant Scalar** set to a value of `1`.  Feed this into the **Lerp | A** channel.  Send **Refraction** to the **Lerp | B** channel.  Send the **Fresnel** into the **Lerp | Alpha** channel. Send the output of the **Lerp** node to the **Refraction** pin. Press the <kbd>Apply</kbd> button.
+Add a **Constant Scalar** set to a value of `1`.  Feed this into the **Lerp | A** channel.  Send **Refraction** to the **Lerp | B** channel.  Set the **Refraction | Default** to `1.52` which is a good value for glass. Send the **Fresnel** into the **Lerp | Alpha** channel. Send the output of the **Lerp** node to the **Refraction** pin. Press the <kbd>Apply</kbd> button.
 
 ![alt_text](images/hookUPFresnellLerp.png)
 
@@ -158,21 +158,25 @@ Add a **Constant Scalar** set to a value of `1`.  Feed this into the **Lerp | A*
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Press* the <kbd>Play</kbd> button.  The rendering issues have disappeared but now the effect is too subtle.
+
 https://user-images.githubusercontent.com/5504953/187050753-e843dcd8-1c88-49de-b409-75d417b683bc.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/lessopaqueWhiter.png)
+Open up **M_GlassBasic** and change the **Opacity** to `.4`, then I put more white into the color.
 
-![alt_text](images/centerRefract.png)
-
-![alt_text](images/miBasicTextTitle.png)
+![increase opacity](images/lessopaqueWhiter.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
+
+![alt_text](images/centerRefract.png)
+
+![alt_text](images/miBasicTextTitle.png)
 
 ![alt_text](images/addFrenelExpScalarParam.png)
 
