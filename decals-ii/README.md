@@ -71,15 +71,38 @@ https://user-images.githubusercontent.com/5504953/186798673-e2ff4040-cc8b-41ac-b
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![organize folder 6 in outlinder](images/addNanitePillar.png)
+Now lets see if a decal material works on top of a nanite mesh.  Go to **Meshes | Supplied** and drag **ConcretePillar** into the scene. Double click the mesh and make sure Nanites are on.
+
+![add nanite concrete pillar](images/addNanitePillar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+![alt_text](images/DuplicateDamagedRoad.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
+
+![alt_text](images/rotateMat.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
+
+![alt_text](images/decalsWorkOverNanites.png)
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
 Organize your folder and make sure the filenames reflect what you see in the room.  Take your time to organize it well.
 
 ![organize folder 6 in outlinder](images/cleanUpFolder.png)
+
+##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
