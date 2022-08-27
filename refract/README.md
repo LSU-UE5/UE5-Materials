@@ -75,7 +75,7 @@ Notice that a value of `.1` turns the sphere into a wide angle lens.
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-If you set the **Refraction | Default Value** to `2.0`, notice that we get a magnifying effect.
+If you set the **Refraction | Default Value** to `2.0`, notice that we get a magnifying effect. Press the <kbd>Apply</kbd> button.
 
 ![2 magnifies](images/TwoRefraction.png)
 
@@ -116,7 +116,9 @@ Assign **Materials | Surfaces | MI_GlassBasic** to the material ball.  Change th
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+*Press* the <kbd>Play</kbd> button and run up to the material ball.  Now a lot of the background disappears.  It doesn't look too much like glass.  This is a cheaper way of rendering it but up close fools no one.
 
+https://user-images.githubusercontent.com/5504953/187050453-97243b95-87f1-4193-b5db-5bb9a7422153.mp4
 
 ![](../images/line2.png)
 
