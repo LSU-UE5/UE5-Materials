@@ -19,19 +19,23 @@ Now lets really move it up a notch and add a normal map to give the glass some t
 
 We can add another **Scalar Parameter** and set the default to `5`.  Call it `Fresnel Exponent` and attach it tohe the **ExponentIn** pin.  Now add a **Static Switch Parameter**.
 
-![alt_text](images/addFrenelExpScalarParam.png)
+![add scalar paramter called fresnel exponent](images/addFrenelExpScalarParam.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/staticSwitchNormal.png)
+Call this static switch `Use Normal?`.  Then add a **Textures | T_Base_N` to the graph.
+
+![add static switch use normal?](images/staticSwitchNormal.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/param3DNormal.png)
+Plug the output of the ***Texture Sample** to the **False** pin of the switch.  Add a **TextureSampleParameter2D** and call it `Normal`.  Set it to the **UseNormal? | True** pin.  Send the output of **Use Normal** to **Normal** in the shader node.
+
+![connect parameters](images/param3DNormal.png)
 
 ![](../images/line2.png)
 
