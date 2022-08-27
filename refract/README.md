@@ -175,7 +175,7 @@ Open up **M_GlassBasic** and change the **Opacity** to `.4`, then I put more whi
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
  Now the center has no refraction so go in and change the constant vector to `1.05` so it has a bit of refraction at the very center.
 
-![alt_text](images/centerRefract.png)
+![change refraction minimum to 1.05](images/centerRefract.png)
 
 ![](../images/line2.png)
 
@@ -184,9 +184,6 @@ Open up **M_GlassBasic** and change the **Opacity** to `.4`, then I put more whi
 Add a **Text** actor and change the color and size and set it to **Text** `MI_BasicGlass`.  Place it and rotate it on top of the material ball.
 
 ![place text on toop of material ball](images/miBasicTextTitle.png)
-
-
-
 
 ![](../images/line.png)
 
