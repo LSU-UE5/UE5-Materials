@@ -17,6 +17,8 @@ Now lets really move it up a notch and add a normal map to give the glass some t
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
+We can add another **Scalar Parameter** and set the default to `5`.  Call it `Fresnel Exponent` and attach it tohe the **ExponentIn** pin.  Now add a **Static Switch Parameter**.
+
 ![alt_text](images/addFrenelExpScalarParam.png)
 
 ![](../images/line2.png)
