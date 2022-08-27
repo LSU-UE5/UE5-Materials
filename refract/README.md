@@ -41,49 +41,67 @@ Add a **Vector 3 Parameter** called `Glass Color`.  Set the **Group** to `Base C
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/shadingModel.png)
+Select **M_Glass** and change the **Shading Model** to `Translucent`.  We want it to be glass so we have to see through it. Set **Two Sided** to `true`.
+
+![translucent shading model](images/shadingModel.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-![alt_text](images/lightBlueGlass.png)
+Select a light blue color and connect the white pin in **Glass Color** to the **Base Color** pin.
+
+![make color light blue connect glass color pin](images/lightBlueGlass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/opacityScalarParameter.png)
+Add a **Scalar Parameter** called `Opacity` and set the **Default Value** to `0.3` and the **Slider Max** to `1`.  We cannot have an opacity that is less than 0 or greater than one.
+
+![set default value to .3](images/opacityScalarParameter.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/point1ScalarRefaction.png)
+Create another **Scalar Parameter** and call it `Refraction`.  Set it to `.1`.  Make a comment around the **Opacity** and **Refraction** nodes with comment `Surface Properties`.  The highlight the base color node and press the <kbd>C</kbd> button and nake the comment `Base Color`.  Change the colors to separate the comments.
+
+Notice that a value of `.1` turns the sphere into a wide angle lens.
+
+![set scalar paramter refractoin to .1](images/point1ScalarRefaction.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/TwoRefraction.png)
+If you set the **Refraction | Default Value** to `2.0`, notice that we get a magnifying effect.
+
+![2 magnifies](images/TwoRefraction.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/GroupSort.png)
+Set **Opacity** to **Group** `SurfaceProperties` and **Sort Priority** `0`.  Set **Refraction** to **Group** `SurfaceProperties` and **Sort Priority** `1`.
+
+![set priorities](images/GroupSort.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![alt_text](images/miGlassBasic.png)
+Go to **Materials | Master** and right click on **M_Glass** and select **Create Material Instance**.  Call this instance `MI_GlassBasic` and move to the **Materials | Surface** folder.
+
+![create mi_glassbasic as instance of mi_glass](images/miGlassBasic.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/addMatBall.png)
+Drag from **Mesh | Supplied | SM_MatPreviewMesh_02** into the scene. Rotate it to face forward.
+
+![drag material ball in scene](images/addMatBall.png)
 
 ![](../images/line2.png)
 
