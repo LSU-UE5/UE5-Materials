@@ -181,7 +181,9 @@ Open up **M_GlassBasic** and change the **Opacity** to `.4`, then I put more whi
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/miBasicTextTitle.png)
+Add a **Text** actor and change the color and size and set it to **Text** `MI_BasicGlass`.  Place it and rotate it on top of the material ball.
+
+![place text on toop of material ball](images/miBasicTextTitle.png)
 
 
 
