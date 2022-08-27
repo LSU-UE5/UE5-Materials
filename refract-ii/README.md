@@ -73,6 +73,8 @@ Assing the **Normal** texture to be `T_FrostedGlass` which I have supplied you.
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Press* the <kbd>Play</kbd> button and go up to both glass material balls.  The textured one really stands out and the refraction is now even more exagerated.
+
 https://user-images.githubusercontent.com/5504953/187051484-0466d17c-11b3-4988-81cb-fb7d4344e1e3.mp4
 
 ![](../images/line2.png)
