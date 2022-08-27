@@ -138,7 +138,9 @@ https://user-images.githubusercontent.com/5504953/187051495-bd6a6f21-9790-49b5-8
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/organizeOutliner.png)
+Go to the **Outliner** and make sure eveything is in **Room 7**.  Rename items so they make sense.
+
+![organize outliner](images/organizeOutliner.png)
 
 ![](../images/line2.png)
 
