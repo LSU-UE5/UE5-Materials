@@ -173,18 +173,17 @@ Open up **M_GlassBasic** and change the **Opacity** to `.4`, then I put more whi
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
+ Now the center has no refraction so go in and change the constant vector to `1.05` so it has a bit of refraction at the very center.
 
 ![alt_text](images/centerRefract.png)
-
-![alt_text](images/miBasicTextTitle.png)
-
-![alt_text](images/addFrenelExpScalarParam.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/miBasicTextTitle.png)
+
+
 
 
 ![](../images/line.png)
