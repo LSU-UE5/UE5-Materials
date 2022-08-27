@@ -6,8 +6,6 @@
 
 ![](../images/line3.png)
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
-
 Lets get the decals onto the road.
 
 <br>
@@ -73,13 +71,15 @@ https://user-images.githubusercontent.com/5504953/186798673-e2ff4040-cc8b-41ac-b
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Organize your folder and make sure the filenames reflect what you see in the room.  Take your time to organize it well.
-
-![organize folder 6 in outlinder](images/cleanUpFolder.png)
+![organize folder 6 in outlinder](images/addNanitePillar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Organize your folder and make sure the filenames reflect what you see in the room.  Take your time to organize it well.
+
+![organize folder 6 in outlinder](images/cleanUpFolder.png)
 
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
