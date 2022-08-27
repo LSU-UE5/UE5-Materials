@@ -25,13 +25,17 @@ Double click **Maps | BasicMaterials2**.  Go to **Meshed | Supplied** and drag *
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/addMGlass.png)
+Go to **Materials | Master** and press the <kbd>+ Add</kbd> button.  Create a new **Material** called `M_Glass`.
+
+![add m_glass material](images/addMGlass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addBaseColor.png)
+Add a **Vector 3 Parameter** called `Glass Color`.  Set the **Group** to `Base Color` and **Sort Priority** to `0`.
+
+![add vector 3 parameter glass color](images/addBaseColor.png)
 
 ![](../images/line2.png)
 
