@@ -49,17 +49,23 @@ Assing the **Normal** texture to be `T_FrostedGlass` which I have supplied you.
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-![alt_text](images/normalOnGlass.png)
+If you select the **UseNormal?** node and select a **Default Value** of `true` then you have a textured glass after a few seconds of processing.
+
+![use normal true](images/normalOnGlass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/useNormalFalsePrior.png)
+Now set the **Group** to `SurfaceProperties` and the **Sort Priority** to `3`. Set the **UseNormal?** back to `false`.
+
+![set troup and priority](images/useNormalFalsePrior.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Duplicate the ball and title from Glass Basic and drag it to the right.  Right lcik on **Materials | Surfaces** and select **Duplicate**.  Call it `MI_GlassNormal`.  Change the text on the title to `MI_GlassNormal`.  Assign this new **MI_GlassNormal** texture to this second ball in the scene.
 
 ![alt_text](images/dupicateMIGlassBasic.png)
 
@@ -67,7 +73,9 @@ Assing the **Normal** texture to be `T_FrostedGlass` which I have supplied you.
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/miNormalGlass.png)
+Make sure **MI_GlassNormal** is assigned to the second material ball.  Then open it and set **Use Normal** to `true`.  Adjust the **Opacity** to your liking.
+
+![set normal to true](images/miNormalGlass.png)
 
 ![](../images/line2.png)
 
