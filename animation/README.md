@@ -67,19 +67,23 @@ Add a **Vector Parameter** node calling it `Glow Color 2` and make it a slightly
 
 Add a **Multiply** node.  Feed the output of the **Constant 3 Vector** into the **A** input of a **Multiply** node.
 
+Add a **Multiply** node with the **A** pin begin between **Base Color 2** and **Lerp | A** nodes.  Add another **Constant Scalar** and make it a value of `20`.  Remember that the illumination channel takes values over 1.0 to be even brighter (making the color more white, the hotter it gets). Send the output of **Lerp** to the **Emissive** color node on the main shader node.
+
 ![multiply glow color 2](images/multiplyGlow2.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+So when the Alpha in the LERP node is set to `1` we get no glow as it selects the B input which sends 0 to the glow. Change the Alpha to `0` and you get the A input which is a multiplied yellow glow.
+
+![alt_text](images/lerpOneZero.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/timeSine.png)
 
 ![](../images/line2.png)
 
