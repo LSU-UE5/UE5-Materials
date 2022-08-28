@@ -91,7 +91,9 @@ Add a **Time** node. This will return the time from the computer.  We then feed 
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![alt_text](images/.png)
+Add a **Saturate** node to clamp the value between 0 and 1 just in case it goes beyond this range for whatever reason.  Plug the output of the **Saturate** node to the input pin on the **Lerp | Alpha**.
+
+![saturate to alpha](images/saturateAlpha.png)
 
 ![](../images/line2.png)
 
