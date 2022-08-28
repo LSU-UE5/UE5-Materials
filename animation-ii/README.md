@@ -132,7 +132,7 @@ Now we are going to have two players of ripples at different directions and spee
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Now since normals is vector math and not pixel colors we can't just add them to get a combined normal.  We need to use the **Blend Angle Corrected Normals** node.  Attach both **Normal** outputs to it.
+Now since normals is vector math and not pixel colors we can't just add them to get a combined normal.  We need to use the **Blend Angle Corrected Normals** node.  Attach both **Normal** outputs to it. Connect the output to the **Use Normal? | True** pin.
 
 ![blended adjusted normals node](images/combineNormals.png)
 
@@ -140,11 +140,17 @@ Now since normals is vector math and not pixel colors we can't just add them to 
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Now add another **Static Switch Parameter** node and call it `Animate UVs?`. Set the **Group** and the **Sort Priority**.  You can put it where it makes sense to you. 
+
+Make a copy of the **Normal** node and feed it into the **Animated UVs? | False** pin. Send the output of the **BlendAngle** node to the **Animated UVs? | True** pin. Send the output of the **Animated UVs?** node to the **Use Normal? | True** pin. Press the <kbd>Apply</kbd> button.
+
 ![alt_text](images/animateUVs.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Duplicate **MI_GlassNormal** and call it `MI_AnimatedGlass`.  Drag it onto the material ball you placed in Room 8.
 
 ![alt_text](images/dupeMIGlass.png)
 
