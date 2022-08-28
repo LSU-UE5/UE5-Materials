@@ -41,7 +41,9 @@ Now lets rotate the UVs.  Download [T_Gear.tif](../Assets/T_Gear.tif) and drag i
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+
+
+![alt_text](images/miRotate.png)
 
 ![](../images/line2.png)
 
