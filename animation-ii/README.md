@@ -8,7 +8,7 @@
 
 <img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
 
-Finish up the UV translation.  Then lets rotate a UV.  Finally we will give the glass texture a watery effect!
+Finish up the UV translation.  Then lets rotate a UV.  Finally we will give the glass texture a watery effect! Lets get to it.
 
 <br>
 
@@ -17,13 +17,15 @@ Finish up the UV translation.  Then lets rotate a UV.  Finally we will give the 
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-![alt_text](images/.png)
+Open up **MI_Chevron** and make it half size so we can still see the editor.
+
+![alt_text](images/openUpMIChevron.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+
 
 ![](../images/line2.png)
 
