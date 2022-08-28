@@ -41,9 +41,9 @@ Now lets rotate the UVs.  Download [T_Gear.tif](../Assets/T_Gear.tif) and drag i
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Right click on **Materials | Master | M_EmissiveTexture** and select **Create Material Instance**.  Call it `MI_Rotate` and drag it to the **Surfaces** folder to move it.
 
-
-![alt_text](images/miRotate.png)
+![create mi_rotate material instance](images/miRotate.png)
 
 ![](../images/line2.png)
 
