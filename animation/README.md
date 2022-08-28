@@ -108,7 +108,7 @@ Adjust the **Group** and **Sort Priority** of all the parameters in this master 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/makeMaterialInstance.png)
 
 ![](../images/line2.png)
 
