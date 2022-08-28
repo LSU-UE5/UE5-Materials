@@ -33,62 +33,62 @@ You can get a stand alone version of **Quixel Bridge** and then further customiz
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/launchBridge.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/bridgeSettings.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/bringInTextures.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/agreeToLink.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/orderTextures.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/addMetalic.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/spaceAlphaMerge.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/ConnectPins.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/addOutput.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/bcH.png)
 
 ![](../images/line2.png)
 
@@ -100,50 +100,33 @@ You can get a stand alone version of **Quixel Bridge** and then further customiz
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/outputN.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/rgbaMerge.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/msrao.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/exportTextures.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+![alt_text](images/ThreeTextures.png)
 
 ![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
-
-![alt_text](images/.png)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-![alt_text](images/.png)
-
 
 ![](../images/line.png)
 
