@@ -173,7 +173,7 @@ Duplicate the plane and place it next to it so we have two chevrons right next t
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](imagesaddPanner.png)
+![alt_text](images/addPanner.png)
 
 ![](../images/line2.png)
 
