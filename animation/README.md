@@ -83,7 +83,7 @@ So when the Alpha in the LERP node is set to `1` we get no glow as it selects th
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Time** node. This will return the time from the computer.  We then feed it into a **Sine** node.  This converts it to a sine wave which is a smooth wave going between -1 and 1.  So we need to get it to go between 0 and 1, so we put an **Add** node after and add a avlue of `2`, bringing the curve to a value of 0 to 2.  Then we **Divide** it by `2` in a new **Divide** node to bring it back to a value of 0 to 1.
+Add a **Time** node. This will return the time from the computer.  We then feed it into a **Sine** node.  This converts it to a sine wave which is a smooth wave going between -1 and 1.  So we need to get it to go between 0 and 1, so we put an **Add** node after and add a avlue of `2`, bringing the curve to a value of 0 to 2.  Then we **Divide** it by `2` in a new **Divide** node to bring it back to a value of 0 to 1. Press the <kbd>Apply</kbd> button.
 
 ![time sign normalize](images/timeSine.png)
 
@@ -117,7 +117,13 @@ Drag it into the **Materials | Surfaces** folder.  Drag it onto the material bal
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+*Press* the <kbd>Play</kbd> button  and look at the animation. It went a bit fast for me so I added another **Scalar Parameter** called speed and divided it into the **Time** node to slow it down.  I set the default to ???. Press the <kbd>Apply</kbd> button.
+
+![create MI_AnimatedGLow](images/makeMaterialInstance.png)
+
+*Press* the <kbd>Play</kbd> button and I like the speed better.
+
+https://user-images.githubusercontent.com/5504953/187080763-a41f368f-0763-44a1-a8ad-d124a09c71c2.mp4
 
 ![](../images/line2.png)
 
