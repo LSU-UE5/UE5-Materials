@@ -166,13 +166,17 @@ Adjust both **Panner** nodes with diffent speeds in **Speed X** and **Speed Y**.
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Open up **MI_AnimatedGlass** and turn **Animate UVs?** to `true`.  *Press* the <kbd>Play</kbd> button  and look at the fabulous effect of water rippling on/in the ball.
+
 https://user-images.githubusercontent.com/5504953/187085995-eeb3a255-8edd-40a1-a56c-0d5d843dabf5.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/organize.png)
+Organize the **Outliner** and have your actors match what is in the scene.  Take your time to clean up your files.
+
+![organize files](images/organize.png)
 
 ![](../images/line2.png)
 
