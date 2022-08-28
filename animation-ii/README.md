@@ -59,6 +59,8 @@ Add another **Plane** actor to the level. Rotate it towards the camera and set t
 
 Now open up **MF_UVs**.  Lets not have the panner running unless we turn it on (as opposed to sending it 0). This should be more performant.  Add a **Static Switch Parameter**. Call is `Translave UVs`.  Make it's **Group** a value of `UV` and it's **Sort Priority** a value of `2`.
 
+Send the output of the **Custom Rotator** into the **Translate UV? | False** pin and the output of the **Panner** node to the **Translate UV? | True** pin.
+
 ![add static switch for panner](images/staticSwitch.png)
 
 ![](../images/line2.png)
