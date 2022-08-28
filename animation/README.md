@@ -41,7 +41,9 @@ Add a **Vector3Parameter?** node and name it `Glow Color`. Make it a bright vibr
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Add three **Scalar Parameters**.  The first is called `Metallic` with a value of `0`.  The second is `Specular` with a value of `0.5` and the final is called `Roughness` with a value of `0`.
+
+![add three scalar parameters](images/addThreeScalarParams.png)
 
 ![](../images/line2.png)
 
