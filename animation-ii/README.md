@@ -101,6 +101,8 @@ Add a **Multiply** node which will multiply **Time** by **Rotation Speed** scala
 
  Open up **MI_Rotation** and turn on rotation and adjust the speed and the glow.  *Press* the <kbd>Play</kbd> button and look at the animations!  Now lets create a water like effect.
 
+https://user-images.githubusercontent.com/5504953/187084875-49014055-3f40-4a9b-9452-8f90aadf80f4.mp4
+
 ![](../images/line2.png)
 
 
