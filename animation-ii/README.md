@@ -83,7 +83,9 @@ Now we will need to add another **Custom Rotator** node that we will animate.  H
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addTimeNode.png)
+Now add a **Time** node.  Then add a **Scalar Parameter** called `Rotation Speed`.  Make it **Group** `UV` and **Sort Priority** of `6`. Set a **Desc** that says `Number between -1 and 1`.  Change **Slide Min** to -1 and **Slide Max** to `1`.
+
+![add time and scalar](images/addTimeNode.png)
 
 ![](../images/line2.png)
 
