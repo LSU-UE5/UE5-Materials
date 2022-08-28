@@ -57,7 +57,9 @@ Add another **Plane** actor to the level. Rotate it towards the camera and set t
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now open up **MF_UVs**.  Lets not have the panner running unless we turn it on (as opposed to sending it 0). This should be more performant.  Add a **Static Switch Parameter.
+
+![alt_text](images/staticSwitch.png)
 
 ![](../images/line2.png)
 
