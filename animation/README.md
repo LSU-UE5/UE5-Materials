@@ -49,7 +49,7 @@ Add three **Scalar Parameters**.  The first is called `Metallic` with a value of
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Add a **LinearInterpolate** (LERP) node. We are going to have no flashing glow at the B input so add a **Constant** node and leave it as its default `0` and place it in the **B** pin of the LERP node.
+Add a **LinearInterpolate** (LERP) node. We are going to have no flashing glow at the B input so add a **Constant** node and leave it as its default `0` and place it in the **B** pin of the LERP node. Add comment box around **Surface Properties** and **Base Color** and organize your node chart.
 
 ![lerp and constant node](images/firstLerpNode.png)
 
@@ -99,7 +99,9 @@ Add a **Saturate** node to clamp the value between 0 and 1 just in case it goes 
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Adjust the **Group** and **Sort Priority** of all the parameters in this master material.
+
+![mast glow animation sort and groups](images/groupsPrioritiesGlow.png)
 
 ![](../images/line2.png)
 
