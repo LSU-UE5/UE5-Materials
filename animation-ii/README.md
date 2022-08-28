@@ -2,7 +2,7 @@
 
 ### Animation II
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
+<sub>[previous](../animation/README.md#user-content-animation) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
 
 ![](../images/line3.png)
 
@@ -150,5 +150,5 @@ Open up **MI_Chevron** and make it half size so we can still see the editor.
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
+| [previous](../animation/README.md#user-content-animation)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
 |---|---|---|
