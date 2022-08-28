@@ -67,7 +67,7 @@ Add a **Vector Parameter** node calling it `Glow Color 2` and make it a slightly
 
 Add a **Multiply** node.  Feed the output of the **Constant 3 Vector** into the **A** input of a **Multiply** node.
 
-![alt_text](images/.png)
+![multiply glow color 2](images/multiplyGlow2.png)
 
 ![](../images/line2.png)
 
