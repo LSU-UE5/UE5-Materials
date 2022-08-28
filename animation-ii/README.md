@@ -132,32 +132,32 @@ Now we are going to have two players of ripples at different directions and spee
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Now since normals is vector math and not pixel colors we can't just add them to get a combined normal.  We need to use the 
-![alt_text](images/combineNormals.png)
+Now since normals is vector math and not pixel colors we can't just add them to get a combined normal.  We need to use the *Blend Angle COrrected Normals** node.  Attach both **Normal** outputs to it.
+
+![blended adjusted normals node](images/combineNormals.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/.png)
+![alt_text](images/animateUVs.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/dupeMIGlass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](images/pannerSpeeds.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
 
 ![](../images/line2.png)
 
