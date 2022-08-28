@@ -2,7 +2,7 @@
 
 ### Export Textures
 
-<sub>[previous](../) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
+<sub>[previous](../animation-ii/README.md#user-content-animation-ii) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../world-alignment/README.md#user-content-world-aligned-materials)</sub>
 
 ![](../images/line3.png)
 
@@ -152,5 +152,5 @@ You can get a stand alone version of **Quixel Bridge** and then further customiz
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
+| [previous](../animation-ii/README.md#user-content-animation-ii)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../world-alignment/README.md#user-content-world-aligned-materials)|
 |---|---|---|
