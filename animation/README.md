@@ -2,7 +2,7 @@
 
 ### Animation
 
-<sub>[previous](../refract-ii/README.md#user-content-refraction-and-fresnel-ii)) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../animation-ii/README.md#user-content-animation-ii)</sub>
+<sub>[previous](../refract-ii/README.md#user-content-refraction-and-fresnel-ii) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../animation-ii/README.md#user-content-animation-ii)</sub>
 
 ![](../images/line3.png)
 
@@ -193,5 +193,5 @@ Now the **Speed** is actually two floats.  So lets add two **Scalar Parameters**
 
 ![](../images/line.png)
 
-| [previous](../refract-ii/README.md#user-content-refraction-and-fresnel-ii))| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../animation-ii/README.md#user-content-animation-ii)|
+| [previous](../refract-ii/README.md#user-content-refraction-and-fresnel-ii)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../animation-ii/README.md#user-content-animation-ii)|
 |---|---|---|
