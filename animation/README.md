@@ -57,7 +57,7 @@ Add a **LinearInterpolate** (LERP) node. We are going to have no flashing glow a
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Add a **Vector Parameter** node calling it `Glow Color 2` and make it a slightly different version of the first color.  
+Add a **Vector Parameter** node calling it `Glow Color 2` and make it a slightly different version of the first color.  Plug the white output to the **Lerp | A** node.
 
 ![alt_text](images/glowColor2.png)
 
