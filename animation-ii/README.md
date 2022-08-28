@@ -132,7 +132,8 @@ Now we are going to have two players of ripples at different directions and spee
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/.png)
+Now since normals is vector math and not pixel colors we can't just add them to get a combined normal.  We need to use the 
+![alt_text](images/combineNormals.png)
 
 ![](../images/line2.png)
 
