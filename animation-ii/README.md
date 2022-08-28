@@ -158,6 +158,8 @@ Duplicate **MI_GlassNormal** and call it `MI_AnimatedGlass`.  Drag it onto the m
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Adjust both **Panner** nodes with diffent speeds in **Speed X** and **Speed Y**.  Use some trial and error and get values that you like. We are hard coding these values you could expose them as parameters if you like.
+
 ![alt_text](images/pannerSpeeds.png)
 
 ![](../images/line2.png)
