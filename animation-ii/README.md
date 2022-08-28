@@ -108,13 +108,17 @@ https://user-images.githubusercontent.com/5504953/187084875-49014055-3f40-4a9b-9
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now duplicate the Normal Ball from Room 7 and drag it to Room 8.  You don't need the title.
+
+![drag normal ball from room 7](images/dupeNormalBall.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Open up **MF_UVs** and add a **Coordinate** node and a **Panner** node going into the top **Normal** node.
+
+![add coordinate and panner](images/addTextCoordPanner.png)
 
 ![](../images/line2.png)
 
@@ -161,6 +165,7 @@ https://user-images.githubusercontent.com/5504953/187084875-49014055-3f40-4a9b-9
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
 
 ![alt_text](images/.png)
 
