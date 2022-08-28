@@ -157,21 +157,23 @@ Open up **MI_Chevron** and assign the **Base Color** as `T_Chevron_BC`. Notice t
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **Place Actors** menu and select
+Select the **Place Actors** menu and select **Shapes | Plane** and drag it into Room 8.  Rotate it so it faces the camera and change the **Transform | Scale** to `4`, `2`, `1`.  Drag **MI_Chevron** onto the plane to use as its material.  It lights up but doesn't animate.
 
-![alt_text](images/addPlane.png)
+![add plane with mi_chevron](images/addPlane.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Duplicate the plane and place it next to it so we have two chevrons right next to each other.
+
+![duplicate chevron](images/DupeChevron.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/.png)
+![alt_text](imagesaddPanner.png)
 
 ![](../images/line2.png)
 
