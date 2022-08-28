@@ -108,7 +108,10 @@ Adjust the **Group** and **Sort Priority** of all the parameters in this master 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/makeMaterialInstance.png)
+Right click on **M_AnimatedGlow** and select **Create Material Instance**.  Call it `MI_AnimatedGLow`.
+Drag it into the **Materials | Surfaces** folder.  Drag it onto the material ball.
+
+![create MI_AnimatedGLow](images/makeMaterialInstance.png)
 
 ![](../images/line2.png)
 
