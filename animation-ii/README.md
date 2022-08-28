@@ -1,6 +1,6 @@
 ![](../images/line3.png)
 
-### Animmation II
+### Animation II
 
 <sub>[previous](../) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
 
