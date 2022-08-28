@@ -99,7 +99,7 @@ Add a **Multiply** node which will multiply **Time** by **Rotation Speed** scala
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/.png)
+ Open up **MI_Rotation** and turn on rotation and adjust the speed and the glow.  *Press* the <kbd>Play</kbd> button and look at the animations!  Now lets create a water like effect.
 
 ![](../images/line2.png)
 
