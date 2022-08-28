@@ -33,7 +33,9 @@ Create a new **Material** in the **Materials | Master** called `M_AnimatedGlow`.
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Add a **Vector3Parameter?** node and name it `Glow Color`. Make it a bright vibrant color and connect the output to **Base Color**.
+
+![add vector3 parameter called glow color to base color pin](images/textureParameter.png)
 
 ![](../images/line2.png)
 
