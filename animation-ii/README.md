@@ -59,7 +59,7 @@ Add another **Plane** actor to the level. Rotate it towards the camera and set t
 
 Now open up **MF_UVs**.  Lets not have the panner running unless we turn it on (as opposed to sending it 0). This should be more performant.  Add a **Static Switch Parameter**. Call is `Translave UVs?`.  Make it's **Group** a value of `UV` and it's **Sort Priority** a value of `2`. Leave it as a default of `False`.
 
-Send the output of the **Custom Rotator** into the **Translate UV? | False** pin and the output of the **Panner** node to the **Translate UV? | True** pin.
+Send the output of the **Custom Rotator** into the **Translate UV? | False** pin and the output of the **Panner** node to the **Translate UV? | True** pin. Press the <kbd>Apply</kbd> button.
 
 ![add static switch for panner](images/staticSwitch.png)
 
@@ -67,7 +67,7 @@ Send the output of the **Custom Rotator** into the **Translate UV? | False** pin
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now this will break the **Chevron** so open up **MI_Chevron** and set 
+Now this will break the **Chevron** so open up **MI_Chevron** and set **Translave UVs?** to `true` and readjust the **Speed X** if necessary.
 
 ![alt_text](images/readjustMIChevron.png)
 
