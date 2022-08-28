@@ -116,7 +116,7 @@ Now duplicate the Normal Ball from Room 7 and drag it to Room 8.  You don't need
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Open up **MF_UVs** and add a **Coordinate** node and a **Panner** node going into the top **Normal** node.
+Open up **MF_UVs** and add a **TextureCoordinate** node and a **Panner** node going into the top **Normal** node.
 
 ![add coordinate and panner](images/addTextCoordPanner.png)
 
@@ -124,7 +124,9 @@ Open up **MF_UVs** and add a **Coordinate** node and a **Panner** node going int
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+Now we are going to have two players of ripples at different directions and speeds.  So make a copy of the **Normal** and **Panner** nodes and make sure it is hooked up to the **TextCoords** node.
+
+![dupe normal panner](images/dupeNormalPanner.png)
 
 ![](../images/line2.png)
 
