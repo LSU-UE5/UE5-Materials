@@ -91,7 +91,9 @@ Now add a **Time** node.  Then add a **Scalar Parameter** called `Rotation Speed
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![alt_text](images/finishRotateUVs.png)
+Add a **Multiply** node which will multiply **Time** by **Rotation Speed** scalar.  Send to the **Rotation Angle** input pin of the **Custom Rotator**  node. Add another **Static Switch Parameter** and set the **Group** to `UV` and the **Sort Priority** to `5`.  Send the output of the **Rotated Values** to the **Rotate UVs? | True** pin and the outpuf of the **Translate UVs?** pin to the **Rotate *Vs? | False** pin. Send teh output to the **Output UVs** node.  Press the <kbd>Apply</kbd> button.
+
+![finish up rotation nodes](images/finishRotateUVs.png)
 
 ![](../images/line2.png)
 
