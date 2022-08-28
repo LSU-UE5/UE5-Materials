@@ -2,7 +2,7 @@
 
 ### Animation II
 
-<sub>[previous](../animation/README.md#user-content-animation) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../)</sub>
+<sub>[previous](../animation/README.md#user-content-animation) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../animation-ii/README.md#user-content-export-textures)</sub>
 
 ![](../images/line3.png)
 
@@ -188,10 +188,10 @@ Select the **File | Save All** then press the <kbd>Source Control</kbd> button a
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT TITLE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Export Textures"> -->
 ![next up next tile](images/banner.png)
 
 ![](../images/line.png)
 
-| [previous](../animation/README.md#user-content-animation)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../)|
+| [previous](../animation/README.md#user-content-animation)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../animation-ii/README.md#user-content-export-textures)|
 |---|---|---|
