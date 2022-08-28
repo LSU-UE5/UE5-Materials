@@ -49,7 +49,9 @@ Right click on **Materials | Master | M_EmissiveTexture** and select **Create Ma
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Add another **Plane** actor to the level. Rotate it towards the camera and set the **Scale X** and **Scale Y** to `2.0`.  Drag the newly created **MI_Rotate** onto the plane and you should see the gear.
+
+![create plane for mi_rotate](images/addScalePlane.png)
 
 ![](../images/line2.png)
 
