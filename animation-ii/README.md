@@ -75,7 +75,8 @@ Now this will break the **Chevron** so open up **MI_Chevron** and set **Translav
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+
+![alt_text](images/addCustomRotator.png)
 
 ![](../images/line2.png)
 
