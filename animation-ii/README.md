@@ -33,7 +33,9 @@ https://user-images.githubusercontent.com/5504953/187082987-b0ab4f24-232d-4c50-b
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Now lets rotate the UVs.  Download [T_Gear.tif](../Assets/T_Gear.tif) and drag it to the **Textures | Surfaces** folder.  This is a mask and is in the shape of a round gear that we will spin.
+
+![add T_Gear](images/tGear.png)
 
 ![](../images/line2.png)
 
