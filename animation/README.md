@@ -33,9 +33,9 @@ Create a new **Material** in the **Materials | Master** called `M_AnimatedGlow`.
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Vector3Parameter?** node and name it `Glow Color`. Make it a bright vibrant color and connect the output to **Base Color**.
+Add a **Vector Parameter** node and name it `Glow Color`. Make it a bright vibrant color and connect the output to **Base Color**.
 
-![add vector3 parameter called glow color to base color pin](images/textureParameter.png)
+![add vector parameter called glow color to base color pin](images/textureParameter.png)
 
 ![](../images/line2.png)
 
@@ -49,17 +49,23 @@ Add three **Scalar Parameters**.  The first is called `Metallic` with a value of
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-![alt_text](images/.png)
+Add a **LinearInterpolate** (LERP) node. We are going to have no flashing glow at the B input so add a **Constant** node and leave it as its default `0` and place it in the **B** pin of the LERP node.
+
+![lerp and constant node](images/firstLerpNode.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/.png)
+Add a **Vector Parameter** node calling it `Glow Color 2` and make it a slightly different version of the first color.  
+
+![alt_text](images/glowColor2.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Add a **Multiply** node.  Feed the output of the **Constant 3 Vector** into the **A** input of a **Multiply** node.
 
 ![alt_text](images/.png)
 
