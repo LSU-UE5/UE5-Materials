@@ -25,7 +25,9 @@ Open up **MI_Chevron** and make it half size so we can still see the editor.
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
+*Press* the <kbd>Play</kbd> button and then go and add a value to 
 
+https://user-images.githubusercontent.com/5504953/187082987-b0ab4f24-232d-4c50-b927-1e5495123ce1.mp4
 
 ![](../images/line2.png)
 
