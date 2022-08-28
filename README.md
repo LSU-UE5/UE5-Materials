@@ -38,7 +38,7 @@ Lets look at **[Physically Based Rendering Materials (PBR)](https://en.wikipedia
 <kbd></kbd> &nbsp;&nbsp; [Refraction and Fresnel II](refract-ii/README.md#user-content-refraction-and-fresnel-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Animation](animation/README.md#user-content-animation) <br>
 <kbd></kbd> &nbsp;&nbsp; [Animation II](animation-ii/README.md#user-content-animation-ii) <br>
-<kbd></kbd> &nbsp;&nbsp; [Export Textures](animation-ii/README.md#user-content-export-textures) <br>
+<kbd></kbd> &nbsp;&nbsp; [Export Textures](export-textures/README.md#user-content-export-textures) <br>
 <kbd></kbd> &nbsp;&nbsp; [World Aligned Materials](world-alignment/README.md#user-content-world-aligned-materials) <br>
 
 <!-- LICENSE -->
