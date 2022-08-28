@@ -117,19 +117,17 @@ Drag it into the **Materials | Surfaces** folder.  Drag it onto the material bal
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Press* the <kbd>Play</kbd> button  and look at the animation. It went a bit fast for me so I added another **Scalar Parameter** called speed and divided it into the **Time** node to slow it down.  I set the default to ???. Press the <kbd>Apply</kbd> button.
+*Press* the <kbd>Play</kbd> button  and look at the animation. It went a bit fast for me so I added another **Divide** node and divided time by `4`.   I place dit inbetween the **Time** and **Sine** node to slow it down.  You could also add a **Scalar Parameter** so you can adjust the speed. Press the <kbd>Apply</kbd> button.
 
-![create MI_AnimatedGLow](images/makeMaterialInstance.png)
-
-*Press* the <kbd>Play</kbd> button and I like the speed better.
-
-https://user-images.githubusercontent.com/5504953/187080763-a41f368f-0763-44a1-a8ad-d124a09c71c2.mp4
+![create MI_AnimatedGLow](images/divideNode.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/.png)
+*Press* the <kbd>Play</kbd> button and I like the speed better.
+
+https://user-images.githubusercontent.com/5504953/187080763-a41f368f-0763-44a1-a8ad-d124a09c71c2.mp4
 
 ![](../images/line2.png)
 
