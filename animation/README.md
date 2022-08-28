@@ -188,7 +188,7 @@ Now the
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT TITLE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Animation II"> -->
 ![next up next tile](images/banner.png)
 
 ![](../images/line.png)
