@@ -43,13 +43,18 @@ Open **Quixel Bridge**.
 
 Search for a **Brick** surface.  I liked **Brick Facade**. Set the resolution to `4K Resolution`.  Press the three lines next to it and make sure you are downloading **Albedo** (called Base Color in unreal), **Metalness**, **Roughness**, **Specular**, **Displacement**, **Normal** and **AO**. Now press the <kbd>Download</kbd> button.
 
-![output brick surface](images/bridgeSettings.png)
+![download brick surface](images/bridgeSettings.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-![alt_text](images/bringInTextures.png)
+We will combine the layers in Substance.  Open up **Substance Designer** and select **File | New** and select **Substance graph**.  Call it `T_BrickWall` and press the <kbd>OK</kbd> button. Press **Save All** and save it in the same folder as the graphic files.
+
+Drag the files you just downloaded to the side bar.  They are located in **Documents | Megascans Library | Downloaded | surface | brick_modern_...**.  When you drag them you will select **Link resource(s)...**.  
+
+![drag images to new subsstance graph](images/bringInTextures.png)
+
 
 ![](../images/line2.png)
 
