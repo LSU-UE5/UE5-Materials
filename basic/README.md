@@ -186,5 +186,5 @@ Name the material function `MF_BaseColor`.
 
 ![](../images/line.png)
 
-| [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../room-1-carpet/README.md#basic-ii/README.md#user-content-basic-material-ii)|
+| [previous](../setting-up/README.md#user-content-setting-up)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../basic-ii/README.md#user-content-basic-material-ii)|
 |---|---|---|
