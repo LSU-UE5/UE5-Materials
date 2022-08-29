@@ -134,5 +134,5 @@ Select the **File | Save All** then press the <kbd>Source Control</kbd> button a
 
 ![](../images/line.png)
 
-| [previous](../)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../basic/README.md#user-content-basic-material)|
-|---|---|---|
+| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../basic/README.md#user-content-basic-material)|
+|---|---|
