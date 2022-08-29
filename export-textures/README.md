@@ -126,7 +126,10 @@ Add an **Output** node next to the normal texture. Connect the nodes.  Change th
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/rgbaMerge.png)
+Now we need to merge all four mono textures together.  Press the <kbd>
+Space Bar</kbd> on the graph and add a **RGBA Merge** node.
+
+![add RGBA merge node](images/rgbaMerge.png)
 
 ![](../images/line2.png)
 
