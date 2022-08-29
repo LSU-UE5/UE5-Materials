@@ -118,9 +118,9 @@ Change the **Modifier** to `BCH`.  It will use this as the postfix for the textu
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Add an **Output** node next to the normal texture. Connect the nodes.  Change the **Modifier** to `N`.
 
-
-![alt_text](images/outputN.png)
+![add normal output](images/outputN.png)
 
 ![](../images/line2.png)
 
