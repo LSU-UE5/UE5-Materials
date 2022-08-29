@@ -89,18 +89,24 @@ Create a new material called **M_SolidWorld**.  Add 3 **Texture Object Parameter
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![alt_text](images/baseTexturesAlgined.png)
+Add a **WorldAlignedTexture** node to the graph.  This will adjust the UVs so the textures are in world space.
+
+![add worldaligned textures node](images/baseTexturesAlgined.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/twoWATextures.png)
+Make a copy so that we have one for the Base Color and the second for the MSRAO nodes.
+
+![two world aligned textures node](images/twoWATextures.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Normal maps are different so add a **WorldAlignedNormal** node for the normal maps.  Connect the output of the three texture objeects to the **Texture Object** pin for the three nodes.  Make sure it is **T_BrickWall_N** to the **World Aligned Normal** node.
 
 ![alt_text](images/worldAlignedM.png)
 
