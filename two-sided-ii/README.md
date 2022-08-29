@@ -6,9 +6,6 @@
 
 ![](../images/line3.png)
 
-![](../images/line3.png)
-
-
 Lets finish up with the two sided material.
 
 <br>
