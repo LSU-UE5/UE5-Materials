@@ -60,7 +60,9 @@ Drag the files you just downloaded to the side bar.  They are located in **Docum
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![alt_text](images/agreeToLink.png)
+It will show all the files you dragged to link.  Press the <kbd>OK</kbd> button.
+
+![press ok to link files](images/agreeToLink.png)
 
 ![](../images/line2.png)
 
@@ -90,14 +92,18 @@ Drag the files you just downloaded to the side bar.  They are located in **Docum
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/addOutput.png)
+Click on each one and on the right hand side you can see the filename this will tell you which is which.  From top to bottom order the **Albedo**, **Displacement**, **Normal**, **Specular**, **Roughness** and **AO**. Notice there is no metallic.
+
+![order the images in the same order as unreal](images/addOutput.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![alt_text](images/bcH.png)
+Drag the paintbucket icon to drag a **Uniform Color** node to the chart where **Metallic** should be, under the normal.  Press the <kbd>Grayscale</kbd> button and make sure it is `0` (black - no metal).
+
+![add metal uniform color](images/bcH.png)
 
 ![](../images/line2.png)
 
