@@ -135,19 +135,25 @@ Space Bar</kbd> on the graph and add a **RGBA Merge** node.
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/msrao.png)
+Connect the pins with **Metallic**, **Specular**, **Roughness** and **AO** to go to **R G B A**.  Send the output to a new **Output** node.  Change the **Modifier** to `MSRAO`.
+
+![add msrao node in rbba merge](images/msrao.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/exportTextures.png)
+Press **File | Save All** again. Right click on the left hand menu **T_BrickWall** and select **Export outputs as bitmaps**.  Now you will see it uses the name of the graph and the modifier.  So the first file is **T_BrickWall_BCH**.  Make sure the **BCH** is set to `sRGB` and the other to to `Raw`. Set the destination directory, I am putting them on my **Desktop**. Press the <kbd>Export outputs</kbd>.
+
+![export outputs](images/exportTextures.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/ThreeTextures.png)
+Now you can see that we exported the three files.  Next up we will use them in **Unreal**.  You can do this with any of the other thousands of surfaces available to you in Quixel.
+
+![add more surfaces](images/ThreeTextures.png)
 
 ![alt_text](images/.png)
 
