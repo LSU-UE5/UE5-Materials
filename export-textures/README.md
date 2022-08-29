@@ -33,13 +33,17 @@ You can get a stand alone version of **Quixel Bridge** and then further customiz
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/launchBridge.png)
+Open **Quixel Bridge**.
+
+![open quixel bridge](images/launchBridge.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/bridgeSettings.png)
+Search for a **Brick** surface.  I liked **Brick Facade**. Set the resolution to `4K Resolution`.  Press the three lines next to it and make sure you are downloading **Albedo** (called Base Color in unreal), **Metalness**, **Roughness**, **Specular**, **Displacement**, **Normal** and **AO**. Now press the <kbd>Download</kbd> button.
+
+![output brick surface](images/bridgeSettings.png)
 
 ![](../images/line2.png)
 
