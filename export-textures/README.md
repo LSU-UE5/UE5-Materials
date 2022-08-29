@@ -101,22 +101,23 @@ Now notice the the three color RBG albedo is orange and the displacement (height
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
+Pull off of the output node from **Alpha Merge** and select **Output** node.
 
-
-![order the images in the same order as unreal](images/addOutput.png)
+![add output node](images/addOutput.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
+Change the **Modifier** to `BCH`.  It will use this as the postfix for the texture name.
 
 ![add metal uniform color](images/bcH.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
 
 
 ![alt_text](images/outputN.png)
