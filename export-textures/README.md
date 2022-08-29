@@ -68,11 +68,16 @@ It will show all the files you dragged to link.  Press the <kbd>OK</kbd> button.
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Click on each one and on the right hand side you can see the filename this will tell you which is which.  From top to bottom order the **Albedo**, **Displacement**, **Normal**, **Specular**, **Roughness** and **AO**. Notice there is no metallic.
+
+
 ![alt_text](images/orderTextures.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Drag the paintbucket icon to drag a **Uniform Color** node to the chart where **Metallic** should be, under the normal.  Press the <kbd>Grayscale</kbd> button and make sure it is `0` (black - no metal).
 
 ![alt_text](images/addMetalic.png)
 
@@ -92,7 +97,7 @@ It will show all the files you dragged to link.  Press the <kbd>OK</kbd> button.
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Click on each one and on the right hand side you can see the filename this will tell you which is which.  From top to bottom order the **Albedo**, **Displacement**, **Normal**, **Specular**, **Roughness** and **AO**. Notice there is no metallic.
+
 
 ![order the images in the same order as unreal](images/addOutput.png)
 
@@ -101,13 +106,14 @@ Click on each one and on the right hand side you can see the filename this will 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Drag the paintbucket icon to drag a **Uniform Color** node to the chart where **Metallic** should be, under the normal.  Press the <kbd>Grayscale</kbd> button and make sure it is `0` (black - no metal).
+
 
 ![add metal uniform color](images/bcH.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
 
 ![alt_text](images/outputN.png)
 
