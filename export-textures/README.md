@@ -71,7 +71,7 @@ It will show all the files you dragged to link.  Press the <kbd>OK</kbd> button.
 Click on each one and on the right hand side you can see the filename this will tell you which is which.  From top to bottom order the **Albedo**, **Displacement**, **Normal**, **Specular**, **Roughness** and **AO**. Notice there is no metallic.
 
 
-![alt_text](images/orderTextures.png)
+![arrange order of images](images/orderTextures.png)
 
 ![](../images/line2.png)
 
@@ -79,19 +79,23 @@ Click on each one and on the right hand side you can see the filename this will 
 
 Drag the paintbucket icon to drag a **Uniform Color** node to the chart where **Metallic** should be, under the normal.  Press the <kbd>Grayscale</kbd> button and make sure it is `0` (black - no metal).
 
-![alt_text](images/addMetalic.png)
+![drag uniform color for metallic to chart](images/addMetalic.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/spaceAlphaMerge.png)
+On the open graph press the <kbd>Space Bar</kbd> and select **Alpha Merge**.
+
+![select alpha merge](images/spaceAlphaMerge.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![alt_text](images/ConnectPins.png)
+Now notice the the three color RBG albedo is orange and the displacement (height) is a mono single channel image and is gray.  Connect them to the same color pins in the **Alpha Merge** node.
+
+![connect to alpha merge node](images/ConnectPins.png)
 
 ![](../images/line2.png)
 
