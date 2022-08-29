@@ -155,8 +155,6 @@ Now you can see that we exported the three files.  Next up we will use them in *
 
 ![add more surfaces](images/ThreeTextures.png)
 
-![alt_text](images/.png)
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - World Aligned Materials"> -->
