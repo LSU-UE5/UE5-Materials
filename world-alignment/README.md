@@ -114,53 +114,71 @@ Normal maps are different so add a **WorldAlignedNormal** node for the normal ma
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/vector4Bool.png)
+Now we have an RGBA texture in our MSRAO.  Now the output pins just carry three values (XYZ Textue).  We need to add a **Static Bool** node and set it to `true`.  Plug it inot the **Export Float 4** node of the **World Aligned Texture** node used for the **MSRAO**.
+
+![turn on export float 4](images/vector4Bool.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![alt_text](images/breakOut4.png)
+Pull out from the **XYZ Texture** pin from the **MSRAO | World Aligned Texture** pin.  Add a **Break Out Float 4 Components** node.
+
+![break out 4 floats](images/breakOut4.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-![alt_text](images/connectPins.png)
+Connect the **Base Color | World Aligned Texture | XYZ Texture** to **Base Color**. Take the output of the **World Aligned Normal | XYZ Texture** node to the **Normal** pin.  Connet the **Break Out Float 4 Components** **R** to **Metallic**, **G** to **Specular**, **B** to **Roughness** and **A** to **Ambient Occlusion**.
+
+![connect all material pins](images/connectPins.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![alt_text](images/appendThreeParams.png)
+Now we want to adjust the scale of the textures symmetrically.  The input pin for **Texture Size** askes for a **V3** (Three floats). So we need a single float with the same value in all three positions.  Create a **Scalar Parameter** and call it `Texture Size`.  Take the output and add an **Append** node.  This is now a **V2**.  Now add another **Append** node and send the output of the first append node and another **Texture Size** to pin **B**.  Now we have a **V3**.
+
+![make single parameter a v3](images/appendThreeParams.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/connectUVs.png)
+Send the output of the **Append** node to the three **TextureSize** pins in the three world aligned ndoes.
+
+![output to texture size](images/connectUVs.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addMI.png)
+Right click on **Materials | Master** and select **Create Material Instance** and call it `M_BricksWorldSpace`.  Move this to the **Materials | Surfaces** folder.
+
+![make material instance for world bricks](images/addMI.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/addTextures.png)
+Open up **MI_BricksWorldSpace** and assign the same three textures you assigned to the previous brick wall material.
+
+![add three textures to instance](images/addTextures.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-![alt_text](images/addMi2.png)
+Add this material instance to the wall pieces on the right and adjust the **Texture Size** variable so that the scale is roughly the same as the ones on the left.
+
+![add world aligned texture to right wall pieces](images/addMi2.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+*Press* the <kbd>Play</kbd> button and look at the textures.  The ones on the right are all aligned.  Stop the game and move the wall pieces on the left.  The material moves with the object.  If you move the wall pieces on the right you texture stays fixed to world space and the object moves (almost like it is a window).  This is an effective way to get geometric materials to align between surfaces with no tweaking.  Organize your **Outliner** as this will be it for this walk through!
 
 https://user-images.githubusercontent.com/5504953/187112628-a2ecda52-f583-448c-a08b-08a3d31dc6bc.mp4
 
