@@ -199,5 +199,5 @@ Connect **Metallic**, **Specular** and **Roughness** in the node chart. Press th
 
 ![](../images/line.png)
 
-| [previous](../color-math/README.md#user-content-material-color-math)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](..translucent/README.md#user-content-masks-opacity--translucent-ii)|
+| [previous](../color-math/README.md#user-content-material-color-math)| [home](../README.md#user-content-ue4-intro-to-materials) | [next](../translucent/README.md#user-content-masks-opacity--translucent-ii)|
 |---|---|---|
