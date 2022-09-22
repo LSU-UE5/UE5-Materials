@@ -63,7 +63,7 @@ So lets start there, add a **Linear Interpolate** node to the node graph.
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Now you should have a new node that is abbreviated to **LERP**.
+Now you should have a new node that is abbreviated to **LERP**. The screenshot does not show the nodes beneath (do not delete them).
 
 ![lerp node in chart](images/addedLerpNode.png)
 
