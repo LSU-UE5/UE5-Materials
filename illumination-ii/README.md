@@ -24,13 +24,21 @@ So this is not a glowing watch or TV, or fire.  This is a spotlight.  So we will
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
+Change the mobility of the light to **Movable**.  When using **Lumen** on a PC all of our lights can update dynamically and should be marked as movable.
+
+![mark light as movable](images/movable.png)
+
+![](../images/line2.png)
+
+##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Now open up your **MI_Emissive** and try and match the color in the emissive texture with the **Light Color**.  Now the light color uses a scale of 0 to 255 so you will have to multiply all the values in the **Emissive Tint** by 255.  For example my **G** (Green) channel is .374.  So if I multipley .372 by 255 I get  95.37. Also, adjust the **Intensity** to a value that makes sense in the scene for you. You can also crank back on the **Emissive Scalar** so that you will see the color of the light when facing it.
 
 ![change spotlight color](images/spotLight.png)
 
 ![](../images/line2.png)
 
-##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Press* the <kbd>Play</kbd> button and now the glow doesn't pop in and out noticably because the spotlight is doing its job.  So now we have a better holistic system here with a light fixture with an illumination channel for where the lightbulb would be and a spotlight actor to act as a spotlight in the scene.
 
@@ -38,7 +46,7 @@ https://user-images.githubusercontent.com/5504953/186136128-40de1ce5-0dc9-499a-8
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
 Now duplicate the bracket, lamp and light and rotate it and move it to the ceiling pointing straight down. Make sure you are moving the location with the bracket and rotating along a single axis on the lamp.  The light should then point in the right direction.
 
@@ -46,7 +54,7 @@ Now duplicate the bracket, lamp and light and rotate it and move it to the ceili
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
+##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
 Repeat this 5 more times to a have a total of 7 lights in the room.  Point them at the wall and adjust the brightness so they show up correctly.
 
@@ -54,7 +62,7 @@ Repeat this 5 more times to a have a total of 7 lights in the room.  Point them 
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Ranme **MI_Spotlight** to `MI_Spolight_Orange` (or whatever color your light and glow are). Right click and duplicate this material 6 times. 
 
@@ -62,7 +70,7 @@ Ranme **MI_Spotlight** to `MI_Spolight_Orange` (or whatever color your light and
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Rename each material instance copy and change both the **Emissive Tint** in the material and the **Light Color** in the spotlight. Name it the new color of the light and glow.  So if you have a yellow light call it `MI_Spotlight_Yellow`.
 
@@ -70,7 +78,7 @@ Rename each material instance copy and change both the **Emissive Tint** in the 
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 *Press* the <kbd>Play</kbd> button and make sure that the glow matches the color of the light on the wall.  Make any adjustments, like its brightness and get it to look like it matches the environment.
 
@@ -78,7 +86,7 @@ https://user-images.githubusercontent.com/5504953/186139493-95a4de1c-5d3d-49b4-8
 
 ![](../images/line2.png)
 
-##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
 Now make sure that all the objects are in the **Room 4** folder and rename anything that is generic and can't be understood by the name.
 
@@ -86,7 +94,7 @@ Now make sure that all the objects are in the **Room 4** folder and rename anyth
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
+##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 

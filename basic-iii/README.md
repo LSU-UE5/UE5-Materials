@@ -40,7 +40,7 @@ https://user-images.githubusercontent.com/5504953/185447657-6a67db19-b2c8-4eef-8
 
 ![](../images/line.png)
 
-<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT TITLE"> -->
+<!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Solid Material"> -->
 ![next up next tile](images/banner.png)
 
 ![](../images/line.png)

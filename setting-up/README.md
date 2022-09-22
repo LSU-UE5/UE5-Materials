@@ -11,7 +11,7 @@ We will be downloading a template project with some assets provided to us before
 <br>
 
 ---
-| `required.software`\|`UE4 Materials`| 
+| `required.software`\|`UE5 Materials`| 
 | :--- |
 | :floppy_disk: &nbsp; &nbsp; You will need to install the latest version of _UE4 5.0.X_ by downloading the [Epic Games Launcher](https://www.epicgames.com/store/en-US/download). You will also need a [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) account which is free to sign up for as we will be using version control. Lets make sure you can see hidden folders. On the PC follow these [Windows 10 Turn on Hidden Folders](https://support.microsoft.com/en-us/help/4028316/windows-view-hidden-files-and-folders-in-windows-10) directions.For this walk through you will also need [Substance Designer](https://store.substance3d.com/students-teachers) which is free for students and has a free 30 day trial for non-students. |
 
