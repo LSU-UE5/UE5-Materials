@@ -98,27 +98,25 @@ Go to **Materials | Master** and right mouse click **M_SolidTexture** and select
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
+Now select **M_Decal** and change the **Material Domain** to `Deferred Decal` and the **Blend Mode** to `Translucent`.
+
+![change material domain and blend mode](images/deferredDecal.png)
+
+![](../images/line2.png)
+
+##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
 Replace **MF_Texture** with **MF_Opacity**.  
 
 ![replace mf_texture with mf_opacity](images/addMFOpacity.png)
 
 ![](../images/line2.png)
 
-
-##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Connect all the pins from the **MF_UVs to the MF_Opacity** and from **MF_Opacity**  t0 **M_Decal**.  They are the same as the **M_TextureSolid** except we have an **Alpha** channel we are using to hold the **Opacity**.
 
 ![connect all material pins](images/oneMorePinOpac.png)
-
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-Now select **M_Decal** and change the **Material Domain** to `Deferred Decal` and the **Blend Mode** to `Translucent`.
-
-![change material domain and blend mode](images/deferredDecal.png)
 
 ![](../images/line2.png)
 
