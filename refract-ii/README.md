@@ -83,7 +83,7 @@ https://user-images.githubusercontent.com/5504953/187051484-0466d17c-11b3-4988-8
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Now glass can pick up light so this is a bright room.  Lets add an edge glow.  Add a new **Scalar Parameter** called `Edge Glow` and set it's **Default Value** to `10`.
+Now glass can pick up light so this is a bright room.  Lets add an edge glow.  Add a new **Scalar Parameter** called `Edge Glow` and set it's **Default Value** to `.5`.
 
 ![add edge glow scalar](images/edgeGlowScalar.png)
 
