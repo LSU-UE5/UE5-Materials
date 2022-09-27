@@ -41,7 +41,7 @@ Plug the output of the ***Texture Sample** to the **False** pin of the switch.  
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Download [T_FrostedGlass.tga](../Assets/T_FrostedGlass.TGA) normal map and import into the game. Assing the **Normal** texture to be `T_FrostedGlass` which I have supplied you. 
+Download [T_FrostedGlass.tga](../Assets/T_FrostedGlass.TGA) normal map and import into the game. Assing the **Normal** texture to be `T_FrostedGlass`. 
 
 ![assign T_FrostedGlass](images/assignTFrostedGlass.png)
 
