@@ -55,6 +55,8 @@ Download [T_FrostedGlass.tga](../Assets/T_FrostedGlass.TGA) normal map and impor
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
+Set default for **Use Normal** to `false`.
+
 ![alt_text](images/useNormalFalsePrior.png)
 
 ![](../images/line2.png)
