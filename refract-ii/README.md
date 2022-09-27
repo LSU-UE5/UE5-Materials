@@ -55,7 +55,7 @@ Download [T_FrostedGlass.tga](../Assets/T_FrostedGlass.TGA) normal map and impor
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Set default for **Use Normal** to `false`. In the Normal map set the **Priority** to `3` and the **Group** to `SurfaceProperties`.
+Set default for **Use Normal** to `false`. This way we will not affect our previous material in the level. In the Normal map set the **Priority** to `3` and the **Group** to `SurfaceProperties`.
 
 ![alt_text](images/useNormalFalsePrior.png)
 
