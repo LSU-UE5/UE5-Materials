@@ -82,7 +82,7 @@ Drag **T_Base_MSRAO** to the **Textures** directory.
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
  
- Open up **MS_Emissive** and **MS_Texture**.  Put the new `T_Base_MSRAO` into the **Metallic | Specular | Roughness | AO** slot.
+ Open up **MF_Emissive** and **MF_Texture**.  Put the new `T_Base_MSRAO` into the **Metallic | Specular | Roughness | AO** slot.
 
 ![add texture sample and lerp node and add poster side 2 texture](images/tmsraoToTextures.png)
 
