@@ -111,7 +111,7 @@ Now right click the vector and select **Convert to Parameter**.  Call it `Base C
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now since we have added a parameter lets change the **Metallic** node to **Sort Priority** `11` and **Metallic | Specular | Roughness | AO** to `12`.
+Now since we have added a parameter lets change the **Normal** node to **Sort Priority** `11` and **Metallic | Specular | Roughness | AO** to `12`.
 
 ![change priority of metallic and msrao textures](images/changeOrder.png)
 
