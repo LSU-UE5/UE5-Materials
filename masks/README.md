@@ -99,7 +99,7 @@ https://user-images.githubusercontent.com/5504953/185811730-86476e82-1011-434c-9
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Now what if we wanted the opposite? What if want the green dot to be reflective and the rest of the surface be matte?  We could go to photoshop and invert the image, but we can do this in the material.  Open the **M_Metallic** and add a **OneMinus** node. 
+Now what if we wanted the opposite? What if want the green dot to be reflective and the rest of the surface be matte?  We could go to photoshop and invert the image, but we can do this in the material.  Open the **M_MetallicMask** and add a **OneMinus** node. 
 
 Connect the output of the **Texture Sample | R** node to the **1-x** node and put that output in **Metallic**.  Press the <kbd>Apply</kbd> button. Select the cube to preview and now you can see that it the metallic has flipped to affect the dots.  How does it do it?
 
