@@ -31,7 +31,9 @@ Create a new folders in **Textures** called `Surfaces`.  Drag and drop the three
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Double click and open **T_WildGrass.BCH**.  Now it will look strange with all of the channels including **Alpha** picked.  This is because we are channel packing.  Lets check that **sRGB** is on and it is using **Default Compression**.  This is what we want for our base color.  Most textures that are not in HDR are using sRGB color space. If yours are not then change it.
+Double click and open **T_WildGrass.BCH**.  Now it will look strange with all of the channels including **Alpha** picked which i is in this case a height map.  We are using the alpha channel as it is not used in an opaque texture and we can put in a mask. This is because we are channel packing.  
+
+Lets check that **sRGB** is on and it is using **Default Compression**.  We also want to make sure that our height and width are power of 2s (2, 4, 8, 16, 32, 64, 128, 256, 512, 1024, 2048, 4096 etc...). This is what we want for our base color.  Most textures that are not in HDR are using sRGB color space.
 
 ![wild grass bch file](images/baseAndHeight.png)
 
