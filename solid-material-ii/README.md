@@ -99,7 +99,7 @@ Now open up the material function and
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Add a comment box by selecting all the nodes and press the <kbd>C</kbd> key.
+Add a comment box by selecting all the nodes and press the <kbd>C</kbd> key. Now change the **Output Name** to `Base Color` and we will leave the **Sort Priority** at `0`.  We will leave 0 through 19 for base color nodes.
 
 ![delete all nodes in M_SolidTexture](images/deleteStext.png)
 
