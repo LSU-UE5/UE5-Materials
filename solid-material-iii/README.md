@@ -124,16 +124,13 @@ Now go to the **Materials | Material Functions** folder and right click on the e
 
 Open up the material function and change the name of the output node to `UVs`.  Add a **Texture Coordinate** node.  Then add a **Scalar Parameter** node and call it `UVScalar`.  Set the **Parameter Name** to `UV Scalar`, the **Group** to `UVs` and the **Sort Priority** to `60`.  Add a **Multiply** node and multiply the **UV** by the **Scalar**.  Send the result to the **Output** node.
 
-
 ![add texture coordinates](images/uvScaling.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Open up **MF_Textures** and select the **TexCoord** node and change the **UTiling** and **VTiling**.  Notice that a value less than `1` increases the size of the tiling and increasing the number larger than `1` reduces it.  I like a value of `20`.  But return it to `1` as we will adjust this in the material instance.
-
-https://user-images.githubusercontent.com/5504953/185763976-2d1fc801-ab76-41b5-9e0e-c14d00c92f82.mp4
+Now open up **MF_BaseTexture** and we need to add a **Function Input** node so we can inject the UV's into this material function. Call it **Input UV** and add a default **TextCoord** node as a **Preview** value.  This will make it easier to see what each material function is doing if you need to debug it.
 
 ![](../images/line2.png)
 
