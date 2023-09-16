@@ -74,7 +74,7 @@ Now you should have a new node that is abbreviated to **LERP**.
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the open graph and select a **Vector Paremeter** node and call it `Outside Color`. Make sure it is solid black.
+Right click on the open graph and select a **Vector Paremeter** node and call it `EdgeColor`. Make sure it is solid black.
 
 ![alt_text](images/outsideVector.png)
 
