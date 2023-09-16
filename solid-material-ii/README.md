@@ -75,19 +75,20 @@ Now open up the **T_Base_MSRAO** texture.  Now we do have our **7** Mips levels.
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the **MaterialFunction** folder and press the <kbd>+ Add</kbd> button and select **Material | Material Function**.  Call this material function `MF_Texture`.
+Now this creates an issue in our material.  If you go to the game it is no longer working.
 
-![create material function MF_Texture](images/mf_texturecreate.png)
-
-
+![neutral normal map](images/neutralNormal.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Select the **MaterialFunction** folder and press the <kbd>+ Add</kbd> button and select **Material | Material Function**.  Call this material function `MF_Texture`.
+
+![create material function MF_Texture](images/mf_texturecreate.png)
+
 Now click on the foreground color swatch and lets make a neutral normal map (all normals perpendicular) which is 50% **RG** and 100% **B**. So set **R** & **G** to `127` and **B** to `255`.
 
-![neutral normal map](images/neutralNormal.png)
 
 Now select the fill tool and fill the white square with this neutral normal map color.  Press **File | Save As** and call it `N_Base_N` as type `.png`.  Press the <kbd>Save</kbd> button.
 
