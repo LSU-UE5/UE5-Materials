@@ -42,7 +42,7 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/372e9d9d-0ce3-4e38-b0d8-
 
 Now open up **M_Basic** again and drag a copy of the **MF_BaseColor** material function into the graph.  Now it is just a matter of connecting the four output pins to the aptly named input pins that are all in the correct order. Press the <kbd>Apply</kbd> and <kbd>Save</kbd> buttons to render and save the changes.  Make sure there are no errors. Now *press* the <kbd>Play</kbd> button in the top menu bar to launch the game. Now it should be exactly the same as it was before we included the material function.  This is exactly what we want!
 
-https://user-images.githubusercontent.com/5504953/185414884-4da5bd0d-55e2-4120-a074-4c5d062b7ccb.mp4
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/57e2a891-8094-45b4-9164-b72426cc5793
 
 ![](../images/line2.png)
 
