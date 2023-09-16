@@ -43,7 +43,7 @@ Now go into the game and you will notice that our material ball is white based o
 
 Open up **MI_WildGrass** and turn on editing on the three textures.  Assign the **Base Color** the texture `T_WildGrass_BCH`, the **Normal Map** the texture `T_WildGrass_N` and finally the four masks the texture `T_Wildgrag_MSRAO`.  Now run the game and you will see that it is back to using the grass texture we originally imported.
 
-https://user-images.githubusercontent.com/5504953/185745402-8e2543ad-661e-4fd4-a666-037e88e2de07.mp4
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/c54ddcba-1c19-4ecb-a5fd-21256ed7b7f2
 
 ![](../images/line2.png)
 
