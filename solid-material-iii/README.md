@@ -159,29 +159,6 @@ In **M_OpaqueMSRAO** drag **MF_UVs** and connect it the output pin to **MF_BaseT
 
 ![add material function MF_UVs](images/addMFUV.png)
 
-![](../images/line2.png)
-
-##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
-
-Now go back to **MF_Texture**.  Lets separate adjusting UV's from the texture as we can reuse it in other materials.  So `copy` and `delete` the three UV nodes **TexCoord**, **Multiply** and **UV Multiplier** node. Now we will need an input node to plug the UV's into.  So right click and select a **Function Input** node.
-
-![add function input node in mf_textures and get rid of the three uv nodes](images/functionInput.png)
-
-![](../images/line2.png)
-
-##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-Open up **MF_UVs** and paste the nodes and attach the output of the **Multiply** node to the **Output UVs** node. Select the **Output** node and the **Output** name to **UVs**. Press the <kbd>Apply</kbd> button.
-
-![alt_text](images/addtoMFuv.png)
-
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT TITLE"> -->
