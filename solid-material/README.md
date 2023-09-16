@@ -108,7 +108,7 @@ Duplicate a ball/text pair from room 1 and drag it into room 2 (you can hold alt
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Select the text in Room 2 and change it to `M_Opaque_MSRAO`. Now you notice that without the other masks this looks flat and wrong.  Lets change that.
+Select the text in Room 2 and change it to `M_Opaque_MSRAO`. 
 
 ![change text to m_solidtexture](images/changeMSolid.png)
 
@@ -116,7 +116,7 @@ Select the text in Room 2 and change it to `M_Opaque_MSRAO`. Now you notice that
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Assign to **Material | Element 0** the **M_SolidTexture** material. 
+Assign to **Material | Element 0** the **M_SolidTexture** material. Now you notice that without the other masks this looks flat and wrong.  Lets change that.
 
 ![assign solid texture material](images/materialGrass.png)
 
