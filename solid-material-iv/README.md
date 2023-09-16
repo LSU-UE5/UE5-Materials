@@ -47,6 +47,7 @@ Now take the output of the **Multiply** node and place it into the input **UVs**
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
+![connect custom rotator and add scalar parameter](images/AddSwitch.png)
 
 ![](../images/line2.png)
 
