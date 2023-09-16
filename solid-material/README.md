@@ -172,9 +172,9 @@ Now grab the **Player Start** actor and move it in front of the material ball in
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-*Press* the <kbd>Play</kbd> button and take a look at the texture.  Wait for the light to adjust as the texture might appear dark.  This is our first solid texture.
+*Press* the <kbd>Play</kbd> button and take a look at the texture.  This is our first solid opaque texture!
 
-https://user-images.githubusercontent.com/5504953/185600829-c7cc4702-3d93-4469-a1b6-fa904bfdf502.mp4
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/841addc2-c5f8-4639-9d19-2b42f8f74330
 
 ![](../images/line.png)
 
