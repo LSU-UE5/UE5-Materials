@@ -182,7 +182,7 @@ Lets finish up our material.  Open back up **M_OpaqueMSRAO** and delete the thre
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Connect the pins per the attached drawings.
+Connect the pins to the corresponding nodes.
 
 ![alt_text](images/connectPinsMF.png)
 
