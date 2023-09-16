@@ -99,18 +99,19 @@ Now open up the material function and
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Add a comment box by selecting all the nodes and press the <kbd>C</kbd> key. Now change the **Output Name** to `Base Color` and we will leave the **Sort Priority** at `0`.  We will leave 0 through 19 for base color nodes.
+Now right click on the texture and select
 
-![delete all nodes in M_SolidTexture](images/deleteStext.png)
+![drag two textures to MF_Texture graph](images/dragTToMat.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Open up **MF_Texture**> Drag **T_BaseWhite_BC** and **T_Base_N** into the graph of **MF_Texture**.
+Add a comment box by selecting all the nodes and press the <kbd>C</kbd> key. Now change the **Output Name** to `Base Color` and we will leave the **Sort Priority** at `0`.  We will leave 0 through 19 for base color nodes.
 
-![drag two textures to MF_Texture graph](images/dragTToMat.png)
+![delete all nodes in M_SolidTexture](images/deleteStext.png)
+
 
 ![](../images/line2.png)
 
