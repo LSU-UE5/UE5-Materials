@@ -41,7 +41,7 @@ Lets check that **sRGB** is on and it is using **Default Compression**.  We also
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We are texture packing and if you select the **R,G,B** channels you will see the green grass texture.  If you select just the **A** alpha channel you will get a height map.  So in our naming of **T_WildGrass.BCH**, the BCH stands for Base Color & Height.
+We are texture packing and if you select the **R,G,B** channels you will see the green grass texture. If you select just the **R G B** channels, you will get the base color texture. If you select just the **A** alpha channel you will get a height mask.  So in our naming of **T_WildGrass.BCH**, the BCH stands for *Base Color & Height*!
 
 ![packed maps](images/baseHeightSeperate.png)
 
