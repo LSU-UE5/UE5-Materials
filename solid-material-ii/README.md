@@ -141,11 +141,9 @@ Copy and paste the **Output** node 3 times.  The first will be called `Metallic`
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-And finally hook up **R** to **Metallicc**, **G** to **Specular**, **B** to **Roughness** and **A** to **Ambient Occlusion**.  Highlight all the nodes and press the <kbd>C</kbd> key to add a comment and write 
+And finally hook up **R** to **Metallicc**, **G** to **Specular**, **B** to **Roughness** and **A** to **Ambient Occlusion**.  Highlight all the nodes and press the <kbd>C</kbd> key to add a comment and write as a title `MSRAO (Metallic | Specular | Roughness | Ambient Occlusion Masks)`. Press the <kbd>Apply</kbd> button.
 
 ![convert base color and normal map to parameters](images/convertParam.png)
-
-
 
 ![](../images/line2.png)
 
