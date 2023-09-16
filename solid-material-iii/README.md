@@ -25,7 +25,7 @@ Now go into the game and you will notice that our material ball is white based o
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Right click on **M_SolidTexture** and select **Creaet Material Instance** and call it `MI_WildGrass`.  
+*Right click* on **M_SolidTexture** and select **Create Material Instance** and call it `MI_WildGrass`. Move **MI_WildGrass** into the **Materials | Surface** folder.   
 
 ![create mis_wild grass material instance from solid texture](images/createMIWIldGrass.png)
 
@@ -33,7 +33,7 @@ Right click on **M_SolidTexture** and select **Creaet Material Instance** and ca
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Move **MI_WildGrass** into the **Materials | Surface** folder.  Then select the material ball and change the **Materials | Element 0** to `MI_WildGrass`. You can change the material by just dragging it onto the model itself and it will light up the area of the model that is changing.
+*Select* the material ball and change the **Materials | Element 0** to `MI_WildGrass`. You can change the material by just dragging it onto the model itself and it will light up the area of the model that is changing.
 
 ![assign mi_wild grass to material ball in room 2](images/moveAssign.png)
 
