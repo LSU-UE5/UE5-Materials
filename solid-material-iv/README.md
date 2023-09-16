@@ -15,7 +15,7 @@ Lets finish up the ***UVs** for the scale.  We will also look at adding the abil
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Lets go to the game and open up **MI_Grass**.  Now look for the new **UV** node.  It is also the first item to edit, we want it to be last and oops, it is in a generic category. Lets fix that by opening up **MF_UVs**. .  
+Lets go to the game and open up **MI_Grass**.  Now look for the new **UV** node.  It is also the first item to edit, we want it to be last and oops, it is in a generic category. Lets fix that by opening up **MF_UVs**. Add a **Category** of `UVs` to it and change the **Sort Priority** to `60`.  Now go back to the game.  Notice that adjust the **UV** mulutiplier to less than `1` it gets larger and higher than `1` it get smaller.  I like a value of `10`, this looks right to my eyes. 
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/0bcbb73c-b334-4a14-82cd-42966c2e8b12
 
