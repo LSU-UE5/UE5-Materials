@@ -166,7 +166,7 @@ Connect the output of the **Texture Sample** to the input pin of the **Output** 
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets order the input texture parameters.  Change the **Base Color | Height Map** node to **Priority** `0`, **Normal Map** to **Priority** `1` and finall **MSRAO** to `2`.
+Right click the **Texture Sample** and select **Convert to Parameter** and call the new node **Normal**.  Also, select the output node and call it `Normal` as well.
 
 ![change input priority](images/threInputOrder.png)
 
@@ -174,7 +174,7 @@ Lets order the input texture parameters.  Change the **Base Color | Height Map**
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Now lets change the order of the output pins to get them to line up with the material nodes. **Output Base Color** is **Priority** `0`, **Output Metalic** is **Priority** `1`, **Output Specular** is **Priority** `2`, **Output Roughness** is **Priority** `3`, **Output Normal** is **Priority** `4`, **Output Ambient Occlusion* is **Priority** `5`. Press the <kbd>Apply</kbd> button. 
+
 
 ![change input order priority](images/outputOrder.png)
 
