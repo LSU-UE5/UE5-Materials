@@ -33,7 +33,7 @@ Double click the UE4 project **IntroToMaterials.uproject** to load it. Press **S
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Look at the **World Outliner** on the top right of the screen and you will see Room Construction folder with the walls and floor. We also have 6 room folders that we will use to create materials in all rooms in this level. The **Player Start** actor determines where the player starts and the direction they look at when the start the game.  In this level we have a first person controller with no mesh representing the player.
+Look at the **World Outliner** on the top right of the screen and select the gear icon and select ***Collapse All**. You will see folders with the walls, floor and lighting. We also have 6 room folders that we will use to create materials in all rooms in this level. The **Player Start** actor determines where the player starts and the direction they look at when the start the game.  In this level we have a first person controller with no mesh representing the player.
 
 ![showing 6 rooms in world outliner](images/worldOutliner.png)
 
