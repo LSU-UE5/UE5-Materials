@@ -99,7 +99,7 @@ Now open up the material function and drag and drop **Textures | Placeholder | T
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Now *right click* on the **Texture Sample** node and select **Convert to Parameter**.  Call it `Base Color`,
+Now *right click* on the **Texture Sample** node and select **Convert to Parameter**.  Call it `BaseColor`,
 
 ![drag two textures to MF_Texture graph](images/dragTToMat.png)
 
