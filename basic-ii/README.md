@@ -34,7 +34,7 @@ We also want to sort the order of the ouput pins with **Output Base Color | Sort
 
 Press the <kbd>Apply</kbd> and <kbd>Save</kbd> buttons to render and save the changes.  Make sure there are no errors.
 
-https://github.com/LSU-UE5/UE5-Materials/assets/5504953/2c9da615-5efc-40df-814e-e616ae3ebed8
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/372e9d9d-0ce3-4e38-b0d8-5e254180189a
 
 ![](../images/line2.png)
 
