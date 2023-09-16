@@ -98,8 +98,9 @@ Now how the *Alpha* pin works on a Lerp node is that a value of `0` will be 100%
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
  
-Now we may not always want to use two colors.  So lets add a switch that lets us turn this on and off.  Right click on the open graph and look for a **StaticSwitchParamete**.  Call it `Two Color?`.  Now when it is false (so NOT two colors) put the output of the **Base Color** to the **False** pin.  And then the output of the
- **Lerp** node to the **True** pin.  Now send the output of teh **Two Color?** node to the **Output Base Color** pin.
+Now we may not always want to use two colors.  So lets add a switch that lets us turn this on and off.  Right click on the open graph and look for a **StaticSwitchParamete**.  Call it `EdgeColor?`.  
+
+Also, we don't want to alter the existing materials in our level which have a single color.  Make sure that the default is `false`. Now when it is false (so NOT two colors) put the output of the **Base Color** to the **False** pin.  And then the output of the **Lerp** node to the **True** pin (this will lerp in an edge color).  Now send the output of teh **EdgeColor?** node to the **Output Base Color** pin.
 
 ![add second color static switch](images/staticSwitch.png)
 
