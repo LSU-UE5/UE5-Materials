@@ -99,7 +99,7 @@ Now open up the material function and
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Now right click on the texture and select
+Now right click on the texture and drag and drop **Textures | Placeholder | T_Base_BCH** to the graph. Connect the output node of the **Texture Sample** to the **Output Result** node.
 
 ![drag two textures to MF_Texture graph](images/dragTToMat.png)
 
