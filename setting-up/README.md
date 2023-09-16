@@ -33,10 +33,15 @@ Double click the UE4 project **IntroToMaterials.uproject** to load it. Press **S
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Look at the **World Outliner** on the top right of the screen and you will see Room Construction folder with the walls and floor. We also have 6 room folders that we will use to create materials in all rooms in this level. The **Player Start** actor determines where the player starts and the direction they look at when the start the game.  In this level we have a first person controller with no mesh representing the player.
+
+![showing 6 rooms in world outliner](images/worldOutliner.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 
 
 ![](../images/line2.png)
@@ -49,18 +54,11 @@ Double click the UE4 project **IntroToMaterials.uproject** to load it. Press **S
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Now lets submit to perforce this base template.  Press **Source Control | Submit Content**.  Write in a message then press the <kbd>Submit</kbd> button.
-
-![submit to perforce](images/submitP4.png)
-
 ![](../images/line2.png)
 
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Look at the **World Outliner** on the top right of the screen and you will see Room Construction folder with the walls and floor. We also have 6 room folders that we will use to create materials in all rooms in this level. The **Player Start** actor determines where the player starts and the direction they look at when the start the game.  In this level we have a first person controller with no mesh representing the player.
-
-![showing 6 rooms in world outliner](images/worldOutliner.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
