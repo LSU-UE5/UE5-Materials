@@ -39,7 +39,7 @@ Now go into the game and you will notice that our material ball is white based o
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **MI_WildGrass** and turn on editing on the three textures.  Assign the **Base Color** the texture `T_WildGrass_BCH`, the **Normal Map** the texture `T_WildGrass_N` and finally the four masks the texture `T_Wildgrag_MSRAO`.  Now run the game and you will see that it is back to using the grass texture we originally imported.
+Open up **MI_WildGrass** and turn on editing on the three textures.  Assign the **Base Color** the texture `T_WildGrass_BCH`, the **Normal Map** the texture `T_WildGrass_N` and finally the four masks the texture `T_Wildgrass_MSRAO`.  Now run the game and you will see that it is back to using the grass texture we originally imported.
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/c54ddcba-1c19-4ecb-a5fd-21256ed7b7f2
 
