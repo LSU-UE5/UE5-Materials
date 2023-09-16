@@ -117,7 +117,7 @@ Add a comment box by selecting all the nodes and press the <kbd>C</kbd> key. Now
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Rename the output node to `Base Color`.  Add another **Output** node and call it `Normal`.  Connect the **RGB** pin from the white texture sample node and plug it into the **Output Base Color** node.
+Create a new material function for our masks.  Select the **Materials | Material Function** folder and right click to createa a new **Material | Material Function**.  Call it `MF_MSRAO`.
 
 ![connect base color pin](images/outputBC.png)
 
