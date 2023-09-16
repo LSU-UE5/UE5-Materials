@@ -64,7 +64,6 @@ Now go to Description and fill in the various modules with the information that 
 
 ![](../images/line2.png)
 
-
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now go into **Settings | World Settings** and expand **Game Mode**.  This is overrides the settings that are in project settings for this one level.  We are not overriding our project settings so we can leave it as it is.
