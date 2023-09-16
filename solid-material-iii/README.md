@@ -59,7 +59,7 @@ Enter modeling mode and select a **Shapes | Rect** to create a plane for the gro
 
 Place it on the floor and select the <kbd>Complete</kbd> button.
 
-![create a 1000 by 3000 planes](images/createAPlane.png)
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/7e82def3-c043-4dcd-bcff-390950df6337
 
 ![](../images/line2.png)
 
