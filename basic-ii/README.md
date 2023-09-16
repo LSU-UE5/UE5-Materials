@@ -116,7 +116,7 @@ Also, we don't want to alter the existing materials in our level which have a si
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Right click on the graph and create a **Scalar Parameter** and call it `Fresnel Exponent`.  Plug it into the **Exponent** pin in the **Fresnel** node.
+Right click on the graph and create a **Scalar Parameter** and call it `FresnelExponent`.  Plug it into the **Exponent** pin in the **Fresnel** node.
 
 ![add fresnel exponent parameter](images/scalarParam.png)
 
