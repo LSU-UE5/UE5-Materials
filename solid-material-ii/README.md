@@ -60,15 +60,28 @@ Create a new folder called **Textures | Placeholder**.  Drag the three textures 
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-![save as t_basewhite_bc](images/saveAsPNG.png)
+Open up the base color and normal textures and make sure they have mip levels and that the normal is recognized and using **Regular** and **Normal** compression.  I see they all have a **Mips** level of `7` which is correct as these are only 32 x 32 pixel textures as they are just placehoders.
 
-Now click on the foreground color swatch and lets make a neutral normal map (all normals perpendicular) which is 50% **RG** and 100% **B**. So set **R** & **G** to `127` and **B** to `255`.
+![confirm both textures](images/checkTexture.png)
 
-![neutral normal map](images/neutralNormal.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now open up the **T_Base_MSRAO** texture.  Now we do have our **7** Mips levels.  Change the compressoin to `Masks`.  This is important as sRGB is for base colors and is based on optimizing for human vision.  This will alter our masks in subtle ways.  So we want to select masks which will turn off **sRGB**.  We forgot to do this for our grass so go back to
+
+![save as t_basewhite_bc](images/saveAsPNG.png)
+
+
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Now click on the foreground color swatch and lets make a neutral normal map (all normals perpendicular) which is 50% **RG** and 100% **B**. So set **R** & **G** to `127` and **B** to `255`.
+
+![neutral normal map](images/neutralNormal.png)
 
 Now select the fill tool and fill the white square with this neutral normal map color.  Press **File | Save As** and call it `N_Base_N` as type `.png`.  Press the <kbd>Save</kbd> button.
 
@@ -76,17 +89,9 @@ Now select the fill tool and fill the white square with this neutral normal map 
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up both textures and make sure they have mip levels and that the normal is recognized and uses **Normal** compression.  
 
-![confirm both textures](images/checkTexture.png)
 
 ![](../images/line2.png)
 
