@@ -6,8 +6,6 @@
 
 ![](../images/line3.png)
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
-
 So last chapter we looked at blending two solid colors on a model.  Now we can also control the color pixel by pixel on the UV's of the model.  So we can use texture maps and we will add another node we have not used yet.  The ambient occlusion node helps with lighting in the darker more shadowed parts of a model.
 
 <br>
