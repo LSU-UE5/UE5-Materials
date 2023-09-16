@@ -57,7 +57,7 @@ Now lets add a **Static Switch Parameter** node and call it `RotateUVs?`.  Set t
 
 *Open up* **MI_WildGrass** and turn on the switch to adjust the angle. *Adjust* the UV angle between 0 and 1. Nwo pick an angle you like.  That will be it for room 2!
 
-https://user-images.githubusercontent.com/5504953/185766950-79a0f8ad-0501-4090-9cf4-43dd57e0691a.mp4
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/c87537a0-3f93-44f3-978b-43732b4d3732
 
 ![](../images/line2.png)
 
