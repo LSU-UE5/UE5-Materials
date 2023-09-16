@@ -174,7 +174,7 @@ Right click the **Texture Sample** and select **Convert to Parameter** and call 
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-
+Lets finish up our material.  Open back up **M_OpaqueMSRAO** and delete the three **Texture Sample** nodes.  Replace them with **MF_Base_Texture**, **MF_Normal** and **MF_MSRAO**.
 
 ![change input order priority](images/outputOrder.png)
 
@@ -182,7 +182,7 @@ Right click the **Texture Sample** and select **Convert to Parameter** and call 
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Open up **MF_SolidTexture** and connect the output pins to the input pins of the same name.  Press the <kbd>Apply</kbd> button.
+Connect the pins per the attached drawings.
 
 ![alt_text](images/connectPinsMF.png)
 
