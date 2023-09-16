@@ -43,7 +43,7 @@ So what happens if we have a texture that is not square.  Lets look.  Download [
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Download our base textures as for our master we don't want to use an actual usefuly texture, just a neutral one.  Download [T_BadTexture.png](../Assets/T_Base_BCH.png)
+Download our base textures as for our master we don't want to use an actual usefuly texture, just a neutral one.  Download [T_Base_BCH.png](../Assets/T_Base_BCH.png), [T_Base_N.png](../Assets/T_Base_N.png), and [T_Base_MSRAO.png](../Assets/T_Base_MSRAO.png)
 
 ![create a new blank material](images/newMat.png)
 
