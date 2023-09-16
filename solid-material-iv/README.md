@@ -23,41 +23,30 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/0bcbb73c-b334-4a14-82cd-
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Now there is one thing we need to fix.  Open up **MF_Texture**, select the **Input** node. If the input is not named change name to `UVs`. Change the **Input Type** to `Function Input Vector 2`.  We just need a **U** and a **V** value and the default input was for a full **Vector 3**. Press the <kbd>Apply</kbd> button.
+Now lets add the ability to rotate the texture to add another layer of customization. Open up **MF_UVs** and add a **Custom Rotator** node.
 
-![change in put type to 2](images/changeInputType.png)
+![add a custom rotator node](images/customRotator.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets make the final step and open up **M_SolidTexture**.  Drag a copy of **Materials | MaterialFunctions | MF_UVs** to the chart.  Plug the output into **MF_Texture | UV**. Press the <kbd>Apply</kbd> button.
-
-![put uv material function to m_solid_texture](images/uvsToNode.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go back to the editor and open up **MI_WildGrass** next to it.  Notice that the sizes have all set back to the original default.
-
-![editor with reset material](images/backToOne.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Set the **UV** multiplier back to 20. Now the scale is a lot better.
-
-![uv multiplier is 20](images/uv20.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Now lets add the ability to rotate the texture to add another layer of customization. Open up **MF_UVs** and add a **Custom Rotator** node.
 
-![add a custom rotator node](images/customRotator.png)
 
 ![](../images/line2.png)
 
