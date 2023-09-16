@@ -125,7 +125,7 @@ Create a new material function for our masks.  Select the **Materials | Material
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Connect the output of the blue texture sample node into the **Output Normal** node.  Copy and paste the white node and place it under the normal map.
+Drag **Textures | Placeholder | T_Base_MSRAO** to to the graph.  Right click on it and select **Convert to Parameter**.  Call it `Metallic | Specular | Roughness | AO`.
 
 ![connect normal copy white node](images/connectN.png)
 
