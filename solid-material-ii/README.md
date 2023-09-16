@@ -149,6 +149,7 @@ And finally hook up **R** to **Metallicc**, **G** to **Specular**, **B** to **Ro
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Lets create our final material function. Right click in the **Materials | Material Functions** library and create a new **Material | Material Function**. Call it `M_Normal`.  Drag `T_Base_N` to the graph.
 
 ![convert final texture to parameter and add comments](images/convertParams.png)
 
