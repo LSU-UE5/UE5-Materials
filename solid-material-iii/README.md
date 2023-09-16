@@ -147,6 +147,7 @@ Repeat this for **MF_MSRAO** and **MF_Normal**. Add inputs and call them **Input
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
+Now in **MI_WildGrass** it is black and we are getting an error saying there is nothing plugged into the UV Inputs.  This needs to be fixed in the master material.  Open up **M_OpaqueMSRAO** and see there is an error on each of the material functions.
 
 ![connect to multiply node](images/uvInputError.png)
 
@@ -154,14 +155,15 @@ Repeat this for **MF_MSRAO** and **MF_Normal**. Add inputs and call them **Input
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+In **M_OpaqueMSRAO** drag **MF_UVs** and connect it the output pin to **MF_BaseTexture**, **MF_RSAO** and **MF_Normal** as they all require a UV input.
+
+![add material function MF_UVs](images/addMFUV.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to **Materials | Material Functions.  Select the <kbd>+ Add</kbd> button and select **Material | Material Function**.  Call is `MF_UVs`.
 
-![add material function MF_UVs](images/addMFUV.png)
 
 ![](../images/line2.png)
 
