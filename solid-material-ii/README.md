@@ -29,7 +29,7 @@ The mip map holds sizes from 1 pixel upwards.  So if a texture is 512 by 512, th
 
 Now if we open up **T_WildGrass_BCH** you can see we have 13 mip levels. You can switch between them to see how they look and you can see the display size being updated.  Now since it is power of 2 it is able to simply average pixel groups to get a high quality reduction.
 
-https://github.com/LSU-UE5/UE5-Materials/assets/5504953/af9ddcb4-239d-4d5f-84a4-25025e33c043
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/e6ff9b5d-a948-4eea-963d-7888d585973c
 
 ![](../images/line2.png)
 
