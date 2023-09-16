@@ -96,9 +96,6 @@ If the files are in **Content** or **Configuration** then press the <kbd>Reconci
 
 ![reconfile offline work](images/reconcile.png)
 
-![](../images/line2.png)
-
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - ADD NEXT TITLE"> -->
