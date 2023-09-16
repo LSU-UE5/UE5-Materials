@@ -122,9 +122,10 @@ Now go to the **Materials | Material Functions** folder and right click on the e
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Rigth click on the open graph and add a **Text Coordinates** node.  Connect the output into the **UVs** input of all three of the textures as we will want to adjust the size of the tiling on all three textures.
+Open up the material function and change the name of the output node to `UVs`.  Add a **Texture Coordinate** node.  Then add a **Scalar Parameter** node and call it `UVScalar`.  Set the **Parameter Name** to `UV Scalar`, the **Group** to `UVs` and the **Sort Priority** to `60`.  Add a **Multiply** node and multiply the **UV** by the **Scalar**.  Send the result to the **Output** node.
 
 
+![add texture coordinates](images/uvScaling.png)
 
 ![](../images/line2.png)
 
