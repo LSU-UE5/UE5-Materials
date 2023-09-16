@@ -58,7 +58,7 @@ Lets go back back to **Settings | Project_Settings** and select **Maps and Modes
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Now go to Description and fill in the various modules with the information that you want that you think is important. Fill in the Licensing information, I use the [MIT Open Source License](https://opensource.org/licenses/MIT).
+Now go to Description and fill in the various modules with the information that you want that you think is important. Fill in the Licensing information, I use the [MIT Open Source License](https://opensource.org/licenses/MIT). You can copy and paste the contents of the **LICENSE** file in your project folder. Do not fill this in, if you don't want to accept the licensing terms.
 
 ![fill in project description](images/description.png)
 
