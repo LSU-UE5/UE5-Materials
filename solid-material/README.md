@@ -108,7 +108,7 @@ Duplicate a ball/text pair from room 1 and drag it into room 2 (you can hold alt
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Select the text in Room 2 and change it to **M_SolidTexture**. Now you notice that without the other masks that this doesn't look anything like wild grass.  Lets change that.
+Select the text in Room 2 and change it to `M_Opaque_MSRAO`. Now you notice that without the other masks this looks flat and wrong.  Lets change that.
 
 ![change text to m_solidtexture](images/changeMSolid.png)
 
