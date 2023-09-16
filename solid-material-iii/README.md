@@ -108,7 +108,7 @@ Now drag and drop **MI_WildGrass** onto the ground plane.
 
 *Press* the <kbd>Play</kbd> button and walk around.  Your camera is at 6' in height and the grass texture looks enormous and wrong.  Now we can adjust the amount of tiling within each object.  Lets add this to our material function.
 
-![grass is wrong](images/addWIldGrassM.png)
+![grass is wrong](images/addWIldGrassM2.png)
 
 ![](../images/line2.png)
 
