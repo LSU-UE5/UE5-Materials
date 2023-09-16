@@ -6,8 +6,6 @@
 
 ![](../images/line3.png)
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
-
 Lets finish up the ***UVs** for the scale.  We will also look at adding the ability to rotate the texture.  
 
 <br>
