@@ -132,6 +132,8 @@ Open up the material function and change the name of the output node to `UVs`.  
 
 Now open up **MF_BaseTexture** and we need to add a **Function Input** node so we can inject the UV's into this material function. Call it **Input UV** and add a default **TextCoord** node as a **Preview** value.  This will make it easier to see what each material function is doing if you need to debug it.
 
+![add texture coordinates](images/AddUvToBaseColor.png)
+
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
