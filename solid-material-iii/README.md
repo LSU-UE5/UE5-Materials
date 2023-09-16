@@ -136,25 +136,22 @@ Now open up **MF_BaseTexture** and we need to add a **Function Input** node so w
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Right click on the empty graph of **MF_Textures** and select a **Scalar Parameter** node. Name it `UV_Multiplier` and set the default value to `1`.  Also, add a **Multiply** node.
+Repeat this for **MF_MSRAO** and **MF_Normal**. Add inputs and call them **Input UV**.  Connect a default **TextCoord** node as a **Preview** value. Send the output into the texture input for the UV Scaling.
 
-![add a scalar parameter and mutltiply node](images/multiplyUv.png)
+![add a scalar parameter and mutltiply node](images/2MoreUVs.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
- Connect the **TextCoord** to the **A** channel of the **Multiply** node and the output of the **UV Multipier** to the **B** side of the **Multiply** node.  Send the output of the **Multiply** node to the three texture **UVs** inputs.  Make sure the **UTiling** and **VTiling** is set to `1`.  Make sure the **UV Multiplier** is also set to `1`. Press the <kbd>Apply</kbd> button.
 
-![connect to multiply node](images/connectMulti.png)
+
+![connect to multiply node](images/uvInputError.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now you can open up **MI_WildGrass** and set the **UV Multiplier** to 20 and press the **Save** button.  This should get you back to where you were before.
-
-![change uv multiplier to 20](images/setScalarTo20.png)
 
 ![](../images/line2.png)
 
