@@ -42,6 +42,10 @@ Look at the **World Outliner** on the top right of the screen and select the gea
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go to the bottom left and open the Source Panel and click on the Blueprints folder.  You will see two Blueprints.  One called **BP_Gamemode** and the other called **BP_PlayerCharacter**. The gamemode blueprint loads the **BP_PlayerCharacter** when the level is run so that you control a first person character.
+
+![two blueprints in blueprints folder](images/bprints.png)
+
 
 
 ![](../images/line2.png)
@@ -62,19 +66,13 @@ Look at the **World Outliner** on the top right of the screen and select the gea
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-I have also added a first person **Character** for you to control and possess during the game.  Go to **Settings | Project_Settings** to see the controls.
 
-Now select **Input** and expand **Action Mappings** and **Axis Mappings**.  This shows you that we have implemented a mouse looking around, player movement and jumping.  If you press the triangles you can see the keys that are assigned. 
-
-![inputs for playing](images/userInput.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the bottom left and open the Source Panel and click on the Blueprints folder.  You will see two Blueprints.  One called **BP_Gamemode** and the other called **BP_PlayerCharacter**. The gamemode blueprint loads the **BP_PlayerCharacter** when the level is run so that you control a first person character.
 
-![two blueprints in blueprints folder](images/bprints.png)
 
 ![](../images/line2.png)
 
