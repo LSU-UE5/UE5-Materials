@@ -154,8 +154,6 @@ Lets create our final material function. Right click in the **Materials | Materi
 ![convert final texture to parameter and add comments](images/convertParams.png)
 
 
-
-
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
