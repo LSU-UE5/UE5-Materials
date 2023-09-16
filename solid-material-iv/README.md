@@ -6,7 +6,7 @@
 
 ![](../images/line3.png)
 
-Lets finish up the ***UVs** for the scale.  We will also look at adding the ability to rotate the texture.  
+Lets finish up the **UVs** for the scale.  We will also look at adding the ability to rotate the texture.  
 
 <br>
 
