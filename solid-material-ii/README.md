@@ -51,13 +51,16 @@ Download our base textures as for our master we don't want to use an actual usef
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-*Press* the **File | Save As** and call it `T_BaseWhite_BC`. Select **png** as our file format and press the <kbd>Save</kbd> button.
+Create a new folder called **Textures | Placeholder**.  Drag the three textures you just downloaded this folder.
 
-![save as t_basewhite_bc](images/saveAsPNG.png)
+![drag to textures in folder](images/dragToTextures.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
+
+![save as t_basewhite_bc](images/saveAsPNG.png)
 
 Now click on the foreground color swatch and lets make a neutral normal map (all normals perpendicular) which is 50% **RG** and 100% **B**. So set **R** & **G** to `127` and **B** to `255`.
 
@@ -75,9 +78,7 @@ Now select the fill tool and fill the white square with this neutral normal map 
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag the two textures you just exported from photoshop into the **Textures** folder.
 
-![drag to textures in folder](images/dragToTextures.png)
 
 ![](../images/line2.png)
 
