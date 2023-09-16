@@ -13,11 +13,11 @@ We will be downloading a template project with some assets provided to us before
 ---
 | `required.software`\|`UE5 Materials`| 
 | :--- |
-| :floppy_disk: &nbsp; &nbsp; You will need to install the latest version of _UE5 5.2.X_ by downloading the [Epic Games Launcher](https://www.epicgames.com/store/en-US/download). You will also need a [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) account which is free to sign up for as we will be using version control. Lets make sure you can see hidden folders. On the PC follow these [Windows 10 Turn on Hidden Folders](https://support.microsoft.com/en-us/help/4028316/windows-view-hidden-files-and-folders-in-windows-10) directions.For this walk through you will also need [Substance Designer](https://store.substance3d.com/students-teachers) which is free for students and has a free 30 day trial for non-students. |
+| :floppy_disk: &nbsp; &nbsp; You will need to install the latest version of _UE5 5.2.X_ by downloading the [Epic Games Launcher](https://www.epicgames.com/store/en-US/download). You will also need a [P4V](https://www.perforce.com/downloads/helix-visual-client-p4v) account which is free to sign up for as we will be using version control. Lets make sure you can see hidden folders. On the PC follow these [Windows 10 Turn on Hidden Folders](https://support.microsoft.com/en-us/help/4028316/windows-view-hidden-files-and-folders-in-windows-10) directions.For this walk through you will also need [Substance Designer](https://store.substance3d.com/students-teachers) which is free for students. |
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Navigate to [UE5-Materials-Starter](https://github.com/maubanel/UE5-Materials-Starter) and press the <kbd>Code ButtonM</kbd> and select **Download ZIP**.
+You will find in Perforce a project called **UE5-Materials**. It contains a text file called **LICENSE**. It is the [MIT License](https://opensource.org/license/mit/) which grants you use to the materials that are mine in this project. Please note that some of these materials come from Epic and our not covered by this license.  Please read the above license and if you agree change the name to your name so that your work that you peform will be licensed as open source and available to future students.  This is not a requirement, if you do not want to accept the terms then delete the LICENSE file (delete it inside P4V).
 
 ![download github material starter project](images/downloadZip.png)
 

@@ -12,8 +12,8 @@ Lets look at **[Physically Based Rendering Materials (PBR)](https://en.wikipedia
  PBR allows for some level of standardizations so that tools like Substance Painter and Designer can created maps that can be utilized on multiple engines and achieve similar results.  Even though it is known for creating photorealistic scenes it can be used on more sylized productions, as [Monsters University](https://www.fxguide.com/featured/monsters-university-rendering-physically-based-monsters/) used it as well.
   
 
-* Tested on UE4 5.0.X
-* Required to install: Unreal Engine 5, P4V
+* Tested on UE4 5.2.X
+* Required to install: Unreal Engine 5.2, P4V
 
 <!-- TOC -->
 ## Table of Contents
