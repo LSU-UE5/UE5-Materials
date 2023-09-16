@@ -67,15 +67,23 @@ Open up the base color and normal textures and make sure they have mip levels an
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now open up the **T_Base_MSRAO** texture.  Now we do have our **7** Mips levels.  Change the compressoin to `Masks`.  This is important as sRGB is for base colors and is based on optimizing for human vision.  This will alter our masks in subtle ways.  So we want to select masks which will turn off **sRGB**.  We forgot to do this for our grass so go back to
+Now open up the **T_Base_MSRAO** texture.  Now we do have our **7** Mips levels.  Change the compressoin to `Masks`.  This is important as sRGB is for base colors and is based on optimizing for human vision.  This will alter our masks in subtle ways.  So we want to select masks which will turn off **sRGB**.  We forgot to do this for our grass so go back to **T_WildGrass_MSRAO** and change the **Compression Settings** to `Masks`.
 
 ![save as t_basewhite_bc](images/saveAsPNG.png)
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Select the **MaterialFunction** folder and press the <kbd>+ Add</kbd> button and select **Material | Material Function**.  Call this material function `MF_Texture`.
+
+![create material function MF_Texture](images/mf_texturecreate.png)
 
 
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now click on the foreground color swatch and lets make a neutral normal map (all normals perpendicular) which is 50% **RG** and 100% **B**. So set **R** & **G** to `127` and **B** to `255`.
 
@@ -84,12 +92,6 @@ Now click on the foreground color swatch and lets make a neutral normal map (all
 Now select the fill tool and fill the white square with this neutral normal map color.  Press **File | Save As** and call it `N_Base_N` as type `.png`.  Press the <kbd>Save</kbd> button.
 
 ![save normal map version](images/tbaseNormal.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
 
 ![](../images/line2.png)
 
@@ -103,9 +105,7 @@ Open up **M_SolidTexture** and delete all of the texture nodes.  We will replace
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Select the **MaterialFunction** folder and press the <kbd>+ Add</kbd> button and select **Material | Material Function**.  Call this material function `MF_Texture`.
 
-![create material function MF_Texture](images/mf_texturecreate.png)
 
 ![](../images/line2.png)
 
