@@ -15,9 +15,9 @@ Lets finish up the ***UVs** for the scale.  We will also look at adding the abil
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Go back to **MF_Uvs** and change the **Group** in the **UV Multiplier** node to `UV`.
+Lets go to the game and open up **MI_Grass**.  Now look for the new **UV** node.  Oops it is in a generic category lets fix that by opening up **MF_UVs**.
 
-![add uv to uv multiplier group](images/changeUVGroup.png)
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/0bcbb73c-b334-4a14-82cd-42966c2e8b12
 
 ![](../images/line2.png)
 
