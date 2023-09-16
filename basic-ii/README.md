@@ -116,7 +116,7 @@ Also, we don't want to alter the existing materials in our level which have a si
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Right click on the graph and create a **Scalar Parameter** and call it `FresnelExponent`.  Plug it into the **Exponent** pin in the **Fresnel** node.
+Right click on the graph and create a **Scalar Parameter** and call it `FresnelExponent`.  Plug it into the **Exponent** pin in the **Fresnel** node. Make it a default value of `0.6`.
 
 ![add fresnel exponent parameter](images/scalarParam.png)
 
@@ -132,9 +132,9 @@ To see the effect of the fresnel we need to select the **Two Color?** switch nod
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now the closer the number is to `0` the more the fresnel angle is pronounced and the larger the number the more it is sent to the edges. Lets leave the **Fresnel Exponent** at a **Default Value** of `2.0` as it is subtle and we can tweak it in the material instance.
+Now the closer the number is to `0` the more the fresnel angle is pronounced and the more the second color creeps into the front area of the sphere (it is depth based).  The larger the number the more it retreats to the edges. Lets leave the **Fresnel Exponent** at a **Default Value** of `0.6` as it is subtle and we can tweak it in the material instance.
 
-![alt_text](images/fresnelExponent.png)
+![fresnel amount](images/fresnelExponent.png)
 
 ![](../images/line2.png)
 
