@@ -25,33 +25,25 @@ You will find in Perforce a project called **UE5-Materials**. It contains a text
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Right click on **UE5-Materials-Starter-master.zip** and select **Extract Here**.  Rename the folder to `UE5-Materials`.
+Double click the UE4 project **IntroToMaterials.uproject** to load it. Press **Source Control Off** and select `Connect to Source Control...`.  Select `Perforce` as the **Provider**.  Make sure the settings are correct and you have a valid workspace. Press the <kbd>Accept</kbd> button.
 
-![exract and renamte folder](images/extractFolder.png)
+![looking at first room](images/connectToP4.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag and drop that folder into your **P4 Workspace** folder.
-
-![drag into p4 workspace](images/p4Project.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **P4V** and select the **LICENSE** file and press **Add** then Submit.
-
-![](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Double click the UE4 project **IntroToMaterials.uproject** to load it. Press **Source Control Off** and select `Connect to Source Control...`.  Select `Perforce` as the **Provider**.  Make sure the settings are correct and you have a valid workspace. Press the <kbd>Accept</kbd> button.
 
-![looking at first room](images/connectToP4.png)
 
 ![](../images/line2.png)
 
