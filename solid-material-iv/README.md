@@ -39,7 +39,7 @@ The custom rotator node has three inputs.  One is the UVs which will do the rota
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now take the output of the **Multiply** node and place it into the input **UVs** node in the **Custom Rotator**.  Take the **Return Value** and send it to the **Output UVs** node.  Select all of the 4 nodes and press the <kbd>C</kbd> key and add a comment `UV Adjustements` and select a color.  Right click on the open graph and select a **Scalar Parameter**.
+Now take the output of the **Multiply** node and place it into the input **UVs** node in the **Custom Rotator**.  Take the **Return Value** and send it to the **Output UVs** node. *Right click* on the open graph and select a **Scalar Parameter** and call it `UVAngle`. Plug it into the **Rotation Angle** input node.    Select all of the 4 nodes and press the <kbd>C</kbd> key and add a comment `Rotate UVs` and select a color.  Set the **Group** to `UVs` and the **Sort Priority** to `61`.
 
 ![connect custom rotator and add scalar parameter](images/scalarAdjustments.png)
 
