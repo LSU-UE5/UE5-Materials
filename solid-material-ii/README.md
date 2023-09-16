@@ -75,7 +75,7 @@ Now open up the **T_Base_MSRAO** texture.  Now we do have our **7** Mips levels.
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now this creates an issue in our material.  If you go to the game it is no longer working.
+Now this creates an issue in our material.  If you go to the game it is no longer working. Open up **M_OpaqueMSRAO** and change the **Sampler Type** on the masks texture from **Color** to `Masks`.  Press the <kbd>Apply</kbd> button.
 
 ![neutral normal map](images/neutralNormal.png)
 
