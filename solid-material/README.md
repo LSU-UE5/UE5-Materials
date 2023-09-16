@@ -116,7 +116,7 @@ Select the text in Room 2 and change it to `M_Opaque_MSRAO`.
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Assign to **Material | Element 0** the **M_SolidTexture** material. Now you notice that without the other masks this looks flat and wrong.  Lets change that.
+Assign to **Material | Element 0** the **M_Opaque_MSRAO** material. Now you notice that without the other masks this looks flat and it is shiny.  Lets change that.
 
 ![assign solid texture material](images/materialGrass.png)
 
