@@ -55,9 +55,9 @@ If you go to **Meshes | Supplied** and hover the cursor over **SM_Wall** you can
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Enter modeling mode and select a **Shapes | Rect** to create a plane for the ground to old the grass.  Make it a **Width** of `1000` and a **Depth** of `3000` and a height of `10`.  Set the **Width Subdivision** to `10` and the **Depth Subdivision to `30`.
+Enter modeling mode and select a **Shapes | Rect** to create a plane for the ground to old the grass.  Make it a **Width** of `1000` and a **Depth** of `3000` and a height of `10`.  Set the **Width Subdivision** to `10` and the **Depth Subdivision to `30`. Set **Align to Normal** to `false`.
 
-Place it on the floor and select the <kbd>Complete</kbd> button.
+Place it on the floor and select the <kbd>Accept</kbd> button.
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/7e82def3-c043-4dcd-bcff-390950df6337
 
