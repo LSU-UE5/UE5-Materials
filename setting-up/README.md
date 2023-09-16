@@ -46,13 +46,13 @@ Go to the bottom left and open the Source Panel and click on the Blueprints fold
 
 ![two blueprints in blueprints folder](images/bprints.png)
 
-
-
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
+Lets go back back to **Settings | Project_Settings** and select **Maps and Modes**.  You will see that the reason the game booted up in this map was because it was set here previously. Also we are loading the **BP_Gamemode** as the default gamemode.  This will be applied to every level unless you override it. You can see that all we did here is load the player pawn as our first person character `BP_Player_Character`.
 
+![look at gamemode settings in maps and modes](images/mapsAndModes.png)
 
 ![](../images/line2.png)
 
@@ -77,10 +77,6 @@ Go to the bottom left and open the Source Panel and click on the Blueprints fold
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
-
-Lets go back back to **Settings | Project_Settings** and select **Maps and Modes**.  You will see that the reason the game booted up in this map was because it was set here previously. Also we are loading the **BP_Gamemode** as the default gamemode.  This will be applied to every level unless you override it. You can see that all we did here is load the player pawn as our first person character `BP_Player_Character`.
-
-![look at gamemode settings in maps and modes](images/mapsAndModes.png)
 
 ![](../images/line2.png)
 
