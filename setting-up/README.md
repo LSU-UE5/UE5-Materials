@@ -88,29 +88,15 @@ Select the **File | Save All** then press the <kbd>Source Control</kbd> button a
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-![](../images/line2.png)
+Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
 
-##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
+This will either give a message saying ther is nothing to reconcile or bring up a tab.  Make sure that these are **NOT** files in the **Intermediate** and **Saved** folders as these should be ignored from the `.p4ignore`.
 
+If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button.
 
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
-
+![reconfile offline work](images/reconcile.png)
 
 ![](../images/line2.png)
-
-##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 
 
 ![](../images/line.png)
