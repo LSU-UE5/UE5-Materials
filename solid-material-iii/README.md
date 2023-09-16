@@ -114,6 +114,8 @@ Now drag and drop **MI_WildGrass** onto the ground plane.
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now go to the **Materials | Material Functions** folder and right click on the empty area and create a new **Material | Material Function**.  Call it `MF_UVs`.  We will scale the UVs to change the size of the texture and how it tiles.
+
 ![add texture coordinates](images/textCoord.png)
 
 ![](../images/line2.png)
