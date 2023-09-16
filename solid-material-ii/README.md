@@ -135,24 +135,24 @@ Drag **Textures | Placeholder | T_Base_MSRAO** to to the graph.  Right click on 
 
 Copy and paste the **Output** node 3 times.  The first will be called `Metallic` and have a **Sort Priority** of `20`.   The second will be called `Specular` and have a **Sort Priority** of `21`. The third will be called `Roughness` and have a **Sort Priority** of `22` and the final one will be called `Ambient Occlusion` and have a **Sort Priority** of `23`.  We are reserving slot 20-39 for masks.
 
-![convert base color and normal map to parameters](images/convertParam.png)
-
-
+![connect MSRAO pins](images/add4Outputs.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+![convert final texture to parameter and add comments](images/convertParams.png)
 
-![connect MSRAO pins](images/add4Outputs.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on the bottom texture and call select **Convert to Parameter** and call it `Metallic | Specular | Roughness | AO`. Add two comment boxes to clean up our graph.
 
-![convert final texture to parameter and add comments](images/convertParams.png)
+
+
+
+![convert base color and normal map to parameters](images/convertParam.png)
 
 ![](../images/line2.png)
 
