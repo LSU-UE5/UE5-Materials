@@ -81,7 +81,7 @@ Go the the **UVs | Layout** and change the **Material Mode** to `Checkerboard`. 
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the ground plane in the editor and right click and select **Browse to Asset**.  Now rename the mesh `SM_Ground`.
+Select the ground plane in the editor and right click and select **Browse to Asset**.  Now rename the mesh `SM_Ground`. Create a new folder under **Meshes** called `Surfaces`.  Drag `SM_Ground` and **Move** it into the new **Meshes | Surfaces** folder.
 
 ![find and rename mesh sm_ground](images/findRenameGround.png)
 
@@ -89,7 +89,9 @@ Select the ground plane in the editor and right click and select **Browse to Ass
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Create a new folder under **Meshes** called `Surfaces`.  Drag `SM_Ground` and **Move** it into the new **Meshes | Surfaces** folder.
+After moving it is always a good idea to right click **Content** and select **Fix up Redirects in Folder**, to clean up the hierachy.  Otherwise hidden files remain that redirect files from their original folder.
+
+![fix up redirects](images/fixUpRedirects.png)
 
 ![move sm_ground to meshes folder](images/MovesmGround.png)
 
@@ -97,26 +99,24 @@ Create a new folder under **Meshes** called `Surfaces`.  Drag `SM_Ground` and **
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-After moving it is always a good idea to right click **Content** and select **Fix up Redirects in Folder**, to clean up the hierachy.  Otherwise hidden files remain that redirect files from their original folder.
-
-![fix up redirects](images/fixUpRedirects.png)
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
-
 Now drag and drop **MI_WildGrass** onto the ground plane.
 
 ![add mi_wild grass to plane](images/addWIldGrassM.png)
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 *Press* the <kbd>Play</kbd> button and walk around.  Your camera is at 6' in height and the grass texture looks enormous and wrong.  Now we can adjust the amount of tiling within each object.  Lets add this to our material function.
 
 ![grass is wrong](images/addWIldGrassM.png)
+
+![](../images/line2.png)
+
+##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
 
 ![](../images/line2.png)
 
