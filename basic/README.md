@@ -39,7 +39,9 @@ Double click this new material and right click on the empty map and type `Consta
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Double click the black swatch in the vector 3 node and you will get a color picker.  Now pick a bold color and you will see the color swatch on the left update. Press the <kbd>Apply</kbd> button.
+Double click the black swatch in the vector 3 node and you will get a color picker.  Now pick a bold color and you will see the color swatch on the left update. Press the <kbd>Apply</kbd> button. Please note that **Value** defaults to black so you need to raise the level so that you can see the color.
+
+Also if you don't press apply you will not see the results in game and it willl look like the material is incorrect.  A material needs to be built before the change is reflected in the editor.
 
 ![update color of swatch](images/pickColor.png)
 
