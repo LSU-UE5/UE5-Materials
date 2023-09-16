@@ -158,7 +158,7 @@ Lets create our final material function. Right click in the **Materials | Materi
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **M_SolidTexture**. Drag the material function **MF_Texture** into the empty graph.
+Connect the output of the **Texture Sample** to the input pin of the **Output** node.  Select the **Output** node and change the **Output Name** to `Normal`.
 
 ![add mf_texture to m_solidtexture](images/dragMF.png)
 
