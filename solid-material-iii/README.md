@@ -93,8 +93,6 @@ After moving it is always a good idea to right click **Content** and select **Fi
 
 ![fix up redirects](images/fixUpRedirects.png)
 
-![move sm_ground to meshes folder](images/MovesmGround.png)
-
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
