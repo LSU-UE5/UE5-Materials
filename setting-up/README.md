@@ -50,7 +50,7 @@ Go to the bottom left and open the Source Panel and click on the Blueprints fold
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Lets go back back to **Settings | Project_Settings** and select **Maps and Modes**.  You will see that the reason the game booted up in this map was because it was set here previously. Also we are loading the **BP_Gamemode** as the default gamemode.  This will be applied to every level unless you override it. You can see that all we did here is load the player pawn as our first person character `BP_Player_Character`.
+Lets go back back to **Settings | Project_Settings** and select **Maps and Modes**.  You will see that the reason the game booted up in this map was because it was set here previously. Also we are loading the **BP_Gamemode** as the default gamemode.  This will be applied to every level unless you override it. You can see that all we did here is load the player pawn as our first person character `BP_Player_Character`. This is why we don't need to place the starting character in the game, we let the game mode spawn it for us when we play the game.
 
 ![look at gamemode settings in maps and modes](images/mapsAndModes.png)
 
@@ -58,21 +58,32 @@ Lets go back back to **Settings | Project_Settings** and select **Maps and Modes
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
+Now go to Description and fill in the various modules with the information that you want that you think is important. Fill in the Licensing information, I use the [MIT Open Source License](https://opensource.org/licenses/MIT).
+
+![fill in project description](images/description.png)
+
 ![](../images/line2.png)
 
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now go into **Settings | World Settings** and expand **Game Mode**.  This is overrides the settings that are in project settings for this one level.  We are not overriding our project settings so we can leave it as it is.
+
+![displaying world settings](images/override.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+OK, that's enough for setup, now run the game and walk around using the <kbd>W A S D</kbd> or <kbd>Arrow</kbd> keys for movement, <kbd>Space Bar</kbd> for jumping and **Mouse** for looking around.  If you want to move faster press the <kbd>Shift</kbd> button while holding your movement keys. You should be able to walk around the various rooms and see that they are all titled.
 
+https://user-images.githubusercontent.com/5504953/185111052-7e821999-d943-4b50-981c-f2dceb163b27.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
+![save all and submit to perforce](images/submitP42.png)
 
 ![](../images/line2.png)
 
@@ -82,34 +93,26 @@ Lets go back back to **Settings | Project_Settings** and select **Maps and Modes
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Now go to Description and fill in the various modules with the information that you want that you think is important. Fill in the Licensing information, I use the [MIT Open Source License](https://opensource.org/licenses/MIT).
 
-![fill in project description](images/description.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now go into **Settings | World Settings** and expand **Game Mode**.  This is overrides the settings that are in project settings for this one level.  We are not overriding our project settings so we can leave it as it is.
 
-![displaying world settings](images/override.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-OK, that's enough for setup, now run the game and walk around using the <kbd>W A S D</kbd> or <kbd>Arrow</kbd> keys for movement, <kbd>Space Bar</kbd> for jumping and **Mouse** for looking around.  If you want to move faster press the <kbd>Shift</kbd> button while holding your movement keys. You should be able to walk around the various rooms and see that they are all titled.
 
-https://user-images.githubusercontent.com/5504953/185111052-7e821999-d943-4b50-981c-f2dceb163b27.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
-![save all and submit to perforce](images/submitP42.png)
 
 ![](../images/line.png)
 
