@@ -133,18 +133,18 @@ Drag **Textures | Placeholder | T_Base_MSRAO** to to the graph.  Right click on 
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Add four output nodes.  Call them `Metallic`, `Specular`, `Roughness` and `Ambient Occlusion`. Connect the **R** pin to **Output Metallic**, the **G** pin to **Output Specular**, the **B** pin to **Output Roughness**,the **A** pin to **Output Ambient Occlusion**.
+Copy and paste the **Output** node 3 times.  The first will be called `Metallic` and have a **Sort Priority** of `20`.   The second will be called `Specular` and have a **Sort Priority** of `21`. The third will be called `Roughness` and have a **Sort Priority** of `22` and the final one will be called `Ambient Occlusion` and have a **Sort Priority** of `23`.  We are reserving slot 20-39 for masks.
 
-![connect MSRAO pins](images/add4Outputs.png)
+![convert base color and normal map to parameters](images/convertParam.png)
+
+
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Right click on the top texture node and select **Convert to Parameter** and call it `Base Color & Height Map`.  Repeat this for the normal map texture and right click and select **Convert to Parameter** and call it `Normal Map`. Press the <kbd>Apply</kbd> button.
 
-
-![convert base color and normal map to parameters](images/convertParam.png)
+![connect MSRAO pins](images/add4Outputs.png)
 
 ![](../images/line2.png)
 
