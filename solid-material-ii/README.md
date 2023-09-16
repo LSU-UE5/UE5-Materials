@@ -43,7 +43,7 @@ So what happens if we have a texture that is not square.  Lets look.  Download [
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-OK, so lets create a new small texture in photoshop that we will use as stand ins for our master material.  Make it `32` pixels square with a **White** background. Press the **Create** button.
+Download our base textures as for our master we don't want to use an actual usefuly texture, just a neutral one.  Download [T_BadTexture.png](../Assets/T_Base_BCH.png)
 
 ![create a new blank material](images/newMat.png)
 
