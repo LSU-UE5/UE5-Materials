@@ -141,7 +141,10 @@ Copy and paste the **Output** node 3 times.  The first will be called `Metallic`
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![convert final texture to parameter and add comments](images/convertParams.png)
+And finally hook up **R** to **Metallicc**, **G** to **Specular**, **B** to **Roughness** and **A** to **Ambient Occlusion**.  Highlight all the nodes and press the <kbd>C</kbd> key to add a comment and write 
+
+![convert base color and normal map to parameters](images/convertParam.png)
+
 
 
 ![](../images/line2.png)
@@ -149,10 +152,10 @@ Copy and paste the **Output** node 3 times.  The first will be called `Metallic`
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
+![convert final texture to parameter and add comments](images/convertParams.png)
 
 
 
-![convert base color and normal map to parameters](images/convertParam.png)
 
 ![](../images/line2.png)
 
