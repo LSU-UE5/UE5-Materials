@@ -95,16 +95,13 @@ Now open up the material function and
 
 ![save normal map version](images/tbaseNormal.png)
 
-
-Open up **M_SolidTexture** and delete all of the texture nodes.  We will replace them with a material function.
-
-![delete all nodes in M_SolidTexture](images/deleteStext.png)
-
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
+Add a comment box by selecting all the nodes and press the <kbd>C</kbd> key.
 
+![delete all nodes in M_SolidTexture](images/deleteStext.png)
 
 ![](../images/line2.png)
 
