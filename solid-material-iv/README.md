@@ -47,6 +47,8 @@ Now take the output of the **Multiply** node and place it into the input **UVs**
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
+Now lets add a **Static Switch Parameter** node and call it `RotateUVs?`.  Set the **Group** to `UVs` and the **Sort Priority** to `63`. Take the output from the rotator nad put it into the **True** pin of the switch.  Take the output of the **Multiply** node and put it into the `false` pin of the switch.  Take the output of the **Switch** and put it to the **Output** node.
+
 ![connect custom rotator and add scalar parameter](images/AddSwitch.png)
 
 ![](../images/line2.png)
