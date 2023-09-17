@@ -79,7 +79,7 @@ Now add a **Shapes | Plane** to the level and scale it to `2, 2, 2`.  Rotate it 
 
 Now go to **Materials | Master** and *right click* on **MI_Transparent_MSRAO** and select **Create Material Instance**.  Call it `MI_Transparent`.  Drag it into the **Materials | Material Instances** folder.
 
-![add the T_CircleMask_T and remove the 1-x node](images/ReplaceTexture.png)
+![add the T_CircleMask_T and remove the 1-x node](images/transparentMaterialInstance.png)
 
 ![](../images/line2.png)
 
