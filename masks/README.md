@@ -66,9 +66,9 @@ Repeat this entire process for specular by adding a **Static Switch Parameter**.
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go into the editor and create a material instance of **M_MetalMask** and call it `MI_MetalMask`.  Create a new folder called in **Materials** called `Masks`. Move the new material instance into this folder.
+Do this one final time and add a **Static Switch Parameter**.  Call it `AOsUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `27`. Add a **Scalar Parameter** node and call it `AOAmount` and change the default to `1`.  Connect the output pin to the **AOUseMask | False** pin. Change the **Group** to `Surface Properties` and the **Sort Priority** to `28`. Connect the **AOUseMask?** to the **Output Specular** node.  Connect the Blue Pin from the texture not to the **AOUseMask? | True** pin.
 
-![move cam to room 3 and add a cube to room](images/createMaterialInstance.png)
+![move cam to room 3 and add a cube to room](images/AOSwitch.png)
 
 ![](../images/line2.png)
 
