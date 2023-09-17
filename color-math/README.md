@@ -45,15 +45,19 @@ Assign **MI_MarbleTile** to the new material ball.  Open up the material and cha
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Open up **MF_BaseTexture** and add a **Constant3Vector** to the node chart under the **Base Color**. ouble click the **Constant 3 Vector** and change red to `1`.  Right click on the color and select **Start Previewing Node**.  This allows you to look at the color in different parts of the flowchart.  This is the best way to debug materials.  Notice the red ball is now red!
+Open up **MF_BaseTexture** and add a **Constant3Vector** to the node chart under the **Base Color**. ouble click the **Constant 3 Vector** and change red to `1`.  
+
+Now in **Unreal** it represents each channel with a number from `0` to `1`.  So if we want to convert from Photoshop style RGB to Unreal we need to divide the value by `/255`.  So the same representation of pure **Red** in UE4 is `255/255`, `0/255`, `0/255`.  This ends up with `1,0,0`.  So UE5 normalizes each range of each color channel between `0` and `1`.
+
+Right click on the color and select **Start Previewing Node**.  This allows you to look at the color in different parts of the flowchart.  This is the best way to debug materials.  Notice the red ball is now red!
 
 ![add constant three vector](images/const3Vect.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Now in **Unreal** it represents each channel with a number from `0` to `1`.  So if we want to convert from Photoshop style RGB to Unreal we need to divide the value by `/255`.  So the same representation of pure **Red** in UE4 is `255/255`, `0/255`, `0/255`.  This ends up with `1,0,0`.  So UE5 normalizes each range of each color channel between `0` and `1`.
+Now lets add another **Constant 3 Vector**.  Make the second vector solid green with a **G** value of `1.0`. This will allow us to add the two vectors together. Right mouse click and select an **Add** node. We will add the two nodes together. Now how do additions work?  When you add two vectors together (RGB<sub>1</sub> & RGB<sub>2</sub>) it just adds the red channel R<sub>1</sub> + R<sub>2</sub>, green channel G<sub>1</sub> + G<sub>2</sub> and blue channel B<sub>1</sub> + B<sub>2</sub>. Even though the add node has a single pin, it will add up all three channels individually.
 
-D
+![put an add node in material](images/addNode.png)
 
 ![red in unreal color picker](images/previewRed.png)
 
@@ -61,9 +65,7 @@ D
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets add another **Constant 3 Vector**.  Make the second vector solid green with a **G** value of `1.0`. This will allow us to add the two vectors together. Right mouse click and select an **Add** node. We will add the two nodes together. Now how do additions work?  When you add two vectors together (RGB<sub>1</sub> & RGB<sub>2</sub>) it just adds the red channel R<sub>1</sub> + R<sub>2</sub>, green channel G<sub>1</sub> + G<sub>2</sub> and blue channel B<sub>1</sub> + B<sub>2</sub>. Even though the add node has a single pin, it will add up all three channels individually.
 
-![put an add node in material](images/addNode.png)
 
 ![](../images/line2.png)
 
