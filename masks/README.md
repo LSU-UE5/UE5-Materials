@@ -32,7 +32,7 @@ Create a new folder under **Textures** called `Masks`. Press the **Import** butt
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new material in the **Materials | Master** folder called `M_MetalMask`. 
+Lets open up **MF_MSRAO**.  If we don' thave a mask for a particular channel (commmon with metallic and specular) or just want to overide the texture with a single value for all pixels.  Lets add this support.  Right click on the graph to add a
 
 ![add material called M_MetalMask](images/mMetalMask.png)
 
