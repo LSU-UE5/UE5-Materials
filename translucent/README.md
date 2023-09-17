@@ -45,7 +45,7 @@ The difference between masks and transparencies is that transparencies can be pa
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now go to the **Materials | Master** folder 
+Now go to the **Materials | Master** folder and *right click* on **M_Opaque_MSRAO** and select **Duplicate**.  Call this new master `M_Transparent_MSRAO`
 
 ![add T_CircleMaskT to texture](images/DupeMSRAO.png)
 
@@ -53,7 +53,7 @@ Now go to the **Materials | Master** folder
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Now add a **Constant 3 Vector** and make it solid blue (0, 0, 1).  Put the output pin into **Base Color**.  Set **Two Sided** on the **M_Translucent** node to `true`. Press the <kbd>Apply</kbd> button.
+
     
 ![change blend mode to translucent](images/twosided.png)
 
