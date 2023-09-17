@@ -39,7 +39,7 @@ Go to **Material | Surfaces** and select **MI_WildGrass** and select **Duplicate
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Assign **MI_MarbleTile** to the new material ball.  Open up the material and change the three textures to `T_MarbleTile...`.  Set the **UV Multiplier** to `1` and **UV Angle** of `0.0` degrees.
+Assign **MI_MarbleTile** to the new material ball.  Open up the material and change the three textures to `T_MarbleTile...`.  Set the **UV Multiplier** to `1` and **UV Angle** of `0.0` degrees. Then turn off **RotateUVs** as we don't need it here.
 
 ![assign three marble textures](images/marbleTileSettings.png)
 
