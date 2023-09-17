@@ -17,12 +17,6 @@ Lets look at how we can use basic addition and multiplication to alter colors in
 
 Now lets look at how **Unreal** handles colors.  In **Photoshop's** color picker we can see four representations of color, but the most important to computer graphics are RGB and Hexadecimal.  We also care about a 4th Alpha channel but we do not have any alphas in this texture so we will deal with it later. All colors are derived from 256 values of Red, Green and Blue.  They are represented in Photoshop by 0 through 255.  White is 255, 255, 255 and black is 0, 0, 0.  In this example we have a bluish color of 51, 153 204.
 
-|   |     |     |     |   |   |
-|---|-----|-----|-----|---|---|
-| R | 255 | 0   | 0   |   |   |
-| / | 255 | 255 | 255 |   |   |
-|   | 1   | 0   | 0   |   |   |
-
 ![red in rgb in photoshop](images/ColorPicker.png)
 
 ![](../images/line2.png)
@@ -54,6 +48,12 @@ Assign **MI_MarbleTile** to the new material ball.  Open up the material and cha
 Open up **MF_BaseTexture** and add a **Constant3Vector** to the node chart under the **Base Color**. ouble click the **Constant 3 Vector** and change red to `1`.  
 
 Now in **Unreal** it represents each channel with a number from `0` to `1`.  So if we want to convert from Photoshop style RGB to Unreal we need to divide the value by `/255`.  So the same representation of pure **Red** in UE4 is `255/255`, `0/255`, `0/255`.  This ends up with `1,0,0`.  So UE5 normalizes each range of each color channel between `0` and `1`.
+
+|   |     |     |     |   |   |
+|---|-----|-----|-----|---|---|
+| R | 255 | 0   | 0   |   |   |
+| / | 255 | 255 | 255 |   |   |
+|   | 1   | 0   | 0   |   |   |
 
 Right click on the color and select **Start Previewing Node**.  This allows you to look at the color in different parts of the flowchart.  This is the best way to debug materials.  Notice the red ball is now red!
 
