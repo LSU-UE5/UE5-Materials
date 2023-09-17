@@ -108,7 +108,7 @@ Open up **MI_MetallicExample** and change the **Base Color** to `T_Circle_BC`.  
 
 Assign `T_Base_N` to the normal map to get rid of the grassy bump.  Then we will be playing with a metallic mask.  So turn off **SpecularUseMask?**,. **RoughnessUseMask?**, **AOUseMasks?**.
 
-![remove three masks and disable normal](../images/remove3Masks.png)
+![remove three masks and disable normal](images/remove3Masks.png)
 
 Change **Roughness** to `0`.  Change the white tint color to **Green** (0, 1, 0). *Press* the <kbd>Play</kbd> button and see that the areas in the mask that were white are metallic and the portions in black are non metalic but green.  Think about why this is so? Arent' the reflections pretty amazing in UE5?
 
