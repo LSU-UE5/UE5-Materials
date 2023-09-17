@@ -17,7 +17,7 @@ Lets look at how we can use basic addition and multiplication to alter colors in
 
 Now lets look at how **Unreal** handles colors.  In **Photoshop's** color picker we can see four representations of color, but the most important to computer graphics are RGB and Hexadecimal.  We also care about a 4th Alpha channel but we do not have any alphas in this texture so we will deal with it later. All colors are derived from 256 values of Red, Green and Blue.  They are represented in Photoshop by 0 through 255.  White is 255, 255, 255 and black is 0, 0, 0.  In this example we see pure Red 255, 0 0.
 
-![red in rgb in photoshop](images/image_65.jpg)
+![red in rgb in photoshop](images/ColorPicker.jpg)
 
 ![](../images/line2.png)
 
