@@ -42,7 +42,7 @@ Lets open up **MF_MSRAO**.  If we don' thave a mask for a particular channel (co
 
 Open the Material and add a **Texture Sample** node and selected the new texture we just created **T_CircleMask**. Drag the material function **Materials | MaterialFunctions | MF_BaseColor** to the chart under the texture sample.
 
-![add a tcircle texture and mf_base color material function](images/textBaseColor.png)
+![add a tcircle texture and mf_base color material function](images/MetallicAmount.png)
 
 ![](../images/line2.png)
 
