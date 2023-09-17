@@ -45,7 +45,7 @@ The difference between masks and transparencies is that transparencies can be pa
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now add the mask we just imported to the node chart as a **Texture Sample**.  Then send it to a **1-x** node then on to the **Opacity** pin.  Notice we have a more feathered effect.  Please note this is computationally very expensive.
+Now go to the **Materials | Master** folder 
 
 ![add T_CircleMaskT to texture](images/DupeMSRAO.png)
 
