@@ -74,14 +74,16 @@ Do this one final time and add a **Static Switch Parameter**.  Call it `AOsUseMa
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Press the **Place Actors** button and select a **Shape | Cube** to drop in the level.  Position it on the left side of the room.
+Go to the **Materials | Material Instances** folder and right click on 
 
-![add cube to level](images/placeCube.png)
+![add cube to level](images/DupeMIForMask.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+Press the **Place Actors** button and select a **Shape | Cube** to drop in the level.  Position it on the left side of the room.
 
+![add cube to level](images/placeCube.png)
 Add **MI_Mask** material to the cube.
 
 ![add cube to level](images/addMIMask.png)
