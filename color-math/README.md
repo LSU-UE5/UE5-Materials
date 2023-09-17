@@ -45,7 +45,7 @@ Assign **MI_MarbleTile** to the new material ball.  Open up the material and cha
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Open up **MF_Texture** and add a **Constant3Vector** to the node chart under the **Base Color**.
+Open up **MF_BaseTexture** and add a **Constant3Vector** to the node chart under the **Base Color**. ouble click the **Constant 3 Vector** and change red to `1`.  Right click on the color and select **Start Previewing Node**.  This allows you to look at the color in different parts of the flowchart.  This is the best way to debug materials.  Notice the red ball is now red!
 
 ![add constant three vector](images/const3Vect.png)
 
@@ -53,7 +53,7 @@ Open up **MF_Texture** and add a **Constant3Vector** to the node chart under the
 
 Now in **Unreal** it represents each channel with a number from `0` to `1`.  So if we want to convert from Photoshop style RGB to Unreal we need to divide the value by `/255`.  So the same representation of pure **Red** in UE4 is `255/255`, `0/255`, `0/255`.  This ends up with `1,0,0`.  So UE5 normalizes each range of each color channel between `0` and `1`.
 
-Double click the **Constant 3 Vector** and change red to `1`.  Right click on the color and select **Start Previewing Node**.  This allows you to look at the color in different parts of the flowchart.  This is the best way to debug materials.  Notice the red ball is now read.
+D
 
 ![red in unreal color picker](images/previewRed.png)
 
