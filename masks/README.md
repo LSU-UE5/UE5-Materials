@@ -172,7 +172,7 @@ Now if you look at the this texture in **RGBA** node you see that it has holes c
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Connect **Metallic**, **Specular** and **Roughness** in the node chart. Press the <kbd>Apply</kbd> button.
+Duplicate the cube and drag a third copy into the room. Right click on **MI_Metallic_ExampleInvert** and duplicate the material instance. Drag this new material instance onto the third cube.
 
 ![attach metallic, specular and roughness pins](images/connectRestOfPins.png)
 
