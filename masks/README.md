@@ -130,14 +130,17 @@ Now what if we wanted to invert the mask to get the metal inside the dot.  We ca
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-![remove three masks and disable normal](images/dupeOutputAlpha.png)
+Lets add an alpha channel to our base material.  Open up **MF_BaseTexture** and add another **Function Output** node.  Call it `Alpha` and set the **Sort Priority** to `1`.
 
+![remove three masks and disable normal](images/dupeOutputAlpha.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Add a
 
+![remove three masks and disable normal](images/addAlpha.png)
 
 ![](../images/line2.png)
 
