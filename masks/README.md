@@ -23,22 +23,13 @@ Open up the editor and move the **Player Start** actor to **Room 3**.
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Create a new folder under **Textures** called `Masks`. Press the **Import** button and go to the folder **Import** and select **[T_CircleMask.tga](../Assets/T_CircleMask.tga)**. Double click and see that it is a power of 2 texture and is 512 x 512 with 10 MIP levels.  It is duotone with just black and white.
-
-![add circlemask_d.tga to project](images/tcirclemaskimport.png)
-
-
-![](../images/line2.png)
-
-##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Lets open up **MF_MSRAO**.  If we don' thave a mask for a particular channel (commmon with metallic and specular) or just want to overide the texture with a single value for all pixels.  Lets add this support.  Right click on the graph to add a **Static Switch Parameter**.  Call it `MetallicUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `21`.
 
 ![add material called M_MetalMask](images/AddSwitchMetallic.png)
 
 ![](../images/line2.png)
 
-##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Add a **Scalar Parameter** node and call it `MetallicAmount`.  Leave the default at `0`. Set the Change the **Group** to `Surface Properties` and the **Sort Priority** to `22`. Connect the ouput of the **Scalar Paremeter** to the **MetallicUseMas? | False** pin.  So if we choose not to use the mask in the texture provided we can have a number used across the entire material. 
 
@@ -46,17 +37,16 @@ Add a **Scalar Parameter** node and call it `MetallicAmount`.  Leave the default
 
 ![](../images/line2.png)
 
-##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
+##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Connect the Red Pin from the texture not to the **MetallicUseMask? | True** pin.  Connect the output of the **MetallicUseMask?** to the **Metallic Output** node.
 
 Repeat this entire process for specular by adding a **Static Switch Parameter**.  Call it `SpecularUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `23`. Add a **Scalar Parameter** node and call it `SpecularAmount` and change the default to `0.5`.  Connect the output pin to the **SpecularUseMask | False** pin. Change the **Group** to `Surface Properties` and the **Sort Priority** to `24`. Connect the **SpecularUseMask?** to the **Output Specular** node.  Connect the Green Pin from the texture to the **SpecularUseMask? | True** pin. 
 
 ![connect add to render node](images/specularSwitch.png)
-
 ![](../images/line2.png)
 
-##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
 Repeat this entire process for specular by adding a **Static Switch Parameter**.  Call it `RoughnessUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `25`. Add a **Scalar Parameter** node and call it `RoughnessAmount` and change the default to `0.5`.  Connect the output pin to the **RoughnessUseMask | False** pin. Change the **Group** to `Surface Properties` and the **Sort Priority** to `26`. Connect the **RoughnessUseMask?** to the **Output Specular** node.  Connect the Blue Pin from the texture to the **RoughnessUseMask? | True** pin. 
 
@@ -64,15 +54,14 @@ Repeat this entire process for specular by adding a **Static Switch Parameter**.
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
 Do this one final time and add a **Static Switch Parameter**.  Call it `AOsUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `27`. Add a **Scalar Parameter** node and call it `AOAmount` and change the default to `1`.  Connect the output pin to the **AOUseMask | False** pin. Change the **Group** to `Surface Properties` and the **Sort Priority** to `28`. Connect the **AOUseMask?** to the **Output Specular** node.  Connect the White A Pin from the texture to the **AOUseMask? | True** pin.
 
 ![move cam to room 3 and add a cube to room](images/AOSwitch.png)
-
 ![](../images/line2.png)
 
-##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Go to the **Materials | Material Instances** folder and right click on **MI_WildGrass** and select **Duplicate**.  Call this new material instance `MI_MetallicMaskExample`.
 
@@ -80,7 +69,17 @@ Go to the **Materials | Material Instances** folder and right click on **MI_Wild
 
 ![](../images/line2.png)
 
+##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Create a new folder under **Textures** called `Masks`. PDrag and drop into thi folder **Import** and select **[T_CircleMask_BC.tga](../Assets/T_CircleMask_BC.png)**, **[T_CircleMask_01.tga](../Assets/T_CircleMask_01.png)** and **[T_CircleMask_02.tga](../Assets/T_CircleMask_02.png)**. Double click and see that it is a power of 2 texture and is 512 x 512 with 10 MIP levels.  It is duotone with just black and white.
+
+![add circlemask_d.tga to project](images/tcirclemaskimport.png)
+
+![](../images/line2.png)
+
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 Press the **Place Actors** button and select a **Shape | Cube** to drop in the level.  Position it on the left side of the room.
 
 ![add cube to level](images/placeCube.png)
