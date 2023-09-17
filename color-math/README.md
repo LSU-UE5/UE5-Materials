@@ -118,7 +118,9 @@ OK, lets delete the second vector and addition nodes. Now adjust the color of th
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
+Now right click the vector and select **Convert to Parameter**.  Call it `Base Color Tint` and make the **Group** `Base Color` and **Sort Priority** `1`.
 
+![change base color to parameter](images/convertToBaseColParam.png)
 
 
 ![](../images/line2.png)
@@ -126,9 +128,7 @@ OK, lets delete the second vector and addition nodes. Now adjust the color of th
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now right click the vector and select **Convert to Parameter**.  Call it `Base Color Tint` and make the **Group** `Base Color` and **Sort Priority** `1`.
 
-![change base color to parameter](images/convertToBaseColParam.png)
 
 ![](../images/line2.png)
 
