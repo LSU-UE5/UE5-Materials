@@ -110,13 +110,15 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/a1fbb4c0-63b4-4c36-ac5c-
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Please note that this is not working in double sided mode on 3D geometry.  If I try to do this on a box the rendering is broken.  It does work in single sided mode on a 3D shape. You have been warned.
+
+![change lighting mode to surface translucency volume](images/noWork3D.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now there is a problem. This is a non-nanite model.  So what happens with a nanite model?  Lets find out.  Go into **Modeling Mode** and select a **Shape | Box** and make it `300` cubed.  We will have 6 subdivisions per dimension.  Place it in the level then press the <kbd>Complete</kbd> button.
 
 ![add 300 unit cube square to level](images/addAnotherCube.png)
 
