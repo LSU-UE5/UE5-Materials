@@ -116,6 +116,8 @@ Change **Roughness** to `0`.  Change the white tint color to **Green** (0, 1, 0)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now lets create a mask to have some parts metal and some parts not.  Remember **black** or `0` will be no metal and white `1` will be metal.  It is recommended that you use either black or white to make it metal or not metal.  Update the **Metallic | Specular | Roughness | AO** map with `T_CicleMask_01`.  Change the roughness to `0` to exaggerate the metalic effect and make it really obvious.
+
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/3d00f9a3-caf9-4cf4-95c7-b6df1ffe676b
 
 ![add one minus node](images/tsingleCircle.png)
@@ -123,6 +125,15 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/3d00f9a3-caf9-4cf4-95c7-
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Now what if we wanted to invert the mask to get the metal inside the dot.  We can duplicate the **Cube** by <kbd>alt</kbd> clicking the transform and make another cube.  Then duplicate **MI_Metallic_Example** and call it `MI_Metallic_ExampleInvert`.  Change the **Base Color Tint** and change the **Metallic | Specular | Roughness | AO** to `T_CircleMask_02`.  Notice the dots are white so it is the only spot that will be metallic.
+
+![remove three masks and disable normal](images/invertMask.png)
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
+
 
 https://user-images.githubusercontent.com/5504953/185811730-86476e82-1011-434c-92e4-0d4a5381381a.mp4
 
@@ -146,10 +157,6 @@ Download [T_SingleCircle.png](../Assets/T_SingleCircle.png) and add it to the **
 We have only dealt with opaque materials.  We can also have holes cut in the materials with translucency.  There are two types of approaches. The faster in terms of performance is an opacity mask. This means that a pixel can be completely transparent.  But there are no partial transparencies. The pixel is opaque or is clear.  Lets take a look.  Create a new **Material** in the **Materials | Master** folder and call it `M_OpacityMask`.
 
 ![add material called M_OpacityMask](images/mopcityMask.png)
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
 Double click the new Material and add a **Texture Sample** node. Add the **T_SingleCircle** texture. Drag the material function **MF_BaseColor** under the texture sample node.
 
