@@ -118,7 +118,7 @@ OK, lets delete the second vector and addition nodes. Now adjust the color of th
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Now right click the vector and select **Convert to Parameter**.  Call it `Base Color Tint` and make the **Group** `Base Color` and **Sort Priority** `1`.
+Now right click the vector and select **Convert to Parameter**.  Call it `BaseColorTint` and make the **Group** `Base Color` and **Sort Priority** `1`. Double check that the **Base Color** texture node is of **Group** `Base Color` and **Sort Priority** of `0`.
 
 ![change base color to parameter](images/convertToBaseColParam.png)
 
