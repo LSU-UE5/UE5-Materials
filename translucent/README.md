@@ -110,9 +110,7 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/a1fbb4c0-63b4-4c36-ac5c-
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-*Press* the <kbd>Play</kbd> button and look at the four cubes.  Make any adjustments you need but we should have four different masked cubes.
 
-https://user-images.githubusercontent.com/5504953/185826507-028d08f9-f278-443a-8316-bae7439b4bcb.mp4
 
 ![](../images/line2.png)
 
