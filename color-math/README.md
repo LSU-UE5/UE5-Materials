@@ -79,15 +79,15 @@ Right click and add a **Multiply** node. Connect the two **Constant Vector 3** n
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Change the red to white make it **R** of `1`, **G** of `1` and **B** of `1`.  Now when you multiply it by green the white gets tinted green.  So multiplication of two numbers between 0 and 1 will always remove detail (or leave it the same).  We can use this to alter the hue and tint textures!
 
+![make darker](images/tintMultiply.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Change the red to white make it **R** of `1`, **G** of `1` and **B** of `1`.  Now when you multiply it by green the white gets tinted green.  So multiplication of two numbers between 0 and 1 will always remove detail (or leave it the same).  We can use this to alter the hue and tint textures!
 
-![make darker](images/tintMultiply.png)
 
 ![](../images/line2.png)
 
