@@ -112,6 +112,17 @@ Assign `T_Base_N` to the normal map to get rid of the grassy bump.  Then we will
 
 Change **Roughness** to `0`.  Change the white tint color to **Green** (0, 1, 0). *Press* the <kbd>Play</kbd> button and see that the areas in the mask that were white are metallic and the portions in black are non metalic but green.  Think about why this is so? Arent' the reflections pretty amazing in UE5?
 
+![](../images/line2.png)
+
+##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
+![add one minus node](images/tsingleCircle.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
 https://user-images.githubusercontent.com/5504953/185811730-86476e82-1011-434c-92e4-0d4a5381381a.mp4
 
 Now what if we wanted the opposite? What if want the green dot to be reflective and the rest of the surface be matte?  We could go to photoshop and invert the image, but we can do this in the material.  Open the **M_MetallicMask** and add a **OneMinus** node. 
@@ -126,19 +137,10 @@ When you normalize a range between 0 and 1 then the inverse is always 1-x.  So i
 
 https://user-images.githubusercontent.com/5504953/185812222-7728eef9-491a-4199-9841-fa5c5c93fca4.mp4
 
-![](../images/line2.png)
-
-##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 Now if you wanted to use this as a master material you could change the mask to a parameter so you could replace it.  Typically those these types of tricky materials are one off's.  So lets leave it here for now.
 
 Download [T_SingleCircle.png](../Assets/T_SingleCircle.png) and add it to the **Texures | Masks** folder.  This has a single white dot on a black background.
 
-![add one minus node](images/tsingleCircle.png)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 We have only dealt with opaque materials.  We can also have holes cut in the materials with translucency.  There are two types of approaches. The faster in terms of performance is an opacity mask. This means that a pixel can be completely transparent.  But there are no partial transparencies. The pixel is opaque or is clear.  Lets take a look.  Create a new **Material** in the **Materials | Master** folder and call it `M_OpacityMask`.
 
