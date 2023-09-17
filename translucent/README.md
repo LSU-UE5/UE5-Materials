@@ -37,9 +37,9 @@ Some objects like glass need to be translucent.  Now in games we want to try and
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new material called `M_Translucent` and place it in your **Materials | Master** folder. Change the blend mode to `Translucent`.  Notice that many pins are no longer available in this render node.  All the releveant PBR pins disappear so we are pretty limited in this expensive mode.
+The difference between masks and transparencies is that transparencies can be partially transulcent.  Where it is white it is opaque and black it is completely transparent.  Then a gradient between the two will determine how much it is transparent.  Open up **T_GradientTransparency**.  Notice that it is translucent in the center and the RGB is opaque with another gradient. The center has a hole cut out with a grey scale gradient in it.
 
-![add texture sample node to m_translucent](images/mOpacity.png)
+![add texture sample node to m_translucent](images/TransparentTexture.png)
 
 ![](../images/line2.png)
 
@@ -47,7 +47,7 @@ Create a new material called `M_Translucent` and place it in your **Materials | 
 
 Now add the mask we just imported to the node chart as a **Texture Sample**.  Then send it to a **1-x** node then on to the **Opacity** pin.  Notice we have a more feathered effect.  Please note this is computationally very expensive.
 
-![add T_CircleMaskT to texture](images/opacityPins.png)
+![add T_CircleMaskT to texture](images/DupeMSRAO.png)
 
 ![](../images/line2.png)
 
