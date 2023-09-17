@@ -69,7 +69,7 @@ Change the **Lighting Mode** to `Surface Forward Shading`, now all the pins we h
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now 
+Now add a **Shapes | Plane** to the level and scale it to `2, 2, 2`.  Rotate it so it is facing the center of the room.
 
 ![duplicate m_translucent](images/addPlaneScale.png)
 
