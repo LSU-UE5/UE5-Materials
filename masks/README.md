@@ -34,7 +34,7 @@ Create a new folder under **Textures** called `Masks`. Press the **Import** butt
 
 Lets open up **MF_MSRAO**.  If we don' thave a mask for a particular channel (commmon with metallic and specular) or just want to overide the texture with a single value for all pixels.  Lets add this support.  Right click on the graph to add a
 
-![add material called M_MetalMask](images/mMetalMask.png)
+![add material called M_MetalMask](images/AddSwitchMetallic.png)
 
 ![](../images/line2.png)
 
