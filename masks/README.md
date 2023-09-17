@@ -48,11 +48,9 @@ Add a **Scalar Parameter** node and call it `MetallicAmount`.  Set the Change th
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Lets add these two nodes together.  Right click and type `add` to put a **Add** node on the graph and hook the **Texture Sample | RGB** output with the **MF_BaseColor | Basae Color** output.  The addition will keep it solid white. But when we tinit it, the white section will change and the black portion will stay black.
 
-Connect the output of the **Add** node to the **Base Color** node and look at the result on the sphere. You should see a a solid white sphere.
 
-![connect add to render node](images/addSample.png)
+![connect add to render node](images/specularSwitch.png)
 
 ![](../images/line2.png)
 
