@@ -77,7 +77,7 @@ Now add a **Shapes | Plane** to the level and scale it to `2, 2, 2`.  Rotate it 
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Replace the **texture Sample** with the **T_CircleMask_T** texture.  Remove the **1-x** node.  Hook it up to the **Opacity** pin.  Press the <kbd>Apply</kbd> button.
+Now go to **Materials | Master** and *right click* on **MI_Transparent_MSRAO** and select **Create Material Instance**.  Call it `MI_Transparent`.  Drag it into the **Materials | Material Instances** folder.
 
 ![add the T_CircleMask_T and remove the 1-x node](images/ReplaceTexture.png)
 
