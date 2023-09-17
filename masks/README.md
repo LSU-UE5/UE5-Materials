@@ -110,8 +110,6 @@ Assign `T_Base_N` to the normal map to get rid of the grassy bump.  Then we will
 
 ![remove three masks and disable normal](images/remove3Masks.png)
 
-Change **Roughness** to `0`.  Change the white tint color to **Green** (0, 1, 0). *Press* the <kbd>Play</kbd> button and see that the areas in the mask that were white are metallic and the portions in black are non metalic but green.  Think about why this is so? Arent' the reflections pretty amazing in UE5?
-
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
