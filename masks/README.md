@@ -146,6 +146,9 @@ Add a **Static Switch Parameter** node and call it `UseBaseColorAlpha`.  Set the
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now open up **M_OpaqueMSRAO**.  Now we have the ability to activate the opacity channels.  Take the new **Alpha** pin output from **MF_Base_Color** that we just added and feed it into the **Opacity Mask** node in the main render node.
+
+Now it connects but is greyed out.  You can switch the **Blend Mode** to `Masked` and the pin is now highlighted.  DO NOT DO THIS, we will activate it in the material instance.  Press the <kbd>Apply</kbd> button and we will get back to creating an alpha hole.
 
 ![connect texture sample to opacity mask](images/addOpacityMask.png)
 
@@ -153,25 +156,17 @@ Add a **Static Switch Parameter** node and call it `UseBaseColorAlpha`.  Set the
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets flip it.  Add a **1-x** node between the **R** and **Opacity Mask** pins.  Now the circle is black and the hole in the cube is cut by the circle.
+Download [T_GradientMask.tif](../Assets/T_GradientMask.tif) and add it to your **Textures | Masks** folder.
 
-![add one minus node](images/invert.png)
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Right click on **M_OpacityMaster** and make a **Material Instance** called `MI_OpacityMask`.  Put it in the **Materials | Mask** folder.  Duplicate the cube in room 3 and assign the **MI_OpacityMask** material.  You will now seee the mask.  What is the problem?  Where is the inside of the box?  Why is it blank?  Could it have to do with UVs?
-
-![create material instance and assign to new cube](images/duplicateOpacityMask.png)
+![set two sided to true](images/bringGradientTexture.png)
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-If you guessed a uv issue you are right.  They are only pointing outwards.  This can be fixed by opening up **M_OpacityMask** and selecting the main material node.  Change **Two Sided** to `true`.  This will render both directions of the UV (the original and 180°).  Now we see the inside of the box
+Now if you look at the this texture in **RGBA** node you see that it has holes cut out.  In the **RGB** channel it is an opaque gradient.  In the Alpha channel you can see black dots.  Now a mask mode does not have levels of transulcency.  It is transparent or opaque (binary, one or the other).  The only color that will create the mask it pure black (rgb 0,0,0).  So those black dots are pure black.  They will cut holes in masked mode.
 
-![set two sided to true](images/twoSidedUVs.png)
+![set two sided to true](images/rgba.png)
 
 ![](../images/line2.png)
 
