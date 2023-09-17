@@ -49,10 +49,10 @@ Open up **MF_BaseTexture** and add a **Constant3Vector** to the node chart under
 
 Now in **Unreal** it represents each channel with a number from `0` to `1`.  So if we want to convert from Photoshop style RGB to Unreal we need to divide the value by `/255`.  So the same representation of pure **Red** in UE4 is `255/255`, `0/255`, `0/255`.  This ends up with `1,0,0`.  So UE5 normalizes each range of each color channel between `0` and `1`.
 
-|---|-----|-----|-----|---|---|
-| R | 255 | 0   | 0   |   |   |
-| / | 255 | 255 | 255 |   |   |
-|   | 1   | 0   | 0   |   |   |
+| R | 255 | 0   | 0   |
+|---|-----|-----|-----|
+| / | 255 | 255 | 255 |
+|   | 1   | 0   | 0   |
 
 Right click on the color and select **Start Previewing Node**.  This allows you to look at the color in different parts of the flowchart.  This is the best way to debug materials.  Notice the red ball is now red!
 
