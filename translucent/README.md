@@ -69,9 +69,9 @@ Change the **Lighting Mode** to `Surface Forward Shading`, now all the pins we h
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Download [T_CircleMask_T.tga](../Assets/T_CircleMask_T.tga) and put it in the **Textures | Masks** folder. Go to **Materials | Master** and duplicate **M_Translucent** and call it `M_Translucent2`.
+Now 
 
-![duplicate m_translucent](images/dupeTranslucent.png)
+![duplicate m_translucent](images/addPlaneScale.png)
 
 ![](../images/line2.png)
 
