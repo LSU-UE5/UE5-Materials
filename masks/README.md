@@ -97,7 +97,7 @@ Press the **Place Actors** button and select a **Shape | Cube** to drop in the l
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Open up **MI_MetallicExample** 
+Open up **MI_MetallicExample** and change the **Base Color** to `T_Circle_BC`.  Change the **Base Color Tint** to a color of your choice so we have a bit of contrast on the dot.
 
 ![add cube to level](images/tintNewText.png)
 
@@ -105,6 +105,10 @@ Open up **MI_MetallicExample**
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Assign `T_Base_N` to the normal map to get rid of the grassy bump.  Then we will be playing with a metallic mask.  So turn off **SpecularUseMask?**,. **RoughnessUseMask?**, **AOUseMasks?**.
+
+![remove three masks and disable normal](remove3Masks.png)
 
 Change **Roughness** to `0`.  Change the white tint color to **Green** (0, 1, 0). *Press* the <kbd>Play</kbd> button and see that the areas in the mask that were white are metallic and the portions in black are non metalic but green.  Think about why this is so? Arent' the reflections pretty amazing in UE5?
 
