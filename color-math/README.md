@@ -128,23 +128,21 @@ Now right click the vector and select **Convert to Parameter**.  Call it `Base C
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Duplicate the marble material ball and text and move it to the right. Change the text on the title to `Green Marble Tile`.
 
+![duplicate the material ball and text](images/addAnotherBallText.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now since we have added a parameter lets change the **Normal** node to **Sort Priority** `11` and **Metallic | Specular | Roughness | AO** to `12`.
 
-![change priority of metallic and msrao textures](images/changeOrder.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Duplicate the marble material ball and text and move it to the right. Change the text on the title to `Green Marble Tile`.
 
-![duplicate the material ball and text](images/addAnotherBallText.png)
 
 ![](../images/line2.png)
 
