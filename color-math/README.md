@@ -98,6 +98,12 @@ Right click and add a **Multiply** node. Connect the two **Constant Vector 3** n
 
 Change the red to white make it **R** of `1`, **G** of `1` and **B** of `1`.  Now when you multiply it by green the white gets tinted green.  So multiplication of two numbers between 0 and 1 will always remove detail (or leave it the same).  We can use this to alter the hue and tint textures!
 
+|     | R | G | B |
+|-----|---|---|---|
+| V3a | 0 | 1 | 0 |
+| V3b | 1 | 1 | 1 |
+|  x  | 0 | 1 | 0 |
+
 ![make darker](images/tintMultiply.png)
 
 ![](../images/line2.png)
