@@ -50,7 +50,7 @@ Add a **Scalar Parameter** node and call it `MetallicAmount`.  Leave the default
 
 Connect the Red Pin from the texture not to the **MetallicUseMask? | True** pin.  Connect the output of the **MetallicUseMask?** to the **Metallic Output** node.
 
-Repeat this entire process for specular by adding a **Static Switch Parameter**.  Call it `SpecularUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `23`. Add a **Scalar Parameter** node and call it `SpecularAmount` and change the default to `0.5`.  Connect the output pin to the **SpecularUseMask | False** pin. Change the **Group** to `Surface Properties` and the **Sort Priority** to `24`. Connect the **SpecularUseMask?** to the **Output Specular** node.  Connect the Green Pin from the texture not to the **SpecularUseMask? | True** pin. 
+Repeat this entire process for specular by adding a **Static Switch Parameter**.  Call it `SpecularUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `23`. Add a **Scalar Parameter** node and call it `SpecularAmount` and change the default to `0.5`.  Connect the output pin to the **SpecularUseMask | False** pin. Change the **Group** to `Surface Properties` and the **Sort Priority** to `24`. Connect the **SpecularUseMask?** to the **Output Specular** node.  Connect the Green Pin from the texture to the **SpecularUseMask? | True** pin. 
 
 ![connect add to render node](images/specularSwitch.png)
 
@@ -58,7 +58,7 @@ Repeat this entire process for specular by adding a **Static Switch Parameter**.
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Repeat this entire process for specular by adding a **Static Switch Parameter**.  Call it `RoughnessUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `25`. Add a **Scalar Parameter** node and call it `RoughnessAmount` and change the default to `0.5`.  Connect the output pin to the **RoughnessUseMask | False** pin. Change the **Group** to `Surface Properties` and the **Sort Priority** to `26`. Connect the **RoughnessUseMask?** to the **Output Specular** node.  Connect the Blue Pin from the texture not to the **RoughnessUseMask? | True** pin. 
+Repeat this entire process for specular by adding a **Static Switch Parameter**.  Call it `RoughnessUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `25`. Add a **Scalar Parameter** node and call it `RoughnessAmount` and change the default to `0.5`.  Connect the output pin to the **RoughnessUseMask | False** pin. Change the **Group** to `Surface Properties` and the **Sort Priority** to `26`. Connect the **RoughnessUseMask?** to the **Output Specular** node.  Connect the Blue Pin from the texture to the **RoughnessUseMask? | True** pin. 
 
 ![add constant node, set to 0 and add to roughness](images/roughnessSwitch.png)
 
@@ -66,7 +66,7 @@ Repeat this entire process for specular by adding a **Static Switch Parameter**.
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Do this one final time and add a **Static Switch Parameter**.  Call it `AOsUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `27`. Add a **Scalar Parameter** node and call it `AOAmount` and change the default to `1`.  Connect the output pin to the **AOUseMask | False** pin. Change the **Group** to `Surface Properties` and the **Sort Priority** to `28`. Connect the **AOUseMask?** to the **Output Specular** node.  Connect the Blue Pin from the texture not to the **AOUseMask? | True** pin.
+Do this one final time and add a **Static Switch Parameter**.  Call it `AOsUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `27`. Add a **Scalar Parameter** node and call it `AOAmount` and change the default to `1`.  Connect the output pin to the **AOUseMask | False** pin. Change the **Group** to `Surface Properties` and the **Sort Priority** to `28`. Connect the **AOUseMask?** to the **Output Specular** node.  Connect the White A Pin from the texture to the **AOUseMask? | True** pin.
 
 ![move cam to room 3 and add a cube to room](images/AOSwitch.png)
 
