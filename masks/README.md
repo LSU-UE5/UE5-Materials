@@ -58,9 +58,9 @@ Repeat this entire process for specular by adding a **Static Switch Parameter**.
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Add a **Saturate** node to the graph and place it between the **Add** node and the **Base Color** pin in **M_MetalMask**. Connect the **Texture Sample | RGB** to the **Metallic** node.  Plug the output of **MF_BaseColor** for **Specular** and **Roughness**.  We will use the mask for metallic.  You will notice that the circles (black part of the mask) are not metalic and the rest is. Press the <kbd>Apply</kbd> button.
+Repeat this entire process for specular by adding a **Static Switch Parameter**.  Call it `RoughnessUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `25`. Add a **Scalar Parameter** node and call it `RoughnessAmount` and change the default to `0.5`.  Connect the output pin to the **RoughnessUseMask | False** pin. Change the **Group** to `Surface Properties` and the **Sort Priority** to `26`. Connect the **RoughnessUseMask?** to the **Output Specular** node.  Connect the Blue Pin from the texture not to the **RoughnessUseMask? | True** pin. 
 
-![add constant node, set to 0 and add to roughness](images/connectOtherProps.png)
+![add constant node, set to 0 and add to roughness](images/roughnessSwitch.png)
 
 ![](../images/line2.png)
 
