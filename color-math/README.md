@@ -145,7 +145,7 @@ Duplicate **Materials | Surfaces | MI_MarbleTile** and call it `MI_MarbleTileGre
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Assign this as to the material on the new material ball you just copied. Now open up **MI_GreenMarbleTile** and change the default tint color from white, to a color such as a light green.
+Assign this as to the material on the new material ball you just copied. Now open up **MI_GreenMarbleTile** and change the default **BaseColorTint** from white, to a color such as a light green.
 
 ![tint tile to green](images/tintColor.png)
 
