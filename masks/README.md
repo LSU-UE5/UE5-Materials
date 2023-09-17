@@ -48,7 +48,7 @@ Add a **Scalar Parameter** node and call it `MetallicAmount`.  Leave the default
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Connect the Red Pin from the texture not to the **MetallicUseMask? | True** pin. 
+Connect the Red Pin from the texture not to the **MetallicUseMask? | True** pin.  Connect the output of the ****MetallicUseMask?** to the **Metallic Output** node.
 
 Repeat this entire process for specular by adding a **Static Switch Parameter**.  Call it `SpecularUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `23`. Add a **Scalar Parameter** node and call it `SpecularAmount` and change the default to `0.5`.  Change the **Group** to `Surface Properties` and the **Sort Priority** to `24`.
 
