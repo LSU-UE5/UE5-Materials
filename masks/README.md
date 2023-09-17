@@ -80,9 +80,15 @@ Create a new folder under **Textures** called `Masks`. PDrag and drop into thi f
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-Press the **Place Actors** button and select a **Shape | Cube** to drop in the level.  Position it on the left side of the room.
+Press the **Place Actors** button and select a **Shape | Cube** to drop in the level.  Position it on the left side of the room. Click the Lock icon next to the **Transform | Scale**. Set the **Scale** to `2.0` to double the size of the cube in all 3 dimensions.
 
-![add cube to level](images/placeCube.png)
+![add cube to level](images/doubleScale.png)
+
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
+
 Add **MI_Mask** material to the cube.
 
 ![add cube to level](images/addMIMask.png)
@@ -90,15 +96,11 @@ Add **MI_Mask** material to the cube.
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
+##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
 Change **Roughness** to `0`.  Change the white tint color to **Green** (0, 1, 0). *Press* the <kbd>Play</kbd> button and see that the areas in the mask that were white are metallic and the portions in black are non metalic but green.  Think about why this is so? Arent' the reflections pretty amazing in UE5?
 
 https://user-images.githubusercontent.com/5504953/185811730-86476e82-1011-434c-92e4-0d4a5381381a.mp4
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
 Now what if we wanted the opposite? What if want the green dot to be reflective and the rest of the surface be matte?  We could go to photoshop and invert the image, but we can do this in the material.  Open the **M_MetallicMask** and add a **OneMinus** node. 
 
