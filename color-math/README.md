@@ -153,7 +153,7 @@ Now if we go back to the first material ball the tiling looks very wrong on the 
 
 Now make sure that the **UV Angle** on both marble tile materials is set to `0` otherwise the lines of the tile will not work.  A tile with a pattern like this should not be rotated. *Press* the <kbd>Play</kbd> button  and look at the three material balls and grass ground.  Make sure you are happy with everything.
 
-https://github.com/LSU-UE5/UE5-Materials/assets/5504953/bea33af1-a092-4970-a8b2-a9c63a1a4e8c
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/303a007e-27f0-45a8-965b-50261ba1a147
 
 ![](../images/line2.png)
 
