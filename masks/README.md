@@ -71,7 +71,7 @@ Go to the **Materials | Material Instances** folder and right click on **MI_Wild
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new folder under **Textures** called `Masks`. PDrag and drop into thi folder **Import** and select **[T_CircleMask_BC.tga](../Assets/T_CircleMask_BC.png)**, **[T_CircleMask_01.tga](../Assets/T_CircleMask_01.png)** and **[T_CircleMask_02.tga](../Assets/T_CircleMask_02.png)**. Double click and see that it is a power of 2 texture and is 512 x 512 with 10 MIP levels.  It is duotone with just black and white.
+Create a new folder under **Textures** called `Masks`. PDrag and drop into thi folder **Import** and select **[T_CircleMask_BC.png](../Assets/T_CircleMask_BC.png)**, **[T_CircleMask_01.png](../Assets/T_CircleMask_01.png)** and **[T_CircleMask_02.png](../Assets/T_CircleMask_02.png)**. Double click and see that it is a power of 2 texture and is 512 x 512 with 10 MIP levels.  It is duotone with just black and white.
 
 ![add circlemask_d.tga to project](images/tcirclemaskimport.png)
 
