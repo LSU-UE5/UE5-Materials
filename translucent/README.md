@@ -85,7 +85,7 @@ Now go to **Materials | Master** and *right click* on **MI_Transparent_MSRAO** a
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now drag the **MI_Transparent** onto the plane and open up the material instance.  Assign a **Base Color** of ``.
+Now drag the **MI_Transparent** onto the plane and open up the material instance.  Assign a **Base Color** of `T_GradientTransparency`. Now this is still opaque as the alpha channel is `1` (or completely opaque) by default.
 
 ![add translucent2 to new cube](images/transparentOne.png)
 
@@ -93,9 +93,9 @@ Now drag the **MI_Transparent** onto the plane and open up the material instance
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-There are two things we need to do to fix this.  Go back to the Material and change the **Lighting Mode** to `Surface Translucency Volume`. Press the <kbd>Apply</kbd> button. Do this for both **M_Translucent** and **M_Translucent2**.
+Now go to **Use Base Color Alpha** and turn it to `true`.
 
-![change lighting mode to surface translucency volume](images/surfaceTranslucent.png)
+![change lighting mode to surface translucency volume](images/useBaseColor.png)
 
 ![](../images/line2.png)
 
