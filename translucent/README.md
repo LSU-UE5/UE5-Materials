@@ -53,9 +53,9 @@ Now go to the **Materials | Master** folder and *right click* on **M_Opaque_MSRA
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-
+Open up **M_Transparent_MSRAO** and remove the **Alpha** to **Opacity Mask** connection.  Instead wire it into **Opacity**>
     
-![change blend mode to translucent](images/twosided.png)
+![change blend mode to translucent](images/alphaOpacity.png)
 
 ![](../images/line2.png)
 
