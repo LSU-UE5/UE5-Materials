@@ -146,9 +146,8 @@ Add a **Static Switch Parameter** node and call it `UseBaseColorAlpha`.  Set the
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Connect the **Texture Sample | R** pin to the **Opacity Mask** node.  Wait a second and now there are only dots.
 
-![connect texture sample to opacity mask](images/connectPins.png)
+![connect texture sample to opacity mask](images/addOpacityMask.png)
 
 ![](../images/line2.png)
 
