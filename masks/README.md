@@ -120,8 +120,6 @@ Now lets create a mask to have some parts metal and some parts not.  Remember **
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/3d00f9a3-caf9-4cf4-95c7-b6df1ffe676b
 
-![add one minus node](images/tsingleCircle.png)
-
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
