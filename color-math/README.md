@@ -185,7 +185,7 @@ Name and organize all of your room 1 files. Organize your **Outliner** and put a
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Organize your **Outliner** and put all of the objects in the **Room 2** folder. Name them so they match what is in the scene.  It is good practice to name objects, so you can quickly find them if you need to make changes in the future.
+Organize your **Outliner** and put all of the remaining objects in the **Room 2** folder. Name them so they match what is in the scene. 
 
 ![name outliner and organize](images/organizeName.png)
 
