@@ -62,11 +62,6 @@ Right click on the color and select **Start Previewing Node**.  This allows you 
 
 Now lets add another **Constant 3 Vector**.  Make the second vector solid green with a **G** value of `1.0`. This will allow us to add the two vectors together. Right mouse click and select an **Add** node. We will add the two nodes together. Now how do additions work?  When you add two vectors together (RGB<sub>1</sub> & RGB<sub>2</sub>) it just adds the red channel R<sub>1</sub> + R<sub>2</sub>, green channel G<sub>1</sub> + G<sub>2</sub> and blue channel B<sub>1</sub> + B<sub>2</sub>. Even though the add node has a single pin, it will add up all three channels individually.
 
-| V3a | 1 | 0 | 0 |
-|-----|---|---|---|
-| V3b | 0 | 1 | 0 |
-| +   | 1 | 1 | 1 |
-
 ![put an add node in material](images/addNode.png)
 
 ![](../images/line2.png)
@@ -75,6 +70,12 @@ Now lets add another **Constant 3 Vector**.  Make the second vector solid green 
 
 Connect the two **Constant Vector 3** nodes to the **Add**. Hit **Start Previewing Node** on the **Add** node.  Now it adds the two channels together (1,0,0 + 0,1,0) making the resulting color 1, 1, 0.  When you have solid Red and solid Green we get yellow. 
 
+|     | R | G | B |
+|-----|---|---|---|
+| V3a | 1 | 0 | 0 |
+| V3b | 0 | 1 | 0 |
+| +   | 1 | 1 | 1 |
+
 ![add two channels to yellow](images/yellowAdd.png)
 
 ![](../images/line2.png)
@@ -82,6 +83,12 @@ Connect the two **Constant Vector 3** nodes to the **Add**. Hit **Start Previewi
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Right click and add a **Multiply** node. Connect the two **Constant Vector 3** nodes to the **Multiply**. Hit **Start Previewing Node** on the **Mulitpy** node.  Now it multiplies up all three channelsinstead of adding them.  So the red channel multiplies 1 x 0, the green 0 x 1, and the blue 0 x 0.  This leaves our vector at 0,0,0 or *black*.
+
+|     | R | G | B |
+|-----|---|---|---|
+| V3a | 1 | 0 | 0 |
+| V3b | 0 | 1 | 0 |
+|  x  | 0 | 0 | 0 |
 
 ![multiple two nodes darker](images/multiplyToBlack.png)
 
