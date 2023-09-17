@@ -32,7 +32,7 @@ Create a new folder under **Textures** called `Masks`. Press the **Import** butt
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets open up **MF_MSRAO**.  If we don' thave a mask for a particular channel (commmon with metallic and specular) or just want to overide the texture with a single value for all pixels.  Lets add this support.  Right click on the graph to add a **Static Switch Parameter**.  Call it `MetallicUseMask?`and **Default Value** it to `true`.
+Lets open up **MF_MSRAO**.  If we don' thave a mask for a particular channel (commmon with metallic and specular) or just want to overide the texture with a single value for all pixels.  Lets add this support.  Right click on the graph to add a **Static Switch Parameter**.  Call it `MetallicUseMask?`and **Default Value** it to `true`. Change the **Group** to `Surface Properties` and the **Sort Priority** to `21`.
 
 ![add material called M_MetalMask](images/AddSwitchMetallic.png)
 
