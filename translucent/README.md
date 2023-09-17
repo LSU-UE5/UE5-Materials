@@ -19,6 +19,7 @@ Lets see our final opacity mask in action.  Next up we will see What happens whe
 
 Now lets get the masks to cut some holes.  Open up **MI
 
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/568bd2ff-485b-446d-a9bb-a0d4878b8e8c
 
 ![](../images/line2.png)
 
