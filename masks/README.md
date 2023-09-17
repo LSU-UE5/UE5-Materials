@@ -74,7 +74,7 @@ Do this one final time and add a **Static Switch Parameter**.  Call it `AOsUseMa
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Materials | Material Instances** folder and right click on 
+Go to the **Materials | Material Instances** folder and right click on **MI_WildGrass** and select **Duplicate**.  Call this new material instance `MI_MetallicMaskExample`.
 
 ![add cube to level](images/DupeMIForMask.png)
 
