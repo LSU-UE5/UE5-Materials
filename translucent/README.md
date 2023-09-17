@@ -28,9 +28,9 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/568bd2ff-485b-446d-a9bb-
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Some objects like glass need to be translucent.  Now in games we want to try and limit how many we use.  This material is very expensive computationally and should be used with discretion. Go to the **Textures | Mask** folder and add **[T_CircleMask_T.png](../Assets/T_CircleFeathered.png)** to the game.
+Some objects like glass need to be translucent.  Now in games we want to try and limit how many we use.  This material is very expensive computationally and should be used with discretion. Go to the **Textures | Mask** folder and add **[T_GradientTransparency.tif](../Assets/T_GradientTransparency.tif)** to the game.
 
-![T_CircleMask_T](images/tCircleFeather.png)
+![T_CircleMask_T](images/downloadGradient.png)
 
 
 ![](../images/line2.png)
