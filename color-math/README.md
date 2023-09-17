@@ -161,29 +161,29 @@ Now if we go back to the first material ball the tiling looks very wrong on the 
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now make sure that the **UV Angle** on both marble tile materials is set to `0` otherwise the lines of the tile will not work.  A tile with a pattern like this should not be rotated. *Press* the <kbd>Play</kbd> button  and look at the three material balls and grass ground.  Make sure you are happy with everything.
+*Press* the <kbd>Play</kbd> button  and look at the three material balls and grass ground.  Make sure you are happy with everything.
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/303a007e-27f0-45a8-965b-50261ba1a147
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now a bit of housecleaning.  It is a good idea after we add or multiply to make sure we don't go below 0 or above 1.  So lets add a **Saturate** node in **MF_Texture** between the **Multiply** and **Output Base Color** node.
 
 ![add saturate node after multiply in mf_texture](images/saturateNode.png)
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 
 ![](../images/line2.png)
 
