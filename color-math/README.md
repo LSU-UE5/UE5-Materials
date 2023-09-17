@@ -59,8 +59,6 @@ Now lets add another **Constant 3 Vector**.  Make the second vector solid green 
 
 ![put an add node in material](images/addNode.png)
 
-![red in unreal color picker](images/previewRed.png)
-
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
