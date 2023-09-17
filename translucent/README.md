@@ -53,7 +53,7 @@ Now go to the **Materials | Master** folder and *right click* on **M_Opaque_MSRA
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Open up **M_Transparent_MSRAO** and remove the **Alpha** to **Opacity Mask** connection.  Instead wire it into **Opacity**>
+Open up **M_Transparent_MSRAO** and remove the **Alpha** to **Opacity Mask** connection.  Instead wire it into **Opacity**. Now go to the **Blend Mode** and change it to `Translucent`.  Now if we do not need any of the other masks like Metallic, Specular, Roughness or AO we can leave it. If we need the other pins we need to change the Lighting Mode.
     
 ![change blend mode to translucent](images/alphaOpacity.png)
 
@@ -61,9 +61,9 @@ Open up **M_Transparent_MSRAO** and remove the **Alpha** to **Opacity Mask** con
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Create a new **Material Instance** from **M_Translucent** called `MI_Translucent`.  Move it to the **Materials | Mask** folder.  Duplicate a cube and pull it to the right and drop the **MI_Translucent** on the third cube.
+Change the **Lighting Mode** to `Surface Forward Shading`, now all the pins we had before return.  Caution, this is an expensive shader!
 
-![add another cube with new material](images/dupateAndCopy.png)
+![add another cube with new material](images/surfaceForwardShading.png)
 
 ![](../images/line2.png)
 
