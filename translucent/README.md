@@ -93,7 +93,7 @@ Now drag the **MI_Transparent** onto the plane and open up the material instance
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Now go to **Use Base Color Alpha** and turn it to `true`.
+Now go to **Use Base Color Alpha** and turn it to `true`. Now a semi transparent hole appears on the plane.
 
 ![change lighting mode to surface translucency volume](images/useBaseColor.png)
 
@@ -101,9 +101,7 @@ Now go to **Use Base Color Alpha** and turn it to `true`.
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Then go into the game and select the two cubes you previously created. Go into the details panel. Go to the **Lighting | Advanced** section. Look for the Radio line that has **Volumetric Translucent Shadow** and make sure it is set to `true`. Notice the shadows pop back into the scene! 
-
-![look at cube and expand lighting in details panel](images/volumeShadow.png)
+Press the <kbd>Play</kbd> button and run around.  Woops the back of the plane is not there and the texture disappears.  Go back to the material instance and turn **Two Sided** to `true`.  Run the game again and now you will see both sides.
 
 ![](../images/line2.png)
 
