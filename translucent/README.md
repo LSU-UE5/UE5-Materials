@@ -85,9 +85,9 @@ Now go to **Materials | Master** and *right click* on **MI_Transparent_MSRAO** a
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now right click **M_Translucent2** and create a **Material Instance** called `MI_Translucent2`.  Copy another cube and assign the new **MI_Translucent2**. But it doesn't cast a shadow, nor does the previous cube.
+Now drag the **MI_Transparent** onto the plane and open up the material instance.  Assign a **Base Color** of ``.
 
-![add translucent2 to new cube](images/translucent2.png)
+![add translucent2 to new cube](images/transparentOne.png)
 
 ![](../images/line2.png)
 
