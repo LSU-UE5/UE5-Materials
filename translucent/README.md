@@ -17,9 +17,12 @@ Lets see our final opacity mask in action.  Next up we will see What happens whe
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Now lets get the masks to cut some holes.  Open up **MI
+Now lets get the masks to cut some holes.  Open up **MI_Masked_Holes**.  Make it small so you can see both the material instance and the game. Change the **MSRAO** to `T_Base_MSRAO` as we are not using this mask anymore and will go back to the default.  Change the **Roughness** to `0.75`.  Now adjust the **Base Color** texture to `T_GradientMask`. Open up **Material Property Overrides** and change the **Blend Mode** to `Masked`. Now this has no effect as we are not using the alpha channel in the texture.  Go to **Base Color | UseBaseColorAlpha?** and set it to `true`.  Now you have transparent holes.
+
+Now something is wrong, you see right through it there is no inside of the box with the holed.  Go back to **Material Property Overrides** and set **Two Sided** to `true`.  Now you see inside the box as well as nice shadows with the holes on the ground.  
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/568bd2ff-485b-446d-a9bb-a0d4878b8e8c
+
 
 ![](../images/line2.png)
 
