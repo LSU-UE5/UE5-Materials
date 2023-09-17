@@ -169,7 +169,7 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/303a007e-27f0-45a8-965b-
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now a bit of housecleaning.  It is a good idea after we add or multiply to make sure we don't go below 0 or above 1.  So lets add a **Saturate** node in **MF_Texture** between the **Multiply** and **Output Base Color** node.
+Now a bit of housecleaning.  It is a good idea after we add or multiply to make sure we don't go below 0 or above 1.  So lets add a **Saturate** node in **MF_Texture** between the **Multiply** and **Output Base Color** node. The will stop the multiplying to go to a value above 1 (important to do after adding or multiplying textures).  
 
 ![add saturate node after multiply in mf_texture](images/saturateNode.png)
 
