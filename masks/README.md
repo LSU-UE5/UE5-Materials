@@ -130,43 +130,14 @@ Now what if we wanted to invert the mask to get the metal inside the dot.  We ca
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
+![remove three masks and disable normal](images/dupeOutputAlpha.png)
 
-https://user-images.githubusercontent.com/5504953/185811730-86476e82-1011-434c-92e4-0d4a5381381a.mp4
-
-Now what if we wanted the opposite? What if want the green dot to be reflective and the rest of the surface be matte?  We could go to photoshop and invert the image, but we can do this in the material.  Open the **M_MetallicMask** and add a **OneMinus** node. 
-
-Connect the output of the **Texture Sample | R** node to the **1-x** node and put that output in **Metallic**.  Press the <kbd>Apply</kbd> button. Select the cube to preview and now you can see that it the metallic has flipped to affect the dots.  How does it do it?
-
-When you normalize a range between 0 and 1 then the inverse is always 1-x.  So if we have .8, the inverse is 1 - .8 = .2.  If we have 1 then the inverse is 1 - 1 which is 0.  If we have 0 then the inverse is 1-0 which is 1.  So you can see for grey scale normalized maps this is powerful.  We can invert a single channel and leave base color alone so the black dot is still black (turning green).
-
-![add one minus node](images/oneMInus.png)
-
-*Press* the <kbd>Play</kbd> button and now the metallic part has inverted and the green dot is metallic and the rest is non-metallic based on the mask applied.
-
-https://user-images.githubusercontent.com/5504953/185812222-7728eef9-491a-4199-9841-fa5c5c93fca4.mp4
-
-Now if you wanted to use this as a master material you could change the mask to a parameter so you could replace it.  Typically those these types of tricky materials are one off's.  So lets leave it here for now.
-
-Download [T_SingleCircle.png](../Assets/T_SingleCircle.png) and add it to the **Texures | Masks** folder.  This has a single white dot on a black background.
-
-
-We have only dealt with opaque materials.  We can also have holes cut in the materials with translucency.  There are two types of approaches. The faster in terms of performance is an opacity mask. This means that a pixel can be completely transparent.  But there are no partial transparencies. The pixel is opaque or is clear.  Lets take a look.  Create a new **Material** in the **Materials | Master** folder and call it `M_OpacityMask`.
-
-![add material called M_OpacityMask](images/mopcityMask.png)
-
-Double click the new Material and add a **Texture Sample** node. Add the **T_SingleCircle** texture. Drag the material function **MF_BaseColor** under the texture sample node.
-
-![add t_singlecircle texture sample and mf_base color](images/addTextureBaseColor.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Connect the output of the **MF_Base Color | Base Color** node and connect it to the **Base Color** mode.  Then we need to change the blend mode.  As we want the black portion to cut a hole in the shape.  So change the **Blend** mode to `Masked` on **M_OpacityMask**.
 
-There are different blend modes available in the shaders.  To read more about it go to this section in their [manual](https://docs.unrealengine.com/en-us/Engine/Rendering/Materials/MaterialProperties/BlendModes).
-
-![connect texture sample to opacity mask and change blend mode](images/changeBlendNode.png)
 
 ![](../images/line2.png)
 
