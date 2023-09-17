@@ -17,10 +17,8 @@ Lets see our final opacity mask in action.  Next up we will see What happens whe
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
+Now lets get the masks to cut some holes.  Open up **MI
 
-Now in game you can play with the settings and change the tint color.  Notice the shadow respects the transparency.  Now also notice it is either opaque or completely transparent.  There is nothing in between.  This is the most efficient way of rendering transparencies.
-
-![change settings to get an effect in game you like](images/changedProperties.png)
 
 ![](../images/line2.png)
 
