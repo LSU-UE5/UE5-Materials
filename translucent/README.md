@@ -103,6 +103,8 @@ Now go to **Use Base Color Alpha** and turn it to `true`. Now a semi transparent
 
 Press the <kbd>Play</kbd> button and run around.  Woops the back of the plane is not there and the texture disappears.  Go back to the material instance and turn **Two Sided** to `true`.  Run the game again and now you will see both sides.
 
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/a1fbb4c0-63b4-4c36-ac5c-e4725c7f0e6c
+
 ![](../images/line2.png)
 
 
