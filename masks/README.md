@@ -89,14 +89,22 @@ Press the **Place Actors** button and select a **Shape | Cube** to drop in the l
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Add **MI_Mask** material to the cube.
+*Drag* the **MI_MetallicExample** material instance to the cube.
 
 ![add cube to level](images/addMIMask.png)
-
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
+
+Open up **MI_MetallicExample** 
+
+![add cube to level](images/tintNewText.png)
+
+![](../images/line2.png)
+
+
+##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Change **Roughness** to `0`.  Change the white tint color to **Green** (0, 1, 0). *Press* the <kbd>Play</kbd> button and see that the areas in the mask that were white are metallic and the portions in black are non metalic but green.  Think about why this is so? Arent' the reflections pretty amazing in UE5?
 
@@ -109,11 +117,6 @@ Connect the output of the **Texture Sample | R** node to the **1-x** node and pu
 When you normalize a range between 0 and 1 then the inverse is always 1-x.  So if we have .8, the inverse is 1 - .8 = .2.  If we have 1 then the inverse is 1 - 1 which is 0.  If we have 0 then the inverse is 1-0 which is 1.  So you can see for grey scale normalized maps this is powerful.  We can invert a single channel and leave base color alone so the black dot is still black (turning green).
 
 ![add one minus node](images/oneMInus.png)
-
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 *Press* the <kbd>Play</kbd> button and now the metallic part has inverted and the green dot is metallic and the rest is non-metallic based on the mask applied.
 
