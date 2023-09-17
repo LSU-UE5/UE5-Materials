@@ -74,7 +74,7 @@ Connect the two **Constant Vector 3** nodes to the **Add**. Hit **Start Previewi
 |-----|---|---|---|
 | V3a | 1 | 0 | 0 |
 | V3b | 0 | 1 | 0 |
-| +   | 1 | 1 | 1 |
+| +   | 1 | 1 | 0 |
 
 ![add two channels to yellow](images/yellowAdd.png)
 
