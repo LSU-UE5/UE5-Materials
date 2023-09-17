@@ -40,7 +40,7 @@ Lets open up **MF_MSRAO**.  If we don' thave a mask for a particular channel (co
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open the Material and add a **Texture Sample** node and selected the new texture we just created **T_CircleMask**. Drag the material function **Materials | MaterialFunctions | MF_BaseColor** to the chart under the texture sample.
+Add a **Scalar Parameter** node and call it `MetallicAmount`.  Set the Change the **Group** to `Surface Properties` and the **Sort Priority** to `22`. Connect the ouput of the **Scalar Paremeter** to the **MetallicUseMas? | False** pin.  So if we choose not to use the mask in the texture provided we can have a number used across the entire material. 
 
 ![add a tcircle texture and mf_base color material function](images/MetallicAmount.png)
 
