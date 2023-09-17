@@ -128,7 +128,7 @@ Now right click the vector and select **Convert to Parameter**.  Call it `BaseCo
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Duplicate the marble material ball and text and move it to the right. Change the text on the title to `Green Marble Tile`.
+Duplicate the marble material ball and text and move it to the right. Change the text on the title to `MI_MarbleTileGreen`.
 
 ![duplicate the material ball and text](images/addAnotherBallText.png)
 
@@ -136,7 +136,7 @@ Duplicate the marble material ball and text and move it to the right. Change the
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Duplicate **Materials | Surfaces | MI_MarbleTile** and call it `MI_GreenMarbleTile`. Assign this as to the material on the new material ball you just copied.
+Duplicate **Materials | Surfaces | MI_MarbleTile** and call it `MI_MarbleTileGreen`. Assign this as to the material on the new material ball you just copied.
 
 ![create MI_GreenMarbleTile and assign to material](images/dupateAssign.png)
 
