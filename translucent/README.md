@@ -136,7 +136,7 @@ Add a new folder in **Meshes** called `Props`. Rename the box `SM_CubeNanite` an
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Open up **SM_CubeNanite** and enable **Nanites**. Press <kbd>Apply Changes</kbd>.
+Open up **SM_CubeNanite** and set **Enable Nanite Support** to `true`. Press <kbd>Apply Changes</kbd>.
 
 ![enable nanites on sm_cubenanite](images/enableNanite.png)
 
@@ -152,21 +152,27 @@ Assign **MI_Metal**.  It works fine, looks the same as the non nanite meshes.
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Try the two translucent and opacity mask. Notice that the materials don't work. Nanites will not work with either **Opacity Mas** or **Translucent** mode.  It also doesn't work with double sided materials.  You will notice that the material just doesn't render at all.  Put it back to **MI_MetalMask**.
+Two sided masked opacity material also seems to work perfectly.
 
-![nanites not working with double sided and translucent](images/opacitiesNotWorking.png)
+![nanites not working with double sided and translucent](images/maskedMeshesTwoSided.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Rename items in **Room 3** in the **Outliner** so it makes sense.
+Try the two translucent and opacity mask. Notice that the materials don't work. Nanites will not work with either **Opacity Mas** or **Translucent** mode.  It also doesn't work with double sided materials.  You will notice that the material just doesn't render at all.  Put it back to **MI_MetalMask**.
 
-![clean up room 3 items](images/cleanUpDirectory.png)
+![nanites not working with double sided and translucent](images/opacitiesNotWorking.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+Rename items in **Room 3** in the **Outliner** so it makes sense.
+
+![clean up room 3 items](images/cleanUpDirectory.png)
 
 Select the **File | Save All** then press the <kbd>Source Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
