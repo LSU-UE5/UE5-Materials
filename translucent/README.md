@@ -136,7 +136,7 @@ Add a new folder in **Meshes** called `Props`. Rename the box `SM_CubeNanite` an
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Open up **SM_CubeNanite** and enable **Nanites**.
+Open up **SM_CubeNanite** and enable **Nanites**. Press <kbd>Apply Changes</kbd>.
 
 ![enable nanites on sm_cubenanite](images/enableNanite.png)
 
