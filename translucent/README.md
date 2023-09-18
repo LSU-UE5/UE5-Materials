@@ -160,7 +160,7 @@ Two sided masked opacity material also seems to work perfectly.
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Try the two translucent and opacity mask. Notice that the materials don't work. Nanites will not work with either **Opacity Mas** or **Translucent** mode.  It also doesn't work with double sided materials.  You will notice that the material just doesn't render at all.  Put it back to **MI_MetalMask**.
+Try the **MI_Transparent** opacity texture. Notice that the materials don't work. Nanites will not work with the **Translucent** render mode.  You will notice that the material just doesn't render at all. There is a work around, if you open up the **MI_Transparent** you can assign a **Nanite Override Material**.  Select `MI_Basic` as the fallback material.
 
 ![nanites not working with double sided and translucent](images/opacitiesNotWorking.png)
 
@@ -169,7 +169,7 @@ Try the two translucent and opacity mask. Notice that the materials don't work. 
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Rename items in **Room 3** in the **Outliner** so it makes sense.
+Notice that now the nanite fallback material is used and is no longer blank. Rename items in **Room 3** in the **Outliner** so it makes sense.
 
 ![clean up room 3 items](images/cleanUpDirectory.png)
 
