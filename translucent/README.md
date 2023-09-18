@@ -119,7 +119,7 @@ Please note that this is not working in double sided mode on 3D geometry.  If I 
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go into **Modelling Mode** and create a box that is a **Width**, **Depth** and **Height** of `300.0` and subdivisions on all planes of `6`.  Turn off **Align to Normal** and press <kbd>Accept</kbd>.
+Go into **Modelling Mode** and create a box that is a **Width**, **Depth** and **Height** of `200.0` and subdivisions on all planes of `6`.  Turn off **Align to Normal** and press <kbd>Accept</kbd> and place it next to the other cubes.
 
 ![add 300 unit cube square to level](images/addAnotherCube.png)
 
