@@ -144,7 +144,7 @@ Open up **SM_CubeNanite** and enable **Nanites**. Press <kbd>Apply Changes</kbd>
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Assign **MI_MetalMask**.  It works fine.
+Assign **MI_Metal**.  It works fine, looks the same as the non nanite meshes.
 
 ![metalmask material works with nanites](images/metalMaskWorks.png)
 
