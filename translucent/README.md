@@ -127,7 +127,7 @@ Go into **Modelling Mode** and create a box that is a **Width**, **Depth** and *
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Add a new folder in **Meshes** called `BasicGeometry`. Rename the box `SM_CubeNanite` and move it into the **BasicGeometry** folder.
+Add a new folder in **Meshes** called `Props`. Rename the box `SM_CubeNanite` and move it into the **Props** folder.
 
 ![rename cube to sm_cubenanite and move to meshes folder](images/sm_cubeNanite.png)
 
