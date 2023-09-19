@@ -13,21 +13,29 @@ Now for some objects in the game, they will also be a light source.  Think of th
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-We will be using a spotlight which will have a glow on the lightbulb as well as a light placed in it.  Create a new folder called `Props` inside the **Textures** folder. We need to download **[T_Spotlight_BCE.png](../Assets/T_Spotlight_BCE.png)**, **[T_Spotlight_N.png](../Assets/T_Spotlight_N.png)** and **[T_Spotlight_MSRAO.png](../Assets/T_Spotlight_MSRAO.png)**. Drag them into the textures folder. Double check that the engine recognized the normal map of **T_Spotlight_N** and is using normal map image compression.
+Now Unreal defaults to having **Auto Exposure** set so that it always is brighter in dark areas (increases the exposure automatically in dark areas).  We want dark to be dark so open up **Project Settings** and turn **Auto Exposure** `off`.
 
-![add five SpotlightModel textures to game](images/tSpotlightT.png)
+![add spotlight as child of lamp in scene](images/autoOff.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Create a new folder in **Meshes** called `Props`. Drag the **[SM_Spotlight.fbx](../Assets/SM_Spotlight.fbx)** into the **Meshes | Props** folder.  The emissive channel works on nanite models and we need to create a collision volume for these models.  Also, do not create a default material. Press the <kbd>Import All</kbd> button.
+Now Unreal defaults to having **Auto Exposure** set so that it always is brighter in dark areas (increases the exposure automatically in dark areas).  We want dark to be dark so open up **Project Settings** and turn **Auto Exposure** `off`.
 
-![import splotlightmodel fbx](images/importSpotlight.png)
+![add spotlight as child of lamp in scene](images/ev0.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+We will be using a spotlight which will have a glow on the lightbulb as well as a light placed in it.  Create a new folder called `Props` inside the **Textures** folder. We need to download **[T_Spotlight_BCE.png](../Assets/T_Spotlight_BCE.png)**, **[T_Spotlight_N.png](../Assets/T_Spotlight_N.png)** and **[T_Spotlight_MSRAO.png](../Assets/T_Spotlight_MSRAO.png)**. Drag them into the textures folder. Double check that the engine recognized the normal map of **T_Spotlight_N** and is using normal map image compression.
+
+![add five SpotlightModel textures to game](images/tSpotlightT.png)
+
+Create a new folder in **Meshes** called `Props`. Drag the **[SM_Spotlight.fbx](../Assets/SM_Spotlight.fbx)** into the **Meshes | Props** folder.  The emissive channel works on nanite models and we need to create a collision volume for these models.  Also, do not create a default material. Press the <kbd>Import All</kbd> button.
+
+![import splotlightmodel fbx](images/importSpotlight.png)
 
 You should have a bracket and lamp mesh.  They are separate meshes so we can rotate the lamp at different angles. Rename them to `SM_SpotlightBracket` and `SM_SpotlightLamp`.
 
