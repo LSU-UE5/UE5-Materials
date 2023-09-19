@@ -37,7 +37,7 @@ We will be using a spotlight which will have a glow on the lightbulb as well as 
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up all the textures and make sure they are correct.  They should all have mip levels.  Ensure that the **Normal Map** has **NormalMap** compressoin and change the **MSRAO** to **Masks** compression. Now we are texture packing the **Emissive** mask in the alpha channel of the **Base Color** texture.
+Open up all the textures and make sure they are correct.  They should all have mip levels.  Ensure that the **Normal Map** has **NormalMap** compressoin and change the **MSRAO** to **Masks** compression. Now we are texture packing the **Emissive** mask in the alpha channel of the **Base Color** texture. Remember, in the emissive mask white glows the most and black has no glow.
 
 ![add five SpotlightModel textures to game](images/checkTextures.png)
 
@@ -49,13 +49,17 @@ Create a new folder in **Meshes** called `Props`. Drag the **[SM_Spotlight.fbx](
 
 ![import splotlightmodel fbx](images/importSpotlight.png)
 
-You should have a bracket and lamp mesh.  They are separate meshes so we can rotate the lamp at different angles. Rename them to `SM_SpotlightBracket` and `SM_SpotlightLamp`.
+![](../images/line2.png)
 
-![lamp and bracket static mesh renamed appending SM_](images/renameSpotlightMesh.png)
+##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
 Go to the **Materials | Master** folder and right click on **M_Basic** and select **Create Material Instance**. Call this new material instance `MI_BrushedSteel`. Move it to the **Material | Surfaces** folder.
 
 ![create new material m_brushedsteel](images/createMIBrushedSteel.png)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up **MI_BrushedSteel** Add change the **Base Color** from white to  `.913`, `.921` and `.915` as the RGB values. Change **Metalic** to `1.0`, **Specular** to `0.3` and **Roughness** to `0.4`.
 
@@ -63,7 +67,7 @@ Open up **MI_BrushedSteel** Add change the **Base Color** from white to  `.913`,
 
 ![](../images/line2.png)
 
-##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
+##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Double click the **SM_SpotlightBracket** static mesh. Assign the material you just created **MI_BrushedSteel**.
 
@@ -71,63 +75,47 @@ Double click the **SM_SpotlightBracket** static mesh. Assign the material you ju
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Right click **MaterialFunctions | MF_Texture** and select duplicate.  Call it `MF_Emissive`.
-
-![duplicate mf_texture for an emmisive material function](images/mfEmissive.png)
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Now the emissive mask is going to be in the **Alpha** channel of the base color texture.  So add a new **Output** node and call it `Emissive` and set the **Sort Priority** to `4`. 
-
-![add m_brushedsteel to SM_Spotlight_bracket](images/AddEmissiveExport.png)
-
-![](../images/line2.png)
-
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now that we have added an emissive pin we need to move the priority for the **Output Normal** to `5` and **Ambient Occlusion** to `6 `.
-
-![adjust priotities](images/adjustPriorities.png)
+![duplicate mf_texture for an emmisive material function](images/EmissiveMSRAO.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Go to the **Materials | Master** folder and create a new material named `M_EmissiveTexture`.  Open it up and add a **MF_UVs** and a **MF_Emissive**.  Connect the **UV** to the **Emissive** node.  Then connect all the output pins of the **MF_Emissive** node.  These should be the same as the regular texture but with the addition of the emissive mask.
 
-![adjust priotities](images/mEmissiveTexture.png)
+
+![add m_brushedsteel to SM_Spotlight_bracket](images/ConnectToEmissive.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Go back to the **Master** folder and right click on **M_EmissiveTexture** and select **Create Material Instance**. Call it `MI_Spotlight`.  Create a new folder in **Material** called `Props` and move **MI_Spotlight** into this new folder.
-
-![create mi_spotlight and move to props folder](images/miSpotlight.png)
+![adjust priotities](images/switchParamEm.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Open up **SM_Spotlight_Lamp** and assign to **Material Slots | Element 0** `MI_Spotlight`.  Assign `T_Spotlight_BCE` to **Base Color & Emissive**.  Assign `T_Spotlight_N` to **Normal Map**.  Finally assign `T_Spotlight_MSRA` to **Metallic | Specular | Roughness | AO**.
-
-![create mi_spotlight and move to props folder](images/spotlightLamp.png)
+![adjust priotities](images/emissiveScalar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go to Room 4 and drag both meshes (with both selected) into the game (**SM_SpotlightBracket** and **SM_SpotlightLamp**). By selecting both the position will be correct relative to each other with the lap in the hinge correctly.  You can press **F** for focus to get the camera close to where they go in the scene.  Move them to be close to the wall.  Rotate the lamp part to point at the wall so we can have a light shine on it.
-
-![add lamp to scene and point light at wall](images/brackLightFirst.png)
+![create mi_spotlight and move to props folder](images/miSpotlight.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+Open up **SM_Spotlight_Lamp** and assign to **Material Slots | Element 0** `MI_Spotlight`.  Assign `T_Spotlight_BCE` to **Base Color & Emissive**.  Assign `T_Spotlight_N` to **Normal Map**.  Finally assign `T_Spotlight_MSRA` to **Metallic | Specular | Roughness | AO**.
+
+![create mi_spotlight and move to props folder](images/spotlightLamp.png)
+
+Go to Room 4 and drag both meshes (with both selected) into the game (**SM_SpotlightBracket** and **SM_SpotlightLamp**). By selecting both the position will be correct relative to each other with the lap in the hinge correctly.  You can press **F** for focus to get the camera close to where they go in the scene.  Move them to be close to the wall.  Rotate the lamp part to point at the wall so we can have a light shine on it.
+
+![add lamp to scene and point light at wall](images/brackLightFirst.png)
 
 Now it is easier to control the lamp and bracket if we have a proper parent child relationship.  So if we move or rotate the bracket we want the lamp to move and rotate.  But if we rotate the lamp we want it to rotate seperately.
 
