@@ -77,6 +77,8 @@ Double click the **SM_SpotlightBracket** static mesh. Assign the material you ju
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Dupe Emissive create emissive msrao
+
 ![duplicate mf_texture for an emmisive material function](images/EmissiveMSRAO.png)
 
 ![](../images/line2.png)
@@ -144,13 +146,13 @@ Double click the **SM_SpotlightBracket** static mesh. Assign the material you ju
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![add cube to room](images/dragFirstLightInRoom.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Now move the **Player Start** actor and rotate it so you start at the center of room 4.
+![add cube to room](images/dragFirstLightInRoom.png)
 
 ![rotate player start](images/dragFirstLightInRoom.png)
 
