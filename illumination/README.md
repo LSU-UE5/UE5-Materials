@@ -154,11 +154,12 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/fb30be73-8e63-41d1-85fe-
 
 ![add cube to room](images/dragFirstLightInRoom.png)
 
-![rotate player start](images/dragFirstLightInRoom.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
+
+![rotate player start](images/dragFirstLightInRoom.png)
 
 ![rotate player start](images/emissiveTint.png)
 

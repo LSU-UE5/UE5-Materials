@@ -17,21 +17,23 @@ Lets add a spotlight to the glowing material to bring this effect to its full re
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
 
-![add spotlight as child of lamp in scene](images/addSpotlight.png)
+![rotate player start](images/emissiveTint.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Change the mobility of the light to **Movable**.  When using **Lumen** on a PC all of our lights can update dynamically and should be marked as movable.
+![add spotlight as child of lamp in scene](images/addSpotlight.png)
 
-![mark light as movable](images/movable.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now open up your **MI_Emissive** and try and match the color in the emissive texture with the **Light Color**.  Now the light color uses a scale of 0 to 255 so you will have to multiply all the values in the **Emissive Tint** by 255.  For example my **G** (Green) channel is .374.  So if I multipley .372 by 255 I get  95.37. Also, adjust the **Intensity** to a value that makes sense in the scene for you. You can also crank back on the **Emissive Scalar** so that you will see the color of the light when facing it.
+![mark light as movable](images/movable.png)
+
 
 ![change spotlight color](images/spotLight.png)
 
