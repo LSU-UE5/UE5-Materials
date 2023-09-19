@@ -44,14 +44,13 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/6fe029c9-adb7-4f50-8e9f-
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![change spotlight color](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
 
-![move a duplicate light to ceiling](images/.png)
+![move a duplicate light to ceiling](images/orangeMI.png)
 
 ![](../images/line2.png)
 
