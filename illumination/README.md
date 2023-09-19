@@ -53,7 +53,7 @@ Create a new folder in **Meshes** called `Props`. Drag the **[SM_Spotlight.fbx](
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Go to the **Materials | Master** folder and right click on **M_Basic** and select **Create Material Instance**. Call this new material instance `MI_BrushedSteel`. Move it to the **Material | Surfaces** folder.
+Go to the **Materials | Master** folder and right click on **M_Basic** and select **Create Material Instance**. Call this new material instance `MI_BrushedSteel`. Move it to the **MaterialInstances** folder.
 
 ![create new material m_brushedsteel](images/createMIBrushedSteel.png)
 
