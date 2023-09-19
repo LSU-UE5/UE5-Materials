@@ -21,7 +21,7 @@ Now Unreal defaults to having **Auto Exposure** set so that it always is brighte
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Now Unreal defaults to having **Auto Exposure** set so that it always is brighter in dark areas (increases the exposure automatically in dark areas).  We want dark to be dark so open up **Project Settings** and turn **Auto Exposure** `off`.
+Lets also make sure it is off all the time by opening up BP_Player_Character and select the **First Person Camera** component. Set **MinEV100** and **MaxEV100** to `0`.
 
 ![add spotlight as child of lamp in scene](images/ev0.png)
 
@@ -33,6 +33,18 @@ We will be using a spotlight which will have a glow on the lightbulb as well as 
 
 ![add five SpotlightModel textures to game](images/tSpotlightT.png)
 
+![](../images/line2.png)
+
+##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Open up all the textures and make sure they are correct.  They should all have mip levels
+
+![add five SpotlightModel textures to game](images/checkTextures.png)
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
+
 Create a new folder in **Meshes** called `Props`. Drag the **[SM_Spotlight.fbx](../Assets/SM_Spotlight.fbx)** into the **Meshes | Props** folder.  The emissive channel works on nanite models and we need to create a collision volume for these models.  Also, do not create a default material. Press the <kbd>Import All</kbd> button.
 
 ![import splotlightmodel fbx](images/importSpotlight.png)
@@ -41,17 +53,9 @@ You should have a bracket and lamp mesh.  They are separate meshes so we can rot
 
 ![lamp and bracket static mesh renamed appending SM_](images/renameSpotlightMesh.png)
 
-![](../images/line2.png)
-
-##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
 Go to the **Materials | Master** folder and right click on **M_Basic** and select **Create Material Instance**. Call this new material instance `MI_BrushedSteel`. Move it to the **Material | Surfaces** folder.
 
 ![create new material m_brushedsteel](images/createMIBrushedSteel.png)
-
-![](../images/line2.png)
-
-##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
 Open up **MI_BrushedSteel** Add change the **Base Color** from white to  `.913`, `.921` and `.915` as the RGB values. Change **Metalic** to `1.0`, **Specular** to `0.3` and **Roughness** to `0.4`.
 
