@@ -62,8 +62,7 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/e5c3f12d-47e4-4b3d-88a0-
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
-![add 6 more materials](images/matchColors.png)
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/846b6afe-f907-4b44-b12d-5a621efedde1
 
 ![](../images/line2.png)
 
