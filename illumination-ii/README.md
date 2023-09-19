@@ -49,42 +49,34 @@ Adjust tint NEED SCREENSHOT
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Now duplicate the bracket, lamp and light and rotate it and move it to the ceiling pointing straight down. Make sure you are moving the location with the bracket and rotating along a single axis on the lamp.  The light should then point in the right direction.
 
-![move a duplicate light to ceiling](images/dupeMove.png)
+![move a duplicate light to ceiling](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Repeat this 5 more times to a have a total of 7 lights in the room.  Point them at the wall and adjust the brightness so they show up correctly.
 
-![alt_text](images/add5MoreLights.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Ranme **MI_Spotlight** to `MI_Spolight_Orange` (or whatever color your light and glow are). Right click and duplicate this material 6 times. 
 
-![add 6 more materials](images/duplicate6.png)
+![add 6 more materials](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Rename each material instance copy and change both the **Emissive Tint** in the material and the **Light Color** in the spotlight. Name it the new color of the light and glow.  So if you have a yellow light call it `MI_Spotlight_Yellow`.
-
-![renaming all lights and adjust colors](images/adjust6tintsColors.png)
+![renaming all lights and adjust colors](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press* the <kbd>Play</kbd> button and make sure that the glow matches the color of the light on the wall.  Make any adjustments, like its brightness and get it to look like it matches the environment.
-
-https://user-images.githubusercontent.com/5504953/186139493-95a4de1c-5d3d-49b4-89ef-86b6d03a2315.mp4
-
+*
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
