@@ -29,15 +29,12 @@ Adjust tint NEED SCREENSHOT
 ![add spotlight as child of lamp in scene](images/.png)
 
 
-
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+
 ![mark light as movable](images/lightColor.png)
-
-
-
 
 ![](../images/line2.png)
 
