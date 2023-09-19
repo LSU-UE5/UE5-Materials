@@ -34,13 +34,13 @@ Adjust tint NEED SCREENSHOT
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-![mark light as movable](images/lightColor.png)
+![mark light as movable](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![change spotlight color](images/spotLight.png)
+![change spotlight color](images/.png)
 
 ![](../images/line2.png)
 
