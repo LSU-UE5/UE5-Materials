@@ -24,7 +24,9 @@ Lets add a spotlight to the glowing material to bring this effect to its full re
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-![add spotlight as child of lamp in scene](images/addSpotlight.png)
+Adjust tint NEED SCREENSHOT
+
+![add spotlight as child of lamp in scene](images/.png)
 
 
 
@@ -32,18 +34,16 @@ Lets add a spotlight to the glowing material to bring this effect to its full re
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![mark light as movable](images/movable.png)
+![mark light as movable](images/lightColor.png)
 
 
-![change spotlight color](images/spotLight.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Press* the <kbd>Play</kbd> button and now the glow doesn't pop in and out noticably because the spotlight is doing its job.  So now we have a better holistic system here with a light fixture with an illumination channel for where the lightbulb would be and a spotlight actor to act as a spotlight in the scene.
-
-https://user-images.githubusercontent.com/5504953/186136128-40de1ce5-0dc9-499a-8adc-c1dba15a9bfd.mp4
+![change spotlight color](images/spotLight.png)
 
 ![](../images/line2.png)
 
