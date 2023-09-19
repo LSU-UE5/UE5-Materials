@@ -37,7 +37,7 @@ We will be using a spotlight which will have a glow on the lightbulb as well as 
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up all the textures and make sure they are correct.  They should all have mip levels
+Open up all the textures and make sure they are correct.  They should all have mip levels.  Ensure that the **Normal Map** has **NormalMap** compressoin and change the **MSRAO** to **Masks** compression. Now we are texture packing the **Emissive** mask in the alpha channel of the **Base Color** texture.
 
 ![add five SpotlightModel textures to game](images/checkTextures.png)
 
