@@ -109,61 +109,42 @@ Double click the **SM_SpotlightBracket** static mesh. Assign the material you ju
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Open up **SM_Spotlight_Lamp** and assign to **Material Slots | Element 0** `MI_Spotlight`.  Assign `T_Spotlight_BCE` to **Base Color & Emissive**.  Assign `T_Spotlight_N` to **Normal Map**.  Finally assign `T_Spotlight_MSRA` to **Metallic | Specular | Roughness | AO**.
 
-![create mi_spotlight and move to props folder](images/spotlightLamp.png)
 
-Go to Room 4 and drag both meshes (with both selected) into the game (**SM_SpotlightBracket** and **SM_SpotlightLamp**). By selecting both the position will be correct relative to each other with the lap in the hinge correctly.  You can press **F** for focus to get the camera close to where they go in the scene.  Move them to be close to the wall.  Rotate the lamp part to point at the wall so we can have a light shine on it.
-
-![add lamp to scene and point light at wall](images/brackLightFirst.png)
-
-Now it is easier to control the lamp and bracket if we have a proper parent child relationship.  So if we move or rotate the bracket we want the lamp to move and rotate.  But if we rotate the lamp we want it to rotate seperately.
-
-We can just drag **SM_SpotlightLamp** on top of **SM_SpotlightBracket** in the outliner and the lamp should be indented (a child of the bracket).
-
-![make lamp a chile of bracket](images/makeChild.png)
+![create mi_spotlight and move to props folder](images/matInstanceEm.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Now when you move or rotate the bracket both objects move, but you can control the lamp independantly.  
-
-https://user-images.githubusercontent.com/5504953/186121713-0352440d-7b82-4d49-91ce-b7a0c3679685.mp4
+![add lamp to scene and point light at wall](images/setUpLamp.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now we want to also be able to tint the color of the emission.  So lets open up **MF_Emission** and add a **Vector Pamameter** node that we will call `Emissive Test`.  Make this **Group** `Emissive` and **Sort Priority** `3`.  Create a **Scalar Parameter** node and call it `Emissive Scalar`.  Make the default value `1`, **Group `Emissive` and **Sort Priority** `3`.
 
-Multiply the **Tint** by the **Emissive Color**.  Multiply the output of this multiply by the emissive mask which is the **A** (alpha) channel of the **Base Color & Emissive** texture. Send the output of the second multiply to the **Output Emissive** node.
 
-![add color and tint parameter to emissive channel](images/ligthTint.png)
+![make lamp a chile of bracket](images/assignLampMat.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now open up **MI_Spotlight** and adjust the **Emissive Scalar**.  Now with the illumination channel you can go beyond 0 to 1.  You can set the value into the 100s (or higher maybe)?  So you can affect the brightness of the source from the illumination by cranking this number up.  If you tint the light though, a heavily overdriven emission will appear white (all light get closer to white when brighter) so be judicious.
-
-https://user-images.githubusercontent.com/5504953/186125632-571afd31-eaa6-4b78-89ac-6aa6c3b2e973.mp4
+![add color and tint parameter to emissive channel](images/createLampBP.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets drag a wall piece to act as a ceiling of Room 4 to give it a bit of shade to see the glow a bit better.  Go to **Meshes | Supplied** and add a **SM_Wall** to the level.  Rotate it and align it to the top of the edge wall piece to act as a ceiling.
 
-![add ceiling to room 4](images/addShade.png)
+![add ceiling to room 4](images/addComponentsLampBracket.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now perss the **Add Actor** button and search for a **Cube**.  Add this to this under the ceiling then move the light close by.  Adjust the **Brightness Scalar** so you can see the glow of the illumination on the cube. Now this is new to Unreal Engine 5, in the previous version the illuminations did not project light into the world.
-
-![add cube to room](images/addCube.png)
+![add cube to room](images/dragFirstLightInRoom.png)
 
 ![](../images/line2.png)
 
