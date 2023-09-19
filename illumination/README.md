@@ -146,7 +146,7 @@ Dupe Emissive create emissive msrao
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/fb30be73-8e63-41d1-85fe-8b25b085a11f
 
 ![](../images/line2.png)
 
