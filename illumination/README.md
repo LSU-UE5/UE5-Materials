@@ -37,7 +37,7 @@ We will be using a spotlight which will have a glow on the lightbulb as well as 
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up all the textures and make sure they are correct.  They should all have mip levels.  Ensure that the **Normal Map** has **NormalMap** compressoin and change the **MSRAO** to **Masks** compression. Now we are texture packing the **Emissive** mask in the alpha channel of the **Base Color** texture. Remember, in the emissive mask white glows the most and black has no glow.
+Open up all the textures and make sure they are correct.  They should all have mip levels.  Ensure that the **Normal Map** has **NormalMap** compression and change the **MSRAO** to **Masks** compression. Now we are texture packing the **Emissive** mask in the alpha channel of the **Base Color** texture. Remember, in the emissive mask white glows the most and black has no glow.
 
 ![add five SpotlightModel textures to game](images/checkTextures.png)
 
@@ -45,7 +45,7 @@ Open up all the textures and make sure they are correct.  They should all have m
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Create a new folder in **Meshes** called `Props`. Drag the **[SM_Spotlight.fbx](../Assets/SM_Spotlight.fbx)** into the **Meshes | Props** folder.  The emissive channel works on nanite models and we need to create a collision volume for these models.  Also, do not create a default material. Press the <kbd>Import All</kbd> button.
+Create a new folder in **Meshes** called `Props`. Drag the **[SM_Spotlight.fbx](../Assets/SM_Spotlight.fbx)** into the **Meshes | Props** folder.  The emissive channel works on nanite models and we need to create a collision volume for these models.  Set **Skeletal Mesh** to `false` (that is for characters) and set **Material Import Method** to `Do Not Create Material`. Press the <kbd>Import All</kbd> button.
 
 ![import splotlightmodel fbx](images/importSpotlight.png)
 
@@ -61,7 +61,7 @@ Go to the **Materials | Master** folder and right click on **M_Basic** and selec
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **MI_BrushedSteel** Add change the **Base Color** from white to  `.913`, `.921` and `.915` as the RGB values. Change **Metalic** to `1.0`, **Specular** to `0.3` and **Roughness** to `0.4`.
+Open up **MI_BrushedSteel** Add change the **Base Color** from white to  `.913`, `.921` and `.915` as the RGB values. Change **Metalic** to `1.0`, **Specular** to `0.3` and **Roughness** to `0.4`. This will clamp the camera's aperature range in case this gets 
 
 ![add constant vector with near white color and set surface properties](images/steelSettigns.png)
 
@@ -161,7 +161,6 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/fb30be73-8e63-41d1-85fe-
 
 ![rotate player start](images/dragFirstLightInRoom.png)
 
-![rotate player start](images/emissiveTint.png)
 
 ![](../images/line.png)
 
