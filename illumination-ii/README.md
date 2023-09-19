@@ -56,14 +56,14 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/e5c3f12d-47e4-4b3d-88a0-
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
 
-![alt_text](images/.png)
+![alt_text](images/blueMI.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
-![add 6 more materials](images/.png)
+![add 6 more materials](images/matchColors.png)
 
 ![](../images/line2.png)
 
