@@ -103,7 +103,7 @@ Double click the **SM_SpotlightBracket** static mesh. Assign the material you ju
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-![create mi_spotlight and move to props folder](images/miSpotlight.png)
+![create mi_spotlight and move to props folder](images/testScalar.png)
 
 ![](../images/line2.png)
 
