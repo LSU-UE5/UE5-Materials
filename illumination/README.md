@@ -77,7 +77,7 @@ Double click the **SM_SpotlightBracket** static mesh. Assign the material you ju
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-*Right click* and duplicate **Materials | MasterMaterial | M_Opaque_MSRAO** and create a new master material called `M_Emissive_MSRA)`.  It will be identical to the **Opaque** one except the alpha channel in the base color will go to emissive.  This means we will lose transparency.  You could also just add a new material function with a new set of masks or highjack one like the metalic mask as well.  It is up to you on how you want to pack your masks and which ones are more important.
+*Right click* and duplicate **Materials | MasterMaterial | M_Opaque_MSRAO** and create a new master material called `M_Emissive_MSRAO`.  It will be identical to the **Opaque** one except the alpha channel in the base color will go to emissive.  This means we will lose transparency.  You could also just add a new material function with a new set of masks or highjack one like the metalic mask as well.  It is up to you on how you want to pack your masks and which ones are more important.
 
 ![duplicate mf_texture for an emmisive material function](images/EmissiveMSRAO.png)
 
