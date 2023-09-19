@@ -152,15 +152,13 @@ Double click the **SM_SpotlightBracket** static mesh. Assign the material you ju
 
 Now move the **Player Start** actor and rotate it so you start at the center of room 4.
 
-![rotate player start](images/adjustPlayerStart.png)
+![rotate player start](images/dragFirstLightInRoom.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Press* the <kbd>Play</kbd> button and notice that you do not see the glow at a distance.  It clips in as you get closer to it.  Now this might be acceptable if this was a TV set but this is a stage light.  We don't want to crank it up so bright so it creates a spotlight but the color will always be white and it clips in.  In the next page we will fix this.
-
-https://user-images.githubusercontent.com/5504953/186129871-384ce94a-6ec9-4c99-8917-d8bc12526a53.mp4
+![rotate player start](images/emissiveTint.png)
 
 ![](../images/line.png)
 

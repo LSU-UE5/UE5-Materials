@@ -16,7 +16,6 @@ Lets add a spotlight to the glowing material to bring this effect to its full re
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-So this is not a glowing watch or TV, or fire.  This is a spotlight.  So we will also need a light to really pull off the effect we want.  Add a **Lights | Spotlight** to the scene and make it a child of the **SM_SpotlightLamp** in the **Outliner**. This way the spotlight moves when either the bracket or lamp moves.
 
 ![add spotlight as child of lamp in scene](images/addSpotlight.png)
 
