@@ -34,6 +34,10 @@ Adjust tint NEED SCREENSHOT
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 
+
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/6fe029c9-adb7-4f50-8e9f-602625606d49
+
+
 ![mark light as movable](images/.png)
 
 ![](../images/line2.png)
