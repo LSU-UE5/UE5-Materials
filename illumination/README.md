@@ -97,13 +97,17 @@ Open up **M_Opaque_MSRAO** and disconnect the pin going from **Alpha** and **Opa
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Now we can edit our base texture material function to switch between using the alpha for emissive or for just a regular alpha.  Open up **MF_BaseTexture** and add a **StaticSwitchParameter** node and call it `ScaleEmissive` 
+Now we can edit our base texture material function to switch between using the alpha for emissive or for just a regular alpha.  Open up **MF_BaseTexture** and add a **StaticSwitchParameter** node and call it `ScaleEmissive`.  Set it to **Group** `Base Color` and **Sort Priority** to `2`.
 
 ![adjust priotities](images/switchParamEm.png)
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
+Add a **Scalar Parameter** node and call it **Emissive Scalar**. Set it to **Group** `Base Color` and **Sort Priority** to `3``. Add another **Multiply** node and send the **Emissive Scalar** pin to the new **Multiply B** node. Highjack the **Base Color | A** pin and send it to the top of the **Multiply** node.  Send the output to the **ScaleEmissive? | True** pin.  Send the output of the **ScaleEmissive?** node to the **UseBaseColorAlpha? | True** pin.  
+
+We put this switch before because if you select no alpha channel then you will not get an emissive node and the false pin will only send the static switch wiht `1` and ignore all the other nodes before it.
 
 ![adjust priotities](images/emissiveScalar.png)
 
