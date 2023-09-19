@@ -93,8 +93,6 @@ If the files are in **Content** or **Configuration** then press the <kbd>Reconci
 
 ![reconcile offline work](images/reconcile.png)
 
-![organize and rename outliner](images/organizeAndRenameOutliner.png)
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Two Sided Material"> -->
