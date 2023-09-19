@@ -77,7 +77,7 @@ Double click the **SM_SpotlightBracket** static mesh. Assign the material you ju
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Dupe Emissive create emissive msrao
+*Right click* and duplicate **Materials | MasterMaterial | M_Opaque_MSRAO** and create a new master material called `M_Emissive_MSRA)`.  It will be identical to the **Opaque** one except the alpha channel in the base color will go to emissive.  This means we will lose transparency.  You could also just add a new material function with a new set of masks or highjack one like the metalic mask as well.  It is up to you on how you want to pack your masks and which ones are more important.
 
 ![duplicate mf_texture for an emmisive material function](images/EmissiveMSRAO.png)
 
@@ -85,13 +85,15 @@ Dupe Emissive create emissive msrao
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-
+Open up **M_Opaque_MSRAO** and disconnect the pin going from **Alpha** and **Opacity Mask** and instead connect it to the **Emissive Color** pin.
 
 ![add m_brushedsteel to SM_Spotlight_bracket](images/ConnectToEmissive.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
+
+Now we can edit our base texture material function to switch between using the alpha for emissive or for just a regular alpha.  Open up **MF_BaseTexture** and add a **StaticSwitchParameter** node and call it `ScaleEmissive` 
 
 ![adjust priotities](images/switchParamEm.png)
 
