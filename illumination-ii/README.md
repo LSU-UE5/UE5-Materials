@@ -65,7 +65,7 @@ Repeat the above step and create `MI_Spotlight_Lamp_Blue` and chnage the color o
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now repeat the blueprint of the lap 6 times to have seven lamps around the room.  It should look something like this:
+Now dupliate the blueprint of the lamp 6 times to have a total of seven lamps around the room.  It should look something like this:
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/e5c3f12d-47e4-4b3d-88a0-cd0f7269e85b
 
