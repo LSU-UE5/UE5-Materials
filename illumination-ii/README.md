@@ -36,8 +36,6 @@ Rename **MI_Spotlight** to `MI_Spotlight_Green`.  Open up the material instance 
 
 ![add spotlight as child of lamp in scene](images/emissiveTintGreen.png)
 
-![mark light as movable](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
