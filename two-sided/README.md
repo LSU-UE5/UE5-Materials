@@ -48,7 +48,7 @@ Go to **UVs | Layout** and change the **Material Mode** to `Checkerboard`. The u
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Press the <kbd>+ Add</kbd> button.  Create a new material to place on this plane.  Call it `M_TwoSide_Poster`.  Make sure it is in the **Materials | Master** folder.
+*Right click* on **Materials | Master | M_Opaque_MSRAO** and duplicate it calling the new material `M_TwoSided_Poster`.
 
 ![add new material](images/newTwoSidedMat.png)
 
