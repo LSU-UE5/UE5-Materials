@@ -14,6 +14,7 @@ Lets add a spotlight to the glowing material to bring this effect to its full re
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
+Now we want to be able to change the color of the light and the glow emissive.  Open up **MF_Base_Texture** and add a **Vector Parameter** to the node chart and call it `EmissiveTint`.  Make it pure white `1,1,1`.  Send it to a new **Multiply** node.  Multiply the **Emissive Scalar** and send the output the the **Multiply** pin that the scalar once was in (the Multiply node before the Scale Emissive?).
 
 ![rotate player start](images/emissiveTint.png)
 
@@ -22,25 +23,28 @@ Lets add a spotlight to the glowing material to bring this effect to its full re
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Adjust tint NEED SCREENSHOT
+*Click* on the lamp in room 4 and select the **Lamp** component.  Change the hue to a shade of green.  Remember this setting.
 
-![add spotlight as child of lamp in scene](images/.png)
+![add spotlight as child of lamp in scene](images/ChangeSpotlightColor.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Rename **MI_Spotlight** to `MI_Spotlight_Green`.  Open up the material instance and change the **Emissive Tint** to a similar (same?) shade of green.
 
+NEED SCREENSHOT
 
-https://github.com/LSU-UE5/UE5-Materials/assets/5504953/6fe029c9-adb7-4f50-8e9f-602625606d49
-
+![add spotlight as child of lamp in scene](images/.png)
 
 ![mark light as movable](images/.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/6fe029c9-adb7-4f50-8e9f-602625606d49
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/e5c3f12d-47e4-4b3d-88a0-cd0f7269e85b
 
