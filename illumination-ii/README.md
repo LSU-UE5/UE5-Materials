@@ -34,8 +34,6 @@ Now we want to be able to change the color of the light and the glow emissive.  
 
 Rename **MI_Spotlight** to `MI_Spotlight_Green`.  Open up the material instance and change the **Emissive Tint** to a similar (same?) shade of green.
 
-NEED SCREENSHOT
-
 ![add spotlight as child of lamp in scene](images/emissiveTintGreen.png)
 
 ![mark light as movable](images/.png)
