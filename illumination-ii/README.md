@@ -40,9 +40,9 @@ Rename **MI_Spotlight** to `MI_Spotlight_Green`.  Open up the material instance 
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now go into the game and we now have a green light with a green glow. 
+
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/6fe029c9-adb7-4f50-8e9f-602625606d49
-
-
 
 ![](../images/line2.png)
 
