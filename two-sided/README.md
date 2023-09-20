@@ -13,62 +13,42 @@ Normals point in a single direction so we don't waste compute cycles calculating
 
 ---
 
-
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Now before we begin, I don't want to have a metallic poster so I want to fix a problem we didn't address earlier.  We reused **T_BaseWhite_BC** from the base color for the Metallic, Specular, Roughness and AO channel.  Now for AO, white is fine.  For for the other three it will make it metallic with maximum specularity and reflectiveness which will make it a silver ball.  This doesn't match the **Epic** defaults for these nodes.  We should have a texture with no metallic, .5 for specularity and roughness and 1 for AO. This would be an RGBA that is 0, .5, .5, 1.
+ Open up **MF_Emissive** and **MF_Texture**.  Put the new `T_Base_MSRAO` into the **Metallic | Specular | Roughness | AO** slot.
 
-![problem resuing T_BaseWhite_BC](images/fixBaseTexture.png)
+![add texture sample and lerp node and add poster side 2 texture](images/tmsraoToTextures.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Open up **Substance Designer**. Select **File | New | Substance Graph** to create a new output graph.  Name it `T_Base_MSRAO`. Set the **Parent size** to `32` by `32`.  Press the <kbd>OK</kbd> button. 
-
-![problem resuing T_BaseWhite_BC](images/SubstanceD.png)
-
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Select the <kbd>Uniform Color</kbd> button to get a solid color.  Now this is an RGB value so selectx the color node and chnage it to **Grayscale**.  We will leave it as black.
-
-![add uniform color and turn to grayscale](images/uniformGray.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Copy and paste the grayscale node twice and set them both to `127`.  This will make them `.5` in Specular and Roughness to match the Unreal defaults (255/2 is 127.5).
-
-![problem resuing T_BaseWhite_BC](images/specRough.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Copy and paste another grayscale node for the Ambient Occlusion and make it solid white (no occlusion). Press the <kbd>Space</kbd> bar and press **RGBA Merge** node. 
 
-![add two gray scale nodes](images/whiteRGBAMerge.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Connect all the pins in order to the RBA merge with the first black going into the top node, the two gray boxes going in the two middle nodes and the white going into the final node.  Remmeber MEtallic, Specular, Roughness and AO.
 
-![connect output colors to RGBA merge node](images/connectRGBA.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a final **Output** node and attach it to the **RGBA Merge** node.  
-
-Right click on the graph and select **Export outputs as bitmaps**. Name the export `T_Base_BSRAO` and I put it on my desktop. Press the <kbd>Export outputs</kbd> button.
-
-![export as bitmaps](images/exportMSRAO.png)
 
 ![](../images/line2.png)
 
@@ -82,9 +62,7 @@ Drag **T_Base_MSRAO** to the **Textures** directory.
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
  
- Open up **MF_Emissive** and **MF_Texture**.  Put the new `T_Base_MSRAO` into the **Metallic | Specular | Roughness | AO** slot.
 
-![add texture sample and lerp node and add poster side 2 texture](images/tmsraoToTextures.png)
 
 ![](../images/line2.png)
 
