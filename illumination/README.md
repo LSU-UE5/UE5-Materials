@@ -107,7 +107,7 @@ Now we can edit our base texture material function to switch between using the a
 
 Add a **Scalar Parameter** node and call it **Emissive Scalar**. Set it to **Group** `Base Color` and **Sort Priority** to `3``. Add another **Multiply** node and send the **Emissive Scalar** pin to the new **Multiply B** node. Highjack the **Base Color | A** pin and send it to the top of the **Multiply** node.  Send the output to the **ScaleEmissive? | True** pin.  Send the output of the **ScaleEmissive?** node to the **UseBaseColorAlpha? | True** pin.  
 
-We put this switch before because if you select no alpha channel then you will not get an emissive node and the false pin will only send the static switch wiht `1` and ignore all the other nodes before it.
+We put this switch before because if you select no alpha channel then you will not get an emissive node and the false pin will only send the static switch with `1` and ignore all the other nodes before it.
 
 ![adjust priotities](images/emissiveScalar.png)
 
@@ -115,19 +115,23 @@ We put this switch before because if you select no alpha channel then you will n
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now open up **M_Opaque_MSRAO** and select the **MF_BaseTexture** node.  Make sure that **ScaleEmissive** and **UseBaseColorAlpha** are set to `true`.  Now the emissive color is one of the few channels that can take a value that is greater than `1`.  This adjusts how bright the object is.  A TV screen is a lot less emissive than a light bulb.  So play with values and see how the shader changes.  Leave the default value at `10`.
+
 ![create mi_spotlight and move to props folder](images/testScalar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
+*Right click* on **Materials | Master | M_Opaque_MSRAO** and select **Create Material Instance** and call it `MI_Spotlight_Lamp`.  Ove it to the **Materials | Material Instances** folder.
 
 ![create mi_spotlight and move to props folder](images/matInstanceEm.png)
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
+ 
+ Open it up and assign **T_Spotlight_BCE**, **T_Spotlight_N** and **T_Spotlight_MSRAO** to the the appropriate texture slot in the material instance. Make sure that **USeBaseColorAlpha?** and **ScaleEmissive?** are set to `true`.
 
 ![add lamp to scene and point light at wall](images/setUpLamp.png)
 
@@ -135,7 +139,7 @@ We put this switch before because if you select no alpha channel then you will n
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-
+Assign `MI_Spotlight_Lamp` to **SM_Spotlight_Lamp**'s **Material Slots | Element 0**. Notice that the mask in teh texture isolates the inside of the lamp as an emissive area.  So the outside does not glow as the emissive part of that UV is black. 
 
 ![make lamp a chile of bracket](images/assignLampMat.png)
 
@@ -143,12 +147,17 @@ We put this switch before because if you select no alpha channel then you will n
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+We want to populate the lamp in the area.  It is easiest to combine both meshes into a single object. Go to the **Blueprints** and *right click* and add a new **Blueprint** of type **Actor**.  Call it `BP_Spotlight_Lamp`.
+
 ![add color and tint parameter to emissive channel](images/createLampBP.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now make add two **Static Mesh Components** by pressing the **+ Add** button.  Call the first `Lamp Bracket` and the second `Lamp`.  Assign the **SM_Spotlight_Bracket** and **MI_Brushed Steel** to the **Lamp Bracket** component.  Add **SM_Spotlight_Lamp** and **MI_Spotlight_Lamp** to the **Lamp** component.  
+
+Now since the objects are attached in real life - if we move or rotate the bracket the lamp moves.  Now the lamp can rotate in one axis without moving the bracket.  So we need to make the **Lamp** a *child* of the **Lamp Bracket** - that means the lamp will inherit the transfrom from the bracket.
 
 ![add ceiling to room 4](images/addComponentsLampBracket.png)
 
@@ -156,11 +165,15 @@ We put this switch before because if you select no alpha channel then you will n
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Lets see what that inheritance means.  Select the bracket and rotate and move the bracket and notice that the lamp moves and rotates with it.  But if you do the same thing to the lamp it moves and rotates independently.
+
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/fb30be73-8e63-41d1-85fe-8b25b085a11f
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
+
+Drag an instance of **BP_Spotlight_Lamp** into the room.  Notice that the emissive does actually light a little bit. But it is not acting as a specific type of light source.  Since this is a light and not just a glowing screen we need to add an actual light. 
 
 ![add cube to room](images/dragFirstLightInRoom.png)
 
@@ -169,6 +182,7 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/fb30be73-8e63-41d1-85fe-
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
+In the blueprint add a **Directional Light** component to be the child of **Lamp**.  This means the light will move when both the bracket and lamp move. Rotate it so it matches the direction of the lamp and move the light so it is not inside the model (otherwise the light will not work as it will be clipped inside the model like a light inside an opaque box). 
 ![rotate player start](images/dragFirstLightInRoom.png)
 
 
