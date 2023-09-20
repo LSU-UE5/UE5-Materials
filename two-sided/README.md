@@ -40,12 +40,17 @@ Go to **Transform | BaseRS** and make sure **BakeRotation** is set to `true`. Pr
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go to **UVs | Layout** and change the **Material Mode** to `Checkerboard`. The uvs are looking good. Press the <kbd>Accept</kbd> button.
+
+![check uvs](images/checkUVs.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
+Press the <kbd>+ Add</kbd> button.  Create a new material to place on this plane.  Call it `M_TwoSide_Poster`.  Make sure it is in the **Materials | Master** folder.
 
+![add new material](images/newTwoSidedMat.png)
 
 ![](../images/line2.png)
 
@@ -96,17 +101,13 @@ Drag the **Player Start** actor to the front of room 5.
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Go to **UVs | Layout** and change the **Material Mode** to `Checkerboard`. The uvs are looking good. Press the <kbd>Accept</kbd> button.
 
-![check uvs](images/checkUVs.png)
 
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Press the <kbd>+ Add</kbd> button.  Create a new material to place on this plane.  Call it `M_TwoSide_Poster`.  Make sure it is in the **Materials | Master** folder.
 
-![add new material](images/newTwoSidedMat.png)
 
 ![](../images/line2.png)
 
