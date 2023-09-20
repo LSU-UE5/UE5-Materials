@@ -23,13 +23,18 @@ Lets put a poster in the middle of **Room 5**.  Lets put a separate image on eac
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
+Enter modelling mode and select a **Rect**.  Make the **Width** and **Dept** `400` cm square.  Make the **Width Subdivsions** & **Depth Subdivision** `5`. Place the plane in the level.  Rotate it to face the camera. Press the <kbd>Complete</kbd> button.
 
+![enter moeeling mode and add plane](images/make300Plane.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+
+
+![bake rotation](images/bakeRotation.png)
 
 ![](../images/line2.png)
 
@@ -85,9 +90,7 @@ Drag the **Player Start** actor to the front of room 5.
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Enter modelling mode and select a **Rect**.  Make the **Width** and **Dept** `400` cm square.  Make the **Width Subdivsions** & **Depth Subdivision** `5`. Place the plane in the level.  Rotate it to face the camera. Press the <kbd>Complete</kbd> button.
 
-![enter moeeling mode and add plane](images/make300Plane.png)
 
 ![](../images/line2.png)
 
