@@ -32,7 +32,7 @@ Enter modelling mode and select a **Rect**.  Make the **Width** and **Dept** `40
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Go to **Transform | BaseRS** and make sure **BakeRotation** is set to `true`. Press the <kbd>Acept</kbd> button.  Now you will see that the rotation zeroes out and the plan faces towards the camera and is no longer paralell to the ground.
 
 ![bake rotation](images/bakeRotation.png)
 
