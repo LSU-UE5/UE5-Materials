@@ -36,7 +36,7 @@ Rename **MI_Spotlight** to `MI_Spotlight_Green`.  Open up the material instance 
 
 NEED SCREENSHOT
 
-![add spotlight as child of lamp in scene](images/.png)
+![add spotlight as child of lamp in scene](images/emissiveTintGreen.png)
 
 ![mark light as movable](images/.png)
 
@@ -46,7 +46,7 @@ NEED SCREENSHOT
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/6fe029c9-adb7-4f50-8e9f-602625606d49
 
-https://github.com/LSU-UE5/UE5-Materials/assets/5504953/e5c3f12d-47e4-4b3d-88a0-cd0f7269e85b
+
 
 ![](../images/line2.png)
 
@@ -61,6 +61,8 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/e5c3f12d-47e4-4b3d-88a0-
 
 
 ![alt_text](images/blueMI.png)
+
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/e5c3f12d-47e4-4b3d-88a0-cd0f7269e85b
 
 ![](../images/line2.png)
 
