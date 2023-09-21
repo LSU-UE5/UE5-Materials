@@ -157,6 +157,8 @@ Open up the new **Material Function** and paste the nodes into it. We now need t
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Since we are only using the **RGB** pins we need to make sure the **Input Type** is `Function Input Vector 3`.
+ 
 Connect the **Function Input** to the **B** side of the lerp.  Then send the **Lerp** output to the **Output Result** node.
 
 ![add clamp node](images/mfInput.png)
