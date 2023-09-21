@@ -149,7 +149,7 @@ Open up **M_TwoSidedPoster** and copy and cut all the new non material function 
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Open up the new **Material Function** and paste the nodes into it. We now need the **A** side of the lerp and need to input this from the base material function.  Right click on the graph and select a **Input Function** node.
+Open up the new **Material Function** and paste the nodes into it. We now need the **B** side of the lerp and need to input this from the base material function.  Right click on the graph and select a **Function Input** node.
 
 ![add clamp node](images/pastMF.png)
 
@@ -157,9 +157,9 @@ Open up the new **Material Function** and paste the nodes into it. We now need t
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![add clamp node](images/mfInput.png)
+Connect the **Function Input** to the **B** side of the lerp.  Then send the **Lerp** output to the **Output Result** node.
 
-![add clamp node](images/.png)
+![add clamp node](images/mfInput.png)
 
 ![](../images/line2.png)
 
