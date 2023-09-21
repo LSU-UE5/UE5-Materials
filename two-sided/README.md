@@ -89,6 +89,8 @@ Even though it is not necessary it is never a bad idea to add **Saturate** node 
 
 We can use this 0 or 1 to drive a LERP node to show 100% of the A image or 100% of the B image (and never a value in between.  Add a **Linear Interpolation** (LERP) ndoe to the level. Plug in the two textures to the **A** and **B** input.  Remember the A side of the LERP is shown when **Alpha** is `0` and the **B** input when the Alpha is `1`. It is a blend when it is between 0 and 1.
 
+Click on the main material node and make sure **Two Sided** is set to `true`.
+
 ![group and comment nodes](images/addLerpNode.png)
 
 
@@ -96,7 +98,7 @@ We can use this 0 or 1 to drive a LERP node to show 100% of the A image or 100% 
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-
+Assign a termporary material to the **BackOfPoster** node and make sure the material 
 
 ![](../images/line2.png)
 
