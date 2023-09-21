@@ -56,7 +56,9 @@ Go to **UVs | Layout** and change the **Material Mode** to `Checkerboard`. The u
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
+We need to add a second texture to use for the other side of the post. Open up **M_TwoSided_Poster** and add a **TextureSampleParemeter2D** node. and call it `Back of Poster`.  Put it in category **Back of Poster** and make it a **Sort Priority** of `10`.
 
+![add new material](images/addSecondTexture.png)
 
 ![](../images/line2.png)
 
