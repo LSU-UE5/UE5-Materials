@@ -85,8 +85,11 @@ The dot product returns a range between -1 and 1.  So if we take the output of t
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
  
+Even though it is not necessary it is never a bad idea to add **Saturate** node to limit the return value between 0 and 1.  
 
+We can use this 0 or 1 to drive a LERP node to show 100% of the A image or 100% of the B image (and never a value in between.  Add a **Linear Interpolation** (LERP) ndoe to the level. Plug in the two textures to the **A** and **B** input.  Remember the A side of the LERP is shown when **Alpha** is `0` and the **B** input when the Alpha is `1`. It is a blend when it is between 0 and 1.
 
+![group and comment nodes](images/addLerpNode.png)
 
 
 ![](../images/line2.png)
@@ -140,9 +143,6 @@ Drag the **Player Start** actor to the front of room 5.
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Linear Interpolation** (LERP) ndoe to the level. Plug in the two textures to the **A** and **B** input.  Remember the A side of the LERP is shown when **Alpha** is `0` and the **B** input when the Alpha is `1`. It is a blend when it is between 0 and 1.
-
-![group and comment nodes](images/addLerpNode.png)
 
 ![](../images/line2.png)
 
