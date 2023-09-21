@@ -96,7 +96,7 @@ We can use this 0 or 1 to drive a LERP node to show 100% of the A image or 100% 
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/8b465714-12a3-4526-b1ce-1786a0b4e23d
 
 ![](../images/line2.png)
 
