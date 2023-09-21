@@ -139,6 +139,10 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/2a8ee51f-a0a3-476d-8972-
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
+We might want to reuse this double sided node somewhere else so it is worth turning it into a **Material Function**.  Select the **Materials | Material Functions** folder and create a new **Material | Material Function** and acall it `MF_BackSideReverse`. 
+
+Open up **M_TwoSidedPoster** and copy and cut all the new non material function nodes out of it.
+
 ![move player start to room 5](images/createMF.png)
 
 ![](../images/line2.png)
