@@ -133,6 +133,8 @@ Drag the **Player Start** actor to the front of room 5.
 
  Play the game and make sure the poster works correctly.
 
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/2a8ee51f-a0a3-476d-8972-30644c303ecc
+
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
