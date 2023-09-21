@@ -64,9 +64,9 @@ We need to add a second texture to use for the other side of the post. Open up *
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Camera Vector WS** and **Vertex Normal WS** node.  This will be the start of our vector arithmetic to determine the side of the plane that the player (camera) is on. The camera looks at us, and the vertex normal looks at foraward from the player's point of view. 
+Add a **Camera Vector WS** and **Vertex Normal WS** node.  This will be the start of our vector arithmetic to determine the side of the plane that the player (camera) is on. 
 
-If the camera angle and the vertex normal angle (the direction of the face of the polygon) are facing each other then the return value is > 0 and if they are not facing each other will return a value that is < 0.
+the Vertex Normal WS is used to calculate the direction of the surface normal at a particular vertex in world space, while the Camera Vector WS is used to calculate the position of the camera in world space. The Vertext Normal returns a vector that is perpendicular to the plane the camera is looking at the the camera returns the vector of where the camera is looking.
 
 ![group and comment nodes](images/CmVectorVertexNrml.png)
 
@@ -74,14 +74,19 @@ If the camera angle and the vertex normal angle (the direction of the face of th
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Drag **T_Base_MSRAO** to the **Textures** directory.
+Now if we take the dot product of the two vectors we can determine if we are looking at one side of the poster or ther other.   If the dot product of two vectors is greater than 0, then both vectors are pointing in the same direction. If the dot product is less than 0, then the two vectors are facing in opposite directions.
 
-![](images/copyMRAO.png)
+The dot product returns a range between -1 and 1.  So if we take the output of the dot product and then round up (**ceil** takes it to the next highest integer) we will be a value of 0 (when the vectors point away from each other) or 1 (when the vectors are facing each other).
+
+![group and comment nodes](images/dotAndCeil.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
  
+
+
 
 
 ![](../images/line2.png)
