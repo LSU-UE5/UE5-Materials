@@ -151,22 +151,26 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/2a8ee51f-a0a3-476d-8972-
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+![add clamp node](images/.png)
+
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+![add clamp node](images/pastMF.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+![add clamp node](images/mfInput.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
+![add clamp node](images/completeMat.png)
 
 ![](../images/line.png)
 

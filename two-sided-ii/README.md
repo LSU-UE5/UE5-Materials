@@ -15,25 +15,22 @@ Lets finish up with the two sided material.
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Now we need to clamp the output as we don't want a -1 or any number below 0 or above 1 to get in there when the Alpha only needs a 0 or 1 in this instance (a dot product will return -1 to 1).  So we add a **Saturate** node which clamps values between 0 and 1.  That mean any number number under 0 is 0 and above 1 is 1. Plug the output of this **Saturate** node into the **Alpha** of the **Lerp** node.  
+Clean up the **World Outliner** by naming the file correctly 
 
-![add saturate node](images/saturateToAlpha.png)
+![alt_text](images/cleanUpOutliner.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Send the output of the **LERP** node into **Base Color**.  Select all the base color nodes and press the <kbd>C</kbd> button. Add a comment and give the comments a color.
-
-![output lerp to base color](images/lerpBaseColor.png)
+![alt_text](images/renamAssignMat.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Group the nodes and add comments by pressing the **C** key. Press the **Apply** button and **Save**. 
-
-![alt_text](images/finalNodeChart.png)
+![alt_text](images/moveToProps.png)
 
 ![](../images/line2.png)
 
