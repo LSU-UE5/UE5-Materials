@@ -149,7 +149,7 @@ Open up **M_TwoSidedPoster** and copy and cut all the new non material function 
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![add clamp node](images/frontTexture.png)
+![add clamp node](images/pastMF.png)
 
 ![](../images/line2.png)
 
@@ -161,7 +161,7 @@ Open up **M_TwoSidedPoster** and copy and cut all the new non material function 
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![add clamp node](images/pastMF.png)
+
 
 ![](../images/line2.png)
 
