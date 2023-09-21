@@ -15,7 +15,7 @@ Lets finish up with the two sided material.
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Clean up the **World Outliner** by naming the file correctly 
+Clean up the **World Outliner** by naming the file correctly and placing them in the **Room 5** folder.
 
 ![alt_text](images/cleanUpOutliner.png)
 
@@ -24,12 +24,15 @@ Clean up the **World Outliner** by naming the file correctly
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
+Rname the mesh you created to `SM_Poster`.  Open it up and assign it the **MI_TwoSidedPoster** material.
+
 ![alt_text](images/renamAssignMat.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Move **SM_Poster** to the **Meshes | Props** folder
 
 ![alt_text](images/moveToProps.png)
 
