@@ -106,7 +106,7 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/8b465714-12a3-4526-b1ce-
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Right click on **Materials | M_TwoSidedPoster** and select **Create**
+Right click on **Materials | M_TwoSidedPoster** and select **Create Material Instance** and call it `MI_TwoSidedPoster`.  Move it to the **Materials |  Material Instances** folder.
 
 ![group and comment nodes](images/createMI.png)
 
@@ -115,7 +115,9 @@ Right click on **Materials | M_TwoSidedPoster** and select **Create**
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Go back to the editor and assign the **MI_TwoSidedPoster** to the plane.
 
+![group and comment nodes](images/assignMat.png)
 
 ![](../images/line2.png)
 
@@ -129,7 +131,7 @@ Drag the **Player Start** actor to the front of room 5.
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
+ Play the game and make sure the poster works correctly.
 
 ![](../images/line2.png)
 
@@ -162,9 +164,6 @@ Drag the **Player Start** actor to the front of room 5.
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Add a **Dot Product** node and connect the two vectors to the inputs.  This will multiply them together and return a single vector. We need a bit of calculus and look at two vectors, the camera and the plane normal in world space.  We take the dot product of both.  If it is negative the lines are looking away from each other if it is above 0 they were looking at each other.  We will round up the dot product and use the Lerp even so that there is only going to be 0 and 1 out of the Lerp node. Now we will set a ceiling by adding a ceil node so it rounds up to an interger.
-
-![group and comment nodes](images/dotCeiling.png)
 
 ![](../images/line.png)
 
