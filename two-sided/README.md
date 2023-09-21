@@ -106,9 +106,9 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/8b465714-12a3-4526-b1ce-
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Drag the **Player Start** actor to the front of room 5.
+Right click on **Materials | M_TwoSidedPoster** and select **Create**
 
-![move player start to room 5](images/movePlayerStartToRm5.png)
+![group and comment nodes](images/createMI.png)
 
 ![](../images/line2.png)
 
@@ -121,7 +121,9 @@ Drag the **Player Start** actor to the front of room 5.
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Drag the **Player Start** actor to the front of room 5.
 
+![move player start to room 5](images/movePlayerStartToRm5.png)
 
 ![](../images/line2.png)
 
