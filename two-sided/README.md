@@ -96,14 +96,15 @@ We can use this 0 or 1 to drive a LERP node to show 100% of the A image or 100% 
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Drag the **Player Start** actor to the front of room 5.
 
-![move player start to room 5](images/movePlayerStartToRm5.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
+Drag the **Player Start** actor to the front of room 5.
+
+![move player start to room 5](images/movePlayerStartToRm5.png)
 
 ![](../images/line2.png)
 
