@@ -64,6 +64,11 @@ We need to add a second texture to use for the other side of the post. Open up *
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Add a **Camera Vector WS** and **Vertex Normal WS** node.  This will be the start of our vector arithmetic to determine the side of the plane that the player (camera) is on. The camera looks at us, and the vertex normal looks at foraward from the player's point of view. 
+
+If the camera angle and the vertex normal angle (the direction of the face of the polygon) are facing each other then the return value is > 0 and if they are not facing each other will return a value that is < 0.
+
+![group and comment nodes](images/CmVectorVertexNrml.png)
 
 ![](../images/line2.png)
 
@@ -115,25 +120,16 @@ Drag the **Player Start** actor to the front of room 5.
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Open up the materail and add a **T_Base_MSRAO** texture to the level.  Connect the output pins with the pins of the same name on the main materail node.
-
-![add ceil node](images/connetMatPropPins.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
-Open up **M_TwoSide_Poster**. Add a **Texture Sample Parameter 2D** node and assign the **T_PosterSide1** to it. Call it `Front of Poster`.
 
 ![add clamp node](images/frontTexture.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Repeat this for **T_PoserSide2** and assign texture **T_PosterSide2_BC** and call it `Back of Poster`.
-
-![add clamp node](images/backOfPoster.png)
 
 ![](../images/line2.png)
 
@@ -147,11 +143,7 @@ Add a **Linear Interpolation** (LERP) ndoe to the level. Plug in the two texture
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Camera Vector WS** and **Vertex Normal WS** node.  This will be the start of our vector arithmetic to determine the side of the plane that the player (camera) is on. The camera looks at us, and the vertex normal looks at foraward from the player's point of view. 
 
-If the camera angle and the vertex normal angle (the direction of the face of the polygon) are facing each other then the return value is > 0 and if they are not facing each other will return a value that is < 0.
-
-![group and comment nodes](images/CmVectorVertexNrml.png)
 
 
 ![](../images/line2.png)
