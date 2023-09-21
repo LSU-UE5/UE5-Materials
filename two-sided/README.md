@@ -98,7 +98,9 @@ Click on the main material node and make sure **Two Sided** is set to `true`.
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Assign a termporary material to the **BackOfPoster** node and make sure the material 
+Now assign a material to the **BackOfPoster** and rotate around the plane, you should see two images - one on each side.
+
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/8b465714-12a3-4526-b1ce-1786a0b4e23d
 
 ![](../images/line2.png)
 
