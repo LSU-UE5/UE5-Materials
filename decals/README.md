@@ -43,7 +43,7 @@ Lift the plane up and press the <kbd>End</kbd> key to get it to the ground.  Not
 
 
 
-https://user-images.githubusercontent.com/5504953/186781596-83d5dffb-dd49-4215-9db1-0c7efdb178f7.mp4
+![dupe MF_Textures and call it MF_Opacity](images/dupeMat.png)
 
 ![](../images/line2.png)
 
