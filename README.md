@@ -32,14 +32,15 @@ Lets look at **[Physically Based Rendering Materials (PBR)](https://en.wikipedia
 <kbd></kbd> &nbsp;&nbsp; [Emissive Material II](illumination-ii/README.md#user-content-emissive-material-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Two Sided Material](two-sided/README.md#user-content-two-sided-material) <br>
 <kbd></kbd> &nbsp;&nbsp; [Two Sided Material II](two-sided-ii/README.md#user-content-two-sided-material-ii) <br>
-<kbd></kbd> &nbsp;&nbsp; [Decals](decals/README.md#user-content-decals) <br>
+MORE COMING SOON!
+<!---<kbd></kbd> &nbsp;&nbsp; [Decals](decals/README.md#user-content-decals) <br>
 <kbd></kbd> &nbsp;&nbsp; [Decals II](decals-ii/README.md#user-content-decals-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Refraction and Fresnel](refract/README.md#user-content-refraction-and-fresnel) <br>
 <kbd></kbd> &nbsp;&nbsp; [Refraction and Fresnel II](refract-ii/README.md#user-content-refraction-and-fresnel-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Animation](animation/README.md#user-content-animation) <br>
 <kbd></kbd> &nbsp;&nbsp; [Animation II](animation-ii/README.md#user-content-animation-ii) <br>
 <kbd></kbd> &nbsp;&nbsp; [Export Textures](export-textures/README.md#user-content-export-textures) <br>
-<kbd></kbd> &nbsp;&nbsp; [World Aligned Materials](world-alignment/README.md#user-content-world-aligned-materials) <br>
+<kbd></kbd> &nbsp;&nbsp; [World Aligned Materials](world-alignment/README.md#user-content-world-aligned-materials) <br>--->
 
 <!-- LICENSE -->
 ## License
