@@ -87,14 +87,17 @@ Open up **MI_Cement_Cracks** and assign `T_DamagedRoad_BCA` to **Base Color**, `
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to access the three textures for the road.  Download [T_ConcreteRoad_BCH.png](../Assets/T_ConcreteRoad_BCH.png), [T_ConcreteRoad_N.png](../Assets/T_ConcreteRoad_N.png) and [T_ConcreteRoad_MSRAO.png](../Assets/T_ConcreteRoad_MSRAO.png). Drag the three files into the **Textures | Surfaces** folder. Make sure the normal map texture is set correctly.
+Now we have noting to put the decal on.  Lets put a road texture on our planes in room 6. Go to **Materials | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_ContreteRoad`.  Move it to the **Surfaces** directory.
 
-![download 3 road textures ](images/downloadRoads.png)
+![connect all material pins](images/cementMI.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
+Now we need to access the three textures for the road.  Download [T_ConcreteRoad_BCH.png](../Assets/T_ConcreteRoad_BCH.png), [T_ConcreteRoad_N.png](../Assets/T_ConcreteRoad_N.png) and [T_ConcreteRoad_MSRAO.png](../Assets/T_ConcreteRoad_MSRAO.png). Drag the three files into the **Textures | Surfaces** folder. Make sure the normal map texture is set correctly.
+
+![download 3 road textures ](images/downloadRoads.png)
 
 
 ![](../images/line2.png)
@@ -123,9 +126,7 @@ Connect all the pins from the **MF_UVs to the MF_Opacity** and from **MF_Opacity
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now we have noting to put the decal on.  Lets put a road texture on our planes in room 6. Go to **Materials | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_ContreteRoad`.  Move it to the **Surfaces** directory.
 
-![connect all material pins](images/cementMI.png)
 
 
 ![](../images/line2.png)
