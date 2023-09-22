@@ -71,6 +71,9 @@ Drag the above 6 textures into the **Textures | Decals** folder.  Make sure the 
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Right click on **M_Decal** and select **Create Material Instance**.  Call it `MI_Cement_Cracks`.  Move the instance to the **Material Instances** folder.  
+
+![material instance of decal](images/createMICementCracks.png)
 
 ![](../images/line2.png)
 
@@ -116,9 +119,7 @@ Connect all the pins from the **MF_UVs to the MF_Opacity** and from **MF_Opacity
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Right click on **M_Decal** and select **Create Material Instance**.  Call it `MI_Cement_Cracks`.  Create a new directory in **Materials** called `Decals`.  Move the **MI_Cement_Cracks** to this new folder.
 
-![material instance of decal](images/createMICementCracks.png)
 
 ![](../images/line2.png)
 
