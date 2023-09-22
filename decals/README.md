@@ -11,13 +11,15 @@ We can also change materials dynamically by using decals.  These can be placed o
 <br>
 
 ---
-
-
-##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
-
 Lets start by moving the **Player Start** actor to the front of room 6.
 
 ![move player start](images/movePlayerStart.png)
+
+##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
+
+*Open* up the **Modeling Mode** and creaeta a **Shape | Box** that fills the room and subdivide the polygons resonably.  Turn **Align to Normals** to `false`.  Place the plane in the middle of Room #6.
+
+![move player start](images/modelRoad.png)
 
 ![](../images/line2.png)
 
