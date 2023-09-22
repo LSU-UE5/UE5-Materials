@@ -15,6 +15,10 @@ Lets start by moving the **Player Start** actor to the front of room 6.
 
 ![move player start](images/movePlayerStart.png)
 
+Now we want to be able to scale that opacity.  So add a **Scalar Parameter** and call it `Opacity Intensity`.  Set it's **Group** to `Base Color` and **Sort Priority** to `4`.  Add a **Multiply** node and send the **Output Intensity** and **Base Color | A** nodes to the **Multiply** input pin.  Then send the output to **Output Opacity**.
+
+![multiply opacity intensity](images/opacityScalar.png)
+
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
 *Open* up the **Modeling Mode** and creaeta a **Shape | Box** that fills the room and subdivide the polygons resonably.  Turn **Align to Normals** to `false`.  Place the plane in the middle of Room #6.
@@ -41,7 +45,7 @@ Lift the plane up and press the <kbd>End</kbd> key to get it to the ground.  Not
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+*Right click* on **M_Transparent_MSRAO** and select **Duplicate**.  Call the new material `M_Decal`.
 
 ![dupe MF_Textures and call it MF_Opacity](images/dupeMat.png)
 
@@ -49,60 +53,48 @@ Lift the plane up and press the <kbd>End</kbd> key to get it to the ground.  Not
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
+Now select **M_Decal** and change the **Material Domain** to `Deferred Decal` and make sure the **Blend Mode** is set to `Translucent`. This is a special material type that can be placed on top of another material.  So think footsteps in the ground, or tire marks on the road.
 
-Now press the <kbd>Alt</kbd> while moving the plane to duplicate it 15 times.  This gives us an area with two 8 by 8 rows.
-
-https://user-images.githubusercontent.com/5504953/186781926-c1532920-c8eb-4808-8df1-8e05fe725a24.mp4
-
+![change material domain and blend mode](images/deferredDecal.png)
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Go to the **Material Functions** folder and right click on **MF_Textures** and select **Duplicate**.  Call the new file `MF_Opacity`.
+Create a folder called `Decals` in the **Textures** folder. Download two decals worth of textures: [T_CementCracks_BCA.png](../Assets/T_CementCracks_BCA.png),  [T_CementCracks_N.png](../Assets/T_CementCracks_N.png), [T_CementCracks_MSRAO.png](../Assets/T_CementCracks_MSRAO.png).  Download [T_DamagedRoad_BCA.png](../Assets/T_DamagedRoad_BCA.png), [T_DamagedRoad_N.png](../Assets/T_DamagedRoad_N.png) and [T_DamagedRoad_MSRAO.png](../Assets/T_DamagedRoad_MSRAO.png).
 
-![dupe MF_Textures and call it MF_Opacity](images/DupeTextureMI.png)
+Drag the above 6 textures into the **Textures | Decals** folder.  Make sure the normal textures are recognized as such and that the **MSRAO** are set to masks.
+
+![add 6 decal textures](images/addDecalTextures.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Function Output** node and call it `Opacity`. Connect the **Base Color | A** pin to the new **Output** node.  Change it's **Sort Priority** to `1.0`.
-
-![bump is backwards](images/outputOpacity.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we want to be able to scale that opacity.  So add a **Scalar Parameter** and call it `Opacity Intensity`.  Set it's **Group** to `Base Color` and **Sort Priority** to `4`.  Add a **Multiply** node and send the **Output Intensity** and **Base Color | A** nodes to the **Multiply** input pin.  Then send the output to **Output Opacity**.
 
-![multiply opacity intensity](images/opacityScalar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now change the **Output Normal | Sort Priority** to `5` and **Output Ambient Occlusion | Sort Priority** to `6`. Press the <kbd>Apply</kbd> button.
-
-![change sort priorities](images/adjustAONPriority.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Go to **Materials | Master** and right mouse click **M_SolidTexture** and select **Duplicate**.  Call this new decal `M_Decal`.
 
-![du;licate M_SolidTexture and call M_Decal](images/copyMDecal.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Now select **M_Decal** and change the **Material Domain** to `Deferred Decal` and the **Blend Mode** to `Translucent`.
 
-![change material domain and blend mode](images/deferredDecal.png)
 
 ![](../images/line2.png)
 
@@ -132,11 +124,9 @@ Right click on **M_Decal** and select **Create Material Instance**.  Call it `MI
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Now lets download two decals worth of textures: [T_CementCracks_BCA.png](../Assets/T_CementCracks_BCA.png),  [T_CementCracks_N.png](../Assets/T_CementCracks_N.png), [T_CementCracks_MSRAO.png](../Assets/T_CementCracks_MSRAO.png).  Download [T_DamagedRoad_BCA.png](../Assets/T_DamagedRoad_BCA.png), [T_DamagedRoad_N.png](../Assets/T_DamagedRoad_N.png) and [T_DamagedRoad_MSRAO.png](../Assets/T_DamagedRoad_MSRAO.png).
 
-Create a new folder in **Textures** called `Decals`.  Drag the above 6 textures into that folder.  Make sure the normal textures are recognized as such!
 
-![add 6 decal textures](images/addDecalTextures.png)
+
 
 ![](../images/line2.png)
 
