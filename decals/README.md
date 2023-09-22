@@ -25,7 +25,7 @@ Lets start by moving the **Player Start** actor to the front of room 6.
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Right click on the double sided poster in Room 5 and select **Browse to Asset**.  Rename it to `SM_Plane` and move it to the **Basic Geometry** folder.
+*Right click *on the newly created plane and select **Browse to Asset**.  Rename it to `SM_Road` and move it to the **Meshes | Props** folder.
 
 ![rename plane to SM_Plane and put in Basic Geometry folder](images/basicPlane.png)
 
@@ -33,15 +33,15 @@ Right click on the double sided poster in Room 5 and select **Browse to Asset**.
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add the **SM_Plane** to Room 6 on the ground.
+Lift the plane up and press the <kbd>End</kbd> key to get it to the ground.  Notice that the plane quickly goes from hidden beneath the floor, to above it.  If the planes are at the same level there will be z fighting where the renderer will have a hard time sorting which surface to display and it will be glitchy.  Go to the **Location | Z** and raise it by `.05` units. Raise it more if it doesn't stop the z fighting on your computer.
 
-![add plane to room 6](images/AddPlaneToGround.png)
+![dupe MF_Textures and call it MF_Opacity](images/zFighting.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lift the plane up and press the <kbd>End</kbd> key to get it to the ground.  Now when a plane is on top of a plane you will get **Z Fighting** which looks awefull.  So lets go to the **Location | Z** and raise it by `.05` units. Raise it more if it doesn't stop the z fighting on your computer.
+
 
 https://user-images.githubusercontent.com/5504953/186781596-83d5dffb-dd49-4215-9db1-0c7efdb178f7.mp4
 
