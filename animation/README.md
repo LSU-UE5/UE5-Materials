@@ -81,7 +81,9 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/06ef0a0a-6c3e-49aa-bfed-
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now open up
 
+![multiply glow color 2](images/addSpeed.png)
 
 ![](../images/line2.png)
 
