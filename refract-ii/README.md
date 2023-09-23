@@ -79,15 +79,17 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/2f2d2a13-02de-4a66-abbd-
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-*Press* the <kbd>Play</kbd> button and go up to both glass material balls.  The textured one really stands out and the refraction is now even more exagerated.
-Now glass can pick up light so this is a bright room.  Lets add an edge glow.  Add a new **Scalar Parameter** called `Edge Glow` and set it's **Default Value** to `.5`.
 
-![add edge glow scalar](images/edgeGlowScalar.png)
+*Press* the <kbd>Play</kbd> button and go up to both glass material balls.  The textured one really stands out and the refraction is now even more exagerated.
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
+
+Now glass can pick up light so this is a bright room.  Lets add an edge glow.  Add a new **Scalar Parameter** called `Edge Glow` and set it's **Default Value** to `.5`.
+
+![add edge glow scalar](images/edgeGlowScalar.png)
 
 
 ![](../images/line2.png)
