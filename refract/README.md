@@ -88,6 +88,12 @@ Now we want to have an alpha scalar we can adjust. Open up **MF_BaseScalar** and
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
+![add m_glass material](images/setAlphaScalar.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
+
 
 ![set default value to .3](images/opacityScalarParameter.png)
 Create another **Scalar Parameter** and call it `Refraction`.  Set it to `.1`.  Make a comment around the **Opacity** and **Refraction** nodes with comment `Surface Properties`.  The highlight the base color node and press the <kbd>C</kbd> button and nake the comment `Base Color`.  Change the colors to separate the comments.
@@ -103,14 +109,6 @@ Set **Opacity** to **Group** `SurfaceProperties` and **Sort Priority** `0`.  Set
 
 ![set priorities](images/GroupSort.png)
 
-
-Go to **Materials | Master** and right click on **M_Glass** and select **Create Material Instance**.  Call this instance `MI_GlassBasic` and move to the **Materials | Surface** folder.
-
-![create mi_glassbasic as instance of mi_glass](images/miGlassBasic.png)
-
-![](../images/line2.png)
-
-##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
 Drag from **Mesh | Supplied | SM_MatPreviewMesh_02** into the scene. Rotate it to face forward.
 
