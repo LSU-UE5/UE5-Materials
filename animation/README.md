@@ -97,7 +97,7 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/d6467d88-45dd-435c-98f0-
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-OK, lets animate the UV's so the texture inside the material animates.  Right click on **Material | Master |  M_EmissiveTexture** and select **Create Material Instance**.  Call it `MI_Chevron`.  Drag it to the **Materials | Surfaces** folder and move it there.
+OK, lets animate the UV's so the texture inside the material animates.  Open up **MF_UVs** and a **Static Switch Parameter** and call it
 
 ![create mi_chevron](images/createChevron.png)
 
