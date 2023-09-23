@@ -57,7 +57,7 @@ Scoot the camera over to **Room 8** and add a **Meshes | Supplied | SM_MatPrevie
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Open up **MI_FlashingGlow** and 
+Open up **MI_FlashingGlow** and change **Parent** to `M_Emissive_MSRAO`.
 
 ![alt_text](images/changeParenttoEm.png)
 
@@ -65,11 +65,9 @@ Open up **MI_FlashingGlow** and
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Multiply** node.  Feed the output of the **Constant 3 Vector** into the **A** input of a **Multiply** node.
 
-Add a **Multiply** node with the **A** pin begin between **Base Color 2** and **Lerp | A** nodes.  Add another **Constant Scalar** and make it a value of `20`.  Remember that the illumination channel takes values over 1.0 to be even brighter (making the color more white, the hotter it gets). Send the output of **Lerp** to the **Emissive** color node on the main shader node.
 
-![multiply glow color 2](images/multiplyGlow2.png)
+![multiply glow color 2](images/assignGlow.png)
 
 ![](../images/line2.png)
 
