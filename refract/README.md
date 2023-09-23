@@ -51,6 +51,11 @@ Double click **Maps | BasicMaterials2**.  Go to **Meshed | Supplied** and drag *
 
 ![open up Basic Materials 2 and pupulate room 7.](images/addPropsRoom7.png)
 
+![](../images/line2.png)
+
+##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
+
+
 Go to **Materials | Master** and press the <kbd>+ Add</kbd> button.  Create a new **Material** called `M_Glass`.
 
 ![add m_glass material](images/addMGlass.png)
@@ -66,10 +71,6 @@ Select **M_Glass** and change the **Shading Model** to `Translucent`.  We want i
 Select a light blue color and connect the white pin in **Glass Color** to the **Base Color** pin.
 
 ![make color light blue connect glass color pin](images/lightBlueGlass.png)
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
 Add a **Scalar Parameter** called `Opacity` and set the **Default Value** to `0.3` and the **Slider Max** to `1`.  We cannot have an opacity that is less than 0 or greater than one.
 
