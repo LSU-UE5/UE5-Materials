@@ -74,49 +74,33 @@ Assign **MI_FlashingGlow** top the material ball in room 8.
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: 
 :small_blue_diamond:
 
-So when the Alpha in the LERP node is set to `1` we get no glow as it selects the B input which sends 0 to the glow. Change the Alpha to `0` and you get the A input which is a multiplied glow. Notice how it lights the ground!  This is new to UE5.
-
-![alt_text](images/lerpOneZero.png)
+*Press* the <kbd>Play</kbd> button  and look at the animation. It went a bit fast for me so I added another **Divide** node and divided time by `4`.   I place dit inbetween the **Time** and **Sine** node to slow it down.  You could also add a **Scalar Parameter** so you can adjust the speed. Press the <kbd>Apply</kbd> button.
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **Time** node. This will return the time from the computer.  We then feed it into a **Sine** node.  This converts it to a sine wave which is a smooth wave going between -1 and 1.  So we need to get it to go between 0 and 1, so we put an **Add** node after and add a avlue of `2`, bringing the curve to a value of 0 to 2.  Then we **Divide** it by `2` in a new **Divide** node to bring it back to a value of 0 to 1. Press the <kbd>Apply</kbd> button.
 
-![time sign normalize](images/timeSine.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Add a **Saturate** node to clamp the value between 0 and 1 just in case it goes beyond this range for whatever reason.  Plug the output of the **Saturate** node to the input pin on the **Lerp | Alpha**.
-
-![saturate to alpha](images/saturateAlpha.png)
-
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Adjust the **Group** and **Sort Priority** of all the parameters in this master material.
-
-![mast glow animation sort and groups](images/groupsPrioritiesGlow.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Right click on **M_AnimatedGlow** and select **Create Material Instance**.  Call it `MI_AnimatedGLow`.
-Drag it into the **Materials | Surfaces** folder.  Drag it onto the material ball.
-
-![create MI_AnimatedGLow](images/makeMaterialInstance.png)
-
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Press* the <kbd>Play</kbd> button  and look at the animation. It went a bit fast for me so I added another **Divide** node and divided time by `4`.   I place dit inbetween the **Time** and **Sine** node to slow it down.  You could also add a **Scalar Parameter** so you can adjust the speed. Press the <kbd>Apply</kbd> button.
+
 
 ![create MI_AnimatedGLow](images/divideNode.png)
 
