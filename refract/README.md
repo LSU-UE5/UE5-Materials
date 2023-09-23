@@ -25,6 +25,11 @@ Download [M_CastleStructure.zip](../Assets/M_CastleStructure.zip).  *Right click
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
+![open up Basic Materials 2 and pupulate room 7.](images/defaultImportSettings.png)
+
+![](../images/line2.png)
+
+##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 Double click **Maps | BasicMaterials2**.  Go to **Meshed | Supplied** and drag **SM_Castle_Column** and **SM_CastleStructure** multiple times in the scene in **Room 7**.  We will use these as backrounds that will show us behind thes glass.
 
 ![open up Basic Materials 2 and pupulate room 7.](images/addPropsRoom7.png)
@@ -32,10 +37,6 @@ Double click **Maps | BasicMaterials2**.  Go to **Meshed | Supplied** and drag *
 Go to **Materials | Master** and press the <kbd>+ Add</kbd> button.  Create a new **Material** called `M_Glass`.
 
 ![add m_glass material](images/addMGlass.png)
-
-![](../images/line2.png)
-
-##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Add a **Vector 3 Parameter** called `Glass Color`.  Set the **Group** to `Base Color` and **Sort Priority** to `0`.
 
