@@ -17,21 +17,27 @@ Materials can also be animated.  You can make the texture move along the uv's an
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-We can animate many parts of a material.  There are too many to get into in one exercise. We will do two techniques.  This first is to animate a Linear Interpolation (LERP).  This allows us to change between two input pints gradually over time based on whether it is `0` - pin A or `1` - pin B. Scoot the camera over to **Room 8** and add a **Meshes | Supplied | SM_MatPreviewMesh_02** to the level changing its angle to face the middle of the room.
+We can animate many parts of a material.  There are too many to get into in one exercise. We will do two techniques.  This first is to animate a Linear Interpolation (LERP).  This allows us to change between two input pins gradually over time based on whether it is `0` - pin A or `1` - pin B. We will blend in black to have a flasing glow, like a flashing stop light.
 
-![add material ball to room](images/dragBallToRoom.png)
+![add material ball to room](images/addStaticParameter.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Create a new **Material** in the **Materials | Master** called `M_AnimatedGlow`.
 
-![create new material called M_AnimatedGlow](images/newMaster.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+ Scoot the camera over to **Room 8** and add a **Meshes | Supplied | SM_MatPreviewMesh_02** to the level changing its angle to face the middle of the room.
+
+![add material ball to room](images/dragBallToRoom.png)
+
+Create a new **Material** in the **Materials | Master** called `M_AnimatedGlow`.
+
+![create new material called M_AnimatedGlow](images/newMaster.png)
 
 Add a **Vector Parameter** node and name it `Glow Color`. Make it a bright vibrant color and connect the output to **Base Color**.
 
