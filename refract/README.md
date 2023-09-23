@@ -148,8 +148,7 @@ Drag from **Mesh | Supplied | SM_MatPreviewMesh_02** into the scene. Rotate it t
 
 *Press* the <kbd>Play</kbd> button and run up to the material ball.  It looks good but we can make it better.
 
-
-
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/6770ec34-437c-4bfc-bae7-e18735ba2137
 
 ![](../images/line2.png)
 
