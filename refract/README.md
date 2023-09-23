@@ -39,7 +39,7 @@ Repeat this process for **M_CastleColumn.glhf**.
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Rename the static meshes to start with `SM_` instead of `M_` and rename the textures to start with `T_` instead of `M_`.  Move the meshes into the **Meshes | Supplied** folder and the textures to **Textures | Supplied** folder. 
 
 ![open up Basic Materials 2 and pupulate room 7.](images/renameFIles.png)
 
