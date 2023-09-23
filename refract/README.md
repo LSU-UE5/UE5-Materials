@@ -17,7 +17,7 @@ How do we handle materials like glass that are subtle and reflect and distort th
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Download [M_CastleStructure.zip](../Assets/M_CastleStructure.zip).  *Right click* on **M_CastleStructure.zip** and select 
+Download [M_CastleStructure.zip](../Assets/M_CastleStructure.zip).  *Right click* on **M_CastleStructure.zip** and select **Extract All**.  Select the **Materials | Supplied** folder and press the <kbd>Import</kbd> button and select **M_CastleStructure.gltf**. 
 
 ![open up Basic Materials 2 and pupulate room 7.](images/importModelsAndMaterials.png)
 
