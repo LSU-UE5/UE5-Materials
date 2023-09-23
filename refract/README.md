@@ -64,7 +64,7 @@ Go to **Materials | Master** and *right click* on **M_TransparentMSRAO** and *se
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-and move it to the **Materials | Material Instances** folder.
+We can leave **M_Glass** alone from now and create a material instance by right clicking on **M_Glass** and select **Create Material Instance**.  Call it `MI_Glass` and move it to the **Materials | Material Instances** folder.
 
 ![add m_glass material](images/createMI.png)
 
