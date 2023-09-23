@@ -47,7 +47,7 @@ Rename the static meshes to start with `SM_` instead of `M_` and rename the text
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Double click **Maps | BasicMaterials2**.  Go to **Meshed | Supplied** and drag **SM_Castle_Column** and **SM_CastleStructure** multiple times in the scene in **Room 7**.  We will use these as backrounds that will show us behind thes glass.
+Double click **Maps | BasicMaterials2**.  Go to **Meshes | Supplied** and drag **SM_Castle_Column** and **SM_CastleStructure** multiple times in the scene in **Room 7**.  We will use these as backrounds that will show us behind thes glass.
 
 ![open up Basic Materials 2 and pupulate room 7.](images/addPropsRoom7.png)
 
@@ -60,25 +60,14 @@ Go to **Materials | Master** and press the <kbd>+ Add</kbd> button.  Create a ne
 
 ![add m_glass material](images/addMGlass.png)
 
-Add a **Vector 3 Parameter** called `Glass Color`.  Set the **Group** to `Base Color` and **Sort Priority** to `0`.
-
-![add vector 3 parameter glass color](images/addBaseColor.png)
-
-Select **M_Glass** and change the **Shading Model** to `Translucent`.  We want it to be glass so we have to see through it. Set **Two Sided** to `true`.
-
-![translucent shading model](images/shadingModel.png)
-
-Select a light blue color and connect the white pin in **Glass Color** to the **Base Color** pin.
-
-![make color light blue connect glass color pin](images/lightBlueGlass.png)
-
-Add a **Scalar Parameter** called `Opacity` and set the **Default Value** to `0.3` and the **Slider Max** to `1`.  We cannot have an opacity that is less than 0 or greater than one.
-
 ![set default value to .3](images/opacityScalarParameter.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+]
 
 Create another **Scalar Parameter** and call it `Refraction`.  Set it to `.1`.  Make a comment around the **Opacity** and **Refraction** nodes with comment `Surface Properties`.  The highlight the base color node and press the <kbd>C</kbd> button and nake the comment `Base Color`.  Change the colors to separate the comments.
 
