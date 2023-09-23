@@ -55,30 +55,29 @@ Double click **Maps | BasicMaterials2**.  Go to **Meshes | Supplied** and drag *
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-
-Go to **Materials | Master** and *right click* on **M_TransparentMSRAO** and *select* **Duplicate**. Change the name to `M_Glass` and move it to the **Materials | Material Instances** folder.
+Go to **Materials | Master** and *right click* on **M_TransparentMSRAO** and *select* **Duplicate**. Change the name to `M_Glass`. 
 
 ![add m_glass material](images/addMGlass.png)
 
-![set default value to .3](images/opacityScalarParameter.png)
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+and move it to the **Materials | Material Instances** folder.
 
-]
-
-Create another **Scalar Parameter** and call it `Refraction`.  Set it to `.1`.  Make a comment around the **Opacity** and **Refraction** nodes with comment `Surface Properties`.  The highlight the base color node and press the <kbd>C</kbd> button and nake the comment `Base Color`.  Change the colors to separate the comments.
-
-Notice that a value of `.1` turns the sphere into a wide angle lens.
-
-![set scalar paramter refractoin to .1](images/point1ScalarRefaction.png)
+![add m_glass material](images/createMI.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+![set default value to .3](images/opacityScalarParameter.png)
+Create another **Scalar Parameter** and call it `Refraction`.  Set it to `.1`.  Make a comment around the **Opacity** and **Refraction** nodes with comment `Surface Properties`.  The highlight the base color node and press the <kbd>C</kbd> button and nake the comment `Base Color`.  Change the colors to separate the comments.
+
+Notice that a value of `.1` turns the sphere into a wide angle lens.
+
+![set scalar paramter refractoin to .1](images/point1ScalarRefaction.png)'
 If you set the **Refraction | Default Value** to `2.0`, notice that we get a magnifying effect. Press the <kbd>Apply</kbd> button.
 
 ![2 magnifies](images/TwoRefraction.png)
