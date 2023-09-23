@@ -182,10 +182,7 @@ Lets look at it in game, so start by moving the **Player Start** actor to facing
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Now we have a nice seamless texture that we can apply our decal we just created.
-
-![Seamless texture](images/cementRoadInGame.png)
-
+*Press* the <kbd>Play</kbd> button make sure the cracks blend into the ground.
 
 ![](../images/line.png)
 
