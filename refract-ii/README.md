@@ -19,31 +19,21 @@ Press <kbd>Play</kbd> and look at how the refraction increases around the edges.
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/787afa75-a939-44bd-a7d3-837a62523a8a
 
-Add a **Text** actor and change the color and size and set it to **Text** `MI_BasicGlass`.  Place it and rotate it on top of the material ball.
-
-![place text on toop of material ball](images/miBasicTextTitle.png)
-
-
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
+Add a **Text** actor and change the color and size and set it to **Text** `MI_BasicGlass`.  Place it and rotate it on top of the material ball.
 
-We can add another **Scalar Parameter** and set the default to `5`.  Call it `Fresnel Exponent` and attach it tohe the **ExponentIn** pin.  Now add a **Static Switch Parameter**.
-
-![add scalar paramter called fresnel exponent](images/addFrenelExpScalarParam.png)
-
-Call this static switch `Use Normal?`.  Then add a **Textures | T_Base_N` to the graph.
-
-![add static switch use normal?](images/staticSwitchNormal.png)
+![place text on toop of material ball](images/miBasicTextTitle.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Plug the output of the ***Texture Sample** to the **False** pin of the switch.  Add a **TextureSampleParameter2D** and call it `Normal`.  Set it to the **UseNormal? | True** pin.  Send the output of **Use Normal** to **Normal** in the shader node.
+We can add another **Scalar Parameter** and set the default to `5`.  Call it `FresnelExponent` and attach it tohe the **ExponentIn** pin. 
 
-![connect parameters](images/param3DNormal.png)
+![add scalar paramter called fresnel exponent](images/addFrenelExpScalarParam.png)
 
 ![](../images/line2.png)
 
