@@ -63,6 +63,7 @@ Assing the **Normal** texture to be `T_FrostedGlass`. Change the **Alpha** scala
 
 We can change the strength of the falloff of the fresnel node by adjusting the **Exponent**.
 
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/2f2d2a13-02de-4a66-abbd-3b030a655b57
 
 ![](../images/line2.png)
 
