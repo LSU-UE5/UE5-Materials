@@ -149,6 +149,10 @@ Go to **Materials | Material Functions** and right click and create a new **Mate
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+*Paste* all the nodes into the new **MF_Glass** function.  Change the name of the output node and call it `Emissive`.  Hook it up to the **Edge Glow** output pin.
+
+Add another **Function Output** and connect it to the **Lerp** node.  Change the **Sort Priority** to `1`.
+
 ![organize outliner](images/glassFuncComplete.png)
 
 ![](../images/line2.png)
