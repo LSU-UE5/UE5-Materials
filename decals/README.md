@@ -29,7 +29,7 @@ Now we want to be able to scale that opacity.  So add a **Scalar Parameter** and
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-*Right click *on the newly created plane and select **Browse to Asset**.  Rename it to `SM_Road` and move it to the **Meshes | Props** folder.
+*Right click* on the newly created plane and select **Browse to Asset**.  Rename it to `SM_Road` and move it to the **Meshes | Props** folder.
 
 ![rename plane to SM_Plane and put in Basic Geometry folder](images/basicPlane.png)
 
