@@ -17,13 +17,17 @@ How do we handle materials like glass that are subtle and reflect and distort th
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Double click **Maps | BasicMaterials2**.  Go to **Meshed | Supplied** and drag **SM_Castle_Column** and **SM_CastleStructure** multiple times in the scene in **Room 7**.  We will use these as backrounds that will show us behind thes glass.
+Download [M_CastleStructure.zip](../Assets/M_CastleStructure.zip).  *Right click* on **M_CastleStructure.zip** and select 
 
-![open up Basic Materials 2 and pupulate room 7.](images/addPropsRoom7.png)
+![open up Basic Materials 2 and pupulate room 7.](images/importModelsAndMaterials.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
+
+Double click **Maps | BasicMaterials2**.  Go to **Meshed | Supplied** and drag **SM_Castle_Column** and **SM_CastleStructure** multiple times in the scene in **Room 7**.  We will use these as backrounds that will show us behind thes glass.
+
+![open up Basic Materials 2 and pupulate room 7.](images/addPropsRoom7.png)
 
 Go to **Materials | Master** and press the <kbd>+ Add</kbd> button.  Create a new **Material** called `M_Glass`.
 
