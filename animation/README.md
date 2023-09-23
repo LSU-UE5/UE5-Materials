@@ -28,6 +28,7 @@ Add a **Static Switch Paremeter** node and call it `FlashingEmissive?` and set t
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
 
+![add material ball to room](images/addLerp.png)
 
 ![](../images/line2.png)
 
