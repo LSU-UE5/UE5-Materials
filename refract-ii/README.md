@@ -88,17 +88,19 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/a46a4ec8-6618-4bc3-8373-
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-To add a glow to the edge we will open up **M_Glass** and add a new **Static Switch Parameter** and call it `EdgeGlow?`. Set the **Group** to `GlassProperties` and **Sort Priority** to `17`.
+To add a glow to the edge we will open up **M_Glass** and add a new **Static Switch Parameter** and call it `EdgeGlow?`.  Set the **Group** to `GlassProperties` and **Sort Priority** to `17`.
 
-![add edge glow scalar](images/glowLogic.png)
+![add edge glow scalar](images/GLowStaticParam.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
- Add a **Constant Scalar** set to `0` to the **False** pin.  Send the output of **Edge Glow?** to the **Emissive Color** pi9n on the material.
+ Add a **Constant Scalar** set to `0` to the **False** pin.  Add another **Scalar Paremeter** called `EdgeGlow`. Set the **Group** to `GlassProperties` and **Sort Priority** to `18`. 
 
-![add edge glow switch](images/.png)
+ Add a **Fresnesl** node and a multiply node.  Put the output of the **Fresnel** to the **B** side of the multiply node.
+
+![add edge glow switch](images/glowLogic.png)
 
 ![](../images/line2.png)
 
