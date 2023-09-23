@@ -96,33 +96,28 @@ Open up **MI_Glass** and turn **AlphaScalar** to `true`.  Now a value of `0.0` i
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
+![add m_glass material](images/twoSided.png)
+
+![](../images/line2.png)
+
+##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+
 Now we want to add refraction to **M_Glass** as a glass bowl should act a lense and refract light. But our refraction pin is greyed out?  GO to 
 
 ![add m_glass material](images/AddRefraction.png)
 
+![](../images/line2.png)
 
-
-Set **Opacity** to **Group** `SurfaceProperties` and **Sort Priority** `0`.  Set **Refraction** to **Group** `SurfaceProperties` and **Sort Priority** `1`.
-
-![set priorities](images/GroupSort.png)
-
+##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Drag from **Mesh | Supplied | SM_MatPreviewMesh_02** into the scene. Rotate it to face forward.
 
 ![drag material ball in scene](images/addMatBall.png)
 
-![](../images/line2.png)
-
-
-##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Assign **Materials | Surfaces | MI_GlassBasic** to the material ball.  Change the **Opacity** on the material instance to 0.1.
 
 ![add material instance to ball](images/addMIGlassBasic.png)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 *Press* the <kbd>Play</kbd> button and run up to the material ball.  Now a lot of the background disappears.  It doesn't look too much like glass.  This is a cheaper way of rendering it but up close fools no one.
 
