@@ -184,6 +184,8 @@ Lets look at it in game, so start by moving the **Player Start** actor to facing
 
 *Press* the <kbd>Play</kbd> button make sure the cracks blend into the ground.
 
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/90f8fec4-9d6b-4151-aca8-30f4964258bb
+
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Decal II"> -->
