@@ -80,12 +80,21 @@ Open up **MI_Glass** and change the base color tint to a light blue.
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+
+
+![add m_glass material](images/AlphaScalar.png)
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
+
+
 ![set default value to .3](images/opacityScalarParameter.png)
 Create another **Scalar Parameter** and call it `Refraction`.  Set it to `.1`.  Make a comment around the **Opacity** and **Refraction** nodes with comment `Surface Properties`.  The highlight the base color node and press the <kbd>C</kbd> button and nake the comment `Base Color`.  Change the colors to separate the comments.
 
 Notice that a value of `.1` turns the sphere into a wide angle lens.
 
-![set scalar paramter refractoin to .1](images/point1ScalarRefaction.png)'
+![set scalar paramter refractoin to .1](images/point1ScalarRefaction.png)
 If you set the **Refraction | Default Value** to `2.0`, notice that we get a magnifying effect. Press the <kbd>Apply</kbd> button.
 
 ![2 magnifies](images/TwoRefraction.png)
@@ -94,9 +103,6 @@ Set **Opacity** to **Group** `SurfaceProperties` and **Sort Priority** `0`.  Set
 
 ![set priorities](images/GroupSort.png)
 
-![](../images/line2.png)
-
-##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
 Go to **Materials | Master** and right click on **M_Glass** and select **Create Material Instance**.  Call this instance `MI_GlassBasic` and move to the **Materials | Surface** folder.
 
