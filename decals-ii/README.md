@@ -15,11 +15,15 @@ Lets get the decals onto the road.
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
+Try putting one of the decals onto the wall below the title.  You will notice that there is a direction to the decal. The purple line on the material gizmo needs to be perpendicular to the wall (pointing towards the middle of the room).
+
 ![save all and submit to perforce](images/decalsHaveDirection.png)
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
+
+Rotate the material to face the middle of the romo and you will notice that it now renders correctly.  Be careful with decals in corners as one part of the decal will be distored as above.
 
 ![save all and submit to perforce](images/rotateDecal.png)
 
@@ -27,11 +31,15 @@ Lets get the decals onto the road.
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+I actually like the color and intensity so I will leave it as is. 
+
 ![save all and submit to perforce](images/decalOnWall.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Make sure the names in the **World Outliner** are logical and are in the **Room 6** folder.
 
 ![save all and submit to perforce](images/putDataRoom6.png)
 
