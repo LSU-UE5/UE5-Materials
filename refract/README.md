@@ -112,6 +112,15 @@ Now we want to add refraction to **M_Glass** as a glass bowl should act a lense 
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Add a **Scalar Parameter** and call it `Refraction`. Set it to a default of `1.0` (no refraction).  Set the **Group** to ``
+
+![add m_glass material](images/setRefraction.png)
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+
 Drag from **Mesh | Supplied | SM_MatPreviewMesh_02** into the scene. Rotate it to face forward.
 
 ![drag material ball in scene](images/addMatBall.png)
@@ -121,18 +130,13 @@ Assign **Materials | Surfaces | MI_GlassBasic** to the material ball.  Change th
 
 ![add material instance to ball](images/addMIGlassBasic.png)
 
-*Press* the <kbd>Play</kbd> button and run up to the material ball.  Now a lot of the background disappears.  It doesn't look too much like glass.  This is a cheaper way of rendering it but up close fools no one.
-
-https://user-images.githubusercontent.com/5504953/187050453-97243b95-87f1-4193-b5db-5bb9a7422153.mp4
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
 Now we can make it better at a rendering cost.  Go to **Lighting Mode** and select `Surface Translucency Volume`. Now notice that it already looks a lot better and all of our PBR pins light up again.  Bonus!
 
 ![set lighting to surface translucency volume](images/changeLightingMode.png)
 
+*Press* the <kbd>Play</kbd> button and run up to the material ball.  Now a lot of the background disappears.  It doesn't look too much like glass.  This is a cheaper way of rendering it but up close fools no one.
+
+https://user-images.githubusercontent.com/5504953/187050453-97243b95-87f1-4193-b5db-5bb9a7422153.mp4
 
 ![](../images/line2.png)
 
