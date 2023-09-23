@@ -90,8 +90,7 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/a46a4ec8-6618-4bc3-8373-
 
 To add a glow to the edge we will open up **M_Glass** and add a new **Static Switch Parameter** and call it `EdgeGlow?`. Set the **Group** to `GlassProperties` and **Sort Priority** to `17`.
 
-![add edge glow scalar](images/GLowStaticParam.png)
-
+![add edge glow scalar](images/glowLogic.png)
 
 ![](../images/line2.png)
 
