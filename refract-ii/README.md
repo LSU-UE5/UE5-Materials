@@ -55,7 +55,7 @@ Download [T_FrostedGlass.tga](../Assets/T_FrostedGlass.TGA) normal map and impor
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Assing the **Normal** texture to be `T_FrostedGlass`. 
+Assing the **Normal** texture to be `T_FrostedGlass`. Change the **Alpha** scalar to `0.4`.
 
 ![assign T_FrostedGlass](images/assignTFrostedGlass.png)
 
