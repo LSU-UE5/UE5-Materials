@@ -142,19 +142,20 @@ Drag from **Mesh | Supplied | SM_MatPreviewMesh_02** into the scene. Rotate it t
 
 ![add material instance to ball](images/adjustAlphaClearer.png)
 
-
-
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we can make it better at a rendering cost.  Go to **Lighting Mode** and select `Surface Translucency Volume`. Now notice that it already looks a lot better and all of our PBR pins light up again.  Bonus!
+*Press* the <kbd>Play</kbd> button and run up to the material ball.  It looks good but we can make it better.
 
-![set lighting to surface translucency volume](images/changeLightingMode.png)
 
-*Press* the <kbd>Play</kbd> button and run up to the material ball.  Now a lot of the background disappears.  It doesn't look too much like glass.  This is a cheaper way of rendering it but up close fools no one.
 
-https://user-images.githubusercontent.com/5504953/187050453-97243b95-87f1-4193-b5db-5bb9a7422153.mp4
+
+![](../images/line2.png)
+
+##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
 Add two constant scalars setting the first to `1` and send it to **Metalic**.  Make the second constant scalar a value of `0` and send it to **Roughness**.  So we will make the glass really smooth and completely metalic which will help with the reflection and surface properties.
 
 ![change metalic an droughness](images/changeRoughMet.png)
@@ -165,11 +166,6 @@ Add a **Constant Scalar** set to a value of `1`.  Feed this into the **Lerp | A*
 
 ![alt_text](images/hookUPFresnellLerp.png)
 
-
-
-![](../images/line2.png)
-
-##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 ![set default value to .3](images/opacityScalarParameter.png)
 Create another **Scalar Parameter** and call it `Refraction`.  Set it to `.1`.  Make a comment around the **Opacity** and **Refraction** nodes with comment `Surface Properties`.  The highlight the base color node and press the <kbd>C</kbd> button and nake the comment `Base Color`.  Change the colors to separate the comments.
 
