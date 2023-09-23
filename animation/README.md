@@ -65,13 +65,14 @@ Open up **MI_FlashingGlow** and change **Parent** to `M_Emissive_MSRAO`.
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Assign **MI_FlashingGlow** top the material ball in room 8.
 
 ![multiply glow color 2](images/assignGlow.png)
 
 ![](../images/line2.png)
 
-##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: 
+:small_blue_diamond:
 
 So when the Alpha in the LERP node is set to `1` we get no glow as it selects the B input which sends 0 to the glow. Change the Alpha to `0` and you get the A input which is a multiplied glow. Notice how it lights the ground!  This is new to UE5.
 
