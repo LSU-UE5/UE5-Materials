@@ -56,7 +56,7 @@ Double click **Maps | BasicMaterials2**.  Go to **Meshes | Supplied** and drag *
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
 
-Go to **Materials | Master** and press the <kbd>+ Add</kbd> button.  Create a new **Material** called `M_Glass`.
+Go to **Materials | Master** and *right click* on **M_TransparentMSRAO** and *select* **Duplicate**. Change the name to `M_Glass`.
 
 ![add m_glass material](images/addMGlass.png)
 
