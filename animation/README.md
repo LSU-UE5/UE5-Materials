@@ -33,7 +33,12 @@ Now add a **Constant 3 Vector** and leave at at `0,0,0` (or black).  Add a **Ler
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
- Scoot the camera over to **Room 8** and add a **Meshes | Supplied | SM_MatPreviewMesh_02** to the level changing its angle to face the middle of the room.
+
+![](../images/line2.png)
+
+##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Scoot the camera over to **Room 8** and add a **Meshes | Supplied | SM_MatPreviewMesh_02** to the level changing its angle to face the middle of the room.
 
 ![add material ball to room](images/dragBallToRoom.png)
 
@@ -44,10 +49,6 @@ Create a new **Material** in the **Materials | Master** called `M_AnimatedGlow`.
 Add a **Vector Parameter** node and name it `Glow Color`. Make it a bright vibrant color and connect the output to **Base Color**.
 
 ![add vector parameter called glow color to base color pin](images/textureParameter.png)
-
-![](../images/line2.png)
-
-##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Add three **Scalar Parameters**.  The first is called `Metallic` with a value of `0`.  The second is `Specular` with a value of `0.5` and the final is called `Roughness` with a value of `0`.
 
