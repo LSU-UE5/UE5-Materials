@@ -57,12 +57,11 @@ Download [T_FrostedGlass.tga](../Assets/T_FrostedGlass.TGA) normal map and impor
 
 Assing the **Normal** texture to be `T_FrostedGlass`. Change the **Alpha** scalar to `0.4`.
 
-![assign T_FrostedGlass](images/assignTFrostedGlass.png)
-
-
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+We can change the strength of the falloff of the fresnel node by adjusting the **Exponent**.
 
 
 ![](../images/line2.png)
