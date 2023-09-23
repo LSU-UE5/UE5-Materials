@@ -19,6 +19,8 @@ Materials can also be animated.  You can make the texture move along the uv's an
 
 We can animate many parts of a material.  There are too many to get into in one exercise. We will do two techniques.  This first is to animate a Linear Interpolation (LERP).  This allows us to change between two input pins gradually over time based on whether it is `0` - pin A or `1` - pin B. We will blend in black to have a flasing glow, like a flashing stop light.
 
+Add a **Static Switch Paremeter** node and call it `FlashingEmissive?` and set the **Group** to `BaseColor` and the **Sort Priority** to `6`.
+
 ![add material ball to room](images/addStaticParameter.png)
 
 ![](../images/line2.png)
