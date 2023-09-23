@@ -125,6 +125,7 @@ Go to **Materials | Material Instances** and right click `MI_GlasFrosted` and se
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+![multiply glow fresnel](images/dupeGlowMat.png)
 
 ![alt_text](images/.png)
 
@@ -140,13 +141,15 @@ Open up **MI_GlassGlow** and set **EdgeGlow** to true.  Adjust the **Edge Glow**
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-*Press* the <kbd>Play</kbd> button and now look at all three material balls.  We have made progressive improvements and our third ball is terrific!
 
-https://user-images.githubusercontent.com/5504953/187051495-bd6a6f21-9790-49b5-89b8-1b49716a05c0.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
+*Press* the <kbd>Play</kbd> button and now look at all three material balls.  We have made progressive improvements and our third ball is terrific!
+
+https://user-images.githubusercontent.com/5504953/187051495-bd6a6f21-9790-49b5-89b8-1b49716a05c0.mp4
 
 Go to the **Outliner** and make sure eveything is in **Room 7**.  Rename items so they make sense.
 
