@@ -81,7 +81,7 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/06ef0a0a-6c3e-49aa-bfed-
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now open up
+Now open up **MF_BaseTexture** and add another **Scalar Parameter** node called `FlashingSpeed`.  Multiply this by **Time** and send it to the input of the **Sine** node. Set the **Group** to `BaseColor` and set the **Sort Priority** to `7`.
 
 ![multiply glow color 2](images/addSpeed.png)
 
