@@ -168,11 +168,18 @@ Play the game and we have more convincing piece of glass.
 
 ![change metalic an droughness](images/moreConvincing.png)
 
+![](../images/line2.png)
+
+##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
 Now we want the effect of the refraction to be greater at the edges.  So lets add a **Fresnel** node and a **Linear Interpolation** (Lerp) node to the node chart.
-![add fresnel and lerp nodes](images/fresnelLerp.png)
 
+Change the **Refraction** scalar parameter to `Edge Refraction`.  Add another **Scalar Parameter** and call it ``
 Add a **Constant Scalar** set to a value of `1`.  Feed this into the **Lerp | A** channel.  Send **Refraction** to the **Lerp | B** channel.  Set the **Refraction | Default** to `1.52` which is a good value for glass. Send the **Fresnel** into the **Lerp | Alpha** channel. Send the output of the **Lerp** node to the **Refraction** pin. Press the <kbd>Apply</kbd> button.
+
+![add fresnel and lerp nodes](images/hookUPFresnellLerp.png)
+
+
 
 ![alt_text](images/hookUPFresnellLerp.png)
 
@@ -181,24 +188,6 @@ Create another **Scalar Parameter** and call it `Refraction`.  Set it to `.1`.  
 
 Notice that a value of `.1` turns the sphere into a wide angle lens.
 
-![set scalar paramter refractoin to .1](images/point1ScalarRefaction.png)
-
-
-If you set the **Refraction | Default Value** to `2.0`, notice that we get a magnifying effect. Press the <kbd>Apply</kbd> button.
-
-![2 magnifies](images/TwoRefraction.png)
-
-*Press* the <kbd>Play</kbd> button.  The rendering issues have disappeared but now the effect is too subtle.
-
-https://user-images.githubusercontent.com/5504953/187050753-e843dcd8-1c88-49de-b409-75d417b683bc.mp4
-
-Open up **M_GlassBasic** and change the **Opacity** to `.4`, then I put more white into the color.
-
-![increase opacity](images/lessopaqueWhiter.png)
-
-![](../images/line2.png)
-
-##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
  Now the center has no refraction so go in and change the constant vector to `1.05` so it has a bit of refraction at the very center.
 
 ![change refraction minimum to 1.05](images/centerRefract.png)
