@@ -159,6 +159,8 @@ Add another **Function Output** and connect it to the **Lerp** node.  Change the
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Go back to **M_Glass** and drag in **MF_Glass** and connect it to the **Emissive Color** and **Refraction** pins.  Press the <kbd>Apply</kbd> button.  Now we are done.
+
 ![organize outliner](images/addMFGlass.png)
 
 ![](../images/line2.png)
