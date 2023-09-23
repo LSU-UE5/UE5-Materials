@@ -15,9 +15,7 @@ Lets start by moving the **Player Start** actor to the front of room 6.
 
 ![move player start](images/movePlayerStart.png)
 
-Now we want to be able to scale that opacity.  So add a **Scalar Parameter** and call it `Opacity Intensity`.  Set it's **Group** to `Base Color` and **Sort Priority** to `4`.  Add a **Multiply** node and send the **Output Intensity** and **Base Color | A** nodes to the **Multiply** input pin.  Then send the output to **Output Opacity**.
 
-![multiply opacity intensity](images/opacityScalar.png)
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
@@ -139,16 +137,17 @@ Now the decals do not take a texture slot they lie on top of the textures and ac
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
+Now we want to be able to adjust how opaque the decal is.  So add a **Scalar Parameter** and call it `OpacityIntensity`.  Set it's **Group** to `Opacity` and **Sort Priority** to `12`.  
 
-
-
+![multiply opacity intensity](images/opacityScalar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Set the default value of **OpacityIntensity** to `1.0` (essenctially no effect). Add a **Multiply** node and send the **Output Intensity** and **Base Color | A** nodes to the **Multiply** input pin.  Then send the output to **Output Opacity**.
 
-
+![multiply opacity intensity](images/alphaMultiplier.png)
 
 ![](../images/line2.png)
 
