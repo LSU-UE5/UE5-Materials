@@ -135,28 +135,29 @@ Go back to the editor and duplicate the material ball and title and put it in fr
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
 *Press* the <kbd>Play</kbd> button and now look at all three material balls.  We have made progressive improvements and our third ball is terrific! Play around with the amount of glow to your liking.
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/990c21ef-fbe0-42b0-84bf-e6f33d2083c3
 
 ![](../images/line2.png)
 
+##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+
+
+![organize outliner](images/newMatFunc.png)
+
+![](../images/line2.png)
+
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Go to the **Outliner** and make sure eveything is in **Room 7**.  Rename items so they make sense.
 
-![organize outliner](images/organizeOutliner.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+Go to the **Outliner** and make sure eveything is in **Room 7**.  Rename items so they make sense.
 
+![organize outliner](images/organizeOutliner.png)
 Select the **File | Save All** then press the <kbd>Revision Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
 ![save all and submit to perforce](images/submitP4.png)
