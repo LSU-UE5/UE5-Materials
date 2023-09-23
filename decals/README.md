@@ -11,11 +11,6 @@ We can also change materials dynamically by using decals.  These can be placed o
 <br>
 
 ---
-Lets start by moving the **Player Start** actor to the front of room 6.
-
-![move player start](images/movePlayerStart.png)
-
-
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
@@ -177,6 +172,10 @@ Drag **MI_DamagedRoad** onto the plane surface in room 6. Adjust the color, tint
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
+
+Lets start by moving the **Player Start** actor to the front of room 6.
+
+![move player start](images/movePlayerStart.png)
 
 
 ![](../images/line2.png)
