@@ -173,7 +173,7 @@ Drag **MI_DamagedRoad** onto the plane surface in room 6. Adjust the color, tint
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Lets start by moving the **Player Start** actor to the front of room 6.
+Lets look at it in game, so start by moving the **Player Start** actor to facing the front of Room 6.
 
 ![move player start](images/movePlayerStart.png)
 
