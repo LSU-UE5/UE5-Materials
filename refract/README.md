@@ -96,6 +96,8 @@ Open up **MI_Glass** and turn **AlphaScalar** to `true`.  Now a value of `0.0` i
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
+Open up **M_Glass** and turn **Two Sided** to `true`.  Press the <kbd>Apply</kbd> button. Now the rendering is broken in the material window but if you open up **MI_Glass** it is fine.
+
 ![add m_glass material](images/twoSided.png)
 
 ![](../images/line2.png)
