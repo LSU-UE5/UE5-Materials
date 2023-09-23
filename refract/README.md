@@ -80,7 +80,7 @@ Open up **MI_Glass** and change the base color tint to a light blue.
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-
+Now we want to have an alpha scalar we can adjust. Open up **MF_BaseScalar** and right click on the **Scalar** value of `1.0` and select **Convert to Parameter** and call it `Alpha Scalar`.  Set the default value to `1.0` and make it **Group** `BaseColor` and **Sort Priority** of `5`. 
 
 ![add m_glass material](images/AlphaScalar.png)
 
