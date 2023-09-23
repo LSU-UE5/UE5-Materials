@@ -76,6 +76,8 @@ Assign **MI_FlashingGlow** top the material ball in room 8.
 
 *Press* the <kbd>Play</kbd> button  and look at the animation. It went a bit fast for me so I added another **Divide** node and divided time by `4`.   I place dit inbetween the **Time** and **Sine** node to slow it down.  You could also add a **Scalar Parameter** so you can adjust the speed. Press the <kbd>Apply</kbd> button.
 
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/06ef0a0a-6c3e-49aa-bfed-616aa9c15467
+
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
