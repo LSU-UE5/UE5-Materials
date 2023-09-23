@@ -91,7 +91,7 @@ Now open up **MF_BaseTexture** and add another **Scalar Parameter** node called 
 
 Now go back to the material instance and adjust the flashing speed.  I like `0.5`.  Now verify your work in engine by playing the game.
 
-
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/d6467d88-45dd-435c-98f0-b1cc8fc5bf97
 
 ![](../images/line2.png)
 
