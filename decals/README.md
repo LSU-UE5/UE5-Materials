@@ -104,7 +104,11 @@ Now we need to access the three textures for the road.  Download [T_ConcreteRoad
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Assign the three textures to **MI_ConcreteRoad**.  Make sure all other settings are default.
+Assign the three textures to **MI_ConcreteRoad**.  Assign `T_CementRoad_BCH` to **Base Color** and `T_ConcreteRoad_N` to **Normal Map** and finally `T_ConcreateRoad_MSRAO` to **Metallic | Specular | Roughness | AO**. 
+
+Make sure all other settings are default.
+
+![download 3 road textures ](images/.png)
 
 ![](../images/line2.png)
 
@@ -126,7 +130,9 @@ Now in my game the texture looks dark.  Change the **Intensity** of the **Direct
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now the decals do not take a texture slot they lie on top of the textures and act as a layer in photoshop but project over existing polygons and uvs.  So drag **MI_CementCracks** over to the road.  You can move it around, rotate it and scale it.  I made it a bit smaller as it seemed a bit big to me.
 
+![add mi_cementcrack to level](images/addCementCrackLevel.png)
 
 
 ![](../images/line2.png)
@@ -162,17 +168,10 @@ Now in my game the texture looks dark.  Change the **Intensity** of the **Direct
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Assign `T_CementRoad_BCH` to **Base Color** and `T_ConcreteRoad_N` to **Normal Map** and finally `T_ConcreateRoad_MSRAO` to **Metallic | Specular | Roughness | AO**.
-
-![assign material to MI_ConcreteRoad](images/assignConcreteTextures.png)
-
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Select all 16 faces and assign **MI_ContreteRoad** as the material.
-
-![make adjustments to be in right position](images/concreteMatRoad.png)
 
 ![](../images/line2.png)
 
