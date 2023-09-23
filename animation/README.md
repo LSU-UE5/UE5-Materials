@@ -33,10 +33,19 @@ Now add a **Constant 3 Vector** and leave at at `0,0,0` (or black).  Add a **Ler
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now to animate the Lerp we need the passage of time. Add the **Time** node to have a number that advances. Add a **Sign** node so this will give us a sine wave based on the speed of the time. So it will return a value of -1 to 1.  Now for the Lerp we want a value of 0 to 1.
+
+![add material ball to room](images/addTime.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
 Scoot the camera over to **Room 8** and add a **Meshes | Supplied | SM_MatPreviewMesh_02** to the level changing its angle to face the middle of the room.
 
@@ -53,10 +62,6 @@ Add a **Vector Parameter** node and name it `Glow Color`. Make it a bright vibra
 Add three **Scalar Parameters**.  The first is called `Metallic` with a value of `0`.  The second is `Specular` with a value of `0.5` and the final is called `Roughness` with a value of `0`.
 
 ![add three scalar parameters](images/addThreeScalarParams.png)
-
-![](../images/line2.png)
-
-##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
 Add a **LinearInterpolate** (LERP) node. We are going to have no flashing glow at the B input so add a **Constant** node and leave it as its default `0` and place it in the **B** pin of the LERP node. Add comment box around **Surface Properties** and **Base Color** and organize your node chart.
 
