@@ -57,9 +57,9 @@ Scoot the camera over to **Room 8** and add a **Meshes | Supplied | SM_MatPrevie
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Add a **Vector Parameter** node calling it `Glow Color 2` and make it a slightly different version of the first color.  Plug the white output to the **Lerp | A** node.
+Open up **MI_FlashingGlow** and 
 
-![alt_text](images/glowColor2.png)
+![alt_text](images/changeParenttoEm.png)
 
 ![](../images/line2.png)
 
