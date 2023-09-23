@@ -25,6 +25,7 @@ Add a **Static Switch Paremeter** node and call it `FlashingEmissive?` and set t
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
+Now add a **Constant 3 Vector** and leave at at `0,0,0` (or black).  Add a **Lerp** node and plug the black vector into the **B** side of the lerp.  Then take the **ScaleEmission?** output node and put it in the **A** side of the **Lerp**.  Sned the **Lerp** to the **FlasingEmissive? | True** pin.  Send the output of the **FlasingEmissive?** node to the **UseBaseColorAlpha? | True** pin. Send the **ScaleEmission?** output pin to the **FlasingEmissive? | False** pin.
 
 ![add material ball to room](images/addLerp.png)
 
