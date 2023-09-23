@@ -145,7 +145,7 @@ Now we want to be able to adjust how opaque the decal is.  So add a **Scalar Par
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Set the default value of **OpacityIntensity** to `1.0` (essenctially no effect). Add a **Multiply** node and send the **Output Intensity** and **Base Color | A** nodes to the **Multiply** input pin.  Then send the output to **Output Opacity**.
+Set the default value of **OpacityIntensity** to `1.0` (essenctially no effect). Add a **Multiply** node and send the **OutputIntensity** and **MF_BaseTexture | Alpha** nodes to the **Multiply** input pin.  Then send the output to **Opacity**.
 
 ![multiply opacity intensity](images/alphaMultiplier.png)
 
