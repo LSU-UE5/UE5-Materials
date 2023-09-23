@@ -88,22 +88,19 @@ Now we want to have an alpha scalar we can adjust. Open up **MF_BaseScalar** and
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
+Open up **MI_Glass** and turn **AlphaScalar** to `true`.  Now a value of `0.0` is completely transparent and a value of `1.0` is completely opaque.  So lets set it to `0.3` as a default value.  Notice the ball is transparent.  Now you can't see the other side, lets fix that.
+
 ![add m_glass material](images/setAlphaScalar.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
+Now we want to add refraction to **M_Glass** as a glass bowl should act a lense and refract light. But our refraction pin is greyed out?  GO to 
 
-![set default value to .3](images/opacityScalarParameter.png)
-Create another **Scalar Parameter** and call it `Refraction`.  Set it to `.1`.  Make a comment around the **Opacity** and **Refraction** nodes with comment `Surface Properties`.  The highlight the base color node and press the <kbd>C</kbd> button and nake the comment `Base Color`.  Change the colors to separate the comments.
+![add m_glass material](images/AddRefraction.png)
 
-Notice that a value of `.1` turns the sphere into a wide angle lens.
 
-![set scalar paramter refractoin to .1](images/point1ScalarRefaction.png)
-If you set the **Refraction | Default Value** to `2.0`, notice that we get a magnifying effect. Press the <kbd>Apply</kbd> button.
-
-![2 magnifies](images/TwoRefraction.png)
 
 Set **Opacity** to **Group** `SurfaceProperties` and **Sort Priority** `0`.  Set **Refraction** to **Group** `SurfaceProperties` and **Sort Priority** `1`.
 
@@ -168,6 +165,17 @@ Add a **Constant Scalar** set to a value of `1`.  Feed this into the **Lerp | A*
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+![set default value to .3](images/opacityScalarParameter.png)
+Create another **Scalar Parameter** and call it `Refraction`.  Set it to `.1`.  Make a comment around the **Opacity** and **Refraction** nodes with comment `Surface Properties`.  The highlight the base color node and press the <kbd>C</kbd> button and nake the comment `Base Color`.  Change the colors to separate the comments.
+
+Notice that a value of `.1` turns the sphere into a wide angle lens.
+
+![set scalar paramter refractoin to .1](images/point1ScalarRefaction.png)
+
+
+If you set the **Refraction | Default Value** to `2.0`, notice that we get a magnifying effect. Press the <kbd>Apply</kbd> button.
+
+![2 magnifies](images/TwoRefraction.png)
 
 *Press* the <kbd>Play</kbd> button.  The rendering issues have disappeared but now the effect is too subtle.
 
