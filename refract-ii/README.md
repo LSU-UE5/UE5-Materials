@@ -107,9 +107,9 @@ To add a glow to the edge we will open up **M_Glass** and add a new **Static Swi
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Add a **Multiply** node.  Send the output of the **Glass Color** to the **Multiply | A** and the **Edge Glow** to the **B** side.  Now add a **Fresnel** node.  Send the output to another new **Multiply | B** pin.  Send the first **Multiply** output into the **A** side of the second **Multiply** node.  Send the output to the **Edge Glow? | True** pin.  Now when it we have edge glow we can multiply the glass color with a fresnel (greater glow on the edges) to the material.
 
-![multiply glow fresnel](images/multiplyGlowFresnel.png)
+
+![multiply glow fresnel](images/sendToEmissive.png)
 
 ![](../images/line2.png)
 
