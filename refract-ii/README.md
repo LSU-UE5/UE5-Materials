@@ -117,7 +117,7 @@ Add comments with `Edge Glow` around the emissive pins and `Refraction` around t
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
+Go to **Materials | Material Instances** and right click `MI_GlasFrosted` and select **Duplicate**.  Call this new material instance `MI_GlassFrostedGlow`.
 
 ![multiply glow fresnel](images/dupefrostglssglow.png)
 
@@ -125,9 +125,8 @@ Add comments with `Edge Glow` around the emissive pins and `Refraction` around t
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Right click on **Material | Surfaces | M_GlassNormal** and select **Duplicate**.  Call this `MI_GlassGlow`.  Copy and paster another material ball and title to the right.  Call the title text `MI_GlassGlow`.  Drag the **MI_GlassGlow** material onto this third material ball.
 
-![alt_text](images/miGlassGLow.png)
+![alt_text](images/.png)
 
 ![](../images/line2.png)
 
