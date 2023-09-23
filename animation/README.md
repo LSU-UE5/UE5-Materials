@@ -89,6 +89,10 @@ Now open up **MF_BaseTexture** and add another **Scalar Parameter** node called 
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
+Now go back to the material instance and adjust the flashing speed.  I like `0.5`.  Now verify your work in engine by playing the game.
+
+
+
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
