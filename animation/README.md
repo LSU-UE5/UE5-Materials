@@ -97,7 +97,7 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/d6467d88-45dd-435c-98f0-
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-OK, lets animate the UV's so the texture inside the material animates.  Open up **MF_UVs** and a **Static Switch Parameter** and call it
+OK, lets animate the UV's so the texture inside the material animates.  Open up **MF_UVs** and a **Static Switch Parameter** and call it `AnimateUVs`.  Make it **Group** `UVs` and **Sort Priority** `64`.
 
 ![create mi_chevron](images/createChevron.png)
 
