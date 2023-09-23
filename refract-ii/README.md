@@ -86,19 +86,18 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/2f2d2a13-02de-4a66-abbd-
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
+Add a new **Static Switch Parameter** and call it `Edge Glow?`. 
 
-Now glass can pick up light so this is a bright room.  Lets add an edge glow.  Add a new **Scalar Parameter** called `Edge Glow` and set it's **Default Value** to `.5`.
-
-![add edge glow scalar](images/edgeGlowScalar.png)
+![add edge glow scalar](images/GLowStaticParam.png)
 
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Add a new **Static Switch Parameter** and call it `Edge Glow?`.  Add a **Constant Scalar** set to `0` to the **False** pin.  Send the output of **Edge Glow?** to the **Emissive Color** pi9n on the material.
+ Add a **Constant Scalar** set to `0` to the **False** pin.  Send the output of **Edge Glow?** to the **Emissive Color** pi9n on the material.
 
-![add edge glow switch](images/staticSwitchEdge.png)
+![add edge glow switch](images/.png)
 
 ![](../images/line2.png)
 
