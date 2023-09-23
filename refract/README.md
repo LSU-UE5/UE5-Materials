@@ -15,7 +15,7 @@ How do we handle materials like glass that are subtle and reflect and distort th
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Download [M_CastleStructure.zip](../Assets/M_CastleStructure.zip).  *Right click* on **M_CastleStructure.zip** and select **Extract All**.  Select the **Materials | Supplied** folder and press the <kbd>Import</kbd> button and select **M_CastleStructure.gltf**. Press the <kbd>Import</kbd> button with the default settings.  It will download the static mesh, materials and textures.
+Download [M_CastleStructure.zip](../Assets/M_CastleStructure.zip).  *Right click* on **M_CastleStructure.zip** and select **Extract All**.  Select the **Materials | Supplied** folder and press the <kbd>Import</kbd> button and select **M_CastleStructure.gltf**. 
 
 ![open up Basic Materials 2 and pupulate room 7.](images/importModelsAndMaterials.png)
 
@@ -23,7 +23,7 @@ Download [M_CastleStructure.zip](../Assets/M_CastleStructure.zip).  *Right click
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-
+Press the <kbd>Import</kbd> button with the default settings.  It will download the static mesh, materials and textures.
 
 ![open up Basic Materials 2 and pupulate room 7.](images/defaultImportSettings.png)
 
@@ -31,12 +31,21 @@ Download [M_CastleStructure.zip](../Assets/M_CastleStructure.zip).  *Right click
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Repeat this process for **M_CastleColumn.glhf**.
+
 ![open up Basic Materials 2 and pupulate room 7.](images/secondImport.png)
 
 ![](../images/line2.png)
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+
+
+![open up Basic Materials 2 and pupulate room 7.](images/renameFIles.png)
+
+![](../images/line2.png)
+
+##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
 Double click **Maps | BasicMaterials2**.  Go to **Meshed | Supplied** and drag **SM_Castle_Column** and **SM_CastleStructure** multiple times in the scene in **Room 7**.  We will use these as backrounds that will show us behind thes glass.
 
@@ -53,10 +62,6 @@ Add a **Vector 3 Parameter** called `Glass Color`.  Set the **Group** to `Base C
 Select **M_Glass** and change the **Shading Model** to `Translucent`.  We want it to be glass so we have to see through it. Set **Two Sided** to `true`.
 
 ![translucent shading model](images/shadingModel.png)
-
-![](../images/line2.png)
-
-##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
 Select a light blue color and connect the white pin in **Glass Color** to the **Base Color** pin.
 
