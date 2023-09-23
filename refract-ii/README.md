@@ -143,13 +143,11 @@ Go back to the editor and duplicate the material ball and title and put it in fr
 
 *Press* the <kbd>Play</kbd> button and now look at all three material balls.  We have made progressive improvements and our third ball is terrific! Play around with the amount of glow to your liking.
 
-
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/990c21ef-fbe0-42b0-84bf-e6f33d2083c3
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
 
 Go to the **Outliner** and make sure eveything is in **Room 7**.  Rename items so they make sense.
 
