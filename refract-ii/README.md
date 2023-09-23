@@ -39,29 +39,33 @@ Lets adjust the strength of the fresnel by turning the **Exponent In** to a vari
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Download [T_FrostedGlass.tga](../Assets/T_FrostedGlass.TGA) normal map and import into the game. Assing the **Normal** texture to be `T_FrostedGlass`. 
-
-![assign T_FrostedGlass](images/assignTFrostedGlass.png)
+![assign T_FrostedGlass](images/MIFrostedGlass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-![alt_text](images/normalOnGlass.png)
+Download [T_FrostedGlass.tga](../Assets/T_FrostedGlass.TGA) normal map and import into the game. Assing the **Normal** texture to be `T_FrostedGlass`. 
+
+![assign T_FrostedGlass](images/assignTFrostedGlass.png)
+
+Download [T_FrostedGlass.tga](../Assets/T_FrostedGlass.TGA) normal map and import into the game. 
+
+
 
 ![](../images/line2.png)
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Set default for **Use Normal** to `false`. This way we will not affect our previous material in the level. In the Normal map set the **Priority** to `3` and the **Group** to `SurfaceProperties`.
+Assing the **Normal** texture to be `T_FrostedGlass`. 
 
-![alt_text](images/useNormalFalsePrior.png)
+![assign T_FrostedGlass](images/assignTFrostedGlass.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-![alt_text](images/dupicateMIGlassBasic.png)
 
 ![](../images/line2.png)
 
