@@ -31,7 +31,7 @@ Add a **Text** actor and change the color and size and set it to **Text** `MI_Gl
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-We can add another **Scalar Parameter** and set the default to `5`.  Call it `FresnelExponent` and attach it tohe the **ExponentIn** pin. 
+Lets adjust the strength of the fresnel by turning the **Exponent In** to a variable. Open up **M_Glass** and add another **Scalar Parameter** and set the default to `5`.  Call it `FresnelExponent` and attach it to the **ExponentIn** pin. Set the **Default Value** to `5.0`, set the **Group** to `Glass Properties` and the **Set Priority** to `17`.
 
 ![add scalar paramter called fresnel exponent](images/addFrenelExpScalarParam.png)
 
