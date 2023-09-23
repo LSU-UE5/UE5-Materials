@@ -95,7 +95,7 @@ Now we have nothing to put the decal on.  Lets put a road texture on our planes 
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Now we need to access the three textures for the road.  Download [T_ConcreteRoad_BCH.png](../Assets/T_ConcreteRoad_BCH.png), [T_ConcreteRoad_N.png](../Assets/T_ConcreteRoad_N.png) and [T_ConcreteRoad_MSRAO.png](../Assets/T_ConcreteRoad_MSRAO.png). Drag the three files into the **Textures | Surfaces** folder. Make sure the normal map texture is set correctly.
+Now we need to access the three textures for the road.  Download [T_ConcreteRoad_BCH.png](../Assets/T_ConcreteRoad_BCH.png), [T_ConcreteRoad_N.png](../Assets/T_ConcreteRoad_N.png) and [T_ConcreteRoad_MSRAO.png](../Assets/T_ConcreteRoad_MSRAO.png). Drag the three files into the **Textures | Surfaces** folder. Make sure the normal map texture is set correctly. Change the comporessoin on **T_ConcreteRoad_MSRAO** to `Masks`.
 
 ![download 3 road textures ](images/downloadRoads.png)
 
@@ -104,23 +104,23 @@ Now we need to access the three textures for the road.  Download [T_ConcreteRoad
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-
+Assign the three textures to **MI_ConcreteRoad**.  Make sure all other settings are default.
 
 ![](../images/line2.png)
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Replace **MF_Texture** with **MF_Opacity**.  
+Drag **MI_ConcreteRoad** onto the plane we created for the road surface.  It is a bit dark.
 
-![replace mf_texture with mf_opacity](images/addMFOpacity.png)
+![replace mf_texture with mf_opacity](images/assignMatToRoad.png)
 
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Connect all the pins from the **MF_UVs to the MF_Opacity** and from **MF_Opacity**  t0 **M_Decal**.  They are the same as the **M_TextureSolid** except we have an **Alpha** channel we are using to hold the **Opacity**.
+Now in my game the texture looks dark.  Change the **Intensity** of the **Directional Light** (the sun).
 
-![connect all material pins](images/oneMorePinOpac.png)
+![connect all material pins](images/adjustlight.png)
 
 ![](../images/line2.png)
 
