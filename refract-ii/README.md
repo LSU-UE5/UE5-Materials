@@ -107,7 +107,7 @@ To add a glow to the edge we will open up **M_Glass** and add a new **Static Swi
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-
+Send the output of **EdgeGlow** to the **A** side of the multiply node.  Send the output of the multiply node to the **EdgeGlow | True** pin.  Send the **Edge Glow** output pin to the **Emissive Color** pin.
 
 ![multiply glow fresnel](images/sendToEmissive.png)
 
