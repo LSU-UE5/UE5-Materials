@@ -112,7 +112,7 @@ Now we want to add refraction to **M_Glass** as a glass bowl should act a lense 
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Add a **Scalar Parameter** and call it `Refraction`. Set it to a default of `1.0` (no refraction).  Set the **Group** to ``
+Add a **Scalar Parameter** and call it `Refraction`. Set it to a default of `1.0` (no refraction).  Set the **Group** to `GlassPreoperties` and *Sort Priority** to `15`.
 
 ![add m_glass material](images/setRefraction.png)
 
