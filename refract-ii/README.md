@@ -143,6 +143,7 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/990c21ef-fbe0-42b0-84bf-
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Go to **Materials | Material Functions** and right click and create a new **Material | Material Function** and call it `MF_Glass`.  Now go to **M_Glass** and *copy and cut* all the nodes in both comment boxes.
 
 ![organize outliner](images/newMatFunc.png)
 
