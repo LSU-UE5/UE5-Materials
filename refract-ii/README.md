@@ -17,6 +17,8 @@ Now lets really move it up a notch and add a normal map to give the glass some t
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
+Press <kbd>Play</kbd> and look at how the refraction increases around the edges.
+
 Add a **Text** actor and change the color and size and set it to **Text** `MI_BasicGlass`.  Place it and rotate it on top of the material ball.
 
 ![place text on toop of material ball](images/miBasicTextTitle.png)
