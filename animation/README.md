@@ -41,7 +41,9 @@ Now to animate the Lerp we need the passage of time. Add the **Time** node to ha
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+So we will now add `1` to the result of the Sign
 
+![add material ball to room](images/scaleAnims.png)
 
 ![](../images/line2.png)
 
