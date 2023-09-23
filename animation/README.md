@@ -33,7 +33,7 @@ Now add a **Constant 3 Vector** and leave at at `0,0,0` (or black).  Add a **Ler
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now to animate the Lerp we need the passage of time. Add the **Time** node to have a number that advances. Add a **Sign** node so this will give us a sine wave based on the speed of the time. So it will return a value of -1 to 1.  Now for the Lerp we want a value of 0 to 1.
+Now to animate the Lerp we need the passage of time. Add the **Time** node to have a number that advances. Add a **Sine** node so this will give us a sine wave based on the speed of the time. So it will return a value of -1 to 1.  Now for the Lerp we want a value of 0 to 1.
 
 ![add material ball to room](images/addTime.png)
 
@@ -41,7 +41,7 @@ Now to animate the Lerp we need the passage of time. Add the **Time** node to ha
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-So we will now add `1` to the result of the Sign
+So we will now add `1` to the result of the Sine node.  This will bring the range from 0 to 2.  Now we want the lerp to go between 0 and 1 so we will divide the result of the addition by `2` by adding a **Divide** node.  Now send it to a saturate pin just in case to clamp the result between 0 and 1.  Then send the **Saturate** output pin to the **Lerp | Alpha** pin.
 
 ![add material ball to room](images/scaleAnims.png)
 
