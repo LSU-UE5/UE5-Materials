@@ -82,6 +82,8 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/2f2d2a13-02de-4a66-abbd-
 
 *Press* the <kbd>Play</kbd> button and go up to both glass material balls.  The textured one really stands out and the refraction is now even more exagerated.
 
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/a46a4ec8-6618-4bc3-8373-bde042af0d20
+
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
