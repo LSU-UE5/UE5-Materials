@@ -117,9 +117,9 @@ Add comments with `Edge Glow` around the emissive pins and `Refraction` around t
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-On **Edge Glow** set the **Group** to `SurfaceProperties` and **Sort Priority** to `4`.
 
-![set group and sort](images/setGlowProperties.png)
+
+![multiply glow fresnel](images/dupefrostglssglow.png)
 
 ![](../images/line2.png)
 
