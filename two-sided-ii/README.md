@@ -2,9 +2,7 @@
 
 ### Two Sided Material II
 
-<sub>[previous](../two-sided/README.md#user-content-two-sided-material) • [home](../README.md#user-content-ue5-intro-to-materials)  </sub> 
-
-<!--- • [next](../decals/README.md#user-content-decals)--->
+<sub>[previous](../two-sided/README.md#user-content-two-sided-material) • [home](../README.md#user-content-ue5-intro-to-materials)  </sub>  • [next](../decals/README.md#user-content-decals)
 
 ![](../images/line3.png)
 
@@ -65,8 +63,5 @@ If the files are in **Content** or **Configuration** then press the <kbd>Reconci
 
 ![](../images/line.png)
 
-| [previous](../two-sided/README.md#user-content-two-sided-material)| [home](../README.md#user-content-ue5-intro-to-materials) | 
-
-<!---[next](../decals/README.md#user-content-decals)| |--- --->
-
-|---|---|
+| [previous](../two-sided/README.md#user-content-two-sided-material)| [home](../README.md#user-content-ue5-intro-to-materials) | [next](../decals/README.md#user-content-decals)| 
+|--- |---|---|

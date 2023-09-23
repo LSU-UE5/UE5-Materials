@@ -98,6 +98,10 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/d6467d88-45dd-435c-98f0-
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
 
+OK, lets animate the UV's so the texture inside the material animates.  Right click on **Material | Master |  M_EmissiveTexture** and select **Create Material Instance**.  Call it `MI_Chevron`.  Drag it to the **Materials | Surfaces** folder and move it there.
+
+![create mi_chevron](images/createChevron.png)
+
 ![](../images/line2.png)
 
 
@@ -115,17 +119,10 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/d6467d88-45dd-435c-98f0-
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Press* the <kbd>Play</kbd> button and I like the speed better.
-
-https://user-images.githubusercontent.com/5504953/187080763-a41f368f-0763-44a1-a8ad-d124a09c71c2.mp4
-
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-OK, lets animate the UV's so the texture inside the material animates.  Right click on **Material | Master |  M_EmissiveTexture** and select **Create Material Instance**.  Call it `MI_Chevron`.  Drag it to the **Materials | Surfaces** folder and move it there.
-
-![create mi_chevron](images/createChevron.png)
 
 ![](../images/line2.png)
 
