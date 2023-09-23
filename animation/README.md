@@ -49,7 +49,7 @@ So we will now add `1` to the result of the Sine node.  This will bring the rang
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Scoot the camera over to **Room 8** and add a **Meshes | Supplied | SM_MatPreviewMesh_02** to the level changing its angle to face the middle of the room.
+Scoot the camera over to **Room 8** and add a **Meshes | Supplied | SM_MatPreviewMesh_02** to the level changing its angle to face the middle of the room. Go to **Material Instances** and duplicate **MI_MarbleTile** and call it `MI_FlashingGlow`.
 
 ![add material ball to room](images/setUpRoom.png)
 
