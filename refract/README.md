@@ -120,7 +120,7 @@ Add a **Scalar Parameter** and call it `Refraction`. Set it to a default of `1.0
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
+Now back in **MI_Glass** we can adust the **Refraction**.  Values between `0` and `1` make the refraction like a wide-angle lens and a value of above `1.0` to be like a zoom lens.
 
 ![add m_glass material](images/refractionEffects.png)
 
@@ -129,14 +129,24 @@ Add a **Scalar Parameter** and call it `Refraction`. Set it to a default of `1.0
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
 
-Drag from **Mesh | Supplied | SM_MatPreviewMesh_02** into the scene. Rotate it to face forward.
+Drag from **Mesh | Supplied | SM_MatPreviewMesh_02** into the scene. Rotate it to face forward. Assign **Materials | Surfaces | MI_GlassBasic** to the material ball. 
 
 ![drag material ball in scene](images/addMatBall.png)
 
+![](../images/line2.png)
 
-Assign **Materials | Surfaces | MI_GlassBasic** to the material ball.  Change the **Opacity** on the material instance to 0.1.
+##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-![add material instance to ball](images/addMIGlassBasic.png)
+
+ I find the glass a bit cloudy so I changee the **Opacity** on the material instance to 0.1.
+
+![add material instance to ball](images/adjustAlphaClearer.png)
+
+
+
+![](../images/line2.png)
+
+##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now we can make it better at a rendering cost.  Go to **Lighting Mode** and select `Surface Translucency Volume`. Now notice that it already looks a lot better and all of our PBR pins light up again.  Bonus!
 
@@ -148,17 +158,8 @@ https://user-images.githubusercontent.com/5504953/187050453-97243b95-87f1-4193-b
 Add two constant scalars setting the first to `1` and send it to **Metalic**.  Make the second constant scalar a value of `0` and send it to **Roughness**.  So we will make the glass really smooth and completely metalic which will help with the reflection and surface properties.
 
 ![change metalic an droughness](images/changeRoughMet.png)
-
-![](../images/line2.png)
-
-##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
-
 Now we want the effect of the refraction to be greater at the edges.  So lets add a **Fresnel** node and a **Linear Interpolation** (Lerp) node to the node chart.
 ![add fresnel and lerp nodes](images/fresnelLerp.png)
-
-![](../images/line2.png)
-
-##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Add a **Constant Scalar** set to a value of `1`.  Feed this into the **Lerp | A** channel.  Send **Refraction** to the **Lerp | B** channel.  Set the **Refraction | Default** to `1.52` which is a good value for glass. Send the **Fresnel** into the **Lerp | Alpha** channel. Send the output of the **Lerp** node to the **Refraction** pin. Press the <kbd>Apply</kbd> button.
 
