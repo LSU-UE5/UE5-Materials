@@ -109,6 +109,8 @@ To add a glow to the edge we will open up **M_Glass** and add a new **Static Swi
 
 Send the output of **EdgeGlow** to the **A** side of the multiply node.  Send the output of the multiply node to the **EdgeGlow | True** pin.  Send the **Edge Glow** output pin to the **Emissive Color** pin.
 
+Add comments with `Edge Glow` around the emissive pins and `Refraction` around the refraction pins.
+
 ![multiply glow fresnel](images/sendToEmissive.png)
 
 ![](../images/line2.png)
