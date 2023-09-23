@@ -121,6 +121,14 @@ Add a **Scalar Parameter** and call it `Refraction`. Set it to a default of `1.0
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 
+
+![add m_glass material](images/refractionEffects.png)
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
+
+
 Drag from **Mesh | Supplied | SM_MatPreviewMesh_02** into the scene. Rotate it to face forward.
 
 ![drag material ball in scene](images/addMatBall.png)
@@ -137,11 +145,6 @@ Now we can make it better at a rendering cost.  Go to **Lighting Mode** and sele
 *Press* the <kbd>Play</kbd> button and run up to the material ball.  Now a lot of the background disappears.  It doesn't look too much like glass.  This is a cheaper way of rendering it but up close fools no one.
 
 https://user-images.githubusercontent.com/5504953/187050453-97243b95-87f1-4193-b5db-5bb9a7422153.mp4
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
-
 Add two constant scalars setting the first to `1` and send it to **Metalic**.  Make the second constant scalar a value of `0` and send it to **Roughness**.  So we will make the glass really smooth and completely metalic which will help with the reflection and surface properties.
 
 ![change metalic an droughness](images/changeRoughMet.png)
