@@ -154,10 +154,21 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/6770ec34-437c-4bfc-bae7-
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Turn off **MetallicUseMask?** and set the **Metalic Amount** to `1.0`. Change the **Specular Use Mask?** to `false` and set **Specular Amount** to `0.8`. Change the **RoughnessUseMask?** to `false` and change the **Roughness Amount** to `0.0`.  So we will make the glass really smooth and completely metalic which will help with the reflection and surface properties.
 
-Add two constant scalars setting the first to `1` and send it to **Metalic**.  Make the second constant scalar a value of `0` and send it to **Roughness**.  So we will make the glass really smooth and completely metalic which will help with the reflection and surface properties.
+Now I find in game the glass a bit too transparent so I decide to change the **Alpha Scalar** to `2.0`.
 
 ![change metalic an droughness](images/changeRoughMet.png)
+
+![](../images/line2.png)
+
+##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Play the game and we have more convincing piece of glass.
+
+![change metalic an droughness](images/moreConvincing.png)
+
+
 Now we want the effect of the refraction to be greater at the edges.  So lets add a **Fresnel** node and a **Linear Interpolation** (Lerp) node to the node chart.
 ![add fresnel and lerp nodes](images/fresnelLerp.png)
 
@@ -180,10 +191,6 @@ If you set the **Refraction | Default Value** to `2.0`, notice that we get a mag
 *Press* the <kbd>Play</kbd> button.  The rendering issues have disappeared but now the effect is too subtle.
 
 https://user-images.githubusercontent.com/5504953/187050753-e843dcd8-1c88-49de-b409-75d417b683bc.mp4
-
-![](../images/line2.png)
-
-##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Open up **M_GlassBasic** and change the **Opacity** to `.4`, then I put more white into the color.
 
