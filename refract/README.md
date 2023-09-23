@@ -179,26 +179,13 @@ Add a **Constant Scalar** set to a value of `1`.  Feed this into the **Lerp | A*
 
 ![add fresnel and lerp nodes](images/hookUPFresnellLerp.png)
 
-
-
-![alt_text](images/hookUPFresnellLerp.png)
-
-![set default value to .3](images/opacityScalarParameter.png)
-Create another **Scalar Parameter** and call it `Refraction`.  Set it to `.1`.  Make a comment around the **Opacity** and **Refraction** nodes with comment `Surface Properties`.  The highlight the base color node and press the <kbd>C</kbd> button and nake the comment `Base Color`.  Change the colors to separate the comments.
-
-Notice that a value of `.1` turns the sphere into a wide angle lens.
-
- Now the center has no refraction so go in and change the constant vector to `1.05` so it has a bit of refraction at the very center.
-
-![change refraction minimum to 1.05](images/centerRefract.png)
-
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Add a **Text** actor and change the color and size and set it to **Text** `MI_BasicGlass`.  Place it and rotate it on top of the material ball.
 
-![place text on toop of material ball](images/miBasicTextTitle.png)
+
+![add fresnel and lerp nodes](images/addFresnelToMI.png)
 
 ![](../images/line.png)
 
