@@ -51,23 +51,7 @@ So we will now add `1` to the result of the Sine node.  This will bring the rang
 
 Scoot the camera over to **Room 8** and add a **Meshes | Supplied | SM_MatPreviewMesh_02** to the level changing its angle to face the middle of the room.
 
-![add material ball to room](images/dragBallToRoom.png)
-
-Create a new **Material** in the **Materials | Master** called `M_AnimatedGlow`.
-
-![create new material called M_AnimatedGlow](images/newMaster.png)
-
-Add a **Vector Parameter** node and name it `Glow Color`. Make it a bright vibrant color and connect the output to **Base Color**.
-
-![add vector parameter called glow color to base color pin](images/textureParameter.png)
-
-Add three **Scalar Parameters**.  The first is called `Metallic` with a value of `0`.  The second is `Specular` with a value of `0.5` and the final is called `Roughness` with a value of `0`.
-
-![add three scalar parameters](images/addThreeScalarParams.png)
-
-Add a **LinearInterpolate** (LERP) node. We are going to have no flashing glow at the B input so add a **Constant** node and leave it as its default `0` and place it in the **B** pin of the LERP node. Add comment box around **Surface Properties** and **Base Color** and organize your node chart.
-
-![lerp and constant node](images/firstLerpNode.png)
+![add material ball to room](images/setUpRoom.png)
 
 ![](../images/line2.png)
 
