@@ -55,30 +55,31 @@ Download [T_FrostedGlass.tga](../Assets/T_FrostedGlass.TGA) normal map and impor
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
+Duplicate the glass ball and title text.  Move it to the middle of the room.  Change the title to `MI_FrostedGlass` and assign the **MI_FrostedGlass** material to the duplicated ball.
+
+![assign T_FrostedGlass](images/dupeFrosted.png)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Assing the **Normal** texture to be `T_FrostedGlass`. Change the **Alpha** scalar to `0.4`.
 
 ![assign T_FrostedGlass](images/assignTFrostedGlass.png)
 
 ![](../images/line2.png)
 
-##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 We can change the strength of the falloff of the fresnel node by adjusting the **Exponent**.
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/2f2d2a13-02de-4a66-abbd-3b030a655b57
 
-![](../images/line2.png)
-
-##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-*Press* the <kbd>Play</kbd> button and go up to both glass material balls.  The textured one really stands out and the refraction is now even more exagerated.
-
-
 
 ![](../images/line2.png)
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
+*Press* the <kbd>Play</kbd> button and go up to both glass material balls.  The textured one really stands out and the refraction is now even more exagerated.
 Now glass can pick up light so this is a bright room.  Lets add an edge glow.  Add a new **Scalar Parameter** called `Edge Glow` and set it's **Default Value** to `.5`.
 
 ![add edge glow scalar](images/edgeGlowScalar.png)
