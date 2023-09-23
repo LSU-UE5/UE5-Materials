@@ -174,8 +174,9 @@ Play the game and we have more convincing piece of glass.
 
 Now we want the effect of the refraction to be greater at the edges.  So lets add a **Fresnel** node and a **Linear Interpolation** (Lerp) node to the node chart.
 
-Change the **Refraction** scalar parameter to `Edge Refraction`.  Add another **Scalar Parameter** and call it ``
-Add a **Constant Scalar** set to a value of `1`.  Feed this into the **Lerp | A** channel.  Send **Refraction** to the **Lerp | B** channel.  Set the **Refraction | Default** to `1.52` which is a good value for glass. Send the **Fresnel** into the **Lerp | Alpha** channel. Send the output of the **Lerp** node to the **Refraction** pin. Press the <kbd>Apply</kbd> button.
+Change the **Refraction** scalar parameter to `RefractionEdges`.  Add another **Scalar Parameter** and call it `RefractionCenter`.  Make it a default value of `1.0` and put it in group **GlassProperties** and **Default Value** `16`.
+
+Feed **RefractionCenter** into the **Lerp | A** channel.  Send **RefractionEdges** to the **Lerp | B** channel.  Send the **Fresnel** into the **Lerp | Alpha** channel. Send the output of the **Lerp** node to the **Refraction** pin. Press the <kbd>Apply</kbd> button.
 
 ![add fresnel and lerp nodes](images/hookUPFresnellLerp.png)
 
@@ -183,7 +184,7 @@ Add a **Constant Scalar** set to a value of `1`.  Feed this into the **Lerp | A*
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-
+Go into the game and adjust the **RefractionEdges** on **MI_Glass** to `1.3` and the **RefractionCenter** to `1.08`.  This way we have less refraction in the center and more on the edges.  Now the sphere seems to be *more* 3-D.
 
 ![add fresnel and lerp nodes](images/addFresnelToMI.png)
 
