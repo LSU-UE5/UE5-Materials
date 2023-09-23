@@ -104,7 +104,7 @@ Open up **M_Glass** and turn **Two Sided** to `true`.  Press the <kbd>Apply</kbd
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now we want to add refraction to **M_Glass** as a glass bowl should act a lense and refract light. But our refraction pin is greyed out?  GO to 
+Now we want to add refraction to **M_Glass** as a glass bowl should act a lense and refract light. But our refraction pin is greyed out?  Go to the details panel and change the **Refraction Method** to `Index of Refraction`.
 
 ![add m_glass material](images/AddRefraction.png)
 
