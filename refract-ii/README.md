@@ -23,7 +23,7 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/787afa75-a939-44bd-a7d3-
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Add a **Text** actor and change the color and size and set it to **Text** `MI_BasicGlass`.  Place it and rotate it on top of the material ball.
+Add a **Text** actor and change the color and size and set it to **Text** `MI_Glass`.  Place it and rotate it on top of the material ball.
 
 ![place text on toop of material ball](images/miBasicTextTitle.png)
 
