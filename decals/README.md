@@ -153,7 +153,9 @@ Set the default value of **OpacityIntensity** to `1.0` (essenctially no effect).
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Click on the **Base Color Tint** and select the eye dropper and pick a color from the dement.  I made it even darker to make it more realistic. Adjust the alpha to blend it in nicely to the road to your liking.
 
+![alter crack color](images/adjustCrackColor.png)
 
 ![create concrete road material instance](images/createMIConcreteRoad.png)
 
@@ -161,11 +163,18 @@ Set the default value of **OpacityIntensity** to `1.0` (essenctially no effect).
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Right click on **Materials | Decals | MI_CementCracks** and call it `MI_DamagedRoad`. Now open up **MI_DamagedRoad** and assign the textures you downloaded.  Assign **T_DamagedRoad_BCA**, **T_DamagedRoad_N** and **T_DamagedRoad_BCMSRAO**.
 
+![duplicate MICementCracks and create MI_DamagedRoad](images/dupeMFDamagedRoad.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Drag **MI_DamagedRoad** onto the plane surface in room 6. Adjust the color, tint scale and rotation.  Make any final choices ot make it look as good as possible.
+
+![mi_damangedroad placed on ground](images/adjustDamagedRoadTing.png)
+
 
 ![](../images/line2.png)
 
