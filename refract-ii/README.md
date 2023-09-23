@@ -129,8 +129,6 @@ Go back to the editor and duplicate the material ball and title and put it in fr
 
 ![multiply glow fresnel](images/dupeGlowMat.png)
 
-![alt_text](images/.png)
-
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
