@@ -17,23 +17,17 @@ Finish up the UV translation.  Then lets rotate a UV.  Finally we will give the 
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Open up **MI_Chevron** and make it half size so we can still see the editor.
-
-![alt_text](images/openUpMIChevron.png)
+Now lets rotate the UVs.  Download [T_Gear.tif](../Assets/T_Gear.tif) and drag it to the **Textures | Surfaces** folder.  This is a mask and is in the shape of a round gear that we will spin.
 
 ![](../images/line2.png)
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-*Press* the <kbd>Play</kbd> button and then go and add a value to **Speed X** to make it animate.  Make it a negative number to move to the *right*.
-
-https://user-images.githubusercontent.com/5504953/187082987-b0ab4f24-232d-4c50-b927-1e5495123ce1.mp4
-
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now lets rotate the UVs.  Download [T_Gear.tif](../Assets/T_Gear.tif) and drag it to the **Textures | Surfaces** folder.  This is a mask and is in the shape of a round gear that we will spin.
+
 
 ![add T_Gear](images/tGear.png)
 
