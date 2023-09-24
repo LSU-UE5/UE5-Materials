@@ -106,6 +106,11 @@ OK, lets animate the UV's so the texture inside the material animates.  Open up 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+
+Add a **Panner** node between the **Custom Rotator** and the **Output UVs** node.  Notice it has a **Speed X** and **Speed Y** of `0`.  This means there is no panning.  We will leave these defaults as we don't want all our other textures to pan.
+
+![add panner node](images/addPanner.png)
+
 ![](../images/line2.png)
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
@@ -159,9 +164,6 @@ Duplicate the plane and place it next to it so we have two chevrons right next t
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Open up **MF_UVs** and add a **Panner** node between the **Custom Rotator** and the **Output UVs** node.  Notice it has a **Speed X** and **Speed Y** of `0`.  This means there is no panning.  We will leave these defaults as we don't want all our other textures to pan.
-
-![add panner node](images/addPanner.png)
 
 ![](../images/line2.png)
 
