@@ -113,7 +113,7 @@ Copy the normal nodes twice (we will reuse the same texture). Add two **Panner**
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-
+Send the **TexCoord** node into both the **Panner** nodes. Now for normal maps we combine them with a **BlendAngleCorrectedNormals** node that then gets sent to the **PanNormals? | True** pin.
 
 ![add coordinate and panner](images/blendNormals.png)
 
