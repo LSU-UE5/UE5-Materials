@@ -39,13 +39,19 @@ Add a **Scalar Parameter** node and call it `RotationSpeed`.  Change the **Group
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on **Materials | Master | M_EmissiveTexture** and select **Create Material Instance**.  Call it `MI_Rotate` and drag it to the **Surfaces** folder to move it.
+Now to animate the angle you multiply this speed variable by **Time**.
 
-![create mi_rotate material instance](images/miRotate.png)
+![add T_Gear](images/rotTime.png)
+
+
 
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
+
+Right click on **Materials | Master | M_EmissiveTexture** and select **Create Material Instance**.  Call it `MI_Rotate` and drag it to the **Surfaces** folder to move it.
+
+![create mi_rotate material instance](images/miRotate.png)
 
 Add another **Plane** actor to the level. Rotate it towards the camera and set the **Scale X** and **Scale Y** to `2.0`.  Drag the newly created **MI_Rotate** onto the plane and you should see the gear.
 
