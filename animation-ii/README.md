@@ -43,11 +43,17 @@ Now to animate the angle you multiply **RotationSpeed** variable by **Time**.
 
 ![add T_Gear](images/rotTime.png)
 
-
-
 ![](../images/line2.png)
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
+
+
+
+![add T_Gear](images/addStarting.png)
+
+![](../images/line2.png)
+
+##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
 Right click on **Materials | Master | M_EmissiveTexture** and select **Create Material Instance**.  Call it `MI_Rotate` and drag it to the **Surfaces** folder to move it.
 
@@ -56,10 +62,6 @@ Right click on **Materials | Master | M_EmissiveTexture** and select **Create Ma
 Add another **Plane** actor to the level. Rotate it towards the camera and set the **Scale X** and **Scale Y** to `2.0`.  Drag the newly created **MI_Rotate** onto the plane and you should see the gear.
 
 ![create plane for mi_rotate](images/addScalePlane.png)
-
-![](../images/line2.png)
-
-##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
 Now open up **MF_UVs**.  Lets not have the panner running unless we turn it on (as opposed to sending it 0). This should be more performant.  Add a **Static Switch Parameter**. Call is `Translave UVs?`.  Make it's **Group** a value of `UV` and it's **Sort Priority** a value of `2`. Leave it as a default of `False`.
 
