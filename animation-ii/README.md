@@ -105,7 +105,7 @@ Now open up **MF_Normal** and add a **Static Switch Parameter** called `PanNorma
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Finish the normals
+Copy the normal nodes twice (we will reuse the same texture). Add two **Panner** nodes.  We will hard code the animation, you could turn these into variables as we did before.  Set the first panner to an **X** of `0.25` and **Y** of `0.1` and the second to an **X** of `0.18` and **Y** of `0.23`
 
 ![drag normal ball from room 7](images/finishNormal.png)
 
