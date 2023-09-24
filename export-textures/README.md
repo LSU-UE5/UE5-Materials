@@ -12,7 +12,6 @@ All the textures we have used to date that are detailed (not the masks) all come
 
 ---
 
-
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
 You can download from **Quixel** bridge in the editor.  In the same **Place Actors** menu you can select **Bridge** and use your **Epic** login credentials to get free access.  You then can assign our own master material which is cool.  It doesn't export the layers in the same order, and even though there is no metallic or diffuse it is not exporting these layers. We will use a diffent way.
