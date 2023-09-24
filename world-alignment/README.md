@@ -31,7 +31,12 @@ Create a new material function called **MF_WorldAligned_MSRAO**.  Open up the ne
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Name the first *Texture Object Parameter** `Base Color`.  Assign 
+Name the first *Texture Object Parameter** `Base Color`.  Assign  `T_Base_BCH` to the **Texture** slot.  Change the **Group** to `WorldAligned` and **Sort Priority of `0`.
+
+Add another *Texture Object Parameter** `Normal`.  Assign  `T_Base_N` to the **Texture** slot.  Change the **Group** to `WorldAligned` and **Sort Priority of `1`.
+
+Name the first *Texture Object Parameter** `MSRAO`.  Assign  `T_Base_MSRAO` to the **Texture** slot.  Change the **Group** to `WorldAligned` and **Sort Priority of `2`.
+
 
 ![add three texture object parameters](images/threeTextObj.png)
 
