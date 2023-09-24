@@ -125,7 +125,7 @@ Make the **Group** for both new parameters the same `UVs` as the others and make
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Download [T_Chevron_BC.tga](../Assets/T_Chevron_BC.tga) and drag it to to your **Textures | Surfaces** folder.  A chevron is the sign on the road that tells you that the road is curving.  It is a simple black and white texture that we will use as a mask reusing the illumination mask material but adding functionality to the UVs. 
+Download [T_Chevron_BC.tga](../Assets/T_Chevron_BC.tga) and drag it to to your **Textures | Ppsters** folder.  A chevron is the sign on the road that tells you that the road is curving.  It is a simple black and white texture that we will use as a mask reusing the illumination mask material but adding functionality to the UVs. 
 
 ![drag T_Chevron_BC to textures folder](images/chrevron.png)
 
