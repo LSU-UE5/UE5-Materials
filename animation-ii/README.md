@@ -59,30 +59,20 @@ Right click on **Materials | MaterialInstances | M_Chevron** and select **Duplic
 
 ![create mi_rotate material instance](images/miRotate.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add another **Plane** actor to the level. Rotate it towards the camera and set the **Scale X** and **Scale Y** to `2.0`.  Drag the newly created **MI_Rotate** onto the plane and you should see the gear.
+Add another **Plane** actor to the level. Rotate it towards the camera and set the **Scale X** and **Scale Y** to `4.0`.  Drag the newly created **MI_Rotate** onto the plane and you should see the gear.
 
 ![create plane for mi_rotate](images/addScalePlane.png)
-
-Now open up **MF_UVs**.  Lets not have the panner running unless we turn it on (as opposed to sending it 0). This should be more performant.  Add a **Static Switch Parameter**. Call is `Translave UVs?`.  Make it's **Group** a value of `UV` and it's **Sort Priority** a value of `2`. Leave it as a default of `False`.
-
-Send the output of the **Custom Rotator** into the **Translate UV? | False** pin and the output of the **Panner** node to the **Translate UV? | True** pin. Press the <kbd>Apply</kbd> button.
-
-![add static switch for panner](images/staticSwitch.png)
-
-Now this will break the **Chevron** so open up **MI_Chevron** and set **Translave UVs?** to `true` and readjust the **Speed X** if necessary.
-
-![alt_text](images/readjustMIChevron.png)
 
 ![](../images/line2.png)
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we will need to add another **Custom Rotator** node that we will animate.  Hook up the output of **Translate UVs?** node to the **UVs** input of the custom rotator.
+Now we will need to add another **Custom 
+Rotator** node that we will animate.  Hook up the output of **Translate UVs?** node to the **UVs** input of the custom rotator.
 
 ![add custom rotator node](images/addCustomRotator.png)
 
@@ -90,25 +80,19 @@ Now we will need to add another **Custom Rotator** node that we will animate.  H
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now add a **Time** node.  Then add a **Scalar Parameter** called `Rotation Speed`.  Make it **Group** `UV` and **Sort Priority** of `6`. Set a **Desc** that says `Number between -1 and 1`.  Change **Slide Min** to -1 and **Slide Max** to `1`.
+ Open up **MI_Rotation** and turn on rotation and adjust the speed and the glow.  *Press* the <kbd>Play</kbd> button and look at the animations!  Now lets create a water like effect.
 
-![add time and scalar](images/addTimeNode.png)
 
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Add a **Multiply** node which will multiply **Time** by **Rotation Speed** scalar.  Send to the **Rotation Angle** input pin of the **Custom Rotator**  node. Add another **Static Switch Parameter** and set the **Group** to `UV` and the **Sort Priority** to `5`.  Send the output of the **Rotated Values** to the **Rotate UVs? | True** pin and the outpuf of the **Translate UVs?** pin to the **Rotate *Vs? | False** pin. Send teh output to the **Output UVs** node.  Press the <kbd>Apply</kbd> button.
-
-![finish up rotation nodes](images/finishRotateUVs.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
- Open up **MI_Rotation** and turn on rotation and adjust the speed and the glow.  *Press* the <kbd>Play</kbd> button and look at the animations!  Now lets create a water like effect.
 
-https://user-images.githubusercontent.com/5504953/187084875-49014055-3f40-4a9b-9452-8f90aadf80f4.mp4
 
 ![](../images/line2.png)
 
