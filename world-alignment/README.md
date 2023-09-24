@@ -88,7 +88,7 @@ The last one is called `Ambient Occlusion` with a **Sort Priority** of `5`. Conn
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we want to adjust the scale of the textures symmetrically.  The input pin for **Texture Size** askes for a **V3** (Three floats). So we need a single float with the same value in all three positions.  Create a **Scalar Parameter** and call it `Texture Size`.  Take the output and add an **Append** node.  This is now a **V2**.  Now add another **Append** node and send the output of the first append node and another **Texture Size** to pin **B**.  Now we have a **V3**.
+Now we want to adjust the scale of the textures symmetrically.  The input pin for **Texture Size** askes for a **V3** (Three floats). So we need a single float with the same value in all three positions.  Create a **Scalar Parameter** and call it `Texture Size`.  Take the output and add an **Append Many** node.  This is now a **V3**.  Now add another **Append** node and send the output of the first append node and another **Texture Size** to pin **B**.  Now we have a **V3**.
 
 ![make single parameter a v3](images/appendThreeParams.png)
 
