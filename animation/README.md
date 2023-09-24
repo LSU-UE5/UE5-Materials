@@ -179,14 +179,6 @@ Duplicate the plane and place it next to it so we have two chevrons right next t
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/a1e8ed32-a0f0-47d3-968b-d6b34f937094
 
-![](../images/line2.png)
-
-##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
-
-
-![add speed x and y then append](images/vector2Construct.png)
-
-
 ![](../images/line.png)
 
 <!-- <img src="https://via.placeholder.com/1000x100/45D7CA/000000/?text=Next Up - Animation II"> -->
