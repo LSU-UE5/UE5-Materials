@@ -44,9 +44,9 @@ Name the first **Texture Object Parameter** `MSRAO`.  Assign  `T_Base_MSRAO` to 
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a **WorldAlignedTexture** node to the graph.  This will adjust the UVs so the textures are in world space. 
+Add twp **WorldAlignedTexture** node to the graph.  This will adjust the UVs so the textures are in world space. Connect the output pins of the **BaseColor** and **MSRAO** nodes to the top pin in the **WorldAlignedTexture** node.
 
-Normal maps are different so add a **WorldAlignedNormal** node for the normal maps.  Connect the output of the three texture objeects to the **Texture Object** pin for the three nodes.  Make sure it is **T_BrickWall_N** to the **World Aligned Normal** node.
+Normal maps are different so add a **WorldAlignedNormal** node for the normal maps.  Connect the output of the **Normal** objeect to the **Texture Object** pin of the **WorldAlignedNormal** node.
 
 ![add worldaligned textures node](images/baseTexturesAlgined.png)
 
