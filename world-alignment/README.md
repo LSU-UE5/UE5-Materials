@@ -157,17 +157,23 @@ Now lets create a world aligned material to see the difference.  Go to **Materia
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+Open up **MI_BrickWorldSpace** and assign **T_BrickWall_BCH**, **T_BrickWall_N** and **T_BrickWall_MSRAO** to the appropriate texture. Change the **Texture Size** to `64`.
+
 ![close up of bricks](images/assignWorldAlignment.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Duplicate the wall pieces and assign the new **MI_BrickWorldSpace** to them. 
+
 ![output to texture size](images/supeWSMat.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Adjust the **TextureSize** to `600` as this matches the size on the left.  Notice that the seam between these two walls lines up perfectly.  The video below will show this off more effectively.
 
 ![make material instance for world bricks](images/matInGame.png)
 
