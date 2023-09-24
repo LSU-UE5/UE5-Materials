@@ -149,7 +149,7 @@ Notice close in that the brick pieces don't line up.  We would have to manually 
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Now lets create a world aligned material to see the difference.  Go to **Materials | Master** and right click on ****
+Now lets create a world aligned material to see the difference.  Go to **Materials | Master** and right click on **M_WorldAligned_MSRAO** and select **Create Material Instance**.  Call it `MI_BrickWorldSpace` and move it to the **Materials | Material Instances** folder.
 
 ![close up of bricks](images/waMi.png)
 
