@@ -6,8 +6,6 @@
 
 ![](../images/line3.png)
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
-
 What happens if I want a long stretch of brick wall that follows different shaped and placed geometries.  It would take a lot of painstaking tweaking to align all the UV's.  There is a better way in unreal to use world coordinates to place the UVs as opposed to locally with the model.
 
 <br>
