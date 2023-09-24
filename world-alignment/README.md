@@ -177,6 +177,8 @@ Now lets create a world aligned material to see the difference.  Go to **Materia
 
 *Press* the <kbd>Play</kbd> button and look at the textures.  The ones on the right are all aligned.  Stop the game and move the wall pieces on the left.  The material moves with the object.  If you move the wall pieces on the right you texture stays fixed to world space and the object moves (almost like it is a window).  This is an effective way to get geometric materials to align between surfaces with no tweaking.  Organize your **Outliner** as this will be it for this walk through!
 
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/138ecbdb-54a1-4399-959b-1d861826f21a
+
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
