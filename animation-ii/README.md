@@ -47,7 +47,7 @@ Now to animate the angle you multiply **RotationSpeed** variable by **Time**.
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-
+Now our **UVAngole** is the starting angle and we might want to change hte angle without animating it.  So we can add the **UVAngle** with the **Multiply** node and send it to the **Custom Rotator | Rotation Angle** node.
 
 ![add T_Gear](images/addStarting.png)
 
