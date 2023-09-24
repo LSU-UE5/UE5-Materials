@@ -104,30 +104,32 @@ Now we need to create a material to hold this material function.  Create a new *
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
+Now connect all the pins, and they should be self evident if you named them properly.
+
+![make single parameter a v3](images/matchPins.png)
+
+![](../images/line2.png)
+
+##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
+
 Lets create a material instance for these textures.  Lets start with a normal brick wall in local space (as we have done prior). 
 
 Go to **Materials | Master** and right click on **M_Opaque_MSRAO** and select **Create Material Instance**.  Call it `MI_BrickWall`.  Move it to the **Material | MaterialInstances** folder.
 
 ![create mi_brickwall material instance](images/materialInstance.png)
 
-
-Open up **MI_BrickWall** and assign the **Base Color**, **Normal Map** and **MSRAO** textures.  You should see a nice brick wall material.
-
-![assign brick wall material](images/brickWallMI.png)
-
-Scoot over to **Room 9** and and drag a copy of **Meshes | Supplied | SM_Wall** to the level.  Change the **Transoform | Scale** to `0.35` on all axis.
-
-![add wall make smaller](images/addFirstWallPiece.png)
+![](../images/line2.png)
 
 
-Copy them into a cluster where they are next to each other in an asymetric pattern on a plane.  Make sure if there is z-fighting that you adjust the depth so there are no rendering issues. 
+##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-![make cluster of wall pieces](images/firstWall.png)
+Scoot over to **Room 9** and and drag 5 instances of **Meshes | Supplied | SM_Wall** to the level.  Change the **Transoform | Scale** to `0.5` on all axis. Make sure there is no z-fighting.  And place two next to each other.
 
-This group will have the normal local space texture.  Now select all the wall pieces and duplicate them to the right.  Also, move the **Player Start** to room 9 and face the back wall.
+![alt_text](images/worldAlignedM.png)
 
-![duplicate wall pieces](images/playerStartWall.png)
+![](../images/line2.png)
 
+##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Put **MI_BrickWall** on the wall pieces.  Again, make sure there are no rendering issues and make relevant adjustements.
 
@@ -137,24 +139,21 @@ Notice close in that the brick pieces don't line up.  We would have to manually 
 
 ![close up of bricks](images/tilesDontAlign.png)
 
-![](../images/line2.png)
+Copy them into a cluster where they are next to each other in an asymetric pattern on a plane.  Make sure if there is z-fighting that you adjust the depth so there are no rendering issues. 
 
-##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
+![make cluster of wall pieces](images/firstWall.png)
 
-![](../images/line2.png)
+This group will have the normal local space texture.  Now select all the wall pieces and duplicate them to the right.  Also, move the **Player Start** to room 9 and face the back wall.
 
+![duplicate wall pieces](images/playerStartWall.png)
 
-##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+Open up **MI_BrickWall** and assign the **Base Color**, **Normal Map** and **MSRAO** textures.  You should see a nice brick wall material.
 
-
-
-![alt_text](images/worldAlignedM.png)
-
-![](../images/line2.png)
-
-##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+![assign brick wall material](images/brickWallMI.png)
 
 
+
+![add wall make smaller](images/addFirstWallPiece.png)
 
 ![](../images/line2.png)
 
