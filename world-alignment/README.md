@@ -142,11 +142,14 @@ Open up **MI_BrickWall** and assign **T_BrickWall_BCH**, **T_BrickWall_N** and *
 
 Put **MI_BrickWall** on the wall pieces.  Again, make sure there are no rendering issues and make relevant adjustements.
 
-![add brick material](images/assignBricks.png)
-
 Notice close in that the brick pieces don't line up.  We would have to manually adjust the position of the brick in each material to line them up perfectly and this would take a lot of time!
 
 ![close up of bricks](images/tilesDontAlign.png)
+
+
+![](../images/line2.png)
+
+##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
 Copy them into a cluster where they are next to each other in an asymetric pattern on a plane.  Make sure if there is z-fighting that you adjust the depth so there are no rendering issues. 
 
@@ -156,15 +159,12 @@ This group will have the normal local space texture.  Now select all the wall pi
 
 ![duplicate wall pieces](images/playerStartWall.png)
 
+
 Open up **MI_BrickWall** and assign the **Base Color**, **Normal Map** and **MSRAO** textures.  You should see a nice brick wall material.
 
 ![assign brick wall material](images/brickWallMI.png)
 
 ![break out 4 floats](images/breakOut4.png)
-
-![](../images/line2.png)
-
-##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
 ![connect all material pins](images/connectPins.png)
 
