@@ -121,6 +121,7 @@ Send the **TexCoord** node into both the **Panner** nodes. Now for normal maps w
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Duplicate **Materials | Material Instances | MI_GlassFrosted** and call it `MI_GlassFrostedAnimated`.  Change the text title to `MI_GlassFrostedAnimated`.
 
 ![dupe normal panner](images/miglassanim.png)
 
@@ -128,9 +129,9 @@ Send the **TexCoord** node into both the **Panner** nodes. Now for normal maps w
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Now since normals is vector math and not pixel colors we can't just add them to get a combined normal.  We need to use the **Blend Angle Corrected Normals** node.  Attach both **Normal** outputs to it. Connect the output to the **Use Normal? | True** pin.
+Assign the **MI_GlassFrostedAnimated** material to the material ball in Room #8.
 
-![blended adjusted normals node](images/combineNormals.png)
+![blended adjusted normals node](images/assignMat.png)
 
 ![](../images/line2.png)
 
