@@ -39,7 +39,7 @@ Add a **Scalar Parameter** node and call it `RotationSpeed`.  Change the **Group
 
 ##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now to animate the angle you multiply this speed variable by **Time**.
+Now to animate the angle you multiply **RotationSpeed** variable by **Time**.
 
 ![add T_Gear](images/rotTime.png)
 
