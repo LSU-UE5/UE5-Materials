@@ -137,7 +137,7 @@ Assign the **MI_GlassFrostedAnimated** material to the material ball in Room #8.
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Open up **MI_AnimatedGlass** and turn **Animate UVs?** to `true`.  *Press* the <kbd>Play</kbd> button  and look at the fabulous effect of water rippling on/in the ball.
+Open up **MI_AnimatedGlass** and turn **PanNormals?** to `true`.  *Press* the <kbd>Play</kbd> button  and look at the fabulous effect of water rippling on/in the ball.
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/ef94af15-41b0-4cc7-8421-965961ea8f01
 
