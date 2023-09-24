@@ -23,13 +23,18 @@ Open up the UE5 Editor and drag the three brick textures you made in the last mo
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Lets create a material instnace for these textures.  Go to **Materails | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_BrickWall`.  Move it to the **Material | Surfaces** folder.
+Create a new material function called **M_SolidWorld**.  Add 3 **Texture Object Parameter** nodes.  Call them `Base Color`, `Normal` and `MSRAO`.  Call the group **World Textures** and set the **Sort Priority** to `0` for base color, `1` for normal and `2` for MSRAO.
 
-![create mi_brickwall material instance](images/materialInstance.png)
+![add three texture object parameters](images/newMatThreeTextObj.png)
 
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
+Lets create a material instnace for these textures.  Go to **Materails | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_BrickWall`.  Move it to the **Material | Surfaces** folder.
+
+![create mi_brickwall material instance](images/materialInstance.png)
+
 
 Open up **MI_BrickWall** and assign the **Base Color**, **Normal Map** and **MSRAO** textures.  You should see a nice brick wall material.
 
@@ -79,9 +84,7 @@ Notice close in that the brick pieces don't line up.  We would have to manually 
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Create a new material called **M_SolidWorld**.  Add 3 **Texture Object Parameter** nodes.  Call them `Base Color`, `Normal` and `MSRAO`.  Call the group **World Textures** and set the **Sort Priority** to `0` for base color, `1` for normal and `2` for MSRAO.
 
-![add three texture object parameters](images/newMatThreeTextObj.png)
 
 ![](../images/line2.png)
 
