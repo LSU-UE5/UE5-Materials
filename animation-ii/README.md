@@ -15,7 +15,9 @@ Finish up the UV translation.  Then lets rotate a UV.  Finally we will give the 
 
 ##### `Step 1.`\|`UE5MAT`|:small_blue_diamond:
 
-Now lets rotate the UVs.  Download [T_Gear.tif](../Assets/T_Gear.tif) and drag it to the **Textures | Surfaces** folder.  This is a mask and is in the shape of a round gear that we will spin.
+Now lets rotate the UVs.  Download [T_Gear.tif](../Assets/T_Gear.tif) and drag it to the **Textures | Poster** folder.  This is a mask and is in the shape of a round gear that we will spin.
+
+![create mi_rotate material instance](images/addGear.png)
 
 ![](../images/line2.png)
 
