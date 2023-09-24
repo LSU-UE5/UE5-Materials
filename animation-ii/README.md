@@ -80,7 +80,7 @@ Rotator** node that we will animate.  Hook up the output of **Translate UVs?** n
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
- Open up **MI_Rotation** and turn on rotation and adjust the speed and the glow.  *Press* the <kbd>Play</kbd> button and look at the animations!  Now lets create a water like effect.
+ Open up **MI_Rotate** and assign `T_Gear` as the **Base Color** texture. Adjust the **Emissive Tint**. Set **RotateUVs** to true and play with positive nad negative speeds.  Notice that you can combine rotation and panning, albeit some issue with smearing in the renderer. *Press* the <kbd>Play</kbd> button and look at the animations!  Now lets create a water like effect.
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/d1090896-efef-4e21-81ad-5f23358f15ab
 
@@ -88,21 +88,24 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/d1090896-efef-4e21-81ad-
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
+Lets animate the normal map. Duplicate the **MI_GlassFrosted** ball and title from Room 7 and drag it to Room 8.
+
+![drag normal ball from room 7](images/dupeNormalBall.png)
 
 ![](../images/line2.png)
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
+Now open up **MF_Normal** and add a **Static Switch Parameter** called ``.
 
+![drag normal ball from room 7](images/panNormals.png)
 
 ![](../images/line2.png)
 
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
-Now duplicate the Normal Ball from Room 7 and drag it to Room 8.  You don't need the title.
 
-![drag normal ball from room 7](images/dupeNormalBall.png)
 
 ![](../images/line2.png)
 
