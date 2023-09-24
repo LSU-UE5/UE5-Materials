@@ -125,14 +125,18 @@ Make the **Group** for both new parameters the same `UVs` as the others and make
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Download [T_Chevron_BC.tga](../Assets/T_Chevron_BC.tga) and drag it to to your **Textures | Ppsters** folder.  A chevron is the sign on the road that tells you that the road is curving.  It is a simple black and white texture that we will use as a mask reusing the illumination mask material but adding functionality to the UVs. 
+Add a comment node around the animation nodes and call it `Animate UVs`. Add comments to the three UV sections and pick a custom color. Press the <kbd>Apply</kbd> button.
 
-![drag T_Chevron_BC to textures folder](images/chrevron.png)
+![drag T_Chevron_BC to textures folder](images/comments.png)
+
 
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
+Download [T_Chevron_BC.tga](../Assets/T_Chevron_BC.tga) and drag it to to your **Textures | Ppsters** folder.  A chevron is the sign on the road that tells you that the road is curving.  It is a simple black and white texture that we will use as a mask reusing the illumination mask material but adding functionality to the UVs. 
+
+![drag T_Chevron_BC to textures folder](images/chrevron.png)
 
 ![](../images/line2.png)
 
@@ -144,7 +148,7 @@ Download [T_Chevron_BC.tga](../Assets/T_Chevron_BC.tga) and drag it to to your *
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Add a comment node around the animation nodes and call it `Animate UVs`. Press the <kbd>Apply</kbd> button.
+
 
 Open up **MI_Chevron** and assign the **Base Color** as `T_Chevron_BC`. Notice the glow.
 
