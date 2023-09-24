@@ -23,7 +23,7 @@ Open up the UE5 Editor and drag the three brick textures you made in the last mo
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Create a new material function called **M_SolidWorld**.  Add 3 **Texture Object Parameter** nodes.  Call them `Base Color`, `Normal` and `MSRAO`.  Call the group **World Textures** and set the **Sort Priority** to `0` for base color, `1` for normal and `2` for MSRAO.
+Create a new material function called **MF_WorldAligned_MSRAO**.  Open up the new material function and add a **Texture Object Parameter** node,
 
 ![add three texture object parameters](images/newMatThreeTextObj.png)
 
