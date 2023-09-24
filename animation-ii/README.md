@@ -23,6 +23,10 @@ Now lets rotate the UVs.  Download [T_Gear.tif](../Assets/T_Gear.tif) and drag i
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
+Now open up 
+
+![create mi_rotate material instance](images/rotateAndPan.png)
+
 ![](../images/line2.png)
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
