@@ -131,6 +131,8 @@ Scoot over to **Room 9** and and drag 5 instances of **Meshes | Supplied | SM_Wa
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Open up **MI_BrickWall** and assign **T_BrickWall_BCH**, **T_BrickWall_N** and **T_BrickWall_MSRAO** to the appropriate texture. You should see a nice brick wall.
+
 ![alt_text](images/SetTexturesNormalBrick.png)
 
 
