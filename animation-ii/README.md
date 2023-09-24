@@ -96,7 +96,7 @@ Lets animate the normal map. Duplicate the **MI_GlassFrosted** ball and title fr
 
 ##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
-Now open up **MF_Normal** and add a **Static Switch Parameter** called ``.
+Now open up **MF_Normal** and add a **Static Switch Parameter** called `PanNormals?`. Set it to **Group** `Normals` and **Sort Priority** of `41`.  Put this between **Normal** and the **Output** through the **False** pin.
 
 ![drag normal ball from room 7](images/panNormals.png)
 
