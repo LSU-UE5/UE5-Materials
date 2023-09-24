@@ -157,55 +157,45 @@ Now lets create a world aligned material to see the difference.  Go to **Materia
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-
+![close up of bricks](images/assignWorldAlignment.png)
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Send the output of the **Append** node to the three **TextureSize** pins in the three world aligned ndoes.
-
-![output to texture size](images/connectUVs.png)
+![output to texture size](images/supeWSMat.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Right click on **Materials | Master** and select **Create Material Instance** and call it `M_BricksWorldSpace`.  Move this to the **Materials | Surfaces** folder.
-
-![make material instance for world bricks](images/addMI.png)
+![make material instance for world bricks](images/matInGame.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **MI_BricksWorldSpace** and assign the same three textures you assigned to the previous brick wall material.
-
-![add three textures to instance](images/addTextures.png)
+*Press* the <kbd>Play</kbd> button and look at the textures.  The ones on the right are all aligned.  Stop the game and move the wall pieces on the left.  The material moves with the object.  If you move the wall pieces on the right you texture stays fixed to world space and the object moves (almost like it is a window).  This is an effective way to get geometric materials to align between surfaces with no tweaking.  Organize your **Outliner** as this will be it for this walk through!
 
 ![](../images/line2.png)
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Add this material instance to the wall pieces on the right and adjust the **Texture Size** variable so that the scale is roughly the same as the ones on the left.
+Select the **File | Save All** then press the <kbd>Revision Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
-![add world aligned texture to right wall pieces](images/addMi2.png)
+![save all and submit to perforce](images/submitP4.png)
 
 ![](../images/line2.png)
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-*Press* the <kbd>Play</kbd> button and look at the textures.  The ones on the right are all aligned.  Stop the game and move the wall pieces on the left.  The material moves with the object.  If you move the wall pieces on the right you texture stays fixed to world space and the object moves (almost like it is a window).  This is an effective way to get geometric materials to align between surfaces with no tweaking.  Organize your **Outliner** as this will be it for this walk through!
+Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
 
-https://user-images.githubusercontent.com/5504953/187112628-a2ecda52-f583-448c-a08b-08a3d31dc6bc.mp4
+This will either give a message saying ther is nothing to reconcile or bring up a tab.  Make sure that these are **NOT** files in the **Intermediate** and **Saved** folders as these should be ignored from the `.p4ignore`.
 
-![](../images/line2.png)
+If the files are in **Content** or **Configuration** then press the <kbd>Reconcile</kbd> button.  Then submit the changes with a message and press the <kbd>Submit</kbd> button.
 
-##### `Step 22.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-Select the **File | Save All** then press the <kbd>Revision Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
-
-![save all and submit to perforce](images/submitP4.png)
+![reconcile offline work](images/reconcile.png)
 
 | `materials.ue5`\|`THE END`| 
 | :--- |
