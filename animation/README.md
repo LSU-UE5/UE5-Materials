@@ -107,7 +107,7 @@ OK, lets animate the UV's so the texture inside the material animates.  Open up 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 
-Add a **Panner** node between the **Custom Rotator** and the **Output UVs** node.  Notice it has a **Speed X** and **Speed Y** of `0`.  This means there is no panning.  We will leave these defaults as we don't want all our other textures to pan.
+Add a **Panner** node between the **Rotate UVs** and the **AnimateUVs** node.  Notice it has a **Speed X** and **Speed Y** of `0`.  This means there is no panning.  We will leave these defaults as we don't want all our other textures to pan.
 
 ![add panner node](images/addPanner.png)
 
@@ -115,6 +115,12 @@ Add a **Panner** node between the **Custom Rotator** and the **Output UVs** node
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+Now the **Speed** is actually two floats.  So lets add two **Scalar Parameters** that we will leave at their `0` default value and call one `Speed X` and the other `Speed Y`.  Now these have to fit in a single **Speed** node we we will add an **Append** node that will make these two scalars a **Vector 2**.  Then pug the output of **Append** to the time node.  This way we can control the x and y direction seperately. 
+
+Make the **Group** for both new parameters the same `UV` as the others and make the **Sort Priority** `3` and `4`. Add a comment node around the animation nodes and call it `Animate UVs`. Press the <kbd>Apply</kbd> button.
+
+
+![add panner node](images/finishTranslation.png)
 
 
 ![create MI_AnimatedGLow](images/divideNode.png)
@@ -169,9 +175,6 @@ Duplicate the plane and place it next to it so we have two chevrons right next t
 
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
-Now the **Speed** is actually two floats.  So lets add two **Scalar Parameters** that we will leave at their `0` default value and call one `Speed X` and the other `Speed Y`.  Now these have to fit in a single **Speed** node we we will add an **Append** node that will make these two scalars a **Vector 2**.  Then pug the output of **Append** to the time node.  This way we can control the x and y direction seperately. 
-
-Make the **Group** for both new parameters the same `UV` as the others and make the **Sort Priority** `3` and `4`. Add a comment node around the animation nodes and call it `Animate UVs`. Press the <kbd>Apply</kbd> button.
 
 ![add speed x and y then append](images/vector2Construct.png)
 
