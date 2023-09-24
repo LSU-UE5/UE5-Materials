@@ -113,9 +113,9 @@ Copy the normal nodes twice (we will reuse the same texture). Add two **Panner**
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Open up **MF_UVs** and add a **TextureCoordinate** node and a **Panner** node going into the top **Normal** node.
 
-![add coordinate and panner](images/addTextCoordPanner.png)
+
+![add coordinate and panner](images/blendNormals.png)
 
 ![](../images/line2.png)
 
