@@ -62,6 +62,14 @@ Now we have an RGBA texture in our MSRAO.  Now the output pins just carry three 
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
+Connect the **Base Color | World Aligned Texture | XYZ Texture** to **Base Color**. 
+
+![turn on export float 4](images/baseColorOutput.png)
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Lets create a material instnace for these textures.  Go to **Materails | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_BrickWall`.  Move it to the **Material | Surfaces** folder.
 
 ![create mi_brickwall material instance](images/materialInstance.png)
@@ -82,10 +90,6 @@ Copy them into a cluster where they are next to each other in an asymetric patte
 This group will have the normal local space texture.  Now select all the wall pieces and duplicate them to the right.  Also, move the **Player Start** to room 9 and face the back wall.
 
 ![duplicate wall pieces](images/playerStartWall.png)
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Put **MI_BrickWall** on the wall pieces.  Again, make sure there are no rendering issues and make relevant adjustements.
 
