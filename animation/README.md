@@ -175,7 +175,7 @@ Duplicate the plane and place it next to it so we have two chevrons right next t
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-* Open up* **MI_Chevron** and *place it* next to the chevron in the editor. Add a value to **PanSpeedX** to make it animate.  Make it a negative number to move to the *right*. I settled on `-0.25`. Now youc an also animate the PanSpeedY but it doesn't work for the chevron. *Press* the <kbd>Play</kbd> button
+*Open up* **MI_Chevron** and *place it* next to the chevron in the editor. Add a value to **PanSpeedX** to make it animate.  Make it a negative number to move to the *right*. I settled on `-0.25`. Now youc an also animate the PanSpeedY but it doesn't work for the chevron. *Press* the <kbd>Play</kbd> button
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/a1e8ed32-a0f0-47d3-968b-d6b34f937094
 
