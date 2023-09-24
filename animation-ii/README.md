@@ -121,9 +121,8 @@ Send the **TexCoord** node into both the **Panner** nodes. Now for normal maps w
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now we are going to have two players of ripples at different directions and speeds.  So make a copy of the **Normal** and **Panner** nodes and make sure it is hooked up to the **TextCoords** node.
 
-![dupe normal panner](images/dupeNormalPanner.png)
+![dupe normal panner](images/miglassanim.png)
 
 ![](../images/line2.png)
 
