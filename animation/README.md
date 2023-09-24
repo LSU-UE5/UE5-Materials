@@ -121,9 +121,6 @@ Make the **Group** for both new parameters the same `UVs` as the others and make
 
 ![add panner node](images/finishTranslation.png)
 
-
-![create MI_AnimatedGLow](images/divideNode.png)
-
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
