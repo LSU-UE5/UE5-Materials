@@ -151,7 +151,7 @@ Download [T_Chevron_BC.tga](../Assets/T_Chevron_BC.tga) and drag it to to your *
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **MI_Chevron** and assign the **Base Color** as `T_Chevron_BC`. Notice the glow.
+Open up **MI_Chevron** and assign the **Base Color** as `T_Chevron_BC`. Set the **UseBaseColorAlpha?** and **ScaleEmissive?** to `true`. I have the **EmissiveScalar** set to `20` for a nice bright glow.  Set the **EmissiveTint** to a color of your choice. Notice the glow.
 
 ![assign T_Chevron_BC](images/openChevron.png)
 
