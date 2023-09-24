@@ -6,8 +6,6 @@
 
 ![](../images/line3.png)
 
-<img src="https://via.placeholder.com/1000x4/45D7CA/45D7CA" alt="drawing" height="4px"/>
-
 All the textures we have used to date that are detailed (not the masks) all come from Quixel.  Lets look at the process so you can also create your own. We will need a brick wall for Room 9, so lets go through the process together.
 
 <br>
