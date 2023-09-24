@@ -131,6 +131,13 @@ Scoot over to **Room 9** and and drag 5 instances of **Meshes | Supplied | SM_Wa
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
+![alt_text](images/SetTexturesNormalBrick.png)
+
+
+![](../images/line2.png)
+
+##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
 Put **MI_BrickWall** on the wall pieces.  Again, make sure there are no rendering issues and make relevant adjustements.
 
 ![add brick material](images/assignBricks.png)
@@ -150,16 +157,6 @@ This group will have the normal local space texture.  Now select all the wall pi
 Open up **MI_BrickWall** and assign the **Base Color**, **Normal Map** and **MSRAO** textures.  You should see a nice brick wall material.
 
 ![assign brick wall material](images/brickWallMI.png)
-
-
-
-![add wall make smaller](images/addFirstWallPiece.png)
-
-![](../images/line2.png)
-
-##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
-
-
 
 ![break out 4 floats](images/breakOut4.png)
 
