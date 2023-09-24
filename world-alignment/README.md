@@ -62,7 +62,7 @@ Now we have an RGBA texture in our MSRAO.  Now the output pins just carry three 
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Connect the **Base Color | World Aligned Texture | XYZ Texture** to **Base Color**. 
+Change the output node to `BaseColor`.  Leave the **Sort Priority** at `0`. Connect the **Base Color | World Aligned Texture | XYZ Texture** to **Output BaseColor** node. 
 
 ![turn on export float 4](images/baseColorOutput.png)
 
@@ -70,10 +70,17 @@ Connect the **Base Color | World Aligned Texture | XYZ Texture** to **Base Color
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Take the output of the **World Aligned Normal | XYZ Texture** node to the **Normal** pin.  Connet the **Break Out Float 4 Components** **R** to **Metallic**, **G** to **Specular**, **B** to **Roughness** and **A** to **Ambient Occlusion**.
+
+![turn on export float 4](images/threeOtherOutputs.png)
+
+![](../images/line2.png)
+
+##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Lets create a material instnace for these textures.  Go to **Materails | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_BrickWall`.  Move it to the **Material | Surfaces** folder.
 
 ![create mi_brickwall material instance](images/materialInstance.png)
-
 
 Open up **MI_BrickWall** and assign the **Base Color**, **Normal Map** and **MSRAO** textures.  You should see a nice brick wall material.
 
@@ -94,10 +101,6 @@ This group will have the normal local space texture.  Now select all the wall pi
 Put **MI_BrickWall** on the wall pieces.  Again, make sure there are no rendering issues and make relevant adjustements.
 
 ![add brick material](images/assignBricks.png)
-
-![](../images/line2.png)
-
-##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Notice close in that the brick pieces don't line up.  We would have to manually adjust the position of the brick in each material to line them up perfectly and this would take a lot of time!
 
@@ -145,8 +148,6 @@ Pull out from the **XYZ Texture** pin from the **MSRAO | World Aligned Texture**
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
-
-Connect the **Base Color | World Aligned Texture | XYZ Texture** to **Base Color**. Take the output of the **World Aligned Normal | XYZ Texture** node to the **Normal** pin.  Connet the **Break Out Float 4 Components** **R** to **Metallic**, **G** to **Specular**, **B** to **Roughness** and **A** to **Ambient Occlusion**.
 
 ![connect all material pins](images/connectPins.png)
 
