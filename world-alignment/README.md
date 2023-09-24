@@ -96,7 +96,7 @@ Now we want to adjust the scale of the textures symmetrically.  The input pin fo
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we need to create a material to hold this material function.  Create a new **Material** in the **Materials | Master** folder and call it. 
+Now we need to create a material to hold this material function.  Create a new **Material** in the **Materials | Master** folder and call it `M_WorldAligned_MSRAO`. Open it up and drag **MF_WorldAlignedOpaque** to the graph. 
 
 ![make single parameter a v3](images/makeMaster.png)
 
