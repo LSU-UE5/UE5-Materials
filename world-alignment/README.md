@@ -70,7 +70,17 @@ Change the output node to `BaseColor`.  Leave the **Sort Priority** at `0`. Conn
 
 ##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Take the output of the **World Aligned Normal | XYZ Texture** node to the **Normal** pin.  Connet the **Break Out Float 4 Components** **R** to **Metallic**, **G** to **Specular**, **B** to **Roughness** and **A** to **Ambient Occlusion**.
+Add another **Function Output** node called `Normal` and make it **Sort Priority** of `1`. Take the output of the **World Aligned Normal | XYZ Texture** node to the **Normal** pin.  
+
+Pull out from the **XYZ Texture** pin from the **MSRAO | World Aligned Texture** pin.  Add a **Break Out Float 4 Components** node. We need to have four outputs.  Create 4 new **Function Outputs**.
+
+The first one is called `Metallic` with a **Sort Priority** of `2`. Connect the  **Break Out Float 4 Components | R** component to it.
+
+The second one is called `Specular` with a **Sort Priority** of `3`. Connect the  **Break Out Float 4 Components | G** component to it.
+
+The third one is called `Roughness` with a **Sort Priority** of `4`. Connect the  **Break Out Float 4 Components | B** component to it.
+
+The last one is called `Ambient Occlusion` with a **Sort Priority** of `5`. Connect the  **Break Out Float 4 Components | A** component to it.
 
 ![turn on export float 4](images/threeOtherOutputs.png)
 
@@ -141,7 +151,7 @@ Notice close in that the brick pieces don't line up.  We would have to manually 
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Pull out from the **XYZ Texture** pin from the **MSRAO | World Aligned Texture** pin.  Add a **Break Out Float 4 Components** node.
+
 
 ![break out 4 floats](images/breakOut4.png)
 
