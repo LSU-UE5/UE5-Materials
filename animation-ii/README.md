@@ -47,7 +47,7 @@ Now to animate the angle you multiply **RotationSpeed** variable by **Time**.
 
 ##### `Step 5.`\|`UE5MAT`| :small_orange_diamond:
 
-Now our **UVAngole** is the starting angle and we might want to change hte angle without animating it.  So we can add the **UVAngle** with the **Multiply** node and send it to the **Custom Rotator | Rotation Angle** node.
+Now our **UVAngle** is the starting angle and we might want to change hte angle without animating it.  So we can add the **UVAngle** with the **Multiply** node and send it to the **Custom Rotator | Rotation Angle** node.
 
 ![add T_Gear](images/addStarting.png)
 
@@ -55,9 +55,14 @@ Now our **UVAngole** is the starting angle and we might want to change hte angle
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Right click on **Materials | Master | M_EmissiveTexture** and select **Create Material Instance**.  Call it `MI_Rotate` and drag it to the **Surfaces** folder to move it.
+Right click on **Materials | MaterialInstances | M_Chevron** and select **Duplicate**.  Call it `MI_Rotate` and drag it to the **Surfaces** folder to move it.
 
 ![create mi_rotate material instance](images/miRotate.png)
+
+
+![](../images/line2.png)
+
+##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Add another **Plane** actor to the level. Rotate it towards the camera and set the **Scale X** and **Scale Y** to `2.0`.  Drag the newly created **MI_Rotate** onto the plane and you should see the gear.
 
@@ -68,10 +73,6 @@ Now open up **MF_UVs**.  Lets not have the panner running unless we turn it on (
 Send the output of the **Custom Rotator** into the **Translate UV? | False** pin and the output of the **Panner** node to the **Translate UV? | True** pin. Press the <kbd>Apply</kbd> button.
 
 ![add static switch for panner](images/staticSwitch.png)
-
-![](../images/line2.png)
-
-##### `Step 7.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Now this will break the **Chevron** so open up **MI_Chevron** and set **Translave UVs?** to `true` and readjust the **Speed X** if necessary.
 
