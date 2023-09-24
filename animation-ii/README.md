@@ -55,7 +55,7 @@ Now our **UVAngle** is the starting angle and we might want to change hte angle 
 
 ##### `Step 6.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond:
 
-Right click on **Materials | MaterialInstances | M_Chevron** and select **Duplicate**.  Call it `MI_Rotate` and drag it to the **Surfaces** folder to move it.
+Right click on **Materials | MaterialInstances | M_Chevron** and select **Duplicate**.  Call it `MI_Rotate`.
 
 ![create mi_rotate material instance](images/miRotate.png)
 
