@@ -137,35 +137,25 @@ Assign the **MI_GlassFrostedAnimated** material to the material ball in Room #8.
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now add another **Static Switch Parameter** node and call it `Animate UVs?`. Set the **Group** and the **Sort Priority**.  You can put it where it makes sense to you. 
+Open up **MI_AnimatedGlass** and turn **Animate UVs?** to `true`.  *Press* the <kbd>Play</kbd> button  and look at the fabulous effect of water rippling on/in the ball.
 
-Make a copy of the **Normal** node and feed it into the **Animated UVs? | False** pin. Send the output of the **BlendAngle** node to the **Animated UVs? | True** pin. Send the output of the **Animated UVs?** node to the **Use Normal? | True** pin. Press the <kbd>Apply</kbd> button.
-
-![alt_text](images/animateUVs.png)
+https://user-images.githubusercontent.com/5504953/187085995-eeb3a255-8edd-40a1-a56c-0d5d843dabf5.mp4
 
 ![](../images/line2.png)
 
 ##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Duplicate **MI_GlassNormal** and call it `MI_AnimatedGlass`.  Drag it onto the material ball you placed in Room 8.
-
-![alt_text](images/dupeMIGlass.png)
 
 ![](../images/line2.png)
 
 ##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Adjust both **Panner** nodes with diffent speeds in **Speed X** and **Speed Y**.  Use some trial and error and get values that you like. We are hard coding these values you could expose them as parameters if you like.
-
-![alt_text](images/pannerSpeeds.png)
 
 ![](../images/line2.png)
 
 ##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Open up **MI_AnimatedGlass** and turn **Animate UVs?** to `true`.  *Press* the <kbd>Play</kbd> button  and look at the fabulous effect of water rippling on/in the ball.
 
-https://user-images.githubusercontent.com/5504953/187085995-eeb3a255-8edd-40a1-a56c-0d5d843dabf5.mp4
 
 ![](../images/line2.png)
 
