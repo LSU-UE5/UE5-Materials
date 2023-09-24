@@ -88,6 +88,14 @@ The last one is called `Ambient Occlusion` with a **Sort Priority** of `5`. Conn
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Now we want to adjust the scale of the textures symmetrically.  The input pin for **Texture Size** askes for a **V3** (Three floats). So we need a single float with the same value in all three positions.  Create a **Scalar Parameter** and call it `Texture Size`.  Take the output and add an **Append** node.  This is now a **V2**.  Now add another **Append** node and send the output of the first append node and another **Texture Size** to pin **B**.  Now we have a **V3**.
+
+![make single parameter a v3](images/appendThreeParams.png)
+
+![](../images/line2.png)
+
+##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Lets create a material instnace for these textures.  Go to **Materails | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_BrickWall`.  Move it to the **Material | Surfaces** folder.
 
 ![create mi_brickwall material instance](images/materialInstance.png)
@@ -115,12 +123,6 @@ Put **MI_BrickWall** on the wall pieces.  Again, make sure there are no renderin
 Notice close in that the brick pieces don't line up.  We would have to manually adjust the position of the brick in each material to line them up perfectly and this would take a lot of time!
 
 ![close up of bricks](images/tilesDontAlign.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
-
 
 ![](../images/line2.png)
 
@@ -165,9 +167,7 @@ Notice close in that the brick pieces don't line up.  We would have to manually 
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Now we want to adjust the scale of the textures symmetrically.  The input pin for **Texture Size** askes for a **V3** (Three floats). So we need a single float with the same value in all three positions.  Create a **Scalar Parameter** and call it `Texture Size`.  Take the output and add an **Append** node.  This is now a **V2**.  Now add another **Append** node and send the output of the first append node and another **Texture Size** to pin **B**.  Now we have a **V3**.
 
-![make single parameter a v3](images/appendThreeParams.png)
 
 ![](../images/line2.png)
 
