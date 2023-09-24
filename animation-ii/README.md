@@ -105,7 +105,9 @@ Now open up **MF_Normal** and add a **Static Switch Parameter** called `PanNorma
 
 ##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
+Finish the normals
 
+![drag normal ball from room 7](images/finishNormal.png)
 
 ![](../images/line2.png)
 
