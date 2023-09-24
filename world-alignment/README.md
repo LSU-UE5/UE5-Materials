@@ -96,9 +96,17 @@ Now we want to adjust the scale of the textures symmetrically.  The input pin fo
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets create a material instnace for these textures.  Go to **Materails | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_BrickWall`.  Move it to the **Material | Surfaces** folder.
+Lets create a material instnace for these textures.  Go to **Materials | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_BrickWall`.  Move it to the **Material | Surfaces** folder.
 
 ![create mi_brickwall material instance](images/materialInstance.png)
+
+
+
+
+
+![](../images/line2.png)
+
+##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
 Open up **MI_BrickWall** and assign the **Base Color**, **Normal Map** and **MSRAO** textures.  You should see a nice brick wall material.
 
@@ -108,6 +116,7 @@ Scoot over to **Room 9** and and drag a copy of **Meshes | Supplied | SM_Wall** 
 
 ![add wall make smaller](images/addFirstWallPiece.png)
 
+
 Copy them into a cluster where they are next to each other in an asymetric pattern on a plane.  Make sure if there is z-fighting that you adjust the depth so there are no rendering issues. 
 
 ![make cluster of wall pieces](images/firstWall.png)
@@ -116,6 +125,7 @@ This group will have the normal local space texture.  Now select all the wall pi
 
 ![duplicate wall pieces](images/playerStartWall.png)
 
+
 Put **MI_BrickWall** on the wall pieces.  Again, make sure there are no rendering issues and make relevant adjustements.
 
 ![add brick material](images/assignBricks.png)
@@ -123,12 +133,6 @@ Put **MI_BrickWall** on the wall pieces.  Again, make sure there are no renderin
 Notice close in that the brick pieces don't line up.  We would have to manually adjust the position of the brick in each material to line them up perfectly and this would take a lot of time!
 
 ![close up of bricks](images/tilesDontAlign.png)
-
-![](../images/line2.png)
-
-##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
-
-
 
 ![](../images/line2.png)
 
