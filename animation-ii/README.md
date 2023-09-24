@@ -23,7 +23,7 @@ Now lets rotate the UVs.  Download [T_Gear.tif](../Assets/T_Gear.tif) and drag i
 
 ##### `Step 2.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: 
 
-Now open up 
+Now open up **MF_UVs** and add the output of **RotateUVs?** to the input **Panner | Coordinate** pin.  This will combine both the panning and rotating.
 
 ![create mi_rotate material instance](images/rotateAndPan.png)
 
@@ -31,9 +31,9 @@ Now open up
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Add a **Scalar Parameter** node and call it `RotationSpeed`.  Change the **Group** to `UVs` and **SortPriority** to `62`.
 
-
-![add T_Gear](images/tGear.png)
+![add T_Gear](images/rotSpeed.png)
 
 ![](../images/line2.png)
 
