@@ -82,6 +82,7 @@ Rotator** node that we will animate.  Hook up the output of **Translate UVs?** n
 
  Open up **MI_Rotation** and turn on rotation and adjust the speed and the glow.  *Press* the <kbd>Play</kbd> button and look at the animations!  Now lets create a water like effect.
 
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/d1090896-efef-4e21-81ad-5f23358f15ab
 
 ![](../images/line2.png)
 
