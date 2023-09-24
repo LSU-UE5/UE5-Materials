@@ -139,7 +139,7 @@ Assign the **MI_GlassFrostedAnimated** material to the material ball in Room #8.
 
 Open up **MI_AnimatedGlass** and turn **Animate UVs?** to `true`.  *Press* the <kbd>Play</kbd> button  and look at the fabulous effect of water rippling on/in the ball.
 
-https://user-images.githubusercontent.com/5504953/187085995-eeb3a255-8edd-40a1-a56c-0d5d843dabf5.mp4
+https://github.com/LSU-UE5/UE5-Materials/assets/5504953/e716b32e-a05b-473f-b2d4-ecb6ab94670c
 
 ![](../images/line2.png)
 
