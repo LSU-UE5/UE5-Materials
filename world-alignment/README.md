@@ -101,9 +101,6 @@ Lets create a material instnace for these textures.  Go to **Materials | Master*
 ![create mi_brickwall material instance](images/materialInstance.png)
 
 
-
-
-
 ![](../images/line2.png)
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
