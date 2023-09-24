@@ -2,7 +2,7 @@
 
 ### Refraction and Fresnel II
 
-<sub>[previous](../refract/README.md#user-content-refraction-and-fresnel) • [home](../README.md#user-content-ue5-intro-to-materials) <!--  • [next](../animation/README.md#user-content-animation)  --></sub>
+<sub>[previous](../refract/README.md#user-content-refraction-and-fresnel) • [home](../README.md#user-content-ue5-intro-to-materials) • [next](../animation/README.md#user-content-animation)</sub>
 
 ![](../images/line3.png)
 
@@ -200,5 +200,5 @@ If the files are in **Content** or **Configuration** then press the <kbd>Reconci
 
 | [previous](../refract/README.md#user-content-refraction-and-fresnel)| [home](../README.md#user-content-ue5-intro-to-materials) | 
 
-<!-- [next](../animation/README.md#user-content-animation)|
-|---|---|---| -->
+[next](../animation/README.md#user-content-animation)|
+|---|---|---|
