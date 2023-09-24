@@ -142,6 +142,9 @@ Download [T_Chevron_BC.tga](../Assets/T_Chevron_BC.tga) and drag it to to your *
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
+*Right click* on 
+
+![drag T_Chevron_BC to textures folder](images/miChevron.png)
 
 
 ![](../images/line2.png)
