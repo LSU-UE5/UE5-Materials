@@ -31,6 +31,14 @@ Create a new material function called **MF_WorldAligned_MSRAO**.  Open up the ne
 
 ##### `Step 3.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
+Name the first *Texture Object Parameter** `Base Color`.  Assign 
+
+![add three texture object parameters](images/threeTextObj.png)
+
+![](../images/line2.png)
+
+##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+
 Lets create a material instnace for these textures.  Go to **Materails | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_BrickWall`.  Move it to the **Material | Surfaces** folder.
 
 ![create mi_brickwall material instance](images/materialInstance.png)
@@ -39,10 +47,6 @@ Lets create a material instnace for these textures.  Go to **Materails | Master*
 Open up **MI_BrickWall** and assign the **Base Color**, **Normal Map** and **MSRAO** textures.  You should see a nice brick wall material.
 
 ![assign brick wall material](images/brickWallMI.png)
-
-![](../images/line2.png)
-
-##### `Step 4.`\|`UE5MAT`|:small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Scoot over to **Room 9** and and drag a copy of **Meshes | Supplied | SM_Wall** to the level.  Change the **Transoform | Scale** to `0.35` on all axis.
 
