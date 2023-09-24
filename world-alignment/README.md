@@ -135,7 +135,6 @@ Open up **MI_BrickWall** and assign **T_BrickWall_BCH**, **T_BrickWall_N** and *
 
 ![alt_text](images/SetTexturesNormalBrick.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
@@ -146,27 +145,13 @@ Notice close in that the brick pieces don't line up.  We would have to manually 
 
 ![close up of bricks](images/tilesDontAlign.png)
 
-
 ![](../images/line2.png)
 
 ##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
-Copy them into a cluster where they are next to each other in an asymetric pattern on a plane.  Make sure if there is z-fighting that you adjust the depth so there are no rendering issues. 
+Now lets create a world aligned material to see the difference.  Go to **Materials | Master** and right click on ****
 
-![make cluster of wall pieces](images/firstWall.png)
-
-This group will have the normal local space texture.  Now select all the wall pieces and duplicate them to the right.  Also, move the **Player Start** to room 9 and face the back wall.
-
-![duplicate wall pieces](images/playerStartWall.png)
-
-
-Open up **MI_BrickWall** and assign the **Base Color**, **Normal Map** and **MSRAO** textures.  You should see a nice brick wall material.
-
-![assign brick wall material](images/brickWallMI.png)
-
-![break out 4 floats](images/breakOut4.png)
-
-![connect all material pins](images/connectPins.png)
+![close up of bricks](images/waMi.png)
 
 ![](../images/line2.png)
 
