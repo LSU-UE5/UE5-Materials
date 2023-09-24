@@ -96,7 +96,9 @@ Now we want to adjust the scale of the textures symmetrically.  The input pin fo
 
 ##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Lets create a material instnace for these textures.  Go to **Materials | Master** and right click on **M_SolidTexture** and select **Create Material Instance**.  Call it `MI_BrickWall`.  Move it to the **Material | Surfaces** folder.
+Lets create a material instance for these textures.  Lets start with a normal brick wall in local space (as we have done prior). 
+
+Go to **Materials | Master** and right click on **M_Opaque_MSRAO** and select **Create Material Instance**.  Call it `MI_BrickWall`.  Move it to the **Material | MaterialInstances** folder.
 
 ![create mi_brickwall material instance](images/materialInstance.png)
 
