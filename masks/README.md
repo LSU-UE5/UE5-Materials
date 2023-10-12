@@ -138,7 +138,7 @@ Lets add an alpha channel to our base material.  Open up **MF_BaseTexture** and 
 
 ##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
-Add a **Static Switch Parameter** node and call it `UseBaseColorAlpha`.  Set the **Sort Priority** to `1` and **Group** to **BaseColor**. Add a **Constant Vector** node and set it to `1.0` and put it to the false pin.  So what will happen if it is false then an alpha channel of `1` (completely opaque) will be sent to the alpha channel node.  Take the **Base Color | A** pin and send it into the **UseBaseColorAlpha | True** pin.  Send the output to the new **Output Alpha** node. 
+Add a **Static Switch Parameter** node and call it `UseBaseColorAlpha`.  Set the **Sort Priority** to `1` and **Group** to **BaseColor**. Add a **Scalar Paremeter** node and set it to `1.0` and put it to the false pin.  So what will happen if it is false then an alpha channel of `1` (completely opaque) will be sent to the alpha channel node.  Take the **Base Color | A** pin and send it into the **UseBaseColorAlpha | True** pin.  Send the output to the new **Output Alpha** node. 
 
 ![remove three masks and disable normal](images/addAlpha.png)
 
