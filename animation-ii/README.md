@@ -71,22 +71,13 @@ Add another **Plane** actor to the level. Rotate it towards the camera and set t
 
 ##### `Step 8.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
-Now we will need to add another **Custom 
-Rotator** node that we will animate.  Hook up the output of **Translate UVs?** node to the **UVs** input of the custom rotator.
-
-![add custom rotator node](images/addCustomRotator.png)
-
-![](../images/line2.png)
-
-##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
-
  Open up **MI_Rotate** and assign `T_Gear` as the **Base Color** texture. Adjust the **Emissive Tint**. Set **RotateUVs** to true and play with positive nad negative speeds.  Notice that you can combine rotation and panning, albeit some issue with smearing in the renderer. *Press* the <kbd>Play</kbd> button and look at the animations!  Now lets create a water like effect.
 
 https://github.com/LSU-UE5/UE5-Materials/assets/5504953/d1090896-efef-4e21-81ad-5f23358f15ab
 
 ![](../images/line2.png)
 
-##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
+##### `Step 9.`\|`UE5MAT`| :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Lets animate the normal map. Duplicate the **MI_GlassFrosted** ball and title from Room 7 and drag it to Room 8.
 
@@ -94,7 +85,7 @@ Lets animate the normal map. Duplicate the **MI_GlassFrosted** ball and title fr
 
 ![](../images/line2.png)
 
-##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
+##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
 Now open up **MF_Normal** and add a **Static Switch Parameter** called `PanNormals?`. Set it to **Group** `Normals` and **Sort Priority** of `41`.  Put this between **Normal** and the **Output** through the **False** pin.
 
@@ -102,8 +93,7 @@ Now open up **MF_Normal** and add a **Static Switch Parameter** called `PanNorma
 
 ![](../images/line2.png)
 
-
-##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
+##### `Step 11.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: 
 
 Copy the normal nodes twice (we will reuse the same texture). Add two **Panner** nodes.  We will hard code the animation, you could turn these into variables as we did before.  Set the first panner to an **X** of `0.25` and **Y** of `0.1` and the second to an **X** of `0.18` and **Y** of `0.23`
 
@@ -111,15 +101,17 @@ Copy the normal nodes twice (we will reuse the same texture). Add two **Panner**
 
 ![](../images/line2.png)
 
-##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+
+##### `Step 12.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: 
 
 Send the **TexCoord** node into both the **Panner** nodes. Now for normal maps we combine them with a **BlendAngleCorrectedNormals** node that then gets sent to the **PanNormals? | True** pin.
 
 ![add coordinate and panner](images/blendNormals.png)
 
+
 ![](../images/line2.png)
 
-##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
+##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Duplicate **Materials | Material Instances | MI_GlassFrosted** and call it `MI_GlassFrostedAnimated`.  Change the text title to `MI_GlassFrostedAnimated`.
 
@@ -127,7 +119,7 @@ Duplicate **Materials | Material Instances | MI_GlassFrosted** and call it `MI_G
 
 ![](../images/line2.png)
 
-##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
+##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
 Assign the **MI_GlassFrostedAnimated** material to the material ball in Room #8.
 
@@ -135,7 +127,7 @@ Assign the **MI_GlassFrostedAnimated** material to the material ball in Room #8.
 
 ![](../images/line2.png)
 
-##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
+##### `Step 15.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: 
 
 Open up **MI_AnimatedGlass** and turn **PanNormals?** to `true`.  *Press* the <kbd>Play</kbd> button  and look at the fabulous effect of water rippling on/in the ball.
 
@@ -143,7 +135,7 @@ https://github.com/LSU-UE5/UE5-Materials/assets/5504953/ef94af15-41b0-4cc7-8421-
 
 ![](../images/line2.png)
 
-##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 16.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond:   :small_blue_diamond: 
 
 Organize the **Outliner** and have your actors match what is in the scene.  Take your time to clean up your files.
 
@@ -151,7 +143,8 @@ Organize the **Outliner** and have your actors match what is in the scene.  Take
 
 ![](../images/line2.png)
 
-##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 17.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond:
+
 
 Select the **File | Save All** then press the <kbd>Revision Control</kbd> button and select **Submit Content**.  If you are prompted, select **Check Out** for all items that are not checked out of source control. Update the **Changelist Description** message and with the latest changes. Make sure all the files are correct and press the <kbd>Submit</kbd> button. A confirmation will pop up on the bottom right with a message about a changelist was submitted with a commit number.
 
@@ -159,7 +152,7 @@ Select the **File | Save All** then press the <kbd>Revision Control</kbd> button
 
 ![](../images/line2.png)
 
-##### `Step 19.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
+##### `Step 18.`\|`UE5MAT`| :large_blue_diamond: :small_orange_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:
 
 Sometimes not all files get submitted to Unreal especially for files that don't show up in the editor.  It is good practice one you submit in **Unreal** and quit the game to right click on the top most project folder and select **Reconcile Offline Work...**.
 
