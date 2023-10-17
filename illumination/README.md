@@ -89,7 +89,7 @@ Basecause we are using the base color Alpha channel, means we will lose transpar
 
 ##### `Step 10.`\|`UE5MAT`| :large_blue_diamond:
 
-Open up **M_Opaque_MSRAO** and disconnect the pin going from **Alpha** and **Opacity Mask** and instead connect it to the **Emissive Color** pin.
+Open up **M_Emissive_MSRAO** and disconnect the pin going from **Alpha** and **Opacity Mask** and instead connect it to the **Emissive Color** pin.
 
 ![add m_brushedsteel to SM_Spotlight_bracket](images/ConnectToEmissive.png)
 
@@ -115,7 +115,7 @@ We put this switch before because if you select no alpha channel then you will n
 
 ##### `Step 13.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-Now open up **M_Opaque_MSRAO** and select the **MF_BaseTexture** node.  Make sure that **ScaleEmissive** and **UseBaseColorAlpha** are set to `true`.  Now the emissive color is one of the few channels that can take a value that is greater than `1`.  This adjusts how bright the object is.  A TV screen is a lot less emissive than a light bulb.  So play with values and see how the shader changes.  Leave the default value at `10`.
+Now open up **M_Emissive_MSRAO** and select the **MF_BaseTexture** node.  Make sure that **ScaleEmissive** and **UseBaseColorAlpha** are set to `true`.  Now the emissive color is one of the few channels that can take a value that is greater than `1`.  This adjusts how bright the object is.  A TV screen is a lot less emissive than a light bulb.  So play with values and see how the shader changes.  Leave the default value at `10`.
 
 ![create mi_spotlight and move to props folder](images/testScalar.png)
 
@@ -123,7 +123,7 @@ Now open up **M_Opaque_MSRAO** and select the **MF_BaseTexture** node.  Make sur
 
 ##### `Step 14.`\|`UE5MAT`| :large_blue_diamond: :small_blue_diamond: :small_blue_diamond: :small_blue_diamond:  :small_blue_diamond: 
 
-*Right click* on **Materials | Master | M_Opaque_MSRAO** and select **Create Material Instance** and call it `MI_Spotlight_Lamp`.  Ove it to the **Materials | Material Instances** folder.
+*Right click* on **Materials | Master | M_Emissive_MSRAO** and select **Create Material Instance** and call it `MI_Spotlight_Lamp`.  Ove it to the **Materials | Material Instances** folder.
 
 ![create mi_spotlight and move to props folder](images/matInstanceEm.png)
 
