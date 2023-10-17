@@ -183,7 +183,7 @@ Drag an instance of **BP_Spotlight_Lamp** into the room.  Notice that the emissi
 ##### `Step 21.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond: :small_blue_diamond:
 
 In the blueprint add a **Spotlight Light** component to be the child of **Lamp**.  This means the light will move when both the bracket and lamp move. Rotate it so it matches the direction of the lamp and move the light so it is not inside the model (otherwise the light will not work as it will be clipped inside the model like a light inside an opaque box). 
-![rotate player start](images/dragFirstLightInRoom.png)
+![rotate player start](images/addSpotlight.png)
 
 
 ![](../images/line.png)
