@@ -182,7 +182,7 @@ Open up **MI_TwoColor**.  You will notice that is is separating into self named 
 
 ##### `Step 20.`\|`UE5MAT`| :large_blue_diamond: :large_blue_diamond:
 
-Go back to **MF_BaseColor** and select the four parameters (shift select) and then go to **Group** and type in `BaseColor`. 
+Go back to **MF_BaseColor** and select the three parameters (shift select) and then go to **Group** and type in `BaseColor`. 
 
 ![base color group](images/BaseColorGroup.png)
 
